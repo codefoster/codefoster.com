@@ -1,7 +1,9 @@
 ---
 title: Easy and Offline Connection to your Raspberry Pi
-tags: []
-date: 
+categories: [Maker]
+tags: [raspberry-pi, device, raspberry, board, iot, hardware, internet-of-things, electronics, pi, maker]
+date: 2016-06-25
+permalink: pi-easyoffline
 ---
 
 Getting a Raspberry Pi online is really easy if you have an HDMI monitor, keyboard, and mouse.
@@ -28,7 +30,9 @@ To access it, however, you also need mDNS installed on your system. The easiest 
 
 Once you have mDNS capability, you simply...
 
-`ping raspberrypi.local -4`
+```
+ping raspberrypi.local -4
+```
 
 The name raspberrypi is there because that's the default hostname of a Raspberry Pi. I like to change the hostname of my devices so I can distinguish one from another, but out of the box, your pi will be called _raspberrypi_. The `.local` is there because that's the way mDNS works. And finally, the -4 is an argument that specifically requests the IPv4 address.
 
@@ -42,13 +46,17 @@ My system uses 192.168.1.X addresses for my wireless adapter and 169.254.X.X for
 
 So that's the information I needed. I can now SSH to the device using...
 
-`ssh pi@169.254.187.84`
+```
+ssh pi@169.254.187.84
+```
 
 I could just use `ssh pi@raspberrypi.local` to remote to it, but I've found that continuing to force this local name resolution comes with a little time cost, so it's sometimes significantly faster to hit the IP address directly. I only use the mDNS to discover the IP and then I use the IP after that. 
 
 Provisioning a Raspberry Pi usually includes a number of system configuration steps too. You need to connect it to wireless, set the locale and keyboard language, and maybe turn on services like the camera. If you're used to doing this through the Raspbian Configuration in XWindows, fear not. You can also do this from the command line using...
 
-`sudo raspi-config`
+```
+sudo raspi-configuration
+```
 
 Most everything you need is in there.
 

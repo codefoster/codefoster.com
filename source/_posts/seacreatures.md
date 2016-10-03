@@ -1,6 +1,7 @@
 ---
 title: 3D Printed Tiny Sea Creatures
-tags: [3d-printing,iot]
+categories: []
+tags: [3d-printing, iot]
 date: 2015-03-12
 permalink: seacreatures
 ---

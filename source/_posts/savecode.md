@@ -1,7 +1,9 @@
 ---
 title: Saving Your Code Settings and Snippets
-tags: []
-date: 2016-10-02 16:03:46
+categories: [Productivity]
+tags: [settings, snippets, vscode, code, gist, github]
+date: 2016-06-30
+permalink: savecode
 ---
 
 I finally realized why I wasn't investing a lot of thought or time on my Visual Studio Code snippet library. It's transient.

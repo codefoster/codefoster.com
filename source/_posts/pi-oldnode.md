@@ -1,7 +1,9 @@
 ---
 title: Accidental Old Version of Node on the Raspberry Pi
-tags: []
-date: 
+categories: [Maker]
+tags: [raspberry-pi, device, raspberry, board, iot, hardware, internet-of-things, electronics, pi, maker]
+date: 2016-06-25
+permalink: pi-oldnode
 ---
 
 I beat my head against a wall for a long time wondering why I wasn't able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.

@@ -1,7 +1,9 @@
 ---
 title: Index of my Raspberry Pi Posts
-tags: []
-date: 
+categories: [Maker]
+tags: [raspberry-pi, device, raspberry, board, iot, hardware, internet-of-things, electronics, pi, maker]
+date: 2016-06-25
+permalink: pi
 ---
 
 I've been doing a lot of hacking on the Raspberry Pi, and I've written a few articles on the topic. I've assembled all of my posts here for easy access.

@@ -1,8 +1,9 @@
 ---
 title: npm Erroring Out on Windows 10 Fast Ring Build 14367
-tags: []
-date: 
-permalink: 
+categories: [Windows]
+tags: [bash,error,nodejs,node,windows,npm,ubuntu]
+date: 2016-07-27
+permalink: npm-win10-error
 ---
 
 Just in case someone else is running in to the same thing, I'm running Windows 10 Insiders Build 14367 (on the fast ring), and I'm unable to use npm. When I do a simple `npm -v` I get this error...

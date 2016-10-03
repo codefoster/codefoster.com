@@ -1,6 +1,6 @@
 ---
 title: 5 Ways to Be Effective
-categories: [productivity]
+categories: [Productivity]
 tags: []
 date: 2013-06-06
 permalink: effective
