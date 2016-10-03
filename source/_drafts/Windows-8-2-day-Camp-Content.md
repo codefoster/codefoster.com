@@ -1,7 +1,7 @@
 ---
 title: Windows 8 2-day Camp - Content
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Thanks to all of the attendees of our Windows 8 2-day Camp and Hackathon last week!
@@ -12,9 +12,9 @@ The Windows 8 content from day 1 will be available soon on Channel 9\. Until the
 
 ## My Content - Windows 8 Contracts
 
-My session was an introduction to integrating the Windows 8 experience into your app by implementing the Windows 8 contracts. We looked at Search, Share, Settings, the FilePicker, and PlayTo. The code is extremely simple and intended to get you in the door. Let me know if you have any questions&hellip;
+My session was an introduction to integrating the Windows 8 experience into your app by implementing the Windows 8 contracts. We looked at Search, Share, Settings, the FilePicker, and PlayTo. The code is extremely simple and intended to get you in the door. Let me know if you have any questions...;
 
-&nbsp;[CFContractDemos.zip (40.04 kb)](/bcms-media/Files/Download?id=5d885e72-f4bd-48b6-9591-a3530071b2b7)
+ [CFContractDemos.zip (40.04 kb)](/bcms-media/Files/Download?id=5d885e72-f4bd-48b6-9591-a3530071b2b7)
 
 ## Bart De Smet&rsquo;s Content &ndash; Reactive Extensions
 

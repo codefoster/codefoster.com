@@ -1,12 +1,12 @@
 ---
 title: Snippets Overview in VS11 and ReSharper
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Following is an overview of getting started with Snippets. This will be the overview from 30,000 feet. If you want to get into the nitty gritty how-to then follow my links. As with all of my posts these days, this one will reference VS11 which is still in beta. Most of the concepts are the same for VS2010.
 
-I would like to convince you that climbing the snippet learning curve is worth it because the view from the top is spectacular. In order to be convinced, you&rsquo;re going to have to believe that you&rsquo;ll save time. Here&rsquo;s a brief comparison to help you believe&hellip;
+I would like to convince you that climbing the snippet learning curve is worth it because the view from the top is spectacular. In order to be convinced, you&rsquo;re going to have to believe that you&rsquo;ll save time. Here&rsquo;s a brief comparison to help you believe...;
 
 <table border="0" cellpadding="2" cellspacing="0" style="width: 561px;">
 	<colgroup>
@@ -47,7 +47,7 @@ I would like to convince you that climbing the snippet learning curve is worth i
 
 I&rsquo;m not exactly sure why Snippets in Visual Studio are so daunting for so many, but they are. I personally put off using them for a long time because creating and using them wasn&rsquo;t just a &ldquo;bam bam done&rdquo; deal.
 
-First, there&rsquo;s the fact that the snippets are XML files, so you have to figure out the schema and what elements are expected. Then there&rsquo;s the idea that Snippets are particular to languages. Then they need to be saved into a certain folder (C:\Users\&lt;username&gt;\Documents\Visual Studio 11\Code Snippets\Visual C#\My Code Snippets).
+First, there&rsquo;s the fact that the snippets are XML files, so you have to figure out the schema and what elements are expected. Then there&rsquo;s the idea that Snippets are particular to languages. Then they need to be saved into a certain folder (C:\Users\<username>\Documents\Visual Studio 11\Code Snippets\Visual C#\My Code Snippets).
 
 But once I took a few minutes to dig in and see how they work, I realized that they&rsquo;re not difficult, and although the learning curve is steep, it&rsquo;s also short and I think the power and configurability of Snippets necessitates it.
 
@@ -56,7 +56,7 @@ Let&rsquo;s start off with some facts:
 *   Snippets are a way of saving typing and thus time (they also encourage more consistent code)
 *   Visual Studio offers <span style="text-decoration: underline;">Snippets</span>
 *   ReSharper offers <span style="text-decoration: underline;">Live Templates</span> which use a completely different technology to solve the same exact problem
-*   If ReSharper is installed and configured for IntelliSense then you can use <span style="text-decoration: underline;">both</span> VS Snippets and R# Live Templates&hellip; this is my recommended configuration *
+*   If ReSharper is installed and configured for IntelliSense then you can use <span style="text-decoration: underline;">both</span> VS Snippets and R# Live Templates...; this is my recommended configuration *
 *   Snippet Designer is a free plug-in for Visual Studio that helps you write Snippets
 *   Snippet Designer does not yet work in VS11 Beta
 
@@ -87,7 +87,7 @@ The two biggest advantages to R# templates over VS snippets are:
 
 For in-depth help with templates see [ReSharper Templates](http://www.jetbrains.com/resharper/webhelp/Templates__Index.html) in ReSharper&rsquo;s online documentation.
 
-## &nbsp;
+##  
 
 ## Resources
 

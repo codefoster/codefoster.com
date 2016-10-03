@@ -1,7 +1,7 @@
 ---
 title: I give you my word...
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 I&rsquo;m excited about what I just implemented. I&rsquo;m always excited when I figure something out or learn something big. This one is big for me. Hopefully this post will add some value to your life as well.
@@ -29,7 +29,7 @@ function loadAppDataAsync() {
     return new WinJS.Promise(function (c, e, p) {
         if (loaded) c();
         else {
-            appdata.roamingFolder.getFileAsync(&quot;applicationData.json&quot;)
+            appdata.roamingFolder.getFileAsync("applicationData.json")
                 .then(function (file) {
                     Windows.Storage.FileIO.readTextAsync(file)
                         .then(function (content) {
@@ -41,7 +41,7 @@ function loadAppDataAsync() {
                                     description: i.description,
                                     backgroundImage: i.backgroundImage,
                                     items: i.items,
-                                    type: &quot;checklist&quot;
+                                    type: "checklist"
                                 });
                             });
 
@@ -52,7 +52,7 @@ function loadAppDataAsync() {
                                     description: i.description,
                                     backgroundImage: i.backgroundImage,
                                     items: i.items,
-                                    type: &quot;template&quot;
+                                    type: "template"
                                 });
                             });
                         })
@@ -69,7 +69,7 @@ If I just wanted to wrap up the getFileAsync method call, then I could simple re
 This one is pretty simple. Let&rsquo;s move on to the next method that we use to get the hub items after the application data has already been loaded. Here&rsquo;s the code...
 
 <pre class="brush: js;">
-WinJS.Namespace.define(&quot;data&quot;, {
+WinJS.Namespace.define("data", {
     getChecklists: function () { },
     getHubItemsAsync: function () {
         var hubItems = [];
@@ -81,13 +81,13 @@ WinJS.Namespace.define(&quot;data&quot;, {
                              item: cl,
                              title: cl.title,
                              backgroundImage: cl.backgroundImage,
-                             section: &quot;My Checklists&quot;,
+                             section: "My Checklists",
                              click: function (ev) {
-                                  WinJS.Navigation.navigate(&quot;/html/checklistPage.html&quot;, { item: cl });
+                                  WinJS.Navigation.navigate("/html/checklistPage.html", { item: cl });
                              },
                              get subtitle() {
                                  return (cl.items.filter(function (i) { return i.checked; }).length / cl.items.length)
-                                     + &quot;% of &quot; + cl.items.length + &quot; items&quot;;
+                                     + "% of " + cl.items.length + " items";
                              }
                          });
                     });
@@ -96,11 +96,11 @@ WinJS.Namespace.define(&quot;data&quot;, {
                             item: t,
                             title: t.title,
                             backgroundImage: t.backgroundImage,
-                            section: &quot;My Templates&quot;,
+                            section: "My Templates",
                             click: function (ev) {
-                                WinJS.Navigation.navigate(&quot;/html/template.html&quot;, { item: t });
+                                WinJS.Navigation.navigate("/html/template.html", { item: t });
                             },
-                            get subtitle() { return t.items.length + &quot; items&quot;; }
+                            get subtitle() { return t.items.length + " items"; }
                          });
                     });
                 })

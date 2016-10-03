@@ -1,7 +1,7 @@
 ---
 title: The Counter Principles of Metro Style Design
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Likely you&rsquo;ve read the [Metro style design principles](http://msdn.microsoft.com/en-us/library/windows/apps/Hh781237.aspx), but you haven&rsquo;t seen the counter principles yet (because I made them up). Here we go...
@@ -34,7 +34,7 @@ It&rsquo;s 2012, but give the user a solid 1994 experience by rendering an actua
 
 # 4\. Do Less With More
 
-Pack that screen. You have millions of pixels at your disposal. You can use some for navigation, some for commanding, and if there&#39;s room left over you can even include your user&rsquo;s content.
+Pack that screen. You have millions of pixels at your disposal. You can use some for navigation, some for commanding, and if there's room left over you can even include your user&rsquo;s content.
 
 *   Assure that users can orient themselves to your views within 7.5 minutes
 *   Adhere to a strict 45 button limit per view

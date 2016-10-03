@@ -1,7 +1,7 @@
 ---
 title: Metro Design by Blink Interactive
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Last Friday my user group (&ldquo;The Ocho&rdquo;) met and heard a special presentation on Metro Design thanks to Blink Interactive.

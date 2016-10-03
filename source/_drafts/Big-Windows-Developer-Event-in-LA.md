@@ -1,7 +1,7 @@
 ---
 title: Big Windows Developer Event in LA!
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 If you are in the Los Angeles area Monday event or if you can get there, you should stop by the Nokia Theater Live next to the LA Convention Center and get a whirlwind tour of Windows 8 from a developers perspective!

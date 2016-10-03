@@ -1,7 +1,7 @@
 ---
 title: OSCON 2014 in the Rearview Mirror
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 At OSCON this year, Olivier Bloch and I declare Portland to be the open source capital of the world, and while our declaration might not be official, it certainly makes sense.

@@ -1,15 +1,15 @@
 ---
 title: Getting Windows Device Info
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-I have plenty of experience in the C# space with accessing Windows API, but I&rsquo;m still finding it rather novel and delightful to do the same thing in JavaScript. The fact that I can do something like&hellip;
+I have plenty of experience in the C# space with accessing Windows API, but I&rsquo;m still finding it rather novel and delightful to do the same thing in JavaScript. The fact that I can do something like...;
 
 <pre class="brush: js;">
 Windows.Devices.Enumeration.DeviceInformation</pre>
 
-&hellip;is just slick. That&rsquo;s all. There&rsquo;s no interop&rsquo;ing, no dll loading, no service calls. WinRT just delivers it to my front door and doesn&rsquo;t even make me sign.
+...;is just slick. That&rsquo;s all. There&rsquo;s no interop&rsquo;ing, no dll loading, no service calls. WinRT just delivers it to my front door and doesn&rsquo;t even make me sign.
 
 Recently, I went looking for how to enumerate the devices currently recognized by the system and found it to be quite nice and thought I&rsquo;d share.
 
@@ -20,11 +20,11 @@ With a ListView and a WinJS.Binding.List in place and with the two hooked togeth
 <pre class="brush: js;">
 Windows.Devices.Enumeration.DeviceInformation.findAllAsync().done(function (devices) {
     devices
-        .filter(function (d) { return d.name.length &gt; 0 &amp;&amp; d.isEnabled; })
+        .filter(function (d) { return d.name.length > 0 &amp;&amp; d.isEnabled; })
         .distinct(function (d) { return d.name; })
         .forEach(function (d) {
             d.getGlyphThumbnailAsync().then(function(thumbnail) {
-                if (thumbnail &amp;&amp; thumbnail.size &gt; 0) {
+                if (thumbnail &amp;&amp; thumbnail.size > 0) {
                     devicesList.push({
                         imageUrl: URL.createObjectURL(thumbnail, { oneTimeOnly: false }),
                         name: d.name
@@ -52,7 +52,7 @@ In this forEach function, I&rsquo;m doing another async call - this time to retr
 
 When the call returns, I create an anonymous object shaped like the data that my template is expecting and push it into my WinJS.Binding.List. Just like that.
 
-A little bit of CSS work later we have something that looks like this&hellip;
+A little bit of CSS work later we have something that looks like this...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/8587aabb01e4441e9b05e9886161c6ba/deviceinfo_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Getting-Windows-Device-Info/3FCCC8D3/image.png)
 

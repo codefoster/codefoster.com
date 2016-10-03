@@ -1,24 +1,24 @@
 ---
 title: Random Tile Colors
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 This tip is quite short and simple, but worth a post I think. If you want to colorize some tiles like the start screen does, here&rsquo;s one simple way to do it.
 
 <pre class="brush: js;">
 var demos = [
-    { key: &quot;local&quot;, name: &quot;Loading local data&quot;, group: &quot;Data&quot; },
-    { key: &quot;netflix&quot;, name: &quot;Loading Netflix data&quot;, group: &quot;Promises&quot; },
-    { key: &quot;netflix10&quot;, name: &quot;Loading Netflix data by 10&quot;, group: &quot;Promises&quot; },
-    { key: &quot;custom_promise&quot;, name: &quot;Using custom promises&quot;, group: &quot;Promises&quot; },
-    { key: &quot;simple&quot;, name: &quot;Simple data binding&quot;, group: &quot;Data Binding&quot; },
-    { key: &quot;properties&quot;, name: &quot;Binding more properties&quot;, group: &quot;Data Binding&quot; },
-    { key: &quot;template&quot;, name: &quot;Templates&quot;, group: &quot;Data Binding&quot; },
-    { key: &quot;share_simple&quot;, name: &quot;Sharing text data&quot;, group: &quot;Sharing&quot;},
-    { key: &quot;datejs&quot;, name: &quot;date.js&quot;, group: &quot;Libraries&quot;}
+    { key: "local", name: "Loading local data", group: "Data" },
+    { key: "netflix", name: "Loading Netflix data", group: "Promises" },
+    { key: "netflix10", name: "Loading Netflix data by 10", group: "Promises" },
+    { key: "custom_promise", name: "Using custom promises", group: "Promises" },
+    { key: "simple", name: "Simple data binding", group: "Data Binding" },
+    { key: "properties", name: "Binding more properties", group: "Data Binding" },
+    { key: "template", name: "Templates", group: "Data Binding" },
+    { key: "share_simple", name: "Sharing text data", group: "Sharing"},
+    { key: "datejs", name: "date.js", group: "Libraries"}
 ];
-var colors = [&quot;#0098ab&quot;, &quot;#0070a9&quot;, &quot;#d9532c&quot;, &quot;#a400ac&quot;, &quot;#009086&quot;, &quot;#5838b4&quot;, &quot;#ae193e&quot;, &quot;#2c86ee&quot;, &quot;#009c00&quot;];
+var colors = ["#0098ab", "#0070a9", "#d9532c", "#a400ac", "#009086", "#5838b4", "#ae193e", "#2c86ee", "#009c00"];
 demos.forEach(function (i) {
     i.tileColor = colors[Math.floor(Math.random() * colors.length)];
 });</pre>
@@ -27,13 +27,13 @@ This is some code from a project I have that showcases some simple code demos, s
 
 This ability to just throw another property onto an object without mucking with the class and affecting all of the other instances, is in my opinion one of the nicest things about a dynamic language like JavaScript, and I take advantage of it quite a lot.
 
-Now to actually use this color for the tiles, it&rsquo;s a simple matter of adding it to the databinding statement like this&hellip;
+Now to actually use this color for the tiles, it&rsquo;s a simple matter of adding it to the databinding statement like this...;
 
 <pre class="brush: xml;">
-&lt;div id=&quot;itemTemplate&quot; data-win-control=&quot;WinJS.Binding.Template&quot;&gt;
-    &lt;div class=&quot;tile&quot; data-win-bind=&quot;onclick:click;style.backgroundColor:tileColor;&quot;&gt;
-        &lt;h3 data-win-bind=&quot;innerText:name;&quot;&gt;&lt;/h3&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</pre>
+<div id="itemTemplate" data-win-control="WinJS.Binding.Template">
+    <div class="tile" data-win-bind="onclick:click;style.backgroundColor:tileColor;">
+        <h3 data-win-bind="innerText:name;"></h3>
+    </div>
+</div></pre>
 
 Notice the style.backgroundColor:tileColor term. That&rsquo;s all it takes.

@@ -1,10 +1,10 @@
 ---
 title: Data Presentation
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-Sometimes it&#39;s hard to know what control to use when you&#39;re thinking about bringing your data feed into your Windows 8 app. You know you want to bring them in as tiles of some form or another. Maybe you want to do classic square tiles like eBay.
+Sometimes it's hard to know what control to use when you're thinking about bringing your data feed into your Windows 8 app. You know you want to bring them in as tiles of some form or another. Maybe you want to do classic square tiles like eBay.
 
 [![](http://codefoster.blob.core.windows.net/site/image/b38b74f11a0e4a2c8bc27797672fc6fb/datapresentation_01_1.png "Screenshot (29)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/489A76C9/Screenshot-29.png)
 
@@ -12,7 +12,7 @@ Hopefully, though, you want to add a little bit of flare and personality to your
 
 [![](http://codefoster.blob.core.windows.net/site/image/e245ee734494425bae4efa25d6749a94/datapresentation_02_1.png "Screenshot (36)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/2330835B/Screenshot-36.png)
 
-You could copy the music app that utilizes _hero images_ &ndash; larger than average images that communicate a sense of feature or significance. &lt;disclaimer&gt;Please ignore that Justin Bieber appears to be in my _now playing_ section. I can assure you that&rsquo;s not the case&lt;/disclaimer&gt;
+You could copy the music app that utilizes _hero images_ &ndash; larger than average images that communicate a sense of feature or significance. <disclaimer>Please ignore that Justin Bieber appears to be in my _now playing_ section. I can assure you that&rsquo;s not the case</disclaimer>
 
 [![](http://codefoster.blob.core.windows.net/site/image/75fd3ed222e44941a7d1294053c35dcf/datapresentation_03_1.png "Screenshot (27)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/08C06A77/Screenshot-27.png)
 
@@ -34,56 +34,56 @@ In other scenarios, if you&rsquo;re okay with giving up the yum that a ListView 
 
 To avoid a merely conceptual post on a developers&rsquo; blog, allow me to create a quick, custom grid and then populate it with some content.
 
-First, the design. Let me whip out my digitizer pen and draw up a quick grid layout using CorelDRAW (woot!)&hellip;
+First, the design. Let me whip out my digitizer pen and draw up a quick grid layout using CorelDRAW (woot!)...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/e494eac3dc684369b11f815825161b88/datapresentation_05_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/75FB4AF2/image.png)
 
 That&rsquo;s the concept. Now for the implementation. I&rsquo;m only going to layout the seven items in the first section.
 
-First the HTML&hellip;
+First the HTML...;
 
 <pre class="brush: xml; highlight: [24-32];">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot; /&gt;
-    &lt;title&gt;fancygrid&lt;/title&gt;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>fancygrid</title>
 
-    &lt;!-- WinJS references --&gt;
-    &lt;link href=&quot;//Microsoft.WinJS.1.0/css/ui-dark.css&quot; rel=&quot;stylesheet&quot; /&gt;
-    &lt;script src=&quot;//Microsoft.WinJS.1.0/js/base.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;//Microsoft.WinJS.1.0/js/ui.js&quot;&gt;&lt;/script&gt;
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
 
-    &lt;link href=&quot;fancygrid.css&quot; rel=&quot;stylesheet&quot; /&gt;
-    &lt;script src=&quot;fancygrid.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div class=&quot;fancygrid fragment&quot;&gt;
-        &lt;header aria-label=&quot;Header content&quot; role=&quot;banner&quot;&gt;
-            &lt;button class=&quot;win-backbutton&quot; aria-label=&quot;Back&quot; disabled type=&quot;button&quot;&gt;&lt;/button&gt;
-            &lt;h1 class=&quot;titlearea win-type-ellipsis&quot;&gt;
-                &lt;span class=&quot;pagetitle&quot;&gt;Fancy Grid&lt;/span&gt;
-            &lt;/h1&gt;
-        &lt;/header&gt;
-        &lt;section aria-label=&quot;Main content&quot; role=&quot;main&quot;&gt;
-            &lt;div id=&quot;grid&quot;&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-                &lt;div&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/section&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+    <link href="fancygrid.css" rel="stylesheet" />
+    <script src="fancygrid.js"></script>
+</head>
+<body>
+    <div class="fancygrid fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Fancy Grid</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="grid">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html></pre>
 
-The only thing in that HTML that isn&rsquo;t boilerplate is the div called _grid_ and the seven div&rsquo;s inside. There&rsquo;s one for each of the tiles in our layout. And now on to the CSS which is not a terribly lot longer&hellip;
+The only thing in that HTML that isn&rsquo;t boilerplate is the div called _grid_ and the seven div&rsquo;s inside. There&rsquo;s one for each of the tiles in our layout. And now on to the CSS which is not a terribly lot longer...;
 
 <pre class="brush: css;">
-.fancygrid section[role=main] &gt; * {
+.fancygrid section[role=main] > * {
     margin-left: 120px;
 }
 
@@ -94,46 +94,46 @@ The only thing in that HTML that isn&rsquo;t boilerplate is the div called _grid
     -ms-grid-rows: 184px 184px 184px;
 }
 
-    .fancygrid #grid &gt; div {
+    .fancygrid #grid > div {
         border: 1px solid white;
         margin: 5px;
     }
 
-        .fancygrid #grid &gt; div:nth-of-type(1) {
+        .fancygrid #grid > div:nth-of-type(1) {
             -ms-grid-row: 1;
             -ms-grid-column: 1;
         }
-        .fancygrid #grid &gt; div:nth-of-type(2) {
+        .fancygrid #grid > div:nth-of-type(2) {
             -ms-grid-row: 2;
             -ms-grid-column: 1;
         }
-        .fancygrid #grid &gt; div:nth-of-type(3) {
+        .fancygrid #grid > div:nth-of-type(3) {
             -ms-grid-row: 3;
             -ms-grid-column: 1;
         }
-        .fancygrid #grid &gt; div:nth-of-type(4) {
+        .fancygrid #grid > div:nth-of-type(4) {
             -ms-grid-row: 1;
             -ms-grid-column: 2;
             -ms-grid-row-span: 3;
         }
-        .fancygrid #grid &gt; div:nth-of-type(5) {
+        .fancygrid #grid > div:nth-of-type(5) {
             -ms-grid-row: 1;
             -ms-grid-column: 3;
         }
-        .fancygrid #grid &gt; div:nth-of-type(6) {
+        .fancygrid #grid > div:nth-of-type(6) {
             -ms-grid-row: 2;
             -ms-grid-column: 3;
         }
-        .fancygrid #grid &gt; div:nth-of-type(7) {
+        .fancygrid #grid > div:nth-of-type(7) {
             -ms-grid-row: 3;
             -ms-grid-column: 3;
         }</pre>
 
 Great. No JavaScript. As it should be. This is just a matter of layout, so it&rsquo;s a collaborative effort between HTML (our structure) and CSS (our layout and style). The HTML in this case is dead simple. It&rsquo;s just a div with seven div&rsquo;s inside. Our CSS is like that kid in your chemistry lab in high school that did all the work for your whole lab group while you played Nintendo. Slacker.
 
-So let me explain. The first style rule that refers to the main section is just something I do make sure everything in that main section takes on the 120px left margin that characterizes Windows 8 apps. The next rule applies to the grid. You may know by now, but the .fancygrid that preceeds #grid is just there to namespace this rule to this page. The next rule applies to all seven of the child div&rsquo;s of the #grid div. The child combinator (the &gt;) in this case is likely important. If you end up putting content inside of these cells and that content contains any div elements at all, this rule would apply to them if you used a space (the descendent combinator) instead of that greater than sign. So for all seven cells we want to draw a white border and give 5px of space. Why 5px? Because the Windows 8 design principles call for 10px between items and so that would be 5px around each item. Then I&rsquo;m using the :nth-of-type() pseudo-class to refer to each div according to its position and add the correct -ms-grid properties to put it where it belongs. Notice how the 4th div has a span of 3.
+So let me explain. The first style rule that refers to the main section is just something I do make sure everything in that main section takes on the 120px left margin that characterizes Windows 8 apps. The next rule applies to the grid. You may know by now, but the .fancygrid that preceeds #grid is just there to namespace this rule to this page. The next rule applies to all seven of the child div&rsquo;s of the #grid div. The child combinator (the >) in this case is likely important. If you end up putting content inside of these cells and that content contains any div elements at all, this rule would apply to them if you used a space (the descendent combinator) instead of that greater than sign. So for all seven cells we want to draw a white border and give 5px of space. Why 5px? Because the Windows 8 design principles call for 10px between items and so that would be 5px around each item. Then I&rsquo;m using the :nth-of-type() pseudo-class to refer to each div according to its position and add the correct -ms-grid properties to put it where it belongs. Notice how the 4th div has a span of 3.
 
-And here&rsquo;s the result&hellip;
+And here&rsquo;s the result...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/d98c1b9c30fa4902b48faeea0adb24b3/datapresentation_06_1.png "Screenshot (38)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/31FF30DE/Screenshot-38.png)
 

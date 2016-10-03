@@ -1,7 +1,7 @@
 ---
 title: Get Your Meetup Calendar on Your Windows Phone
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 This may be obvious to many, but as we all know what&rsquo;s obvious to us is not necessarily obvious to a billion others. So we may as well throw it out on a blog for the betterment of mankind. Actually, that may be a lofty expectation for my next tip, but here goes.

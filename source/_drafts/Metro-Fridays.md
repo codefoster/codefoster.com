@@ -1,7 +1,7 @@
 ---
 title: Metro Fridays
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Developers anywhere near Seattle, I&rsquo;m talking to you.
@@ -16,38 +16,38 @@ Here is the latest on the dates and times of the Metro Friday meetings. Some are
 	<tbody>
 		<tr>
 			<td>June 8</td>
-			<td>&nbsp;9:00am - 1:00pm</td>
-			<td>&nbsp;Civica</td>
+			<td> 9:00am - 1:00pm</td>
+			<td> Civica</td>
 		</tr>
 		<tr>
 			<td>June 15</td>
-			<td>&nbsp;6:00pm - 9:00pm</td>
-			<td>&nbsp;TBD</td>
+			<td> 6:00pm - 9:00pm</td>
+			<td> TBD</td>
 		</tr>
 		<tr>
 			<td>June 22</td>
-			<td>&nbsp;6:00pm - 9:00pm</td>
-			<td>&nbsp;TBD</td>
+			<td> 6:00pm - 9:00pm</td>
+			<td> TBD</td>
 		</tr>
 		<tr>
 			<td>June 29</td>
-			<td>&nbsp;9:00am - 5:00pm</td>
-			<td>&nbsp;Civica</td>
+			<td> 9:00am - 5:00pm</td>
+			<td> Civica</td>
 		</tr>
 		<tr>
 			<td>July 13</td>
-			<td>&nbsp;9:00am - 5:00pm&nbsp;</td>
-			<td>&nbsp;Civica</td>
+			<td> 9:00am - 5:00pm </td>
+			<td> Civica</td>
 		</tr>
 		<tr>
 			<td>July 20</td>
-			<td>&nbsp;&nbsp;9:00am - 5:00pm</td>
-			<td>&nbsp;Civica</td>
+			<td>  9:00am - 5:00pm</td>
+			<td> Civica</td>
 		</tr>
 		<tr>
 			<td>July 27</td>
-			<td>&nbsp;&nbsp;9:00am - 5:00pm</td>
-			<td>&nbsp;Civica</td>
+			<td>  9:00am - 5:00pm</td>
+			<td> Civica</td>
 		</tr>
 	</tbody>
 </table>

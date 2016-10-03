@@ -1,7 +1,7 @@
 ---
 title: Good Design for App Bar Button Placement
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 I&rsquo;ve watched a few developers port their existing apps over to Windows 8.
@@ -61,7 +61,7 @@ If you have more commands then you have app bar, then go vertical by combining c
 If you&rsquo;re using HTML/JavaScript for your app, the recommended way to add app bar buttons and control when they appear is to declare them all on the default.html file and then in the .js file for each page just control their visibility. This avoids having to manipulate the DOM each time a page is loaded. There are easy functions for doing this such as...
 
 <pre class="brush: javascript; toolbar: false">
-appbar.showOnlyCommands([&quot;add-template-item&quot;,&quot;delete-global&quot;]);</pre>
+appbar.showOnlyCommands(["add-template-item","delete-global"]);</pre>
 
 If you&rsquo;re using XAML/C# then (from what [Jerry Nixon](http://www.jerrynixon.com) tells me), you will actually create the app bar buttons on the page where they&rsquo;ll appear.
 

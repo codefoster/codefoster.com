@@ -1,7 +1,7 @@
 ---
 title: 'Well done, Telerik'
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 If you haven&rsquo;t seen Telerik&rsquo;s Windows 8 controls, you should check it out. Just go to telerik.com and install the trial and then open the demo app (there&rsquo;s one for HTML/JS and one for XAML/C#) in Visual Studio and launch it.

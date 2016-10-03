@@ -1,24 +1,24 @@
 ---
 title: The Escalator Ride
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 You want your app to be successful and to be successful, _you must think about the user_.
 
 Windows 8 thinks about the user through and through. It puts the user in control of what shows up on their start screen, when the app bar and charms bar appear over their content, and what apps have the capability of doing on their machine.
 
-When you&#39;re working on your app, consider that the user is not always just launching your app and then closing it when they&#39;re done. They may be using your app as one in a series of apps involved in a single usage scenario.
+When you're working on your app, consider that the user is not always just launching your app and then closing it when they're done. They may be using your app as one in a series of apps involved in a single usage scenario.
 
 Consider this usage scenario...
 
 Your app helps users make restaurant dinner reservations.
 
-Your user _may_ use your app on its own, but more likely your user&hellip;
+Your user _may_ use your app on its own, but more likely your user...;
 
 *   steps onto an escalator at the airport
-*   checks their trip management app to find their hotel&#39;s location
-*   checks for restaurants in the hotel&#39;s vicinity
+*   checks their trip management app to find their hotel's location
+*   checks for restaurants in the hotel's vicinity
 *   picks a restaurant based on user reviews
 *   makes a reservation at the restaurant (with your app!)
 *   sends the reservation confirmation to a colleague

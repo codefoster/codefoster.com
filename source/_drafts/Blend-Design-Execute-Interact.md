@@ -1,10 +1,10 @@
 ---
 title: 'Blend: Design, Execute, Interact'
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-This is likely apparent to anyone that has already ventured into Windows 8 development using Blend for Visual Studio 11, but if you haven&rsquo;t ventured in yet for some reason&hellip; like say you&rsquo;re busy actually getting work done! I know how that goes. I was recently in industry trying to meet deadlines and didn&rsquo;t have much opportunity to look at new technology.
+This is likely apparent to anyone that has already ventured into Windows 8 development using Blend for Visual Studio 11, but if you haven&rsquo;t ventured in yet for some reason...; like say you&rsquo;re busy actually getting work done! I know how that goes. I was recently in industry trying to meet deadlines and didn&rsquo;t have much opportunity to look at new technology.
 
 So allow me to quickly highlight an incredible feature in Windows 8 development &ndash; specifically in Blend for Visual Studio 11.
 
@@ -42,15 +42,15 @@ But what about when you want to do some design on a different page. Say we want 
 
 [![image](http://codefoster.blob.core.windows.net/site/image/a6d1f07efcdc49fea2563ed88a2bbaad/Blend-Design-Execute-Interact_05_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Design-in-Execution/3225CAB5/image.png)
 
-Now a click on a recipe takes you to the item&rsquo;s detail page&hellip;
+Now a click on a recipe takes you to the item&rsquo;s detail page...;
 
 [![image](http://codefoster.blob.core.windows.net/site/image/564e8fe1e88c495eb82e0016c533c0f2/Blend-Design-Execute-Interact_06_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Design-in-Execution/3F292BE3/image.png)
 
-You can now click on the Interactive Mode icon again to turn it off&hellip;
+You can now click on the Interactive Mode icon again to turn it off...;
 
 [![image](http://codefoster.blob.core.windows.net/site/image/0c16e62166d1450e983a2b0d18bee0a8/Blend-Design-Execute-Interact_07_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Design-in-Execution/0B3E5947/image.png)
 
-&hellip;and now you&rsquo;re ready to do some design on this page.
+...;and now you&rsquo;re ready to do some design on this page.
 
 That&rsquo;s all for now. Let the power and potential that is Blend sink deep. Now use it to create an awesome app.
 

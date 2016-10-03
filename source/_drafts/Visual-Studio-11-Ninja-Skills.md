@@ -1,7 +1,7 @@
 ---
 title: Visual Studio 11 Ninja Skills
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 This post is taken from a local presentation I did on April 2, or rather my presentation was taken from this post. One or the other is true, and so is the other.
@@ -34,9 +34,9 @@ See &ndash; essence &ndash; you don&rsquo;t need to be overwhelmed with shortcut
 
 Practice the keyboard shortcuts in this post. Actually practice them. You&rsquo;re naturally blind to your own areas of poor keyboarding skills and productivity. Practice will reveal and improve them and save you time and real money.
 
-## &nbsp;
+##  
 
-## First&hellip; what&rsquo;s new in Visual Studio 11 ([link](http://msdn.microsoft.com/en-us/library/bb386063(v=VS.110).aspx))
+## First...; what&rsquo;s new in Visual Studio 11 ([link](http://msdn.microsoft.com/en-us/library/bb386063(v=VS.110).aspx))
 
 There&rsquo;s a lot of information about this already out on the web, so I&rsquo;ll just offer highlights and some consolidation via links. Here are the biggest and most relevant features IMHO:
 
@@ -46,7 +46,7 @@ There&rsquo;s a lot of information about this already out on the web, so I&rsquo
 *   [Windows 8 Simulator and DOM Explorer](http://blogs.msdn.com/b/visualstudio/archive/2011/09/29/first-look-at-windows-simulator.aspx)
 *   [Page Inspector](http://msdn.microsoft.com/en-us/hh553496)
 
-Some of those links to go training courses on MSDN&hellip; not documentation&hellip; training courses. In my experience, it&rsquo;s easy to read documentation, but you take home a lot more of the information if you take the time to walk through a tutorial or a lab or a training course.
+Some of those links to go training courses on MSDN...; not documentation...; training courses. In my experience, it&rsquo;s easy to read documentation, but you take home a lot more of the information if you take the time to walk through a tutorial or a lab or a training course.
 
 You can find more VS11 training courses [here](http://msdn.microsoft.com/en-us/hh440511).
 
@@ -54,15 +54,15 @@ You can find more VS11 training courses [here](http://msdn.microsoft.com/en-us/h
 
 <span style="color: rgb(0, 0, 0);">[CTRL + ALT + L] Open the Solution Explorer &ndash; face it, you need to get to that Solution Explorer rather often. Do it with a keystroke instead of a click.</span>
 
-<span style="color: rgb(0, 0, 0);">[CTRL + ,] Navigate</span> To&hellip; &ndash; the grand daddy of all keyboard shortcuts in VS if I can be so bold. Looking for something in your solution? You&rsquo;ll likely find it here. Navigate to searches for all code symbols and file names and it uses a &ldquo;contains&rdquo; string search pattern and camel case. So CTRL + , and then &ldquo;WL&rdquo; will find you the WriteLine method you were looking for as well as the WLFoo.cs file.
+<span style="color: rgb(0, 0, 0);">[CTRL + ,] Navigate</span> To...; &ndash; the grand daddy of all keyboard shortcuts in VS if I can be so bold. Looking for something in your solution? You&rsquo;ll likely find it here. Navigate to searches for all code symbols and file names and it uses a &ldquo;contains&rdquo; string search pattern and camel case. So CTRL + , and then &ldquo;WL&rdquo; will find you the WriteLine method you were looking for as well as the WLFoo.cs file.
 
 [CTRL + ;] Search Solution Explorer &ndash; filters the files and symbols that appear in Solution explorer by your query. It should be called Filter Solution Explorer because it doesn&rsquo;t take you off to some search results. It just hides everything from SE that doesn&rsquo;t match your query.
 
 [CTRL + Q] Quick Launch &ndash; if you&rsquo;re looking for a command that you know is somewhere in the vast see of commands in the Tools | Options dialog, try CTRL + Q. Try &ldquo;line numbers&rdquo; for example.
 
-[CTRL + F] Find &ndash; this one grew up from the incremental search that jumped you directly to the next query result on your current page. Now it&rsquo;s all grown up and can do just about everything that the Find in Files dialog does. The only exception is that CTRL + F always just highlights and navigates you to your results, whereas (see next shortcut)&hellip;
+[CTRL + F] Find &ndash; this one grew up from the incremental search that jumped you directly to the next query result on your current page. Now it&rsquo;s all grown up and can do just about everything that the Find in Files dialog does. The only exception is that CTRL + F always just highlights and navigates you to your results, whereas (see next shortcut)...;
 
-[CTRL + SHIFT + F] Find in Files &ndash; &hellip;as I was saying. Whereas Find in Files actually gives you your results in the Find Results pane.
+[CTRL + SHIFT + F] Find in Files &ndash; ...;as I was saying. Whereas Find in Files actually gives you your results in the Find Results pane.
 
 [CTRL + SHIFT + UP/DOWN] Find more instances in file &ndash; another winner in my book. This is an easy one to type. Use it when your mind says, &ldquo;I wonder where else on the page I used this variable.&rdquo; I like that it not only finds the other symbols for you, but it highlights them as well.
 

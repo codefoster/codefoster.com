@@ -1,7 +1,7 @@
 ---
 title: Design Before You Develop
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 It has never been a good idea to jump right into development without putting time into the design of your project. It&rsquo;s tempting to attribute your progress to the time when you&rsquo;re actually typing the code into the computer, but application design like never before is more than fluff. It scopes and directs your efforts and saves you from real hours spent on divergent, throw-away work.

@@ -1,7 +1,7 @@
 ---
 title: vNext in Fremont
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Is there anything better than joining a bunch of other people that like writing software to talk about writing software? Yes. There’s beer and sandwiches for one, and for two there’s conjoining on the subject of Windows 8 which is an exciting new software development opportunity.

@@ -1,18 +1,18 @@
 ---
 title: Developer Reactions to Build 2016
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Microsoft takes opportunity every year at [//build](http://build.microsoft.com) - its annual conference for developers - to make as many shock and awe announcements as it can, and this year in 2016, there was plenty of shock and plenty of awe.
 
-Maybe you&#39;ve watched all the keynotes already. Maybe you&#39;ve even watched all of the sessions already. We&#39;re going to assume, however, that even if you have seen or otherwise caught wind of the announcements that you would like to get an answer to the question &quot;What does that mean for me?&quot;
+Maybe you've watched all the keynotes already. Maybe you've even watched all of the sessions already. We're going to assume, however, that even if you have seen or otherwise caught wind of the announcements that you would like to get an answer to the question "What does that mean for me?"
 
-In this post, I&#39;m going to invite a number of colleagues - all Microsoft Technical Evangelists - to share in detail via blog posts and videos about their favorite announcements, and what they mean for you - the developer.
+In this post, I'm going to invite a number of colleagues - all Microsoft Technical Evangelists - to share in detail via blog posts and videos about their favorite announcements, and what they mean for you - the developer.
 
 This is an active blog post that will be updated as new content lands, so check back often.
 
-We&#39;ll start with a [Channel 9](http://channel9.msdn.com) introduction to a few of the team. In this video&nbsp;you&#39;ll meet...
+We'll start with a [Channel 9](http://channel9.msdn.com) introduction to a few of the team. In this video you'll meet...
 
 *   Jeremy Foster (myself) [@codefoster](http://twitter.com/codefoster)
 *   Jerry Nixon [@jerrynixon](http://twitter.com/jerrynixon)
@@ -21,12 +21,12 @@ We&#39;ll start with a [Channel 9](http://channel9.msdn.com) introduction to a f
 *   Sam Stokes [@socalsam](http://twitter.com/socalsam)
 *   Brian Sherwin [@bsherwin](http://twitter.com/bsherwin)
 <!--<div style="width:700px;height:394px;border:solid 3px gray;display:flex;justify-content:center;align-items:center;background-color:whitesmoke;">
-<div>&lt;&lt; VIDEO COMING SOON! &gt;&gt;</div>
+<div><< VIDEO COMING SOON! >></div>
 </div>-->
 
 <iframe allowfullscreen="" frameborder="0" height="394" src="https://channel9.msdn.com/Blogs/DevRadio/DR1647/player" width="700"></iframe>
 
-Now, as promised, here&#39;s the line-up of content from the evangelists you saw in the video and a few more. Topics will be filled in as we go and links will light up when they&#39;re active.
+Now, as promised, here's the line-up of content from the evangelists you saw in the video and a few more. Topics will be filled in as we go and links will light up when they're active.
 
 <style type="text/css">.dummy{}
 div.tes {  }
@@ -84,7 +84,7 @@ div.tes div.topic { margin-top:8px; }
 <div class="text">
 <div class="name">Sam Stokes [@socalsam](http://twitter.com/socalsam)</div>
 
-<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 20: //Build brought new, awesome, stuff for Power BI. Power BI is powerful as is, so just what are the designers changing? In this video I will cover the super cool things that have changed in Power BI to make it an even more powerful tool then it already is. Is BI really open source? How about a no-code app for Apple devices or Android? What if you need everyone who is using your Power BI dashboards? Embedded Power BI, isn&#39;t what you think it is. Watch this video and catch the excitement of Power BI!</span></div>
+<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 20: //Build brought new, awesome, stuff for Power BI. Power BI is powerful as is, so just what are the designers changing? In this video I will cover the super cool things that have changed in Power BI to make it an even more powerful tool then it already is. Is BI really open source? How about a no-code app for Apple devices or Android? What if you need everyone who is using your Power BI dashboards? Embedded Power BI, isn't what you think it is. Watch this video and catch the excitement of Power BI!</span></div>
 </div>
 </div>
 
@@ -94,7 +94,7 @@ div.tes div.topic { margin-top:8px; }
 <div class="text">
 <div class="name">Jennifer Marsman [@jennifermarsman](http://twitter.com/jennifermarsman)</div>
 
-<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 22: Jennifer Marsman fills you in on the machine learning announcements from Build 2016\. We announced the Microsoft Bot Framework and showcased the Microsoft Cognitive Services (formerly Project Oxford) for adding intelligence to your applications. We&#39;ll discuss the fun Project Murphy bot and the inspiring Seeing AI story. </span></div>
+<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 22: Jennifer Marsman fills you in on the machine learning announcements from Build 2016\. We announced the Microsoft Bot Framework and showcased the Microsoft Cognitive Services (formerly Project Oxford) for adding intelligence to your applications. We'll discuss the fun Project Murphy bot and the inspiring Seeing AI story. </span></div>
 </div>
 </div>
 
@@ -124,7 +124,7 @@ div.tes div.topic { margin-top:8px; }
 <div class="text">
 <div class="name">Jerry Nixon [@jerrynixon](http://twitter.com/jerrynixon)</div>
 
-<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 27: Build 2016 was like Christmas for UWP developers creating Windows apps. As existing features were enriched, several new innovations were unveiled to make developers more productive and apps more valuable with signature Windows experiences and capabilities. In this article, we&#39;ll walk through the Windows announcements &ndash; every single one of them &ndash; from mapping to proximity, XAML enhancements, the Action center, and implications for cross-platform development. </span></div>
+<div class="topic"><span style="line-height: 20.8px; background-color: rgb(176, 196, 222);">APRIL 27: Build 2016 was like Christmas for UWP developers creating Windows apps. As existing features were enriched, several new innovations were unveiled to make developers more productive and apps more valuable with signature Windows experiences and capabilities. In this article, we'll walk through the Windows announcements &ndash; every single one of them &ndash; from mapping to proximity, XAML enhancements, the Action center, and implications for cross-platform development. </span></div>
 </div>
 </div>
 
@@ -139,4 +139,4 @@ div.tes div.topic { margin-top:8px; }
 </div>
 </div>
 
-&nbsp;
+ 

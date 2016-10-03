@@ -1,7 +1,7 @@
 ---
 title: 'Giveaway: Visual Studio Windows Decals'
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 I&rsquo;m giving away one large (8.5&rdquo; x 11&rdquo;) Visual Studio 2012 logo window decal and one small &ldquo;I heart VS2012&rdquo; decal. I&rsquo;m sure these will be all over the place soon, but you can be the first around if you&rsquo;re the lucky winner.

@@ -1,7 +1,7 @@
 ---
 title: iPazzPort Giveaway
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 A what?! It&rsquo;s an [iPazzPort](http://ipazzport.com/). I ordered one recently and I was sent two. Not a bad deal, but I really only need one, so I decided to give one away to one of my Twitter followers. It&rsquo;s new in the box. Read on for details. First, what is it...

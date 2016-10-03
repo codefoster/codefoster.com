@@ -1,7 +1,7 @@
 ---
 title: 'Ban the #Region'
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Just in case you didn&rsquo;t know, you don&rsquo;t need to use the #region designator any more to collapse code. When you use the #region indicator, you create a region for everyone you share your code with, and some people hate having regions in their files. I&rsquo;m one of them.

@@ -1,84 +1,84 @@
 ---
 title: Adding a New Page in Windows 8
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-If you&rsquo;re a veteran of web development, answer this question: how do you add a new HTML page to your web project? You do a right click | Add | New Item&hellip; and then you choose HTML Page, right? Easy enough. Turns out with Windows 8 if you do this you get exactly what you asked for but perhaps not exactly what you expected. Certainly a new HTML file lands in your project and here are the contents:
+If you&rsquo;re a veteran of web development, answer this question: how do you add a new HTML page to your web project? You do a right click | Add | New Item...; and then you choose HTML Page, right? Easy enough. Turns out with Windows 8 if you do this you get exactly what you asked for but perhaps not exactly what you expected. Certainly a new HTML file lands in your project and here are the contents:
 
-<font face="Consolas">&lt;!DOCTYPE html&gt;
+<font face="Consolas"><!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&nbsp; &lt;head&gt;
+  <head>
 
-&nbsp;&nbsp;&nbsp; &lt;title&gt;&lt;/title&gt;
+    <title></title>
 
-&nbsp; &lt;/head&gt;
+  </head>
 
-&nbsp; &lt;body&gt;
+  <body>
 
-&nbsp; &lt;/body&gt;
+  </body>
 
-&lt;/html&gt;</font>
+</html></font>
 
 That&rsquo;s HTML by anyone&rsquo;s definition, but it&rsquo;s not going to get you very far in Windows 8 if you&rsquo;re using the standard navigation model.
 
-What you really wanted to do is to add a Page Control. Try Right click | Add | New Item&hellip; and then choose Page Control and you should get more than just an HTML file. You should also get a JavaScript file (.js) and a stylesheet (.css). Furthermore, the HTML file is a bit more robust:
+What you really wanted to do is to add a Page Control. Try Right click | Add | New Item...; and then choose Page Control and you should get more than just an HTML file. You should also get a JavaScript file (.js) and a stylesheet (.css). Furthermore, the HTML file is a bit more robust:
 
-<font face="Consolas">&lt;!DOCTYPE html&gt;
+<font face="Consolas"><!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&lt;head&gt;
+<head>
 
-&nbsp;&nbsp;&nbsp; &lt;meta charset=&quot;utf-8&quot;&gt;
+    <meta charset="utf-8">
 
-&nbsp;&nbsp;&nbsp; &lt;title&gt;pagecontrol&lt;/title&gt;
+    <title>pagecontrol</title>
 
-&nbsp;&nbsp;&nbsp; &lt;!-- WinJS references --&gt;
+    <!-- WinJS references -->
 
-&nbsp;&nbsp;&nbsp; &lt;link href=&quot;//Microsoft.WinJS.0.6/css/ui-dark.css&quot; rel=&quot;stylesheet&quot;&gt;
+    <link href="//Microsoft.WinJS.0.6/css/ui-dark.css" rel="stylesheet">
 
-&nbsp;&nbsp;&nbsp; &lt;script src=&quot;//Microsoft.WinJS.0.6/js/base.js&quot;&gt;&lt;/script&gt;
+    <script src="//Microsoft.WinJS.0.6/js/base.js"></script>
 
-&nbsp;&nbsp;&nbsp; &lt;script src=&quot;//Microsoft.WinJS.0.6/js/ui.js&quot;&gt;&lt;/script&gt;
+    <script src="//Microsoft.WinJS.0.6/js/ui.js"></script>
 
-&nbsp;&nbsp;&nbsp;
+   
 
-&nbsp;&nbsp;&nbsp; &lt;link href=&quot;pagecontrol.css&quot; rel=&quot;stylesheet&quot;&gt;
+    <link href="pagecontrol.css" rel="stylesheet">
 
-&nbsp;&nbsp;&nbsp; &lt;script src=&quot;pagecontrol.js&quot;&gt;&lt;/script&gt;
+    <script src="pagecontrol.js"></script>
 
-&lt;/head&gt;
+</head>
 
-&lt;body&gt;
+<body>
 
-&nbsp;&nbsp;&nbsp; &lt;div class=&quot;pagecontrol fragment&quot;&gt;
+    <div class="pagecontrol fragment">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;header aria-label=&quot;Header content&quot; role=&quot;banner&quot;&gt;
+        <header aria-label="Header content" role="banner">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;button class=&quot;win-backbutton&quot; aria-label=&quot;Back&quot; disabled&gt;&lt;/button&gt;
+            <button class="win-backbutton" aria-label="Back" disabled></button>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h1 class=&quot;titlearea win-type-ellipsis&quot;&gt;
+            <h1 class="titlearea win-type-ellipsis">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;span class=&quot;pagetitle&quot;&gt;Welcome to pagecontrol&lt;/span&gt;
+                <span class="pagetitle">Welcome to pagecontrol</span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/h1&gt;
+            </h1>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/header&gt;
+        </header>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;section aria-label=&quot;Main content&quot; role=&quot;main&quot;&gt;
+        <section aria-label="Main content" role="main">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;p&gt;Content goes here.&lt;/p&gt;
+            <p>Content goes here.</p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/section&gt;
+        </section>
 
-&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+    </div>
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;</font>
+</html></font>
 
 Now you&rsquo;re talkin&rsquo;! There are a number of things in this file that are all but essential to a standard Windows 8 page. Here are a few I&rsquo;d like to point out:
 
@@ -92,6 +92,6 @@ Remember that although this is all web page based, in most scenarios, you should
 
 <font face="Consolas">WinJS.Navigation
 
-&nbsp; </font><font face="Consolas">.navigate(&quot;/html/myCoolNewPage.html&quot;, { someCoolKey: someCoolValue });</font>
+  </font><font face="Consolas">.navigate("/html/myCoolNewPage.html", { someCoolKey: someCoolValue });</font>
 
 If you create a simple project starting with the Grid Application template, you&rsquo;ll get a good example of this in action.

@@ -1,7 +1,7 @@
 ---
 title: A Tour Through the Windows 8 Documentation
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 <style type="text/css"><!--
@@ -47,7 +47,7 @@ The Dev Center is an enormous place, but it&rsquo;s well organized and I think y
 
 The hierarchy of this outline exactly reflects that of the Dev Center, so hopefully mapping the sections will be easy and intuitive.
 
-&nbsp;
+ 
 
 **<span style="color: rgb(23, 54, 93); font-size: 16pt;">Getting started</span>**
 

@@ -1,7 +1,7 @@
 ---
 title: Print the Screen in Windows 8
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Here’s a nifty trick. When you hold the Windows key and hit Print Screen, you get a screen shot, but it’s not just copied to your clipboard as in earlier versions of Windows. Now it is also saved as Screenshot.png in your Pictures folder.

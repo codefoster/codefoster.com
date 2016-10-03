@@ -1,10 +1,10 @@
 ---
 title: But WHY do we pan horizontally?
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-You may have heard or read or noticed, that in Windows 8, things move side to side. What&rsquo;s with that? We&rsquo;ve been scrolling vertically on the web since the stone age (and by stone age I&rsquo;m referring to the early 90&rsquo;s). And while we&rsquo;re on the subject, what&rsquo;s the difference between panning and scrolling anyway?! Hold your britches&hellip; you&rsquo;re about to find out.
+You may have heard or read or noticed, that in Windows 8, things move side to side. What&rsquo;s with that? We&rsquo;ve been scrolling vertically on the web since the stone age (and by stone age I&rsquo;m referring to the early 90&rsquo;s). And while we&rsquo;re on the subject, what&rsquo;s the difference between panning and scrolling anyway?! Hold your britches...; you&rsquo;re about to find out.
 
 First the second question and then second the first.
 
@@ -20,7 +20,7 @@ Not bad. Here&rsquo;s _panning_.
 
 Hopefully, you can see the differences there. First, panning is horizontal. When you&rsquo;re watching a movie and the scene slides to one side or the other it&rsquo;s because the cameraman has _panned_ the camera. If the scene moved up or down, the cameraman would have been _tilting_ the camera.
 
-It would technically be more accurate to describe a lateral movement of content on the screen as a strafe, which _moves_ the camera to the side instead of rotating it, but I don&rsquo;t know&hellip; maybe strafebars just doesn&rsquo;t roll off the tongue well enough.
+It would technically be more accurate to describe a lateral movement of content on the screen as a strafe, which _moves_ the camera to the side instead of rotating it, but I don&rsquo;t know...; maybe strafebars just doesn&rsquo;t roll off the tongue well enough.
 
 So, scrolling involves a viewport that doesn&rsquo;t necessarily coincide with &ldquo;one&rsquo;s view&rdquo;. In other words, panning occurs when all (or perhaps mostly all) of your view is moving, and again always in a horizontal direction.
 

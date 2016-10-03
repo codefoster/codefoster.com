@@ -1,7 +1,7 @@
 ---
 title: Overview of Windows' New Architecture
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 At the heart of Windows 8 development is WinRT. This is NOT Win32 and it&rsquo;s not .NET. It&rsquo;s a brand new set of APIs that&rsquo;s designed for modern software development and designed for user experience with an asynchronous model that allows your app to remain fast and fluid.

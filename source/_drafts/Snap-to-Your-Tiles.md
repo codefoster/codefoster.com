@@ -1,24 +1,24 @@
 ---
 title: Snap to Your Tiles
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 Let&rsquo;s say you have a bunch of tiles in your Windows 8 app.
 
 [![](http://codefoster.blob.core.windows.net/site/image/97122a38997e413cbe34d5e7e4140275/snappoints_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/4ACBCD98/image.png)
 
-And the user grabs this list with their finger and pans some distance to the right. There&rsquo;s a chance the list will end up landing in a position like this&hellip;
+And the user grabs this list with their finger and pans some distance to the right. There&rsquo;s a chance the list will end up landing in a position like this...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/9744925eb0ae4fee8509e26277198bad/snappoints_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/15559C24/image.png)
 
 Notice that the tiles at left are cutoff. The list has panned some arbitrary distance and stopped where fate stopped it. I know it&rsquo;s all scientific, but it&rsquo;s fun to say that fate landed it here.
 
-But what if you don&rsquo;t want to put your app in fate&rsquo;s fickle hands and would rather stop every time at a tile&rsquo;s edge. That flick from my last example, then, should find you here&hellip;
+But what if you don&rsquo;t want to put your app in fate&rsquo;s fickle hands and would rather stop every time at a tile&rsquo;s edge. That flick from my last example, then, should find you here...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/9c8d95e638c54cc2a273070869d275a0/snappoints_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/5E7B47DD/image.png)
 
-&hellip;with the edge of tiles 9, 10, and 11 neatly lined up on your left margin.
+...;with the edge of tiles 9, 10, and 11 neatly lined up on your left margin.
 
 Is that possible? Of course it is.
 
@@ -32,7 +32,7 @@ If you have a container whose content exceeds the boundaries of the container, t
 
 Defining a container to use _mandatory snap points_ means that it will _always_ stop at the nearest snap point. It will never stop somewhere in between. Defining it to use _proximity snap points,_ however, means that if it ends up close enough to a snap point then it will find its way there, but if it&rsquo;s not close enough then it will be fine with coming to rest between points.
 
-Here&rsquo;s the CSS you should add to achieve the above&hellip;
+Here&rsquo;s the CSS you should add to achieve the above...;
 
 <pre class="brush: css;">
 .snappoints #list .win-viewport {
@@ -45,7 +45,7 @@ _.snappoints_ is the name of my page, which in Windows 8 navigation apps automat
 
 _#list_ is the ListView control on my HTML. I manually gave it the ID of _list_. BTW, I recently discovered that if you know you&rsquo;re only going to have a single list on your page, it might be easier to forgo the naming of it and instead just refer to it with _[data-win-control=WinJS.UI.ListView]_. Nice, eh?
 
-_.win-viewport_ is the viewport of my ListView. If you work with the ListView much, and haven&rsquo;t seen it already, you should definitely check out [Styling the ListView and its items](http://msdn.microsoft.com/en-us/library/windows/apps/hh850406.aspx)from the [Dev Center](http://dev.windows.com). In that article, it breaks down the components of the ListView so you can have a shot at knowing how to style it. Here&rsquo;s how it visually defines the win-viewport&hellip;
+_.win-viewport_ is the viewport of my ListView. If you work with the ListView much, and haven&rsquo;t seen it already, you should definitely check out [Styling the ListView and its items](http://msdn.microsoft.com/en-us/library/windows/apps/hh850406.aspx)from the [Dev Center](http://dev.windows.com). In that article, it breaks down the components of the ListView so you can have a shot at knowing how to style it. Here&rsquo;s how it visually defines the win-viewport...;
 
 ![The primary components of a ListView](http://codefoster.blob.core.windows.net/site/image/6052f93114a54ac7a7d855a0ecb3b075/snappoints_04_1.png "The primary components of a ListView")
 

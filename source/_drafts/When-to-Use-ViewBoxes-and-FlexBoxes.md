@@ -1,7 +1,7 @@
 ---
 title: When to Use ViewBoxes and FlexBoxes
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 HTML and CSS is great, but there&rsquo;s at least one thing that has driven web designers mad for ages - layout. We used to use tables and it worked. We knew their weaknesses, but they worked. Then we were told that tables are for tabular data and div elements are for layout, but divs are wretched creatures. To set divs next to each other one had to float them, but then when finished floating had to be explicitly turned off - argh. Also, divs had no notion of filling vertical space or of controlling the vertical placement of anything within it.
@@ -22,11 +22,11 @@ The purpose of the ViewBox is stated in the documentation. It says that it &ldqu
 
 The first thing I had a hard time wrapping my head around was the overlap between a ViewBox and a FlexBox. Then I discovered that there really isn&rsquo;t any. The ViewBox control is quite simple. It scales the content that it contains but maintains it&rsquo;s aspect ratio.
 
-It works like this&hellip;
+It works like this...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/a9cd690247fb44b787c382fd960d8242/boxes_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/2653D2F4/image.png)
 
-Note that it does not work like this&hellip;
+Note that it does not work like this...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/eebe2cf17e17461e9902e1148638bc4c/boxes_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/7246E5B3/image.png)
 
@@ -38,11 +38,11 @@ And that&rsquo;s really the end of it. The ViewBox serves this one purpose.
 
 Now it&rsquo;s time to talk about the flexbox. This is not a WinJS control, but rather an implementation of a CSS3 property. It&rsquo;s not quite a standard property yet because all of the browsers are still implementing it with vendor specific properties and values, but it&rsquo;s close. For Windows 8, we specify a _display _property with a value of _-ms-flexbox_ to indicate flexbox layout.
 
-The purpose and scope of the flexbox is a bit bigger than the ViewBox. Here&rsquo;s what the W3C spec for the CSS Flexible Box Layout Module says &ldquo;In the flexbox layout model, the children of a flexbox can be laid out in any direction, and can &quot;flex&quot; their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.&rdquo;
+The purpose and scope of the flexbox is a bit bigger than the ViewBox. Here&rsquo;s what the W3C spec for the CSS Flexible Box Layout Module says &ldquo;In the flexbox layout model, the children of a flexbox can be laid out in any direction, and can "flex" their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.&rdquo;
 
 So, like the ViewBox, we still have the concept of the container&rsquo;s content changing in size to fit the container, but this has more to do with a collection of child items.
 
-Additionally, the flexbox offers a lot of properties to specify how it&rsquo;s children are laid out. A quick glance in Blend at the CSS properties on a div in the Flexbox category will enumerate them for you&hellip;
+Additionally, the flexbox offers a lot of properties to specify how it&rsquo;s children are laid out. A quick glance in Blend at the CSS properties on a div in the Flexbox category will enumerate them for you...;
 
 [![](http://codefoster.blob.core.windows.net/site/image/8f697328bd994831abdd44bca0e2abbf/boxes_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/284B64C1/image.png)
 
@@ -62,20 +62,20 @@ The ViewBox does not extend control over the alignment and scale modes of it&rsq
 
 ## All Together Now
 
-Now that you know how different these controls are, consider them together. If you put a flexbox div inside of a ViewBox, you get a really effective layout tool. Try this for your HTML&hellip;
+Now that you know how different these controls are, consider them together. If you put a flexbox div inside of a ViewBox, you get a really effective layout tool. Try this for your HTML...;
 
 <pre class="brush: xml;">
-&lt;body&gt;
-    &lt;div data-win-control=&quot;WinJS.UI.ViewBox&quot;&gt;
-        &lt;div class=&quot;flexy&quot;&gt;
-            &lt;div class=&quot;item&quot;&gt;A&lt;/div&gt;
-            &lt;div class=&quot;item&quot;&gt;B&lt;/div&gt;
-            &lt;div class=&quot;item&quot;&gt;C&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/body&gt;</pre>
+<body>
+    <div data-win-control="WinJS.UI.ViewBox">
+        <div class="flexy">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+        </div>
+    </div>
+</body></pre>
 
-With this as the CSS&hellip;
+With this as the CSS...;
 
 <pre class="brush: css;">
 .flexy {
@@ -92,7 +92,7 @@ With this as the CSS&hellip;
     font-size:9em;
 }</pre>
 
-What you have now is a flexbox that fills its area well. Look at these simulator screenshots so you can see what this would look like&hellip;
+What you have now is a flexbox that fills its area well. Look at these simulator screenshots so you can see what this would look like...;
 
 ![](http://codefoster.blob.core.windows.net/site/image/95837177f01c4495ac5749febaa9d4a7/boxes_04_1.png)
 

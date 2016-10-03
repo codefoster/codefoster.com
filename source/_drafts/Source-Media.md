@@ -1,10 +1,10 @@
 ---
 title: Source Media
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
-I decided to put together a reference post for when you&#39;re looking for stock photos, clipart, audio, music, or video. I will update this post as I am made aware of new sources.
+I decided to put together a reference post for when you're looking for stock photos, clipart, audio, music, or video. I will update this post as I am made aware of new sources.
 
 ## Photos
 
@@ -64,7 +64,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		</tr>
 	</tbody>
 </table>
-&nbsp;
+ 
 
 ## Illustrations
 
@@ -157,7 +157,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		</tr>
 	</tbody>
 </table>
-&nbsp;
+ 
 
 ## Audio
 
@@ -197,7 +197,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		</tr>
 	</tbody>
 </table>
-&nbsp;
+ 
 
 ## Video
 
@@ -222,7 +222,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		</tr>
 	</tbody>
 </table>
-&nbsp;
+ 
 
 ## Fonts
 
@@ -262,7 +262,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		</tr>
 	</tbody>
 </table>
-&nbsp;
+ 
 
 ## Other
 
@@ -271,7 +271,7 @@ I decided to put together a reference post for when you&#39;re looking for stock
 		<tr>
 			<td>Name</td>
 			<td>URL</td>
-			<td>&nbsp;</td>
+			<td> </td>
 		</tr>
 	</thead>
 	<tbody>

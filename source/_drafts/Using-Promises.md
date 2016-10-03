@@ -1,7 +1,7 @@
 ---
 title: Using Promises
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 If you&rsquo;re developing Windows 8 apps using JavaScript, then you&rsquo;re likely familiar with the WinJS.Promise object. You can hardly get by without using one, because a lot of the API in WinJS and WinRT is asynchronous and for JavaScript apps they return a Promise.
@@ -15,7 +15,7 @@ Everybody and their uncle is going to use this one. If you need to make a call t
 When you get a promise from a method, you simply hang a .then or a .done method off of it and provide a function that you want to run when the asynchronous method is complete.
 
 <pre class="brush: js;">
-WinJS.xhr({url:&quot;http://someuri.com/service&quot;})
+WinJS.xhr({url:"http://someuri.com/service"})
     .done(function(xhr) {
         //do something here
     });</pre>
@@ -28,20 +28,20 @@ So this is super handy for keeping our UI fast and fluid. But let&rsquo;s move p
 
 You&rsquo;ve seen how to consume a promise so that you can avoid a blocking call to a relatively long running or potentially long running method call. Sometimes you want to write a method yourself that calls an asynchronous method and you want to give your method caller the ability to call it asynchronously.
 
-In this case, all you have to do is return the promise given to you by the asynchronous method you&rsquo;re calling. So, for example, let&rsquo;s wrap the example call to .xhr above with our own method call&hellip;
+In this case, all you have to do is return the promise given to you by the asynchronous method you&rsquo;re calling. So, for example, let&rsquo;s wrap the example call to .xhr above with our own method call...;
 
 <pre class="brush: js;">
 function myMethodAsync() {
 
     //may want to do some stuff here
 
-    return WinJS.xhr({url:&quot;http://someuri.com/service&quot;})
+    return WinJS.xhr({url:"http://someuri.com/service"})
         .done(function(xhr) {
             //do something here
         });
 }</pre>
 
-There we go. Now I can call myMethodAsync (and by the way, adding _Async_ to the method name is a convention to indicate that it is an asynchronous method) like this&hellip;
+There we go. Now I can call myMethodAsync (and by the way, adding _Async_ to the method name is a convention to indicate that it is an asynchronous method) like this...;
 
 <pre class="brush: js;">
 myMethodAsync()
@@ -59,7 +59,7 @@ If I want to create my own method and allow callers to call it asynchronously th
 
 Creating a promise is pretty easy, but you need to understand the concept because sometimes things can start to feel messy and it&rsquo;s really helpful to understand what&rsquo;s going on (not that I do entirely yet).
 
-In Windows 8 JavaScript development we have the WinJS.Promise. You create it like this&hellip;
+In Windows 8 JavaScript development we have the WinJS.Promise. You create it like this...;
 
 <pre class="brush: js;">
 new WinJS.Promise(function(c,e,p) {
@@ -68,15 +68,15 @@ new WinJS.Promise(function(c,e,p) {
 
 The c, e, and p are parameters that are themselves functions. Within the function body, then, I can actually call c() when I want to complete the promise, call e() when I want to report an errant case, or call p() when I want to report progress.
 
-Study this method I wrote that makes sure a file exists and if it doesn&rsquo;t then it creates it&hellip;
+Study this method I wrote that makes sure a file exists and if it doesn&rsquo;t then it creates it...;
 
 <pre class="brush: js;">
 function assureFileAsync() {
     return new WinJS.Promise(function (c, e, p) {
-        if (fileExists(&quot;applicationData.json&quot;))
+        if (fileExists("applicationData.json"))
             c();
         else
-            appdata.roamingFolder.createFileAsync(&quot;applicationData.json&quot;)
+            appdata.roamingFolder.createFileAsync("applicationData.json")
                 .then(function (file) {
                     return Windows.Storage.FileIO.writeTextAsync(
                         file, JSON.stringify(starterData)
@@ -110,12 +110,12 @@ When my application loads I want to load all of the data from file. When you use
 
 So here&rsquo;s what we do. We initiate the data load from the app&rsquo;s activated event and save the resulting promise somewhere where it will be accessible to the home page. I just added it dynamically onto the WinJS.Application object (not sure if that&rsquo;s recommended or not, but it works great :) Then from the home page, we simply access that object and hang a .done on it. Easy.
 
-Here&rsquo;s the data load call from my app activated event&hellip;
+Here&rsquo;s the data load call from my app activated event...;
 
 <pre class="brush: js;">
 WinJS.Application.dataLoadedPromise = Data.initializeAsync();</pre>
 
-&hellip;and here&rsquo;s where I want to start work on my home page data, but only after the data is loaded&hellip;
+...;and here&rsquo;s where I want to start work on my home page data, but only after the data is loaded...;
 
 <pre class="brush: js;">
 var hubItemsList = new WinJS.Binding.List();

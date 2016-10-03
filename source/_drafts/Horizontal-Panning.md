@@ -1,7 +1,7 @@
 ---
 title: Horizontal Panning
 tags: []
-date: 2016-10-02 16:03:46
+date: 
 ---
 
 If you drop a ListView into your HTML page and fill it with data that fills up your page and overflows, what happens to the overflow? The answer is that it gets cut off by the right side of the screen and thus hints to the user to swipe to scroll the rest of the content into view. Easy.
@@ -10,24 +10,24 @@ But what if you aren&rsquo;t using a ListView, or what if you have some content 
 
 Well, I&rsquo;m going to tell you.
 
-The answer in short is&hellip; <span style="font-size: large;">**overflow-x: scroll**</span>.
+The answer in short is...; <span style="font-size: large;">**overflow-x: scroll**</span>.
 
 And the answer in long follows.
 
 Try this simple HTML.
 
 <pre class="brush: xml;">
-&lt;section aria-label=&quot;Main content&quot; role=&quot;main&quot;&gt;
-    &lt;div class=&quot;sidescroll&quot;&gt;
-        &lt;p&gt;Now is the time ... his country.&lt;/p&gt; 
+<section aria-label="Main content" role="main">
+    <div class="sidescroll">
+        <p>Now is the time ... his country.</p> 
         ...
-        &lt;p&gt;Now is the time ... his country.&lt;/p&gt; 
-    &lt;/div&gt;
-&lt;/section&gt;</pre>
+        <p>Now is the time ... his country.</p> 
+    </div>
+</section></pre>
 
-The _section _should already be defined in you app if you started with a project template, so you should only need to define the div. Where I&rsquo;ve put ellipses (&hellip;) you should add a bunch of text so that this div contains more text than a single screen should hold.
+The _section _should already be defined in you app if you started with a project template, so you should only need to define the div. Where I&rsquo;ve put ellipses (...;) you should add a bunch of text so that this div contains more text than a single screen should hold.
 
-Now add some CSS to make this act the way you want. This should do it&hellip;
+Now add some CSS to make this act the way you want. This should do it...;
 
 <pre class="brush: css;">
 .mypage section[role=main] .sidescroll {
