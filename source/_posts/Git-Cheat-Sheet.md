@@ -1,0 +1,13 @@
+---
+title: Git Cheat Sheet
+tags: []
+date: 2016-10-02 16:03:46
+---
+
+I spend a lot of time using Git these days. It&#39;s one of those technologies you love and hate. I guess I use it because it feels just scrappy and simple and elegant enough to be the right tool for the job in most cases.
+
+I&#39;ve heard it said and completely agree that Git would be the ideal _offline _source control solution if you didn&#39;t have to search _online _for the syntax.
+
+Well, maybe this will help. GitHub was at OSCON and they were handing out these handy little cheat sheets. I&#39;m going to decorate my workstation wall with this. Perhaps you&#39;ll save it somewhere close or print and pin it yourself and get some use out of it. Hope so. Cheers.
+
+[Git Cheat Sheet.pdf](/bcms-media/Files/Download?id=d52b71a0-24ea-4b52-80b4-a376006fed1f)
