@@ -1,7 +1,9 @@
 ---
 title: Children of the Nations
-tags: []
-date: 
+categories: [Other]
+tags: [feed, children, charity]
+date: 2013-05-17
+permalink: cotni
 ---
 
 I've worked with Children of the Nations (COTNI) in the past and they are a very cool organization.
