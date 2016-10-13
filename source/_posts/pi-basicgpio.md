@@ -7,7 +7,7 @@ permalink: pi-basicgpio
 ---
 
 ​I've been hacking on the Raspberry Pi of late and wanted to share out some of the more interesting learnings.
-
+<!--more-->
 I think people that love technology love understanding how things work. When I was a kid I took apart the family phone because I was compelled to see what was inside that made it tick. My brother didn't care. If it made phone calls, he was fine with it. I had to understand.
 
 Likewise, I knew that I could use a Node library and change the GPIO pin levels on my Raspberry Pi, but I wanted to understand how that worked.
@@ -20,7 +20,7 @@ On a Raspberry Pi, it works differently. Instead of a code library, a Pi running
 
 When you're sitting at the terminal of your pi (either hooked up to a monitor and keyboard or ssh'ed in), try...
 
-```
+``` bash
 cd /sys/class/gpio
 ```
 
@@ -34,13 +34,13 @@ To access a pin, you have to first _export_ that pin. To later disallow access t
 
 I had a hard time finding good documentation on this, but then I stumbled upon [this znix.com page](http://raspberrypi.znix.com/hipidocs/topic_gpiodev.htm) that describes it quite well. By the way, this page references "the kernel documentation," but when I hit that link here's what I get...
 
-![](http://codefoster.blob.core.windows.net/site/image/34f78c573b0e46c4b8a5b54c635867b3/pi-basicgpio_404_1.png)
+![](/files/pi-basicgpio_01.png)
 
 Oh well.
 
 Now keep in mind that to follow these instructions you have to _be_ root. You cannot simply sudo these commands. There is an alternative called _gpio-admin_ that I'll talk about in a second. If you want to just become root to do it this way, you do...
 
-```
+``` bash
 su root
 ```
 
@@ -48,7 +48,7 @@ If you get an error when you do that, you may need to first set a password for r
 
 To export then, you do this...
 
-```
+``` bash
 echo <pin number> > /sys/class/gpio/export
 ```
 
@@ -58,7 +58,7 @@ When you do that, a virtual directory is created inside of `/sys/class/gpio` cal
 
 The easiest way, then, to read the value of the `/sys/class/gpio/gpio4/value` file is...
 
-```
+``` bash
 cat /sys/class/gpio/gpio4/value
 ```
 
@@ -66,7 +66,7 @@ Easy.
 
 To write to the same file, you have to first make sure that it's an `out` pin. That is, you have to make sure the pin is configured as an output pin. To do that, you change the virtual `direction `file. Like this...
 
-```
+``` bash
 echo out > /sys/class/gpio/gpio17/direction
 ```
 
@@ -74,14 +74,14 @@ That's a fancy (and quick) way to edit the contents of the file to have a new va
 
 Once you have configured your pin as an output, you can change the value using...
 
-```
+``` bash
 echo 0 > /sys/class/gpio/gpio4/value //set the pin low (0V)
 echo 1 > /sys/class/gpio/gpio4/value //set the pin high (3.3V)
 ```
 
 Now that I've described the setting of the direction and the value, you should know that there's a shortcut for doing both of those in one motion...
 
-```
+``` bash
 echo high > /sys/class/gpio/gpio4/direction
 ```
 
@@ -91,7 +91,7 @@ Now, although it's fun and satisfying to understand how this is implemented, and
 
 For instance, let's take a look at the [pi-gpio.js file](https://raw.githubusercontent.com/rakeshpai/pi-gpio/master/pi-gpio.js) in the [pi-gpio](https://github.com/rakeshpai/pi-gpio) module...
 
-```
+``` js
 write: function(pinNumber, value, callback) {
 	pinNumber = sanitizePinNumber(pinNumber);
 	value = !!value ? "1" : "0";

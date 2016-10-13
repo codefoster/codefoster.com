@@ -1,0 +1,19 @@
+---
+title: 'Creating a Timer in Windows 8 (C#)'
+categories: []
+tags: []
+date: 2001-01-01
+permalink: 
+---
+
+Ready for the shortest blog post in history?
+
+Looking for a time in Windows 8? Look no further. Just drop this code into the App constructor on the App.xaml.cs page...
+
+``` js
+    var d = new DispatcherTimer();
+    d.Start();
+    d.Tick += (sender, o) => { Debug.WriteLine("tick"); };
+```
+
+Now go take a look at Visual Studio's Output pane and watch it tick.

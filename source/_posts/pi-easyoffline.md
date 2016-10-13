@@ -7,7 +7,7 @@ permalink: pi-easyoffline
 ---
 
 Getting a Raspberry Pi online is really easy if you have an HDMI monitor, keyboard, and mouse.
-
+<!--more-->
 Subsequently getting an SSH connection to your pi is easy if you have a home router with internet access that you're both (your PC and your pi) connected to.
 
 But let's say you're on an airplane and you pull your Raspberry Pi out of its box and you want to get set up. We call that provisioning. How would you do that?
@@ -38,7 +38,7 @@ The name raspberrypi is there because that's the default hostname of a Raspberry
 
 If everything works as expected you'll see something like...
 
-![](http://codefoster.blob.core.windows.net/site/image/0877cc4c57ef45939cdd6901ccae1d94/pi-easyoffline_ping_1.png)
+![](/files/pi-easyoffline_01.png)
 
 Again, my pi has been renamed to `cfpi1`, but yours should be called `raspberrypi` if it's new.
 

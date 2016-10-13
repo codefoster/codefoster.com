@@ -9,7 +9,7 @@ permalink: effective
 What effect do you have on the world?
 
 Do you affect it consistently and positively? Do you affect it efficiently? Do you affect the world at large? How about your small world - your family and your work team? How about the customers that buy the widgets you make?
-
+<!--more-->
 I know very few (and I don't know them for long) that don't have any desire to have an effect. It's a core desire. It's a healthy desire.
 
 I've composed a list of just 5 (of the enumerable) ways that you might consider to increase your effect on the world.
@@ -35,7 +35,7 @@ Here's a sampling...
 
 The list could get indefinitely large, so I try to keep it focused on things that actually take minutes and hours out of my day. This responsibility list is similar to a task list, except the responsibilities are more ongoing and are more proactive than reactive.
 
-Once you have that list, be careful about letting anything be added to it. Saying _no _to someone when they ask you to take on something that's outside of your scope is not nearly as rude as saying _yes_ and then being overextended and either incapable of fulfilling the role at all or even being less than fully effective at it.
+Once you have that list, be careful about letting anything be added to it. Saying _no_ to someone when they ask you to take on something that's outside of your scope is not nearly as rude as saying _yes_ and then being overextended and either incapable of fulfilling the role at all or even being less than fully effective at it.
 
 After creating this list for the first time, you may come to realize that you have too many responsibilities, and it might be time to have some conversations with people around you. Think about how you would feel if someone came to you and said "Hey, I'm trying to organize my life and time better and I don't think I've done a great job with responsibility X to you. I would be realistic and opt out of the commitment instead of continuing to disappoint you." In all likelihood, that would be well received and even respected. Don't try saying that to your spouse though. :)
 

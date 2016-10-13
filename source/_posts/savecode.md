@@ -7,7 +7,7 @@ permalink: savecode
 ---
 
 I finally realized why I wasn't investing a lot of thought or time on my Visual Studio Code snippet library. It's transient.
-
+<!--more-->
 I looked up where the user settings are being saved - `C:\users\&lt;me>\AppData\Roaming\Code\User`.
 
 Well, that's a bit of a crock. It's 2016\. I want everything saved to my OneDrive folder so I can do a reload without considering the various settings files I'll have to back up and restore. What, am I a caveman?
@@ -24,7 +24,7 @@ Now, I had to spend a few synapses on this strategy for saving settings. The way
 
 <span style="line-height: 20.8px;">One advantage is that I could easily share my settings with the world. By default, the extension creates the gist as secret. I don't like secrets though, so I can just edit that gist on gist.github.com and hit the Make Public button.</span>
 
-![](http://codefoster.blob.core.windows.net/site/image/e10aa1bd50d44527a23a9c53c0d97356/savecode_make-public_1.png)
+![](/files/savecode_01.png)
 
 <span style="line-height: 20.8px;">And now I can share [the link](https://gist.github.com/codefoster/0a4de2f26b9fdd1b393c424029d5f512)</span> with you<span style="line-height: 20.8px;">. Very cool. And that's a live link too so that every time I add an awesome new snippet, you can see it. Now, I just have to remember not to put any secret keys in my settings or snippets :)</span>
 
