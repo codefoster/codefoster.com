@@ -3,7 +3,7 @@ title: ReSharper 7 is Released
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: resharper-7-is-released
 ---
 
 I got a note in my inbox a few days ago saying that ReSharper 7 had been released. I was pretty surprised since I assumed they still had a ton of kinks to work out, but I've got it installed and am flying through some Windows 8 development and haven't run into any glitches so far.

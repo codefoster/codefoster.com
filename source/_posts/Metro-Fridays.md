@@ -3,7 +3,7 @@ title: Metro Fridays
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: metro-fridays
 ---
 
 Developers anywhere near Seattle, I'm talking to you.

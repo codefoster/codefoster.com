@@ -3,7 +3,7 @@ title: Long Weekend
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: long-weekend
 ---
 
 It's the long weekend!

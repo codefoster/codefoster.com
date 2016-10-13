@@ -3,7 +3,7 @@ title: codeShow
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: codeshow
 ---
 
 codeShow is a app for learning to make apps. It's very meta in that way. The whole project is an open source project with community contributions. Use it to learn the web platform and Windows app development.

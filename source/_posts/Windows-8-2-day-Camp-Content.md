@@ -3,7 +3,7 @@ title: Windows 8 2-day Camp - Content
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: windows-8-2-day-camp-content
 ---
 
 Thanks to all of the attendees of our Windows 8 2-day Camp and Hackathon last week!

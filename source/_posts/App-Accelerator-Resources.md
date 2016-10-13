@@ -3,7 +3,7 @@ title: App Accelerator Resources
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: app-accelerator-resources
 ---
 
 To everyone who joined [@mjconnection](http://www.twitter.com/twitter) and I ([@codefoster](http://www.twitter.com/codefoster)) at the Windows 8 App Accelerator the last 3 days, thanks for bringing all the energy, questions, and app ideas! I know I had a great time.

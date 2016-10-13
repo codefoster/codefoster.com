@@ -3,7 +3,7 @@ title: ReSharper 7 EAP in Visual Studio 11
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: resharper-7-eap-in-visual-studio-11
 ---
 
 I used to think that Visual Studio had an incredible set of keyboard shortcuts and productivity features. Then I installed ReSharper. Now a vanilla install of Visual Studio feels a bit vanilla.
