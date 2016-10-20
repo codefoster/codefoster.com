@@ -68,9 +68,13 @@ theme: apollo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: 
 
 # Aliases
 ## https://github.com/hexojs/hexo-generator-alias
 alias:
   Children-of-the-Nations: /cotni
+  blend-design-execute-interact: /blend
+  open-existing-nodejs-project-in-visual-studio: /existingnode
+  resharper-7-is-released: /rs7released
+  get-that-winrt-documentation-local: docslocal
