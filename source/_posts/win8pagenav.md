@@ -7,6 +7,7 @@ permalink: win8pagenav
 ---
 
 I'd like to talk a bit about navigating in Metro apps using HTML/JavaScript. There are a few options for doing so, and as you probably know whenever there's more than one way to do things, then you the developer have power but not necessarily clarity.  The latter is what I hope to offer here.
+<!-- more -->
 
 First of all, the HTML/JavaScript that Metro apps are based on are identical to the HTML/JavaScript that websites are based on. It is entirely based on the standards. This is good because proprietary things are bad - generally speaking. This means that you can navigate exactly like you do in websites, but don't. I'll explain why not.
 
@@ -18,13 +19,13 @@ So you could navigate from default.html to page2.html like this...
 
 But again... you should _usually_ do this. Doing so changes the "top level document location". This navigation looks something like this...
 
-![Performing a top-level navigation](http://codefoster.blob.core.windows.net/site/image/dd88c575a65b494bb66f7fdafc69bb0b/win8pagenav_01_1.png "Performing a top-level navigation.")
+![](/files/win8pagenav_01.png)
 
 Where the user is no longer on the default.html page. For websites, it's just fine to jump around by navigating the top level like this because you're usually not too concerned about state, but in a full-fledged application, you usually _are_ concerned with state and you can make your life easier by using the built-in navigation features that are provided by the VS2012 templates.
 
 When you use the navigation functionality, a navigation looks more like this...
 
-![Navigating to page2.html the recommended way](http://codefoster.blob.core.windows.net/site/image/785fed727068463aa6c7f6cc846ad69e/win8pagenav_02_1.png "Navigating to page2.html the recommended way.")
+![](/files/win8pagenav_02.png)
 
 Notice that the user is still on default.html, but the contents of the second page have simply been loaded into what is called the _contenthost_. Now, if you loaded a bunch of script and styles on default.html and even declared some variables and set some state, you still have all of that, even though to the user it appears that you've navigated to a second page.
 
@@ -32,13 +33,13 @@ Implementing this is pretty straight-forward. Follow these steps...
 
 1.  Get the navigate.js script file that comes with the Navigation Application project template in VS2012\. You can either start with the Navigation Application project template and notice that navigate.js is already in your js folder, or you can create a throw-away Nav project and steal that file.
 
-	[![](http://codefoster.blob.core.windows.net/site/image/f7c50c8e2beb45cba09992ab12701c66/win8pagenav_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Windows-8-HTMLJS/47E0B8FB/image.png)
+    ![](/files/win8pagenav_03.png)
 2.  Reference the navigate.js from your default.html file...
 
-	[![](http://codefoster.blob.core.windows.net/site/image/4c5c779b13324e439c25c9607d87b96e/win8pagenav_04_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Windows-8-HTMLJS/011C4153/image.png)
+    ![](/files/win8pagenav_04.png)
 3.  Add a contenthost to your default.html file
 
-	[![](http://codefoster.blob.core.windows.net/site/image/17c6c9800bf44e65a1e194640f768f5e/win8pagenav_05_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Windows-8-HTMLJS/5A50BBC3/image.png)
+    ![](/files/win8pagenav_05.png)
 
 And that's it. After this has been implemented, then you are free to do things in your JavaScript like this...
 

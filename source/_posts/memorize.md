@@ -6,9 +6,11 @@ date: 2001-01-01
 permalink: memorize
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/b68d3ab9d66641be9a741f29d451ca96/http_1.png)
 
 Web development involves the use of a lot of technologies and languages implemented according to a lot of standards. It's not exactly the most cohesive stack and I would attribute that to its long and democratic evolution as well as its very broad acceptance and implementation.
+<!-- more -->
+
+![](/files/memorize_01.png)
 
 At the end of the day, though, it leaves us web developers with a lot of information to wrap our heads around. It helps me to keep a bit of a reference sheet on the parts that I look up often, and even be sure that some of it is firmly committed to memory - my own L2 cache, if you will, to avoid even a glance at the reference sheet.
 

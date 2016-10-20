@@ -7,6 +7,7 @@ permalink: panning
 ---
 
 You may have heard or read or noticed, that in Windows 8, things move side to side. What's with that? We've been scrolling vertically on the web since the stone age (and by stone age I'm referring to the early 90's). And while we're on the subject, what's the difference between panning and scrolling anyway?! Hold your britches... you're about to find out.
+<!-- more -->
 
 First the second question and then second the first.
 

@@ -7,6 +7,7 @@ permalink: appstate
 ---
 
 _Process Lifetime Management_ (PLM) is also known as the _Application Lifecycle_, but don't confuse it with _Product Lifecycle Management_ (also PLM) or with the general Application Lifecycle Management (ALM).
+<!-- more -->
 
 By Microsoft's conventional definitions and in the best of my understanding, _Process Lifetime Management_ and _Application Lifecycle_ are one and the same, are defined (for Windows 8) [here](http://msdn.microsoft.com/en-us/library/windows/apps/hh464925.aspx), and are defined as such...
 
@@ -18,7 +19,7 @@ I'd just like to define some terms and share a little utility I made to help you
 
 The application's _state_ is one of three logical values: Running, Not Running, or Suspended. That's easy. And the values are easy to understand when you look at this diagram...
 
-![](http://codefoster.blob.core.windows.net/site/image/8e948beaa2604443876313ddbf08d70d/appstate_01_1.png)
+![](/files/appstate_01.png)
 
 But the actual states that an app can be in are actually enumerated (in JavaScript) in the [ApplicationExecutionState object](http://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.activation.applicationexecutionstate.aspx) as notRunning, running, suspended, terminated, and closedByUser.
 
@@ -36,10 +37,10 @@ LifeCycleState is on github at [github.com/codefoster/LifeCycleState](https://gi
 
 Run it and it simply shows the previous app state and the means by which the app was launched. Something like...
 
-![](http://codefoster.blob.core.windows.net/site/image/75b4fe1749304aa191928f3536242890/appstate_02_1.png)
+![](/files/appstate_02.png)
 
 Hopefully it's helpful for understanding the different states and activations kinds there are and when or how you trigger them. Run it through a few scenarios such as opening the app. Try switching to another and then back (activation does not occur). Try using various means of closing the app (ALT + F4, swipe from the top, swipe from the top and hold at the bottom of the screen until the tile flips, mouse click the X in the top right, etc.). Also, don't forget about the Lifecycle Events that you can trigger using Visual Studio. Look for this button...
 
-![](http://codefoster.blob.core.windows.net/site/image/e7b5eb06a4984e5495cbce6addf67c0e/appstate_03_1.png)
+![](/files/appstate_03.png)
 
 There you have it.

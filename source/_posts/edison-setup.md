@@ -9,6 +9,7 @@ permalink: edison-setup
 This is a guide to getting started with the Intel Edison.
 
 Intel has published [a guide](http://communities.intel.com/docs/DOC-23192) for getting started with this device as well, but I wanted to get everything into one place, tell it from my perspective, and smooth over a couple of the bumps I hit on the way. Let me know with a comment below if you have any questions.
+<!-- more -->
 
 I like to keep things simple, so I'm going to help you get started with the Edison as easily as possible.
 
@@ -20,25 +21,25 @@ In another post, I'm going to show you how to use Azure's Event Hub and Service 
 
 The Edison is tiny. It's the size of an SD card. Despite its size, though it has built in WiFi and Bluetooth LE and enough processor and memory oomph to get the job done.
 
-![](http://codefoster.blob.core.windows.net/site/image/298d9518b5a44f2e96302e1fff4a1784/edison-setup_size_6.jpg)
+![](/files/edison-setup_01.jpg)
 
 The design of the Edison is such that it's pretty easy to implement a quasi-production solution. It's not always easy getting a full Arduino board into your project, but the Edison is almost sure to fit.
 
 I'm not the only one that's excited about this System on a Chip (SoC) either. [Sparkfun.com](http://sparkfun.com) is too. They made a [great video](https://www.youtube.com/watch?v=GY8kaaFzbTE) introducing the technical specs of the Edison and showcasing their very cool line of modules that snap right on to the Edison's body. Here you can see a few of those modules piled up to produce a very capable solution...
 
-![](http://codefoster.blob.core.windows.net/site/image/a51b31f681764ec08ca4e9926b5a423c/edison-setup_modules_1.jpg)
+![](/files/edison-setup_02.jpg)
 
 That's the kind of compact solution I'm talking about. The only problem is that at the time of writing, the modules are only available for pre-order.
 
 Not to worry though, there are a couple of other ways to interface with the Edison and get working on your project. The recommended way is by using the Arduino dev board. This is what the Edison looks like when it's snapped to the dev board.
 
-![](http://codefoster.blob.core.windows.net/site/image/c6edb1c5b2b14808b86e8b8ed07289d0/edison-setup_devboard_1.png)
+![](/files/edison-setup_03.png)
 
 This dev board explodes all of the functionality packed into the Edison and makes life easy. It gives you USB headers, a power plug, GPIO (general purpose input/output) pins, a few buttons, and a micro-SD card slot.
 
 There's another dev board available for the Edison - a mini board - but it's less used because it requires soldering and doesn't offer as many breakouts. If you're looking for compact, you can just wait for the Sparkfun modules I mentioned. Here's the Edison mounted on its mini board...
 
-![](http://codefoster.blob.core.windows.net/site/image/73cd7e5e3ba54692a6479d4350f228a0/edison-setup_miniboard_1.jpg)
+![](/files/edison-setup_04.jpg)
 
 In this guide, I'll take you end to end with getting the Edison setup on a Windows machine. I am not prepared to detail instructions for Mac/Linux, but Intel did a good job of that on [their guide ](http://communities.intel.com/docs/DOC-23192)anyway. I'm going to mention the physical setup of the device, installation of the drivers (on your host PC running Windows), then walk you through flashing it with Intel's custom Yocto Linux image and training it to connect to Wifi. When we're all said and done, we'll never have to plug the Edison into our host PC via USB again. We'll be able to wirelessly deploy software and otherwise communicate with the device. Finally, we'll write a simple bit of code, but in a follow up post, we'll get crazy with software, because that's what we do.
 
@@ -80,11 +81,13 @@ _Note: plink in PowerShell does something goofy with the backspace key. It works
 
 Before you connect, you have to see what the COM port is for the Edison. Go to Device Manager and expand the _Ports (COM &amp; LPT)_. Now look for USB Serial Port (COM_X_). Mine is COM5.
 
-![](http://codefoster.blob.core.windows.net/site/image/46168d8673ba4f4da54acd6acdaf462e/edison-setup_com5_1.png)
+![](/files/edison-setup_05.png)
 
 Here's the line I use to connect (actually, I put a plink function in my $profile to make it even easier... ask me if you want to see how)...
 
-`. c:\bin\plink.exe -serial COM5 -sercfg 115200,8,1,n,N`
+```
+. c:\bin\plink.exe -serial COM5 -sercfg 115200,8,1,n,Namely
+```
 
 ...if you saved your plink.exe into a different location or if your COM port is different then change accordingly.
 
@@ -116,27 +119,24 @@ Now type `console.log('Hello World');` and hit Enter. There you have it.
 
 Hit CTRL+C twice to get back to your Linux prompt.
 
-**Blink the light, already!** You haven't gotten started with an IoT device until you've blinked an LED, so let's get to it. Still SSH'ed to your device, execute each of these lines (each at the prompt) followed by `<Enter>`...
+**Blink the light, already!** You haven't gotten started with an IoT device until you've blinked an LED, so let's get to it. Still SSH'ed to your device, execute each of these lines (each at the prompt) followed by Enter...
 
-`node` <span style="color: rgb(0, 128, 0);">//enter NodeJS again</span>
-
-`var mraa = require('mraa'); `<span style="color: rgb(0, 128, 0);">//create a reference to the built-in mraa library (which provides easy access to hardware capabilities)</span>
-
-`var led = new mraa.Gpio(13);` <span style="color: rgb(0, 128, 0);">//setup a variable for pin 13 which also happens to be an LED on the board (how convenient)</span>
-
-`led.dir(mraa.DIR_OUT);` <span style="color: rgb(0, 128, 0);">//tell pin 13 that it should act as an _output_ pin for now</span>
-
-`led.write(1);` <span style="color: rgb(0, 128, 0);">//turn the LED on</span>
-
-`led.write(0);`<span style="color: rgb(0, 128, 0);"> //turn the LED off</span>
+``` js
+node //enter NodeJS again
+var mraa = require('mraa'); //create a reference to the built-in mraa library (which provides easy access to hardware capabilities)
+var led = new mraa.Gpio(13); //setup a variable for pin 13 which also happens to be an LED on the board (how convenient)
+led.dir(mraa.DIR_OUT); //tell pin 13 that it should act as an _output_ pin for now
+led.write(1); //turn the LED on 
+led.write(0); //turn the LED off
+```
 
 And this is full-on JavaScript, so you can go crazy with it (recommended). Try this...
 
-`var state = 0;` <span style="color: rgb(0, 128, 0);">//create a variable for saving the state of the LED</span>
-
-`var blink = function() { state = (state==1?0:1); led.write(state); setTimeout(blink,500); } `<span style="color: rgb(0, 128, 0);">//create a function that changes the state, waits 500ms, and then calls itself</span>
-
-`blink()` <span style="color: rgb(0, 128, 0);">//start blinking</span>
+``` js
+var state = 0; //create a variable for saving the state of the LED
+var blink = function() { state = (state==1?0:1); led.write(state); setTimeout(blink,500); } //create a function that changes the state, waits 500ms, and then calls itself</span>
+blink() //start blinking
+```
 
 The light should be flashing on and off, but your state of bliss should be sustained high!
 

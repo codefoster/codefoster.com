@@ -7,6 +7,7 @@ permalink: windowing
 ---
 
 Windows (the OS) has always had windows - rectangular portals into an application that allow shrinking, expanding, moving, maximizing, minimizing, and whatever else. A window is a foundational element of many UI's. It's not right for every UI, but it's great for many and is a part of many popular operating systems.
+<!-- more -->
 
 In Windows XP, I used a utility app called Resizer (I think that was the name) that allowed me to quickly relegate a window to a certain quadrant of the screen (upper right, for instance). It also showed the width and height in pixels of the selected window to allow for easier web development compatibility checking.
 
@@ -24,35 +25,32 @@ Note as you're playing with this that the classic desktop itself acts like a sin
 
 So I'll start by opening Bing Food &amp; Drink from the Start Screen.
 
-![](http://codefoster.blob.core.windows.net/site/image/1feaa39b8a6e45e8a682d3ad2a4b089a/windowing_01_1.png)
+![](/files/windowing_01.png)
 
 And that app opens full screen. I now have a single Windows Store app running in addition to a bunch of stuff running in desktop mode.
 
-![](http://codefoster.blob.core.windows.net/site/image/fd60c4310dd640eb8c442a4b1e0c91a3/windowing_02_1.png)
+![](/files/windowing_02.png)
 
 Now, while still in the Bing Food &amp; Dining app, let me hit Start and launch the Alarms app the same way. It will also open full screen, replacing the Bing Food &amp; Drink app.
 
-![](http://codefoster.blob.core.windows.net/site/image/8c3dabb1cd9c4258aa881d3d2987be98/windowing_03_1.png)
+![](/files/windowing_03.png)
 
 Perhaps you haven't seen the new Alarms app in Windows 8.1\. I think it's really cool with some nice radial controls and lots of features.
 
 Now let's get our hands on the keyboard. Try just pressing WIN + RIGHT once. That will send the active Alarms app to the right half of the screen and leave the left half unoccupied. Now press WIN + TAB and you'll see that the Bing Food &amp; Drink apps will occupy the left side. That was two quick keystrokes to get ourselves into a great side-by-side workspace. Notice too that the slider control between the apps has a a subtle glyph rendered on the left side indicating that the Bing Food &amp; Drink app is the active app.
 
 > WIN + LEFT/RIGHT sends the active app to the left/right
-> 
 > WIN + UP maximizes the selected app
-> 
 > WIN + DOWN _closes_ the selected app (unlike desktop mode where the app is restored/minimized)
-> 
 > WIN + TAB switches through open Windows Store apps
 
-![](http://codefoster.blob.core.windows.net/site/image/853bfc34aeab4a0aa1a98386dd514523/windowing_04_1.png)
+![](/files/windowing_04.png)
 
 Now try tapping WIN + RIGHT again to swap the order of the windows. The Bing Food &amp; Drink app is sent to the right effectively swapping it for the Alarms app. Notice that the Bing Food &amp; Drink app is still the active app as designated by the glyph on the slider.
 
 You can also use WIN + UP and WIN + DOWN to maximize or close the active app. Try that now with the Bing Food &amp; Drink app.
-
-![](http://codefoster.blob.core.windows.net/site/image/882202eeb2054c3eb405a81ec63caa70/windowing_07_1.png) ![](http://codefoster.blob.core.windows.net/site/image/06fc46b1144b4533b8f7b13dc4ec80b4/windowing_05_1.png)
+![](/files/windowing_05.png)
+![](/files/windowing_06.png)
 
 Let me show you another shortcut now. First, get your two apps back to split mode.
 
@@ -60,7 +58,7 @@ Let me show you another shortcut now. First, get your two apps back to split mod
 
 So with Alarms on the left and Bing Food &amp; Drink on the right as the active app, press WIN + . quickly one time. Not much happens, right? The Bing Food &amp; Drink app does a small animation indicating that it is being "grabbed", but when you let go of the WIN key, it goes right back to where it was.
 
-![](http://codefoster.blob.core.windows.net/site/image/dd04276ccf144ef3a6f6a60cd50f80dd/windowing_06_1.png)
+![](/files/windowing_07.png)
 
 Now hold down WIN and press the period key repeatedly. You can see that you are changing which visible app is "grabbed" and when you let go, you find that you have activated another app (or the slider).
 

@@ -1,5 +1,5 @@
 ---
-title: Don't make your app boil the ocean!
+title: Don't Make Your App Boil the Ocean!
 categories: []
 tags: []
 date: 2001-01-01
@@ -7,6 +7,7 @@ permalink: pop
 ---
 
 I you haven't dived into the app marketplace, what are you waiting for?
+<!-- more -->
 
 If Flappy Birds can bring in so much attention and cold, hard cash, who's to say you can't crank an app out in a weekend and be a contender.
 
@@ -36,4 +37,4 @@ If this tyke finds it fun, I'm hoping a few other tiny fingers will open it and 
 
 KidSuite Pop in action...
 
-![](http://codefoster.blob.core.windows.net/site/image/81bd5bddd9664e319277e8f29253fb1d/pop_01_1.jpg)
+![](/files/pop_01.jpg)

@@ -8,7 +8,8 @@ permalink: savecode
 
 I finally realized why I wasn't investing a lot of thought or time on my Visual Studio Code snippet library. It's transient.
 <!--more-->
-I looked up where the user settings are being saved - `C:\users\&lt;me>\AppData\Roaming\Code\User`.
+
+I looked up where the user settings are being saved - `C:\users\<me>\AppData\Roaming\Code\User`.
 
 Well, that's a bit of a crock. It's 2016\. I want everything saved to my OneDrive folder so I can do a reload without considering the various settings files I'll have to back up and restore. What, am I a caveman?
 

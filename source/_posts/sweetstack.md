@@ -7,6 +7,7 @@ permalink: sweetstack
 ---
 
 Following is a mongo post. A huge post. A massive amount of information. The general recommendation is that blog posts should be short, but rules are made to be broken. You can't tame me. I'm like a wild stallion. So here is a huge blog post.
+<!-- more -->
 
 Last Saturday at the Seattle Code Camp I delivered a presentation I called One Sweet Stack which showed how to start with a SQL Azure database (though it would work with any relational database really), connect to it using Entity Framework, and extend it as OData with WCF Data Services.
 
@@ -29,7 +30,7 @@ You connect to a SQL Azure database using a regular connection string just like 
 
 My database is a simple schema. It's just a table of a few attractions that one will find on the island of Kauai, Hawaii and one related table of categories those attractions fall into (i.e. waterfall, scenery, flora, etc.). Here's a diagram...
 
-[![](http://codefoster.blob.core.windows.net/site/image/60cec6a42b4f4fbea3a37ef9ba881f4c/sweetstack_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/One-Sweet-Stack/07D08BD4/image.png)
+![](/files/sweetstack_01.png)
 
 (my diagram by the way was done using [asciiflow.com](http://www.asciiflow.com/)... very geeky indeed)
 
@@ -47,9 +48,7 @@ Follow these mundane steps to get over the snoozer that is creating projects, ad
 6.  Add a new Navigation App for JavaScript Windows Metro style (SweetStack.Metro)
 7.  Add a reference to SweetStack.Entities to the .Service and the .Tests projects
 8.  Add the .Service project as a web role to the .Cloud project
-
-        1.  In the .Cloud project
-    2.  Right click Roles
+    1.  In the .Cloud project right click Roles
     3.  Add | Web Role Project in Solution...
     4.  Choose the .Service project
 9.  Add the latest version of Entity Framework (currently 5.0.0-rc) to the .Entities, .Services, and .Tests projects
@@ -97,7 +96,7 @@ This one just FEELS like it's going to take a while. Low and behold, however, I 
 
 Set your .Service project to the startup project and run it. You should get a browser that looks like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/272cd01aac23421e9d3558e8d18879fe/sweetstack_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/One-Sweet-Stack/7B64F95B/image.png)
+![](/files/sweetstack_02.png)
 
 Note: if you get a list of files instead, just click on the Entities.svc first.
 

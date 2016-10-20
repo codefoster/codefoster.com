@@ -7,6 +7,7 @@ permalink: mslgiveaway
 ---
 
 I have three coupons for Prometric exams for Microsoft certification that I'd like to give away.
+<!-- more -->
 
 Each coupon offers 3 exams for the price of one, and is good for the MCSD track of exams.
 

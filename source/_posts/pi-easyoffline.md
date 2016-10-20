@@ -8,6 +8,7 @@ permalink: pi-easyoffline
 
 Getting a Raspberry Pi online is really easy if you have an HDMI monitor, keyboard, and mouse.
 <!--more-->
+
 Subsequently getting an SSH connection to your pi is easy if you have a home router with internet access that you're both (your PC and your pi) connected to.
 
 But let's say you're on an airplane and you pull your Raspberry Pi out of its box and you want to get set up. We call that provisioning. How would you do that?
@@ -60,7 +61,7 @@ sudo raspi-configuration
 
 Most everything you need is in there.
 
-You may also be wanting to tell your pi about your wifi router so it's able to connect to via wireless the next time you boot up. For that, check out my post at [codefoster.com/pi-wifi](http://codefoster.com/pi-wifi). Actually, if you're playing a lot with the Raspberry Pi, you might want to visit [codefoster.com/pi](http://codefoster.com/pi) and see all of the posts I've written on the device.
+You may also be wanting to tell your pi about your wifi router so it's able to connect to via wireless the next time you boot up. For that, check out my post at [codefoster.com/pi-wifi](/pi-wifi). Actually, if you're playing a lot with the Raspberry Pi, you might want to visit [codefoster.com/pi](/pi) and see all of the posts I've written on the device.
 
 Happy hacking!
 

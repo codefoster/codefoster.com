@@ -7,6 +7,7 @@ permalink: recursion
 ---
 
 I'm not setting out to explain recursion in full detail right now. I just want to do my best to relay the concept.
+<!-- more -->
 
 Recursion, in simple terms, is logic that depends on itself. I honestly can't tell you whether it's the simplest or the most complicated of concepts. It's sort of both. Let me attempt to explain.
 

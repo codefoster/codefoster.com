@@ -7,6 +7,7 @@ permalink: extsplash
 ---
 
 I'm hard at work updating codeShow for Windows 8.1\. I could have simply migrated my code from Windows 8 and tweaked it here and there, but in typical fashion, I decided to start from scratch. The [open source codeShow project](http://codeshow.codeplex.com/SourceControl/latest) is intended as an instrument of learning and that's exactly what I end up doing as I work on it... learning.
+<!-- more -->
 
 Since the start of codeShow, the number of demos has continued to grow and the amount of time it takes to load up all of those demos when the app is launched has been increasing. It's actually quite a lot of file fetching and parsing that has to happen, so it's perfectly reasonable that it would take some time.
 
@@ -16,7 +17,7 @@ I knew the answer was to create an _extended splash screen_, but I had not yet t
 
 In case you're not familiar, an extended splash screen is a technique for indicating to the user that some time is needed at the launch of the app. This is done by showing the app's splash screen immediately after the app is loaded (so the user doesn't even notice the transition), but adding progress indication of some kind. The real splash screen then only appears to the user for short time and then they begin to receive some feedback about how things are loading.
 
-![](http://codefoster.blob.core.windows.net/site/image/45d11fd950c4448c9b15c96b0986c516/extsplash_01_1.png)
+![](/files/extsplash_01.png)
 
 It's ideal if you can get a user into your app right away, but if an essential element of your app (such as the demos in codeShow) are not available immediately, then the next best option is an extended splash screen.
 

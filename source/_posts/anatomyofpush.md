@@ -7,12 +7,13 @@ permalink: anatomyofpush
 ---
 
 I can hardly stand _not_ knowing how something works under the hood. More often than not, I'd rather have a working knowledge of a system than the convenience or function of the system itself. It's why I chased degrees in Computer Electronics and Computer Engineering in the first place. I don't know so much about all of the fancy things that engineers put into processors and primary system boards these days, but I'm relieved to have at least a fundamental understanding of a control bus, a machine clock, a MOSFET, an assembly program, and the higher level software abstractions. But I digress...
+<!-- more -->
 
 What I want to talk about right now is the anatomy of a push notification message. I was intimidated by the subject when I was first introduced to it, but I've climbed on top of the general concept now and feel confident enough to post on the matter.
 
 I do have to say that I'm pretty excited about the convenience of Windows Azure Mobile Services (WAMS) abstractions over the process, but I don't want to use it blindly without understanding what it's doing under the hood. I'm going to start with a review of the process and players in a typical push notification. You can find this diagram and an overview of the process [here](http://msdn.microsoft.com/en-us/library/windows/apps/hh913756.aspx).
 
-![](http://codefoster.blob.core.windows.net/site/image/80dafcfd28d940c59ef6347146272907/anatomyofpush_01_1.png)
+![](/files/anatomyofpush_01.png)
 
 The green is _you_ and the blue is _Microsoft_. You are writing an app and you are responsible for a cloud service to communicate with WNS.
 
@@ -57,8 +58,8 @@ Cache-Control: no-store
 Content-Length: 422
 Content-Type: application/json
 {
-"access_token":"EgAcAQMAAAAALYAAY/c+Huwi3Fv4Ck10UrKNmtxRO6Njk2MgA=",
-"token_type":"bearer"
+  "access_token":"EgAcAQMAAAAALYAAY/c+Huwi3Fv4Ck10UrKNmtxRO6Njk2MgA=",
+  "token_type":"bearer"
 }
 ```
 

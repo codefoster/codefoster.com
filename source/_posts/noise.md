@@ -2,11 +2,12 @@
 title: Cutting through the noise
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-07-08
 permalink: noise
 ---
 
 As an application developer, you're trying to communicate with your users in a sense. Not so much like an author is, though. An author can only communicate information, ideas, and the like, but an app developer can communicate behavior as well as information. You have the opportunity to make your users feel empowered as well as informed.
+<!-- more -->
 
 The app marketplace is wrought with noise, though. In an attempt to get their names out, developers are hurling junk into the marketplace and seeing if it will stick. Junk may stick, but not for long. Users need real value in order to download, use, and then even recommend and kindly review your app.
 

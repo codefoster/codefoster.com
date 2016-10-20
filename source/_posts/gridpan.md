@@ -7,6 +7,7 @@ permalink: gridpan
 ---
 
 I got a question at an event a few weeks ago that sounded at first like it was going to implicate a rather complicated answer. In the end, it turned out to be not so bad.
+<!-- more -->
 
 The question was...
 

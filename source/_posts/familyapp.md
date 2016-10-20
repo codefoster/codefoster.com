@@ -7,8 +7,9 @@ permalink: familyapp
 ---
 
 Imagine this scenario. You buy a game for $4.99 and you really like it, but your wife sees you playing it and wants it too. Your options are to a) hand your tablet to your wife (when you're not playing it), b) log your wife into her tablet with your credentials (never the right choice and not even possible on _other_ operating systems ;), or c) make sure you're using Windows 8 because the Windows Store has a elegant solution for this scenario.
+<!-- more -->
 
-![](http://codefoster.blob.core.windows.net/site/image/ce394f5bb7a942d3938abe5c7994f26d/familyapp_01_1.png)
+![](/files/familyapp_01.png)
 
 The policy for the Windows Store is that when you get an app (whether it's free or $999) you can install it on up to 5 PCs. The interesting thing is that those don't have to be your PCs. Here's the scoop...
 

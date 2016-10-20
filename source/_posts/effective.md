@@ -10,6 +10,7 @@ What effect do you have on the world?
 
 Do you affect it consistently and positively? Do you affect it efficiently? Do you affect the world at large? How about your small world - your family and your work team? How about the customers that buy the widgets you make?
 <!--more-->
+
 I know very few (and I don't know them for long) that don't have any desire to have an effect. It's a core desire. It's a healthy desire.
 
 I've composed a list of just 5 (of the enumerable) ways that you might consider to increase your effect on the world.

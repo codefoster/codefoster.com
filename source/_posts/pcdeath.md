@@ -6,7 +6,10 @@ date: 2001-01-01
 permalink: pcdeath
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/d23ec27dc79e4c368e3c5bc0e9ff6ba9/pcdeath_01_1.png)Ugh... if I hear one more time about the death of the PC...
+Ugh... if I hear one more time about the death of the PC...
+<!-- more -->
+
+![](/files/pcdeath_01.png)
 
 I don't mind naysaying persay, although I try not to partake. It's very popular to be negative. Complainers are a plenty. A person can do better though than to spend their time getting frustrated as a response.
 

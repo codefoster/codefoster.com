@@ -3,10 +3,12 @@ title: Selecting Elements in a Windows 8 HTML App
 categories: []
 tags: []
 date: 2001-01-01
-permalink: 
+permalink: selectingelements
 ---
 
-[![Windows 8 Logo](http://codefoster.blob.core.windows.net/site/image/3aa0b63f9bfe4a7aa30a126c29e30eac/selectingelements_01_1.jpg "12950-windows-_article")](http://codefost.w05.winhost.com/image.axd?picture=Windows-Live-Writer/e0bf766857da/077C1324/12950-windows-_article.jpg)In antiquity, I selected DOM objects on my HTML pages by using the [document.getElementById](http://msdn.microsoft.com/en-us/library/ie/ms536437(v=vs.85).aspx) method, and I always hated it. I hated it because it was one of my very few options for find the element I wanted and it was so narrow. So it was a great breakthrough to me to see how it worked in the [jQuery](http://jquery.com/) library. CSS selectors are an awesome way to specify exactly which elements I want whether it's one or many.
+[![Windows 8 Logo](http://codefoster.blob.core.windows.net/site/image/3aa0b63f9bfe4a7aa30a126c29e30eac/selectingelements_01_1.jpg "12950-windows-_article")](http://codefost.w05.winhost.com/image.axd?picture=Windows-Live-Writer/e0bf766857da/077C1324/12950-windows-_article.jpg)
+
+In antiquity, I selected DOM objects on my HTML pages by using the [document.getElementById](http://msdn.microsoft.com/en-us/library/ie/ms536437(v=vs.85).aspx) method, and I always hated it. I hated it because it was one of my very few options for find the element I wanted and it was so narrow. So it was a great breakthrough to me to see how it worked in the [jQuery](http://jquery.com/) library. CSS selectors are an awesome way to specify exactly which elements I want whether it's one or many.
 
 So when I saw my first Windows 8 HTML/JS example and it was using getElementById I panicked some. I didn't want to go back in time! My first thought was "I don't want to use this." My second thought was "Actually I do, but can I use jQuery?" (the answer to which is yes). And finally, after some research, I realized that even without the aid of jQuery we're in good shape thanks to some functions built into WinJS. There are a few though so I want to just enumerate what we've got.
 

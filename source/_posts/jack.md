@@ -7,6 +7,7 @@ permalink: jack
 ---
 
 My wife and I just recently had our second son. His name is Jack. I made him a bassinet to sleep in, and this is an article about the process and method.
+<!-- more -->
 
 I warn you now - this project doesn't involve any electronics or software of any kind. I know that makes it a bit boring, and I realize there are a myriad ways to bring digital awesomeness to such a scenario - moisure detection, controlled motion, music or white noise, notifications, camera integration - but it just isn't happening at this point. Someday. The infamous _someday_.
 
@@ -32,11 +33,11 @@ The laser cutter I use has a bed size of 24" x 18". The 33" mattress was obvious
 
 I'll show you the final product first so you can envisage the whole thing...
 
-![](http://codefoster.blob.core.windows.net/site/image/0d6f4c6d07424f959adc1b8a4b131b69/jack_final_1.jpg)
+![](/files/jack_01.jpg)
 
 Now, here are the designs I made in CorelDRAW to bring that to life. The laser cutter will translate the red lines as cuts and the black as rasterized etching, so we should end up with a piece cut out that has some personalized, burnt-in images with Jack's name, the date, and the attribution to daddy.
 
-![](http://codefoster.blob.core.windows.net/site/image/ece39d29332445d88d57873128a2cc75/jack_design_1.png)
+![](/files/jack_02.png)
 
 <aside>
 CorelDRAW is a 2D illustration program much like InkScape or Adobe Illustrator. Although it worked great for this project, I don't consider this type of program ideal for projects like this. Rather, working in 3D would have had some big advantages, such as...
@@ -50,7 +51,7 @@ I'm coming up to speed on using Autodesk Fusion 360, and if I had this project t
 
 Here's how it looks when the pieces are all cut out...
 
-![](http://codefoster.blob.core.windows.net/site/image/5e2c1653d94841f0bc6270ad83440d48/jack_exploded_1.png)
+![](/files/jack_03.png)
 
 So you can see that the corner joints are tabs as are the midway joints. I have also cut small 1/2" square holes in the corners and at two points along the length of the box to allow me to insert some braces. These braces add strength and support a piece of hard board that will form the bed of the unit.
 
@@ -60,26 +61,26 @@ I did not use any metal fasteners in the assembly of this. It is entirely held t
 
 Here's the main structure assembled...
 
-![](http://codefoster.blob.core.windows.net/site/image/eb607ae4f12740238744b84dc50ac986/jack_structure_1.png)
+![](/files/jack_04.png)
 
 And then with the hard board installed to support the mattress...
 
-![](http://codefoster.blob.core.windows.net/site/image/df943a70ba3c4dc69d89e8b5e06f4d2c/jack_hardboard_1.png)
+![](/files/jack_05.png)
 
 And finally with the mattress fitting snuggly (which is important for babies)...
 
-![](http://codefoster.blob.core.windows.net/site/image/b32c0d3d7c8b4577bb3619301b5e87a5/jack_all_1.png)
+![](/files/jack_06.png)
 
 And here's how the etching turned out...
 
-![](http://codefoster.blob.core.windows.net/site/image/1b9ad43f5b474d46b72aa18e410dea8d/jack_text_1.png)
+![](/files/jack_07.png)
 
 Overall, I'm happy with the result, but I by no means consider it a perfect work. Here are some of the things I learned...
 
 *   I should have done a better job of testing the properties of the laser cutter to get to just the right settings. You set the speed and the power of the cuts, and I thought it was best to just turn it up to be sure it was cutting all the way through 1/2" of wood. If the power is up too much, the speed is down too low, or both, then it will cut through the wood, but will leave unnecessarily high levels of soot behind on the cut edges. If you power is too low, the speed is too high, or both then it won't cut all the way through the wood and you'll have to use a blade or chisel of some kind to free your design from the raw material - a time consuming endeavor that often times results in broken edges too.
 *   Laser cutters leave burnt edges. If you get those settings right, the edge is dark brown and sort of carmelized - arguably an acceptible finish in most circumstances, though not for a sleeping baby. If edges need to be cleaned, there will be some work involved. Sandpaper clogs quickly. I finally discovered that for accessible edges, a small hand plane works great. For interior edges inaccessible to the plane, a broad cutting bit on a Dremel followed by a sanding bit work fine but amount to quite a bit of work - perhaps an hour of Dremel time for this entire project.
 
-	![](http://codefoster.blob.core.windows.net/site/image/a51a3fca34d847778abd8411d6441f13/jack_lane_1.png)
+	![](/files/jack_08.png)
 *   I should have rounded the inner corners more to allow for easier Dremeling
 *   I should have created square holes and braces to mechanically hold the two halves of the unit together. As it is, the two halves are only bonded with glue and I believe it is the weakest point of the project.
 

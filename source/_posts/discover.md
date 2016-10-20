@@ -7,6 +7,7 @@ permalink: discover
 ---
 
 I just finished reading Jakob Nielsen's article [Windows 8 - Disappointing Usability for Both Novice and Power Users](http://www.useit.com/alertbox/windows-8.html) where the summary reads...
+<!-- more -->
 
 _Hidden features, reduced discoverability, cognitive overhead from dual environment, and reduced power from a single-window UI and low information density. Too bad. _
 
@@ -16,7 +17,7 @@ Jakob's second point is Windows 8's reduced discoverability. I couldn't agree mo
 
 That simplicity comes at a cost though. As Jakob said, Windows 8 amounts to a reduction in discoverability. You may have seen the internet video of someone's poor old dad left to _discover_ Windows 8 on his own. He found his way to the desktop but couldn't find his way back. All he had to do was move his mouse to any corner of the screen or hit the Windows key on his keyboard, but he didn't know that. I think it's safe to say he hadn't _discovered_ all the features yet. If you put a caveman in front of Windows 8, how long would it take him to figure out that he can swipe from an edge of the screen (unless he cheated and watched the introductory animation while setting up his profile).
 
-![](http://codefoster.blob.core.windows.net/site/image/1b1faa045a2a40ffb18892c7e54e5440/discover_01_1.png)
+![](/files/discover_01.png)
 
 If you can surmount that hurdle (and a few more) then you'll be well on your way to enjoying your UI and I hope you'll appreciate that it's not trying to put everything front and center. Just for fun, I'd like to make a list of things the caveman (or any of us actually) would not know without being told.
 

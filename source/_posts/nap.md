@@ -1,5 +1,5 @@
 ---
-title: How to take a nap
+title: How to Take a Nap
 categories: []
 tags: []
 date: 2001-01-01
@@ -9,6 +9,7 @@ permalink: nap
 A what?!
 
 "codefoster, I thought you were all about productivity and being effective and efficient in a development career... being a valuable and highly contributing part of a workgroup. So what's this about taking naps?"
+<!-- more -->
 
 Yeah, that's what I'm all about. I get inspired by the folks that get books (emphasis on the plural) out the door, blog like maniacs, have numerous libraries on GitHub, put together informative and inspiring presentations, and do all of that without a single sacrifice to the higher calling of loving their family well and still relaxing and playing and exploring. Let's face it, there's a lot of loving to do and a lot of world to explore. I want to be that guy. I call it _effective_.
 
@@ -16,7 +17,7 @@ So, I get jazzed about the idea of getting twice as much done in a given day. I 
 
 So back to the nap.
 
-![](http://codefoster.blob.core.windows.net/site/image/4ffa07ad684a49adbbae6990a69ec6fa/nap_01_1.jpg)
+![](/files/nap_01.jpg)
 
 I think a person should be _spent_ at the end of the day. Don't desire to get through your life with as much ease as possible. If I compare my laziest and least productive days with my best - if I compare how I feel at the end, it's quite easy to see. Our brains and bodies are meant to be used. If I use them up and am then very deliberate about recovery, I see a marked difference. It's like the batteries I used to use on my sail boat. Deep cycle batteries hate being tapped 10% and then filled up. They much prefer having most of the life drained out of them and then going through a strong, full recharging cycle.
 

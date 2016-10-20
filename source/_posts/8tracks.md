@@ -6,15 +6,17 @@ date: 2001-01-01
 permalink: 8tracks
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/b5a49819456248618b1702b05c8feb28/8tracks_01_1.jpg)
 
 **ME: Hi, Paul. Would you mind introducing yourself. Tell us where you work and what's the most interesting thing you're working on.**
+<!-- more -->
+
+![](/files/8tracks_01.jpg)
 
 PT: My name is Paul Tidwell, I have been writing code as a hobby since I was 12\. I currently work for Bungie, Inc where we are in the processes of bringing the world of "Destiny" to life.  For fun, I am getting 8tracks ready for the Xbox 360.
 
 **ME: Okay, so what's this 8tracks app you made? What's the purpose of the app and was it your idea?**
 
-![](http://codefoster.blob.core.windows.net/site/image/71bde89f09344cb790d903405fd891d9/8tracks_02_1.png)
+![](/files/8tracks_02.png)
 
 PT: 8tracks is a small company from San Francisco founded in 2006.  It provides a [streaming music service ](http://8tracks.com/)similar to how people think of Pandora or Spotify. 8tracks is different from those in at least one important way: its content is provided by its community of users. That is the users upload music from their own collection, organize it into a &lsquo;mix' and then share it with the world. The clever folks at 8tracks figured out how to do this legally by making sure the artists are paid for their work and by following the rules set out in the Digital Millennium Copyright Act (DMCA).
 

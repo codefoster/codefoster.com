@@ -3,10 +3,11 @@ title: ReSharper 7 is Released
 categories: []
 tags: []
 date: 2001-01-01
-permalink: resharper-7-is-released
+permalink: rs7released
 ---
 
 I got a note in my inbox a few days ago saying that ReSharper 7 had been released. I was pretty surprised since I assumed they still had a ton of kinks to work out, but I've got it installed and am flying through some Windows 8 development and haven't run into any glitches so far.
+<!-- more -->
 
 I'm kind of always excited about ReSharper, but here are a few reasons why version 7 is keeping my fire lit.
 
@@ -14,7 +15,7 @@ It supports VS 2012 and Windows 8 apps. It works with any of the last few versio
 
 It gives you a hierarchical view of your CSS. Sweet. Look at this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/1a5f4832a7334048ba0326192a64cb60/resharper-7-is-released_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/b8da1d1707fe/0A42BFE2/image.png)
+![](/files/rs7released_01.png)
 
 ...and I noticed that it shows a little glyph next to CSS rules that are overriding the a rule elsewhere. That's helpful.
 
@@ -26,4 +27,4 @@ There's quite a bit [more](http://www.jetbrains.com/resharper/whatsnew/index.htm
 
 Finally, I like their little catch phrase &ndash; _More color to Visual Studio_. If you're familiar with the story around the color in Visual Studio between the developer preview and the release preview then you'll have to laugh. And the "7" is made of little colored tiles. Groovy.
 
-[![What](http://codefoster.blob.core.windows.net/site/image/2da408aa4aaa43f38c0234ff407b1b0b/resharper-7-is-released_02_1.png "What")](http://www.jetbrains.com/whatsnew/index.html)
+![](/files/rs7released_02.png)

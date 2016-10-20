@@ -7,6 +7,7 @@ permalink: student
 ---
 
 Like the rest of the world, computer science is on a steep transformation curve!
+<!-- more -->
 
 If you're like me and you've been doing this for a while, then think for a second about the technological delta across the first 75% of your life and that of the last 25%.
 

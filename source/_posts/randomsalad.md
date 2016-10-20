@@ -6,7 +6,7 @@ date: 2001-01-01
 permalink: randomsalad
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/99b0072ff4094e4abbfafbeac177405d/randomsalad_01_1.jpg)
+![](/files/randomsalad_01.jpg)
 
 Jake Poznanski
 
@@ -42,7 +42,7 @@ We were at lunch with a friend when we were trying to figure out the name for ou
 
 I wish there was a more intense and significant reason for our name but we are happy with the result nonetheless.
 
-![](http://codefoster.blob.core.windows.net/site/image/0062117e8772425f8bb8eb1f57af7783/randomsalad_02_1.jpg)
+![](/files/randomsalad_02.jpg)
 
 Sam Kaufmann
 
@@ -80,4 +80,4 @@ You can find Jake and Sam and more information about Random Salad Games on their
 
 **<span style="color: rgb(0, 0, 0);">Please leave comments</span>** **below**. Jake and Sam will be monitoring and responding.
 
-[![](http://codefoster.blob.core.windows.net/site/image/08a96741301547daa5bb0bd3f6dadb1a/randomsalad_03_1.png)](http://www.randomsaladgames.com)
+[![](/files/randomsalad_03.png)](http://www.randomsaladgames.com)

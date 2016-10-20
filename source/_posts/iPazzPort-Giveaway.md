@@ -7,8 +7,9 @@ permalink: ipazzport-giveaway
 ---
 
 A what?! It's an [iPazzPort](http://ipazzport.com/). I ordered one recently and I was sent two. Not a bad deal, but I really only need one, so I decided to give one away to one of my Twitter followers. It's new in the box. Read on for details. First, what is it...
+<!-- more -->
 
-![](http://codefoster.blob.core.windows.net/site/image/596c5a2cf0f44a19a390e11d2bd9b7c3/ipazzport-giveaway_01_1.png)
+![](/files/ipazzport-giveaway_01.png)
 
 I have a media center PC. Actually, it's just a PC that I hooked up to my 37" LCD TV and installed Windows 8 on. I like the start screen tiles on my tablet and my PC, but they're awesome for a media PC too! I put all of my media related programs on the start screen and now it's super easy to launch whatever I want.
 

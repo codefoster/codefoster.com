@@ -7,6 +7,7 @@ permalink: rusticcitrus
 ---
 
 I love writing code, but I also love the developer community and talking to other developers that have made or are working on great apps.
+<!-- more -->
 
 The way I see it, apps are a medium for expression much like so many other forms of media. Apps take it a bit further though, since they have form and function as well. I know that good art adds real value to our lives, and so do good apps. They inspire us, but they also offer entertainment, communication, and time savings &ndash; true utilities.
 
@@ -14,7 +15,7 @@ Does a game have function? Of course it does. A game conquers boredom, stimulate
 
 I met over coffee recently (because [that's what we do](http://en.wikipedia.org/wiki/Seattle_Coffee_Culture) in the Pacific Northwest) with Jacob Wenger to talk about his game [Rustic Citrus](http://apps.microsoft.com/windows/en-us/app/c7f73eae-9de1-48ef-a99d-6a61105d8349) - published on Windows 8 under his publisher name, Floating House Studios.
 
-![](http://codefoster.blob.core.windows.net/site/image/628e6b93b5fe42d79e13389adf182483/rusticcitrus_01_1.jpg)
+![](/files/rusticcitrus_01.jpg)
 
 <div>Jacob's day job is working on the Internet Explorer team at Microsoft. Naturally, he's adept at all things HTML and JavaScript, and so he chose the web platform for implementing his first game. In fact, Windows 8 offers all kinds of help to a developer that is choosing to write a JavaScript app - an animation library, some composite UI controls, and more, but Jacob decided to go almost entirely with pure JavaScript - even deciding to take on very little in the way of JavaScript libraries as dependencies.</div>
 
@@ -41,7 +42,7 @@ JW: I've been a software developer on the Internet Explorer team within Microsof
 JW: Right now Floating House Studios is a one-man shop. I'm the only one writing code and actively promoting Rustic Citrus but I work with a fantastic graphic designer named [Amanda Jonovski](http://www.linkedin.com/profile/view?id=69980705&amp;locale=en_US&amp;trk=tyah&amp;trkInfo=tas%3Aamanda) who I went to school with at Notre Dame. Outside of the beautiful graphical assets she made, the rest of the app is my own creation. I of course should give a hat tip to several friends and family members who helped me test the app by finding bugs and offering suggestions for new features.
 
 ### 
-<video controls="controls" height="240" src="https://codefoster.blob.core.windows.net/blogvideos/Rustic%20Citrus%20Gameplay.mp4" width="320"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="240" width="320"><param name="src" value="/admin/js/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=https%3A//codefoster.blob.core.windows.net/blogvideos/Rustic%2520Citrus%2520Gameplay.mp4&amp;poster=/admin/content/" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /><embed allowfullscreen="true" allowscriptaccess="true" flashvars="url=https%3A//codefoster.blob.core.windows.net/blogvideos/Rustic%2520Citrus%2520Gameplay.mp4&amp;poster=/admin/content/" height="240" src="/admin/js/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash" width="320"></embed></object></video>
+<video controls="controls" height="240" src="/files/rusticcitrus_02.mp4" width="320"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="240" width="320"><param name="src" value="/admin/js/tiny_mce/plugins/media/moxieplayer.swf" /><param name="flashvars" value="url=/files/rusticcitrus_02.mp4&amp;poster=/admin/content/" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="true" /><embed allowfullscreen="true" allowscriptaccess="true" flashvars="url=/files/rusticcitrus_02.mp4&amp;poster=/admin/content/" height="240" src="/admin/js/tiny_mce/plugins/media/moxieplayer.swf" type="application/x-shockwave-flash" width="320"></embed></object></video>
 
 ### Let's talk about the design and the code of Rustic Citrus
 

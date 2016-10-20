@@ -8,6 +8,7 @@ permalink: pi-oldnode
 
 I beat my head against a wall for a long time wondering why I wasn't able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.
 <!--more-->
+
 Lucky for me (and perhaps you) I got to the bottom of it and am going to document it here for posterity. Let's go.
 
 The head beating happened at a hackathon I recently attended with some colleagues.
@@ -42,4 +43,4 @@ I like using NVM on my dev machine, but it's logical and simpler to use a single
 
 And that did it. I had blinky working in under 3 minutes and considering I get quite obsessive about unresolved issues like this, I had a massive weight lifted.
 
-BTW, through this process I also learned about how the GPIO works at the lowest level on the pi, and I blogged about that at [codefoster.com/pi-basicgpio](http://codefoster.com/pi-basicgpio). 
+BTW, through this process I also learned about how the GPIO works at the lowest level on the pi, and I blogged about that at [codefoster.com/pi-basicgpio](/pi-basicgpio). 

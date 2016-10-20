@@ -7,6 +7,7 @@ permalink: counterprinciples
 ---
 
 Likely you've read the [Metro style design principles](http://msdn.microsoft.com/en-us/library/windows/apps/Hh781237.aspx), but you haven't seen the counter principles yet (because I made them up). Here we go...
+<!-- more -->
 
 # 1\. Show Shame in Mediocrity
 

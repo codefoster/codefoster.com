@@ -7,6 +7,7 @@ permalink: tweetmonkey
 ---
 
 <span style="line-height: 1.6em;">This is a very, very simple maker project. It's clean. It's easy. It's quick. I'm hoping the process and architecture inspire you to make something of your own, and I hope the world of possibilities in this space start opening up for you as they are for me (as evidenced by my fantastically long project idea list).</span>
+<!-- more -->
 
 Let's get started!
 
@@ -26,9 +27,13 @@ I've modified the steps below to make it more accessible. I include the complete
 
 Here's what the entire project is going to look like from a hardware standpoint, just so you know...
 
-![](http://codefoster.blob.core.windows.net/site/image/f1fb2f8616184a42be6f33e6611c8de9/tweetmonkey_assembled_1.png)
+![](/files/tweetmonkey_01.png)
 
 ## Here's what you'll need
+
+<!---
+FIX: large whitespace rendering above the table
+-->
 
 <table border="0" cellpadding="1" cellspacing="1" style="width: 700px;">
 	<tbody>
@@ -112,7 +117,7 @@ So the first thing we need to do is inspect our monkey's downstairs and see how 
 
 Here's what I see...
 
-![](http://codefoster.blob.core.windows.net/site/image/24cd3841b83441d492350dcf68b8cb67/tweetmonkey_downstairs_1.png)
+![](/files/tweetmonkey_02.png)
 
 Every project is different. Here's what I'm looking for.
 
@@ -124,7 +129,7 @@ What we discover in this monkey's butt is that the switch on the outside of the 
 
 We need to run wires outside all clean like, so let's drill some very small holes through the trap door and run wires through. Then we'll set up a soldering station and solder the wires directly to the contacts.
 
-![](http://codefoster.blob.core.windows.net/site/image/3662a7bda0e74ad1820a0665c19f2861/tweetmonkey_holes_1.png)
+![](/files/tweetmonkey_03.png)
 
 Now we can close the door and we've got two wires that when touched together complete the circuit and set the monkey in motion. Conveniently, we have not disabled our on/off switch, so if we wish to use it to turn the monkey on, we can still do that.
 
@@ -142,7 +147,7 @@ The question now is how to programmatically connect these two wires to complete 
 
 As I mentioned, I have a mechanical relay on hand, so I'll use that. It's capable of handling 10A which is far more than we'll need it for, but it will work. By the way, I believe this relay takes 5V to trigger, so we wouldn't be able to use it with the Edison alone. We must have the Arduino dev board. The wires coming out of the monkey's hind end are attached to the relay board in the green connector with flat screws on top. Here's the relay...
 
-![](http://codefoster.blob.core.windows.net/site/image/d5c52bfeefec420fbdd5cf1dc310cbc8/tweetmonkey_relay_1.jpg)
+![](/files/tweetmonkey_04.jpg)
 
 I got this relay from a Grove Seeed Kit (intentionally misspelled). The nice thing about this kit is that it makes all of the components easy to hook up. The white 4-pin connector you see on the component fits a bundle of wires that also comes with the kit and again into an Arduino-compatible shield, which you'll see next.
 
@@ -154,7 +159,7 @@ At this point, we have all of our hardware hooked up and are ready to implement 
 
 ## Step 5\. Writing the software
 
-We're going to be writing JavaScript in a Node.js project on this Intel Edison to get this monkey grooving. If you are pulling an Edison out of the box and need help setting it up, have a look at [codefoster.com/edison-setup](http://codefoster.com/edison-setup). For the rest of this article, you'll need your device to be all configured and on the same wifi network as your host PC (the one you're using Visual Studio on) and you'll need to know the IP address and the login password.
+We're going to be writing JavaScript in a Node.js project on this Intel Edison to get this monkey grooving. If you are pulling an Edison out of the box and need help setting it up, have a look at [codefoster.com/edison-setup](/edison-setup). For the rest of this article, you'll need your device to be all configured and on the same wifi network as your host PC (the one you're using Visual Studio on) and you'll need to know the IP address and the login password.
 
 If you haven't already, go to [visualstudio.com](visualstudio.copm) and download and install Visual Studio Community 2015\. Then go to [http://nodejstools.codeplex.com](http://nodejstools.codeplex.com) and download and install the Node.js Tools for Visual Studio.
 
@@ -170,7 +175,7 @@ Now clone [https://github.com/codefoster/tweetmonkey.git](https://github.com/cod
 
 Ideally, I'd have another gulp task for executing the Node.js project on the device, but I haven't quite figured that out yet, so I just SSH to the device and run it.
 
-I'll assume you're all set up for using SSH since you've supposedly gone through my [http://codefoster.com/edison-setup](http://codefoster.com/edison-setup) article already.
+I'll assume you're all set up for using SSH since you've supposedly gone through my [/edison-setup](/edison-setup) article already.
 
 To SSH, use...
 
@@ -186,7 +191,9 @@ Testing it is easy. Just send a tweet with the chosen text and watch your monkey
 
 ## Something more compact perhaps?
 
-![](http://codefoster.blob.core.windows.net/site/image/a51b31f681764ec08ca4e9926b5a423c/edison-setup_modules_1.jpg)The final solution is by no means compact. You have a big, green board hanging out of monkey's bum by wires and a USB batter pack to boot. So how might we make this solution more compact? I'll tell you. Take a look at the Edison on its Arduino dev board. Most of that is dev board, right? The Edison itself is very small. So if we could get rid of the dev board, that would be a huge step. Of course, then we need to power the thing and a way to access the logical pin that controls the relay. So, we could simply head back to SparkFun.com and order a couple of Edison modules. These things are great in my opinion. For this solution, we could use the Edison itself, a GPIO breakout module, and a battery module. Then we'd have to replace our relay with something smaller - no problem since the relay I used was way overkill. Then we'd probably want to find a creative way to conceal the whole thing. We could give our monkey a backpack, for instance. In some cases, you can power your Edison from the same source as your project, but in this case, the monkey is carrying 3V and our Edison needs 3.7V at a minimum, so I wouldn't feel good about that. 
+![](/files/tweetmonkey_05.jpg)
+
+The final solution is by no means compact. You have a big, green board hanging out of monkey's bum by wires and a USB batter pack to boot. So how might we make this solution more compact? I'll tell you. Take a look at the Edison on its Arduino dev board. Most of that is dev board, right? The Edison itself is very small. So if we could get rid of the dev board, that would be a huge step. Of course, then we need to power the thing and a way to access the logical pin that controls the relay. So, we could simply head back to SparkFun.com and order a couple of Edison modules. These things are great in my opinion. For this solution, we could use the Edison itself, a GPIO breakout module, and a battery module. Then we'd have to replace our relay with something smaller - no problem since the relay I used was way overkill. Then we'd probably want to find a creative way to conceal the whole thing. We could give our monkey a backpack, for instance. In some cases, you can power your Edison from the same source as your project, but in this case, the monkey is carrying 3V and our Edison needs 3.7V at a minimum, so I wouldn't feel good about that. 
 
 ## Conclusion
 
@@ -194,6 +201,6 @@ So there you have it - a simple, end-to-end tweet monkey! Just what everyone nee
 
 I hope you had fun with the monkey specifically, but more importantly, I hope you're just a little bit more comfortable hooking into an existing electronic circuit and using logic from a program you wrote to manipulate it. When you get the concepts behind the procedures, you really start to see the possibilities, and _that_ is the heart of the maker movement.
 
-I recorded a session about Tweet Monkey's older brother - [Command Monkey](http://codefoster.com/commandmonkey) as a [CodeChat episode](http://codefoster.com/codechat/023) with my colleague Jason Short ([@infinitecodex](http://twitter.com/infinitecodex)). Here you go...
+I recorded a session about Tweet Monkey's older brother - [Command Monkey](/commandmonkey) as a [CodeChat episode](/codechat/023) with my colleague Jason Short ([@infinitecodex](http://twitter.com/infinitecodex)). Here you go...
 
 <iframe allowfullscreen="" frameborder="0" height="360" src="//channel9.msdn.com/Shows/codechat/023/player" width="640"></iframe>

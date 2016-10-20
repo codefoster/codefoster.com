@@ -7,6 +7,7 @@ permalink: easycache
 ---
 
 I set out the other day to help a developer add some cache functionality for his app.
+<!-- more -->
 
 The app is 1Vigor and there's a version for [swimmers](http://apps.microsoft.com/windows/en-us/app/f616e79d-42b6-4acb-bf62-4d99a119c0db), one for [runners](http://apps.microsoft.com/windows/en-us/app/f9d94f63-4ce4-4683-9f06-a1bf1f941e67), and another for learning how to generate peak performance in whatever sport or fitness activity you're doing (not quite ready for the Store). The 1Vigor apps pull content from the 1vigor.com website and provide some great articles for athletes. The authors of the articles are first rate and the amount of content available is impressive too.
 

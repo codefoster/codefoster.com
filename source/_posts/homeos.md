@@ -1,5 +1,5 @@
 ---
-title: Did you know about Microsoft HomeOS?
+title: Did You Know About Microsoft HomeOS?
 categories: []
 tags: []
 date: 2001-01-01
@@ -7,6 +7,7 @@ permalink: homeos
 ---
 
 Because I didn't. Not until recently.
+<!-- more -->
 
 [HomeOS](http://research.microsoft.com/en-us/projects/homeos/) has apparently been out for a little while and recently received a hefty update to coincide with the [Lab of Things ](http://www.lab-of-things.com/)project.
 

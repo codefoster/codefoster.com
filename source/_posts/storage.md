@@ -7,6 +7,7 @@ permalink: storage
 ---
 
 Apps generate data. Some of them generate a ton of data and others just a few little bits and pieces. Allow me to enumerate your options for storing stuff when you're working on an app for Windows 8\. There are subtle differences between the way storage is done in an HTML/JS app versus a .NET or a C++, but for most of the techniques you're just accessing the WinRT library so the steps are practically identical.
+<!-- more -->
 
 Before we enumerate the types of storage, let's talk about the types of data that typically get generated in an app. I'll break them up into application state, user settings, application data, and user data.
 

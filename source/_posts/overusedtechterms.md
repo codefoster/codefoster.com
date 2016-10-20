@@ -7,6 +7,7 @@ permalink: overusedtechterms
 ---
 
 Based on two laps around the exhibitor hall at [OSCON](/oscon2014) and a couple of years working in the sometimes awkward space between marketing folks and developer folks, following is my list of the 10 most overused words in tech.
+<!-- more -->
 
 You'll find these on a zillion websites, banners, and those spring up signs that people drag around in the airport. There's probably a name for those, but I'm glad not to know what it is. If you know, don't tell me.
 

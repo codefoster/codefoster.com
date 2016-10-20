@@ -7,6 +7,7 @@ permalink: semanticzoom
 ---
 
 Semantic Zoom is super easy, but even the easy things can use some conceptual explanation and examples to clarify them. Rest assured that once you see it, you'll go "Ah! That won't be a problem then."
+<!-- more -->
 
 If you use XAML/C# to make your Metro apps, then you should check out [Jerry Nixon's post on semantic zoom](http://blog.jerrynixon.com/2012/03/windows-8-semantic-zoom-versus-optical.html#more).
 
@@ -16,11 +17,11 @@ Any given list in a Windows 8 screen may be 3 or 4 or 5 screens worth of horizon
 
 I'm going to provide an example here. My example is a list of attractions in Kauai. Each has a _category_ property - things like Flora, Scenery, Waterfall, etc. I will use these categories to group my list, but with the grouping and all of the content I want to show, the list is about 4 screens wide...
 
-[![](http://codefoster.blob.core.windows.net/site/image/48f97207597b432fb6cae8c35aea0c53/semanticzoom_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/How-to-do-Semantic-Zoom-in-an-HTMLJS-App/203F9B40/image.png)
+![](/files/semanticzoom_01.png)
 
 This might be a good scope of data for this view in my app, but at the same time it might be too much to expect a user to be able to consume in a glance. So, we implement semantic zoom. When the user pinch zooms, we want to show them something like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/2f6b5a15a9834eb9afbc443b18de98ec/semanticzoom_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/How-to-do-Semantic-Zoom-in-an-HTMLJS-App/6194E09D/image.png)
+![](/files/semanticzoom_02.png)
 
 This is not very stylish, I know, but it serves to make the point. We want to indicate in much less horizontal space (and hopefully on a single screen) what our data contains. In this case, we're showing the categories. We could get quite creative with what we show here. The concept is to logically expand our scope to orient the user.
 

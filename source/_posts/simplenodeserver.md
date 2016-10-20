@@ -8,6 +8,7 @@ permalink: simplenodeserver
 
 I'll start with the code...
 <!--more-->
+
 `require('express')().get('/',function(req,res){
 
     res.send('hello world');

@@ -7,8 +7,9 @@ permalink: dontpanic
 ---
 
 I saw this tweet and decided to respond.
+<!-- more -->
 
-![](http://codefoster.blob.core.windows.net/site/image/7f4b592a955148aba8e6e7405eae18ef/dontpanic_01_1.png)
+![](/files/dontpanic_01.png)
 
 The technical answer is YES. You can access the source code for Windows Store apps written in HTML/JavaScript. But there are a few reasons that you should forego panic.
 

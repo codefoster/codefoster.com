@@ -9,8 +9,9 @@ permalink: boxsizing
 Don't miss the box-sizing property in CSS. It's important. I'll tell you why.
 
 Let me start by showing you a diagram of the HTML box model.
+<!-- more -->
 
-[![](http://codefoster.blob.core.windows.net/site/image/cdcacee2955f44b3b4f975001c44b377/boxsizing_01_1.png)](http://www.w3.org/wiki/images/d/d2/Boxarea.png)
+![](/files/boxsizing_01.png)
 
 Let's talk about a div, for example. If you create a div and then use CSS to assign some margin, a border, and some padding as well as the content that you include within the div element, you would end up with something that looks like the image above. Most people with some HTML and CSS experience are very familiar with this.
 

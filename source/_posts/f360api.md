@@ -8,6 +8,7 @@ permalink: f360api
 
 I like making things.
 <!--more-->
+
 I used to mostly just make things that show up on the computer screen - software things. Lately, however, I've been re-inspired to make _real_ things. Things out of wood and things out of plastic and metal and fabric and string.
 
 The way I see it, we design things either _manually_ or _generatively_.

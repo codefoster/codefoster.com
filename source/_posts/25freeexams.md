@@ -6,7 +6,8 @@ date: 2013-10-16
 permalink: 25freeexams
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/81978287311841f69b056f015dd14679/25freeexams_01_1.jpg)If you're looking to take an exam and get MCSD certified, have I got a deal for you!
+If you're looking to take an exam and get MCSD certified, have I got a deal for you!
+<!-- more -->
 
 I'm going to give away 25 (that means you have a high chance of winning!) coupons that will get you two exams for the price of one.
 
@@ -20,4 +21,4 @@ I'll randomly draw 25 people out of everyone that qualifies and send them a code
 
 The drawing will be Friday, Oct 25.
 
- 
+![](/files/25freeexams_01.jpg)

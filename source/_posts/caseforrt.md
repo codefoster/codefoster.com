@@ -6,7 +6,11 @@ date: 2001-01-01
 permalink: caseforrt
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/42112873cdd14b7d82b874988276d315/caseforrt_01_1.jpg)Windows RT is that version of Windows that runs on low power ARM devices. I think for most people the pros and cons of this architecture are pretty clear already.
+
+Windows RT is that version of Windows that runs on low power ARM devices. I think for most people the pros and cons of this architecture are pretty clear already.
+<!-- more -->
+
+![](/files/caseforrt_01.jpg)
 
 Usually the first upside argument is the significantly longer battery life it offers, and that's certainly the case. Windows RT's restricted architecture limits the processes that are running at any given point to only those modern apps that are designed to respect mobile users and their limited batteries. That's a really great thing for users.
 

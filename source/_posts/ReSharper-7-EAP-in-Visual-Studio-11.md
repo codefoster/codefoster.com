@@ -2,11 +2,12 @@
 title: ReSharper 7 EAP in Visual Studio 11
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-03-27
 permalink: resharper-7-eap-in-visual-studio-11
 ---
 
 I used to think that Visual Studio had an incredible set of keyboard shortcuts and productivity features. Then I installed ReSharper. Now a vanilla install of Visual Studio feels a bit vanilla.
+<!-- more -->
 
 Sure all of the refactorings are awesome, but what I end up missing when I’m missing R# is the little stuff. It’s the extend and shrink selection (Ctrl + Alt + Right Arrow/Left Arrow). It’s the next and previous member (Alt + Up/Down Arrow).
 

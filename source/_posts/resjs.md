@@ -7,6 +7,7 @@ permalink: resjs
 ---
 
 Many developers (present parties included) are neglecting to take advantage of other cultures and are missing relatively easily earned revenue as a consequence.
+<!-- more -->
 
 Localizing your app by referencing resource strings is the first step and sets you up for easy translation to other languages. It's simple enough to add your data-win-res in your HTML, but what about when you need to do the same thing from JavaScript?
 
@@ -18,19 +19,19 @@ In it you'll see that you can simply ask the ResourceManager for help. Let's hav
 
 Create for yourself an empty Windows 8 blank app using JavaScript.
 
-![](http://codefoster.blob.core.windows.net/site/image/c16a6b3bbe6c4960a3e5e01ad99ef423/resjs_01_1.png)
+![](/files/resjs_01.png)
 
 Now create a new folder called _strings_ and in it a new folder with your culture name. Mine is _en-US_. If you don't know the code for your culture name then you can look [here](http://msdn.microsoft.com/en-us/library/ee825488(v=CS.20).aspx). The table is very helpful if you speak English, but I wondered if MSDN has gone the extra mile and provided content in other languages.
 
-A brief search turned up the ![](http://codefoster.blob.core.windows.net/site/image/4765882480c445d9b82e02a5703ef562/resjs_02_1.png) button at the bottom of the page, but switching it to ![](http://codefoster.blob.core.windows.net/site/image/90b81b3d7c444352b6b804de866f4fba/resjs_03_1.png) only provides me with...
+A brief search turned up the ![](/files/resjs_02.png) button at the bottom of the page, but switching it to ![](/files/resjs_03.png) only provides me with...
 
-![](http://codefoster.blob.core.windows.net/site/image/cc2a08be176e49d0b66cf2aad59319ea/resjs_04_1.png)
+![](/files/resjs_04.png)
 
 Meaning, unfortunately, that _this content is not available in your language, so here's English_. Bummer.
 
 ...and later on...
 
-![](http://codefoster.blob.core.windows.net/site/image/a1887b63c1734756840ee025568d30fd/resjs_05_1.png)
+![](/files/resjs_05.png)
 
 Meaning, _was this page helpful? _Well, not actually if you only speak French, but _c'est la vie._
 
@@ -40,7 +41,7 @@ But I got us sidetracked and you likely know your culture code anyway.
 
 You should now have a string folder and a culture folder and inside the culture folder you create a resource file using a right click | Add | New Item... > Resources File (.resjson). So you should have this...
 
-![](http://codefoster.blob.core.windows.net/site/image/ec431692c0894a8cac634224ff203561/resjs_06_1.png)
+![](/files/resjs_06.png)
 
 Open the resources.resjson file and you should see that it was prepopulated with...
 
@@ -83,7 +84,7 @@ Instead of tacking a `data-win-res` attribute on your div, simply give it an `id
 
 Now, if you created this project from the blank template, then you'll find a _js_ folder with a _default.js_ file in it. Open that and add the following method...
 
-![](http://codefoster.blob.core.windows.net/site/image/a3f181aef32e45b89439acb88e2f9349/resjs_07_6.png)
+![](/files/resjs_07.png)
 
 And that should work. Running the app (CTRL+F5) should result in a comforting _Hello World_ in white text rendered on a black background.
 

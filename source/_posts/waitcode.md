@@ -8,6 +8,7 @@ permalink: waitcode
 
 There's a decent chance that you, like me, ended up with Visual Studio Code incorrectly configured as Git's core editor. I'm talking about Windows here.
 <!--more-->
+
 Take a look at your .gitconfig file and see what you have configured. You will likely find that in c:\users\&amp;lt;username&amp;gt;\.
 
 Under the [core] section, look for the editor key. What do you have for a value?

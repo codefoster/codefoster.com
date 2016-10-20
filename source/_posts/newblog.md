@@ -7,6 +7,7 @@ permalink: newblog
 ---
 
 Woohoo! Welcome to the all new codefoster.com website.
+<!-- more -->
 
 I changed a lot about codefoster.com in this latest iteration, I've got most of my boxes unpacked, and I'm excited to be working out of the new space.
 
@@ -14,6 +15,6 @@ I switched CMS systems to one made out of Sweden, and we all know that the Swedi
 
 To coincide with the launch of the new site, I have some new business cards...
 
-![](http://codefoster.blob.core.windows.net/site/image/892ab2793dbd41768b0d31533179175c/newblog_01_1.png)
+![](/files/newblog_01.png)
 
 Now just sit back and wait for content that will blow your mind. Well, we'll see about that.

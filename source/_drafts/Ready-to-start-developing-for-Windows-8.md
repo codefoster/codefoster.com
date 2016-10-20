@@ -48,7 +48,7 @@ Are you stuck?! Don't forget you can set up office hours with a Microsoft Develo
 
 Beyond getting your machine all set up, you can try these links to get you entrenched in Windows 8 development...
 
-[Figure out which language stack to use to develop an app - XAML/C# or HTML/JavaScript](http://codefoster.com/post/2012/04/25/Which-Windows-8-Language-Stack-Should-I-Choose)
+[Figure out which language stack to use to develop an app - XAML/C# or HTML/JavaScript](/post/2012/04/25/Which-Windows-8-Language-Stack-Should-I-Choose)
 
 [Download some sample code](http://code.msdn.microsoft.com/windowsapps)
 

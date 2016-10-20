@@ -7,6 +7,7 @@ permalink: tryunsnap
 ---
 
 Here's a tidbit that is easy to miss if you're not looking for it.
+<!-- more -->
 
 If your user has snapped your app, but then they take an action in your app that gives you reason to attempt to get back out of snap mode, you can do so by calling...
 

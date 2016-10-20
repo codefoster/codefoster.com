@@ -7,6 +7,7 @@ permalink: long-weekend
 ---
 
 It's the long weekend!
+<!-- more -->
 
 Time to breath a sigh of relief and take some time off. If you're a tech head and love your job like me then it might be a bit of a discipline to shut down all the systems, unplug, and relax. But it's worth it.
 

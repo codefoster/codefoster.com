@@ -7,6 +7,7 @@ permalink: randomtilecolors
 ---
 
 This tip is quite short and simple, but worth a post I think. If you want to colorize some tiles like the start screen does, here's one simple way to do it.
+<!-- more -->
 
 ``` js
 var demos = [

@@ -8,7 +8,8 @@ permalink: pi-wifi
 
 I hate hooking a monitor up to my Raspberry Pi. It feels wrong. It feels like I should be able to do everything from the command line, and the fact is I can.
 <!--more-->
-If you're pulling your Raspberry Pi out of the box and are interested in bootstrapping without a monitor, check out my other post on [Easy and Offline Connection to your Raspberry Pi](http://codefoster.com/pi-easyoffline). 
+
+If you're pulling your Raspberry Pi out of the box and are interested in bootstrapping without a monitor, check out my other post on [Easy and Offline Connection to your Raspberry Pi](/pi-easyoffline). 
 
 Afterward, you may want to set up your wifi access - that is, you want to tell your pi about the wireless access points at your home, your coffee shop, or whatever.
 

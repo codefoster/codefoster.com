@@ -8,6 +8,7 @@ permalink: namecheap
 
 Namecheap.com is a domain registrar that treats me very well. Domain registration and DNS records is a strange world that I don't understand very deeply, so I appreciate a registrar that makes things clear and keeps it fairly simple.
 <!--more-->
+
 If you've created a website in Azure and you're not opting to use Azure's recently announced domain registration service, but have instead registered your domain using Namecheap, then this post is for you. Actually, this post is for _me_ since I always forget a step or two and need this as a reference. But you can use it too.
 
 **Step 1\. Register your domain with Namecheap.** I don't have any trouble with this step and I'm going to assume you won't either. If you do need help, look for support on namecheap.com. For the purposes of this article, I'm going to assume the domain is tweetmonkey.io since that's one that I recently created.

@@ -6,7 +6,11 @@ date: 2001-01-01
 permalink: gomodev
 ---
 
-![](http://codefoster.blob.core.windows.net/site/image/478110b482244a908b0ecc90a6e8d37f/gomodev_01_1.png)Next week, I'm going to be joining a few folks from my team and a bunch of folks from Seattle for MoDev's next conference right here in our sunny city.
+
+Next week, I'm going to be joining a few folks from my team and a bunch of folks from Seattle for MoDev's next conference right here in our sunny city.
+<!-- more -->
+
+![](/files/gomodev_01.png)
 
 MoDev is the conference to attend if you're involved in development, design, or event marketing for the mobile tablet market, and really who isn't these days? Even the auto body shop down the street needs a mobile app. Everybody needs a mobile app.
 

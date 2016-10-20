@@ -6,7 +6,8 @@ date: 2014-12-06
 permalink: edison-vs
 ---
 
-In previous blog posts, I explained [how to setup your Intel Edison](http://codefoster.com/edison-setup) and [how to start writing code for it](http://codefoster.com/edison-coding). And in case you got here directly, I created a [full index of my Edison](http://codefoster.com/edison) posts to help you find what you need.
+In previous blog posts, I explained [how to setup your Intel Edison](/edison-setup) and [how to start writing code for it](/edison-coding). And in case you got here directly, I created a [full index of my Edison](/edison) posts to help you find what you need.
+<!-- more -->
 
 In this post, we'll take a look at writing code for it using Visual Studio. Visual Studio, once you add the free [Node.js Tools for Visual Studio plugin](http://nodejstools.codeplex.com), happens to be pretty great at working with Node.js projects. It runs node behind the scenes, so it offer the following...
 
@@ -29,7 +30,7 @@ In case you missed [the announcement](http://blogs.msdn.com/b/somasegar/archive/
 
 To download Visual Studio, start at [visualstudio.com](http://visualstudio.com), but know that _visualstudio.com_ sort of has two meanings right now. Visual Studio is the IDE, but it's also the ALM tools for taking any size projects from conception to completion with any size group of developers. So click the download button under Visual Studio the IDE and (at least at the time of this writing) you'll get a direct link to the Visual Studio Community 2013 package.
 
-![](http://codefoster.blob.core.windows.net/site/image/9678267b248f48aa986fae9ea3a9a71e/edison-vs_downloadvs_1.png)
+![](/files/edison-vs_01.png)
 
 Installation is pretty straight-forward, and I won't include a screenshot series, but one decision you will have to make is which features of the product to install. Do you want to play with Lightswitch? Windows Phone? Just check the boxes.
 
@@ -45,7 +46,7 @@ The Node.js Tools are found at [nodejstools.codeplex.com](http://nodejstools.cod
 
 Creating a project using Node.js in Visual Studio begins like any other project type - with the File | New Project dialog...
 
-![](http://codefoster.blob.core.windows.net/site/image/a8697c258d2649519782ae72bfe99a5b/edison-vs_njsnewproj_1.png)
+![](/files/edison-vs_02.png)
 
 There are a number of projects to choose from. For what we're dealing with - writing Node.js for devices - the Blank Node.js Console Application will suffice. The rest are web applications for creating node apps on the server.
 
@@ -53,7 +54,7 @@ As per usual, give your project a name and location and _OK_ away.
 
 Now, when Visual Studio finished with our bidding, let's take a look at what we've got...
 
-![](http://codefoster.blob.core.windows.net/site/image/b6f16e1501754e3d9598f10c47d5bb77/edison-vs_njsfeatures_1.png)
+![](/files/edison-vs_03.png)
 
 Let me point out a few things.
 
@@ -61,21 +62,21 @@ First of all, perhaps the simplest _Hello World_ app in the world :) Next, notic
 
 If you begin typing a dependency directly into the package.json, it gives you some Intellisense with an under-the-covers search of the npm repository, and it even helps you with the version...
 
-![](http://codefoster.blob.core.windows.net/site/image/78bcd13a66b84d5ab259b16d55c75343/edison-vs_njsnpmversion_1.png)
+![](/files/edison-vs_04.png)
 
 I like that. I never type my dependencies in directly, but if I did, I'd certainly come to rely on it.
 
 You can also use the npm dialog to install packages.
 
-![](http://codefoster.blob.core.windows.net/site/image/b4eb75c34bd64ede920e8f0b9ff219d1/edison-vs_njsnpmdialog_1.png)
+![](/files/edison-vs_05.png)
 
 Again, nice, but I still keep a CLI open and execute `npm install mypackage --save` on my own. And of course, in that case, all of the installed packages are recognized by the tools, so I do enjoy having the visual indication that my package has been installed. 
 
-By the way, if you want to create a new Visual Studio Node.js project from an existing Node.js project that you have in your file system (perhaps recently cloned with git?) then check out my post [Open an Existing Node.js Project in Visual Studio](http://codefoster.com/open-existing-nodejs-project-in-visual-studio/).
+By the way, if you want to create a new Visual Studio Node.js project from an existing Node.js project that you have in your file system (perhaps recently cloned with git?) then check out my post [Open an Existing Node.js Project in Visual Studio](/open-existing-nodejs-project-in-visual-studio/).
 
 ## Using gulp for Deployment
 
-We saw in [the last post](http://codefoster.com/edison-coding) in this series how to wirelessly deploy your code to your device. You can keep doing it that way if you want, but there's an easier way. Deploying your code is essentially a build task, and that's what grunt and gulp are for.
+We saw in [the last post](/edison-coding) in this series how to wirelessly deploy your code to your device. You can keep doing it that way if you want, but there's an easier way. Deploying your code is essentially a build task, and that's what grunt and gulp are for.
 
 NTVS also gives you a little bit of help with grunt and gulp. It's hilarious that most people still refer to "grunt and gulp" whenever they talk about JavaScript task running frameworks. They do the exact same thing and I don't imagine to many folks actually use grunt _and _gulp. Rather, most likely use grunt if they have to and gulp if they can. gulp is better hands down. grunt uses JSON files for configuration of tasks and gulp uses JavaScript. So, instead of composing gigantic JSON files to attempt to define what sort of tasks you need to run, you can stay in code and do whatever the heck you want or need. And gulp is supposedly way faster too, although I haven't done any of my own tests.
 
@@ -83,63 +84,43 @@ Adding some gulp tasks to your app is easy. You just add a `gulpfile.js `to the 
 
 The edref project has a little bit of gulp built in to deploy your code to your Edison device. Here's that gulpfile.js content so we can talk about what gulp tasks look like...
 
-`/// <vs BeforeBuild='jshint' AfterBuild='deploy' />
-
+``` js
+/// <vs BeforeBuild='jshint' AfterBuild='deploy' />
 var gulp = require('gulp');
+var config = require('./config');
 
-var config = require('./config');`
-
-`// JS hint task
-
+// JS hint task
 // this is just a nice library for making sure your JavaScript syntax is all good
-
 var jshint = require('gulp-jshint');
-
 gulp.task('jshint', function () { // <--------------
-
     gulp.src('./*.js')
-
     .pipe(jshint())
-
     .pipe(jshint.reporter('default'));
+});
 
-});`
-
-`// deploy to the device
-
+// deploy to the device
 // NOTE: this will only deploy files at the root level; it is not recursive
 
 var scp = require('gulp-scp2');
-
 gulp.task('deploy', function () { // <----------------
-
     return gulp.src(['*.{js,json}', '!gulpfile.js'])
-
         .pipe(scp({
-
             host: config.host,
-
             username: config.user,
-
             password: config.password,
-
             dest: config.deployFolder
-
         }))
-
         .on('error', function (err) {
-
             console.log('ERR: ' + err);
-
         });
-
-});`
+});
+```
 
 Notice the actual gulp tasks (where I put the <------------ indicators). Those define what tasks are configured to run.
 
 Now this next part I love. Visual Studio looks at the gulpfile.js at these tasks and adds them to a new pane called the Task Runner Explorer...
 
-![](http://codefoster.blob.core.windows.net/site/image/e59dffb7b3a64ac28acec5e7ea7decc5/edison-vs_gulp_8.png)
+![](/files/edison-vs_06.png)
 
 So `jshint` and `deploy` under _Sub Tasks_ exist because they are defined in the gulpfile.js code.
 
@@ -165,7 +146,7 @@ Here's how to do it.
 
 ### Write or open a Node.js project targeting your device.
 
-You can clone [http://github.com/codefoster/tweetmonkey](http://github.com/codefoster/tweetmonkey) if you're looking for inspiration. You can see more about my good friend TweetMonkey at [codefoster.com/tweetmonkey](http://codefoster.com/tweetmonkey), but in short, he taps into Twitter's streaming API and waits for tweets with the hashtag #tweetmonkey. When he see's one, he comes to life, nods his head, squeaks, and clangs his symbols. My 3 year old loves it :)  
+You can clone [http://github.com/codefoster/tweetmonkey](http://github.com/codefoster/tweetmonkey) if you're looking for inspiration. You can see more about my good friend TweetMonkey at [codefoster.com/tweetmonkey](/tweetmonkey), but in short, he taps into Twitter's streaming API and waits for tweets with the hashtag #tweetmonkey. When he see's one, he comes to life, nods his head, squeaks, and clangs his symbols. My 3 year old loves it :)  
 
 ### Make sure you have a RemoteDebug.js deployed to your device
 
@@ -185,7 +166,7 @@ For remote debugging, you do it like this...
 
 ...and you should get some feedback like...
 
-![](http://codefoster.blob.core.windows.net/site/image/e0b2b410de28466b94aef13fc53b068b/edison-vs_remotedebug_1.png)
+![](/files/edison-vs_07.png)
 
 So you can see that the RemoteDebug.js file is launching a proxy for us using port 5858\. And it introduces a term that was new to me - _debuggee_. I think I like it.
 
@@ -195,27 +176,27 @@ With that going, we're ready for the next step.
 
 In Visual Studio, go to the Debug menu and Attach to Process... and change the Transport to Node.js remote debugging.
 
-![](http://codefoster.blob.core.windows.net/site/image/04fe7a1fcd62419f9629d2c5fafcbc0d/edison_vs_attachprocess_1.png)
+![](/files/edison-vs_08.png)
 
 Now, in the Qualifier field, enter tcp://_devicename_.local:5858 and check the _Show processes from all users box_. You should see your node process appear in the Available Processes.
 
-![](http://codefoster.blob.core.windows.net/site/image/9cf84c83bb2a48c6993f47ee4c03fff1/edison-vs_qualifier_1.png)
+![](/files/edison-vs_09.png)
 
 Attach.
 
 Now set a breakpoint.
 
-![](http://codefoster.blob.core.windows.net/site/image/c3961ffb35574bf49f452101c9e962f5/edison-vs_breakpoint_1.png)
+![](/files/edison-vs_10.png)
 
 And in the case of the app we're working with here (tweetmonkey), send a tweet to hashtag #tweetmonkey and you should break at your breakpoint. As the French say, "Formidable!"
 
 And, of course, in typical VS fashion, while broken, you can hover over JavaScript objects and check out all of their property values.
 
-![](http://codefoster.blob.core.windows.net/site/image/03688f5ca6a74c6bbe49fbf3b78bcceb/edison-vs_hover_1.png)
+![](/files/edison-vs_11.png)
 
 And you can open QuickWatch and enter any dynamic expressions you want and browse the results.
 
-![](http://codefoster.blob.core.windows.net/site/image/0c665385e6a143278b063998c96cba82/edison-vs_quickwatch_1.png)
+![](/files/edison-vs_12.png)
 
 So, now you're cruising!
 

@@ -9,6 +9,7 @@ permalink: appbarbuttons
 I've watched a few developers port their existing apps over to Windows 8.
 
 The first thing they do is drop all of their UI into their new app and run it to see it work. It's nice to see things work, but Windows 8 is more than just a new API for accessing modern computer hardware. It's a completely new design for user experience as well. So after you drop all of your buttons into your new app and see it work, you should migrate most of those buttons to the app bar.
+<!-- more -->
 
 The app bar, for the uninitiated, is the bar that slides up from the bottom of the screen whenever the user swipes up from off screen (and sometimes it appears all on its own). That app bar is nice. It avoids bothering the user by appearing only when the user requests it.
 
@@ -28,9 +29,9 @@ It's because it's 2012 now! The modern trend has been to cram as much informatio
 
 Look at the website versus the Metro versions of the Times of India...
 
-[![](http://codefoster.blob.core.windows.net/site/image/5a4bee3fc17d4e51a186d7e6b9663343/appbarbuttons_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d2e7c666aa6/33773501/image.png)
+![](/files/appbarbuttons_01.png)
 
-[![](http://codefoster.blob.core.windows.net/site/image/0c078e3933944e32a84bf9068762877e/appbarbuttons_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d2e7c666aa6/5C1F2225/image.png)
+![](/files/appbarbuttons_02.png)
 
 Most of the space in the website version is taken up with navigation commands (hyperlinks), which is a good example of an app telling you about "where you might go" instead of telling you where you are and letting the user navigate with the content.
 
@@ -54,7 +55,7 @@ One exception to this is when you don't have any (and aren't going to have any) 
 
 If you have more commands then you have app bar, then go vertical by combining commands into menus. For instance, if this is what you have on your app bar...
 
-[![](http://codefoster.blob.core.windows.net/site/image/882467af12984f76b98250ac95f4110d/appbarbuttons_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d2e7c666aa6/6D4D1CBF/image.png)
+![](/files/appbarbuttons_03.png)
 
 ...then combine all of your filters into one menu and your sorts into another. That would bring 9 buttons down to only 4!
 

@@ -7,6 +7,7 @@ permalink: blockmovercode
 ---
 
 Thanks to everyone that showed up to last Friday's session on JavaScript game development in Windows 8\. I really appreciated the information and demonstration that Jake and Sam presented. I hope it was as helpful for you too.
+<!-- more -->
 
 I said I'd post the sample code that they used, and here it is. You will need to go to impactjs.com and purchase the library if you'd like to use this, but if you're actually making games then it's a small cost to consider.
 

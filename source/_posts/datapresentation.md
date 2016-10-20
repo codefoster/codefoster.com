@@ -7,20 +7,21 @@ permalink: datapresentation
 ---
 
 Sometimes it's hard to know what control to use when you're thinking about bringing your data feed into your Windows 8 app. You know you want to bring them in as tiles of some form or another. Maybe you want to do classic square tiles like eBay.
+<!-- more -->
 
-[![](http://codefoster.blob.core.windows.net/site/image/b38b74f11a0e4a2c8bc27797672fc6fb/datapresentation_01_1.png "Screenshot (29)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/489A76C9/Screenshot-29.png)
+![](/files/datapresentation_01.png)
 
 Hopefully, though, you want to add a little bit of flare and personality to yours. You could do something like the Cookbook app. Their primary data point is obviously a recipe and it looks to me like the designers of this app have put them in little Polaroids with shadows and everything.
 
-[![](http://codefoster.blob.core.windows.net/site/image/e245ee734494425bae4efa25d6749a94/datapresentation_02_1.png "Screenshot (36)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/2330835B/Screenshot-36.png)
+![](/files/datapresentation_02.png)
 
 You could copy the music app that utilizes _hero images_ &ndash; larger than average images that communicate a sense of feature or significance. <disclaimer>Please ignore that Justin Bieber appears to be in my _now playing_ section. I can assure you that's not the case</disclaimer>
 
-[![](http://codefoster.blob.core.windows.net/site/image/75fd3ed222e44941a7d1294053c35dcf/datapresentation_03_1.png "Screenshot (27)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/08C06A77/Screenshot-27.png)
+![](/files/datapresentation_03.png)
 
 You could even get tr&eacute;s chic and model _Cocktail Flow_ with their novel, beautiful tiles. They hardly look like tiles, but they still convey that essential Windows 8 design.
 
-[![](http://codefoster.blob.core.windows.net/site/image/9f5326cca46a4cc885fdfa201255dba5/datapresentation_04_1.png "Screenshot (34)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/055ED2CF/Screenshot-34.png)
+![](/files/datapresentation_04.png)
 
 Inevitably, you're going to have to make a choice about what control underlies this presentation of data, and eventually you're going to have to implement it.
 
@@ -38,7 +39,7 @@ To avoid a merely conceptual post on a developers' blog, allow me to create a qu
 
 First, the design. Let me whip out my digitizer pen and draw up a quick grid layout using CorelDRAW (woot!)...
 
-[![](http://codefoster.blob.core.windows.net/site/image/e494eac3dc684369b11f815825161b88/datapresentation_05_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/75FB4AF2/image.png)
+![](/files/datapresentation_05.png)
 
 That's the concept. Now for the implementation. I'm only going to layout the seven items in the first section.
 
@@ -138,7 +139,7 @@ So let me explain. The first style rule that refers to the main section is just 
 
 And here's the result...
 
-[![](http://codefoster.blob.core.windows.net/site/image/d98c1b9c30fa4902b48faeea0adb24b3/datapresentation_06_1.png "Screenshot (38)")](http://{fix}/image.axd?picture=Windows-Live-Writer/2d63a4248098/31FF30DE/Screenshot-38.png)
+![](/files/datapresentation_06.png)
 
 Now, if you're like me, you see this done once and it looks fine and dandy, but your mind races to imagine the value of something like this in a library primed for reuse. It would be super easy to dynamically add div's and a couple of CSS properties each according to the template selection chosen by the developer. I believe I'll get started on that now. Or perhaps soon. By all means, please beat me to it.
 

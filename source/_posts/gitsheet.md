@@ -7,6 +7,7 @@ permalink: gitsheet
 ---
 
 I spend a lot of time using Git these days. It's one of those technologies you love and hate. I guess I use it because it feels just scrappy and simple and elegant enough to be the right tool for the job in most cases.
+<!-- more -->
 
 I've heard it said and completely agree that Git would be the ideal _offline_ source control solution if you didn't have to search _online_ for the syntax.
 

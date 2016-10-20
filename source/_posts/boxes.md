@@ -7,6 +7,7 @@ permalink: boxes
 ---
 
 HTML and CSS is great, but there's at least one thing that has driven web designers mad for ages - layout. We used to use tables and it worked. We knew their weaknesses, but they worked. Then we were told that tables are for tabular data and div elements are for layout, but divs are wretched creatures. To set divs next to each other one had to float them, but then when finished floating had to be explicitly turned off - argh. Also, divs had no notion of filling vertical space or of controlling the vertical placement of anything within it.
+<!-- more -->
 
 So a myriad of web designers resorted to absolute positioning, browser hacks, jQuery UI positioning, or some other means just to get things to go where they ought.
 
@@ -26,11 +27,11 @@ The first thing I had a hard time wrapping my head around was the overlap betwee
 
 It works like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/a9cd690247fb44b787c382fd960d8242/boxes_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/2653D2F4/image.png)
+![](/files/boxes_01.png)
 
 Note that it does not work like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/eebe2cf17e17461e9902e1148638bc4c/boxes_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/7246E5B3/image.png)
+![](/files/boxes_02.png)
 
 In other words, as it says in the documentation, it _scales_ the contents, but it keeps their _proportions_.
 
@@ -46,7 +47,7 @@ So, like the ViewBox, we still have the concept of the container's content chang
 
 Additionally, the flexbox offers a lot of properties to specify how it's children are laid out. A quick glance in Blend at the CSS properties on a div in the Flexbox category will enumerate them for you...
 
-[![](http://codefoster.blob.core.windows.net/site/image/8f697328bd994831abdd44bca0e2abbf/boxes_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/When-to-Use-ViewBoxes-and-FlexBoxes/284B64C1/image.png)
+![](/files/boxes_03.png)
 
 Notice first the -ms vendor specific prefix as I mentioned.
 
@@ -98,7 +99,7 @@ With this as the CSS...
 
 What you have now is a flexbox that fills its area well. Look at these simulator screenshots so you can see what this would look like...
 
-![](http://codefoster.blob.core.windows.net/site/image/95837177f01c4495ac5749febaa9d4a7/boxes_04_1.png)
+![](/files/boxes_04.png)
 
 [more images missing]
 

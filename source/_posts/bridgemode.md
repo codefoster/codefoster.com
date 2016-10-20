@@ -7,6 +7,7 @@ permalink: bridgemode
 ---
 
 My wife and I have acquired a coach RV, parked it on our property, remodeled the interior, and done most of the work of listing it on [Airbnb](http://www.airbnb.com).
+<!-- more -->
 
 I was looking to allow guests that stay in the space to use wireless internet for free, but I am not interested in giving them credentials to just jump onto my network.
 

@@ -7,6 +7,7 @@ permalink: artmatters
 ---
 
 I'm in a Microsoft building today that I've not been in before. There are a lot of them since I'm a relatively new employee. This one houses a lot of the work that goes into the Windows Phone 7 operating system, and that's pretty cool.
+<!-- more -->
 
 I arrived early for my conference and decided to spend some time meandering. A 3rd floor native told me I should visit the Windows Phone design studio on the 2nd. The design studio looks like a bunch of art supplies, flowers, and rainbows blew up. It's very cool actually.
 

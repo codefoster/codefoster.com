@@ -7,18 +7,19 @@ permalink: snappoints
 ---
 
 Let's say you have a bunch of tiles in your Windows 8 app.
+<!-- more -->
 
-[![](http://codefoster.blob.core.windows.net/site/image/97122a38997e413cbe34d5e7e4140275/snappoints_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/4ACBCD98/image.png)
+![](/files/snappoints_01.png)
 
 And the user grabs this list with their finger and pans some distance to the right. There's a chance the list will end up landing in a position like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/9744925eb0ae4fee8509e26277198bad/snappoints_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/15559C24/image.png)
+![](/files/snappoints_02.png)
 
 Notice that the tiles at left are cutoff. The list has panned some arbitrary distance and stopped where fate stopped it. I know it's all scientific, but it's fun to say that fate landed it here.
 
 But what if you don't want to put your app in fate's fickle hands and would rather stop every time at a tile's edge. That flick from my last example, then, should find you here...
 
-[![](http://codefoster.blob.core.windows.net/site/image/9c8d95e638c54cc2a273070869d275a0/snappoints_03_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Snap-to-Your-Tiles/5E7B47DD/image.png)
+![](/files/snappoints_03.png)
 
 ...with the edge of tiles 9, 10, and 11 neatly lined up on your left margin.
 
@@ -50,7 +51,7 @@ _#list_ is the ListView control on my HTML. I manually gave it the ID of _list_.
 
 _.win-viewport_ is the viewport of my ListView. If you work with the ListView much, and haven't seen it already, you should definitely check out [Styling the ListView and its items](http://msdn.microsoft.com/en-us/library/windows/apps/hh850406.aspx)from the [Dev Center](http://dev.windows.com). In that article, it breaks down the components of the ListView so you can have a shot at knowing how to style it. Here's how it visually defines the win-viewport...
 
-![The primary components of a ListView](http://codefoster.blob.core.windows.net/site/image/6052f93114a54ac7a7d855a0ecb3b075/snappoints_04_1.png "The primary components of a ListView")
+![](/files/snappoints_04.png)
 
 The first part of the property (_mandatory_) indicates that we are using mandatory snap points, so as I said before, we are assured of coming to rest on a snap point and never in between.
 

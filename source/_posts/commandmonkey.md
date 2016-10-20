@@ -12,7 +12,7 @@ Let me paint a picture of the final product. I have a monkey toy on the table be
 <!--more-->
 And in no time flat, the monkey toy obeys my command and is set into motion.
 
-The whole thing reminds you of [Tweet Monkey](http://codefoster.com/tweetmonkey) and it should. This is Tweet Monkey's older and slightly more involved brother.
+The whole thing reminds you of [Tweet Monkey](/tweetmonkey) and it should. This is Tweet Monkey's older and slightly more involved brother.
 
 Where Tweet Monkey was a device to cloud scenario, Command Monkey is a Cortana to phone app to cloud to device scenario. Where Tweet Monkey relied on the Twitter Streaming API (which is very cool), Command Monkey involves our very own streaming API using web sockets.
 
@@ -246,7 +246,7 @@ The Cylon `work` method is like Cylon's "ready" method, and so that's where we'l
 
 Finally, it handles the 'command' event that the server is going to pass it and simply raises the digital pin for 2 seconds.
 
-To make this work, you need to deploy this project to your device. I use an Intel Edison, but this will work on any SoC (System on a Chip) that will run Linux. I am not going to repeat how to setup the Edison or deploy to it. You can find that in my series of Intel Edison posts indexed at [codefoster.com/edison](http://codefoster.com/edison).
+To make this work, you need to deploy this project to your device. I use an Intel Edison, but this will work on any SoC (System on a Chip) that will run Linux. I am not going to repeat how to setup the Edison or deploy to it. You can find that in my series of Intel Edison posts indexed at [codefoster.com/edison](/edison).
 
 Once you get the code deployed to the device, you then run the CommandMonkey.phone project on your phone emulator or on your device. I run mine directly on my device so I can talk to my Microsoft Band.
 
@@ -260,6 +260,6 @@ I hope you're mind is awhir like mine is with all the ideas for things you could
 
 Go. Make.
 
-I recorded a [CodeChat](http://codefoster.com/codechat/023) episode with my colleague Jason Short ([@infinitecodex](http://twitter.com/infinitecodex)) about Command Monkey. Here you go...
+I recorded a [CodeChat](/codechat/023) episode with my colleague Jason Short ([@infinitecodex](http://twitter.com/infinitecodex)) about Command Monkey. Here you go...
 
 <iframe src="//channel9.msdn.com/Shows/codechat/023/player" width="640" height="360" allowFullScreen frameBorder="0"></iframe>

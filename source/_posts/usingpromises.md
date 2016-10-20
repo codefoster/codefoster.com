@@ -7,6 +7,7 @@ permalink: usingpromises
 ---
 
 If you're developing Windows 8 apps using JavaScript, then you're likely familiar with the WinJS.Promise object. You can hardly get by without using one, because a lot of the API in WinJS and WinRT is asynchronous and for JavaScript apps they return a Promise.
+<!-- more -->
 
 I'm going to share with you what I have learned about promises so far in increasing order of sophistication.
 

@@ -7,6 +7,7 @@ permalink: gochute
 ---
 
 This is a live post, so be sure to check out the addendums at the bottom.
+<!-- more -->
 
 I haven't entirely given up on my GoChute idea, but it has slid down the priority list somewhat. I'd better explain.
 
@@ -22,19 +23,19 @@ I decided to take advantage of this with the GoChute.
 
 The GoChute idea is fun because it's a good combination of hardware and software. Here's the basic hardware...
 
-![](http://codefoster.blob.core.windows.net/site/image/df4654eaed854a2da053b815f157693c/gochute_model1_1.png)
+![](/files/gochute_01.png)
 
 This package was designed in SketchUp. I found a GoPro adapter in the 3D warehouse that attaches to the camera housing itself, and then proceeded to redesign the entire box.
 
 You can see the hinged lid on the top and holes on the side for securing parachute lines. Here's the other side...
 
-![](http://codefoster.blob.core.windows.net/site/image/f08b1f9a439b491684420792e6a9096a/gochute_model2_1.png)
+![](/files/gochute_02.png)
 
 On this side, you can see the parachute deployment latch and a couple of holes for status LED's to poke through.
 
 Here's an exploded view of the latch...
 
-![](http://codefoster.blob.core.windows.net/site/image/a686e62323cb4e77be8c25826ad93408/gochute_model3_1.png)
+![](/files/gochute_03.png)
 
 The latch itself is on a small hinged joint. A servo motor mount allows me to mount the motor that is going to pull the latch when it's time for the parachute to deploy. I'm counting on the lid being under pressure (likely by use of a spring) in order to keep the lid closed securely and to eject the parachute well once the latch is tripped.
 
@@ -48,7 +49,7 @@ Before I printed the package, I decided to get the electronic circuit prototyped
 
 The first thing to do in setting up the circuit was to wire up an accelerometer. Here's the ADXL335 that I ended up using...
 
-![](http://codefoster.blob.core.windows.net/site/image/4fd3e854b0f94f848b1540774b82afa5/gochute_adxl_1.jpg)
+![](/files/gochute_04.jpg)
 
 In case you're interested in this stuff and don't already know, there are basically two kinds of accerometers you can use for a project - analog and digital. The ADXL335 is analog. Analog accelerometers are easier to use and sometimes offer more resolution. With an analog accelerometer, after you've accomplished the simple task of providing it 3.3V power and ground, you wire three pints (for each of the three axes in our 3D world) to your smart device and each has a voltage value that represents the amount of acceleration (g-force) acting on that axis at any given moment in time. So reading an analog accelerometer is a simple matter of calling a function like `.analogRead()` or its equivalent on each of the three inputs.
 
@@ -56,9 +57,9 @@ When you have an accelerometer installed into a device securely and permanently,
 
 So the values of acceleration on the individual axes matter not. What matters is the overall acceleration on the unit. It didn't take much web research to remind myself of the formula...
 
-![](http://codefoster.blob.core.windows.net/site/image/ec742df33c6f46bf846e4179ed5d3833/gochute_equation_1.png)
+![](/files/gochute_05.png)
 
-So, let me go ahead and list some simple code for determining this. This is JavaScript. If you're interested in writing JavaScript on a device, then head on over to my [Setting up an Intel Edison](http://codefoster.com/edison-setup) post and see how I got here.
+So, let me go ahead and list some simple code for determining this. This is JavaScript. If you're interested in writing JavaScript on a device, then head on over to my [Setting up an Intel Edison](/edison-setup) post and see how I got here.
 
 ``` js
 var cylon = require('cylon');
@@ -89,7 +90,7 @@ Then, I took my Edison, accelerometer, and a USB battery pack for power and rubb
 
 Here's the overall acceleration (the magnitude of all axes)...
 
-![](http://codefoster.blob.core.windows.net/site/image/136e0a4fbf524231907891cb8e7cef3d/gochute_acceleration_1.png)
+![](/files/gochute_06.png)
 
 There was a value on the pins when I let the unit rest, and I subtracted that from all subsequent values.
 
@@ -109,7 +110,7 @@ I may be reading the chart all wrong, and would certainly welcome your comments 
 
 In attempting to understand, I tweeked my code to create a delta between the last magnitude reading and the current one - a delta. The chart for the acceleration delta is perhaps a bit easier to understand...
 
-![](http://codefoster.blob.core.windows.net/site/image/54c4b0565709460bbc8c32734868acf7/gochute_delta_1.png)
+![](/files/gochute_07.png)
 
 But the biggest discovery I got out of reading these charts was that...
 
@@ -131,12 +132,8 @@ I love the process I had to go through to discover that an accelerometer would n
 
 I attended a meetup of the [KingMakers](http://meetup.com/kingmakers) in Redmond the other day and had a good conversation with someone with some hobby rocket experience. He said that it's very common to use barometric altimeters to measure altitude and that the resolution is very good - something like 1 foot! Wow. I would not have guessed. I quickly considered an altimeter, but dismissed it almost as quick thinking that the resolution would be too poor. After learning this, though, it didn't take me long to find the [MPL3115A2](adafru.it/1893) from [Adafruit](http://adafruit.com).
 
-![](http://codefoster.blob.core.windows.net/site/image/94b8f0691c134b5099c4d1806b403dec/gochute_altimeter_1.jpg)
+![](/files/gochute_08.jpg)
 
 This bad boy is capable of .3m accuracy and even comes with a thermometer for temperature readings.
 
 So with new information in my quiver, I'm back in the game. Look for more here on the GoChute project as progress unfolds.
-
- 
-
- 

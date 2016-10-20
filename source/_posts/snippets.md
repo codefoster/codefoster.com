@@ -2,11 +2,12 @@
 title: Snippets Overview in VS11 and ReSharper
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-04-04
 permalink: snippets
 ---
 
 Following is an overview of getting started with Snippets. This will be the overview from 30,000 feet. If you want to get into the nitty gritty how-to then follow my links. As with all of my posts these days, this one will reference VS11 which is still in beta. Most of the concepts are the same for VS2010.
+<!-- more -->
 
 I would like to convince you that climbing the snippet learning curve is worth it because the view from the top is spectacular. In order to be convinced, you're going to have to believe that you'll save time. Here's a brief comparison to help you believe...
 

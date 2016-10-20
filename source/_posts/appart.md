@@ -7,6 +7,7 @@ permalink: appart
 ---
 
 One of my favorite steps in the app development lifecycle is the creation of the artwork. I'm not stellar at _creating_ original artwork, but I definitely recognize when things look just right, and sometimes I stumble upon it. I must also have a little bit of marketing in me, because it's my constant effort to brand things.
+<!-- more -->
 
 The artwork and branding is important, because an app developer must live in a constant state of capturing the user amid so much noise. An app needs to say "here's precisely what I do and how it adds value to your life". It takes a lot of design thought and effort to cut through the noise and reach your audience.
 
@@ -30,7 +31,7 @@ Before I show you how I created that image, let me show you how I set up CorelDR
 
 I created a preset called Win8 App that uses the base Windows resolution of 1366 x 768 pixels. I also chose a color mode of RGB since the results are to be rendered to a screen rather than a printer. When you're working with documents of a designated pixel width/height, the resolution I mostly irrelevant.
 
-If you'd like a nice place to start, try downloading the template I created at [http://codefoster.com/w8tiletemplate](/w8tiletemplate).
+If you'd like a nice place to start, try downloading the template I created at [/w8tiletemplate](/w8tiletemplate).
 
 Now, with a new document, we can go about creating our camera lens graphic.
 

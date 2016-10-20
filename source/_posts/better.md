@@ -7,8 +7,10 @@ permalink: better
 ---
 
 You'll likely notice that codefoster.com looks a bit different. I put a shine on it, but I also put it up on blocks and did a complete engine swap.
+<!-- more -->
 
-![](http://codefoster.blob.core.windows.net/site/image/2a4983011b56488fa9b2723283ae9821/better_01_1.png)![](http://codefoster.blob.core.windows.net/site/image/a83c0cb72038486dbb8daec8ad2fe3a7/better_02_1.png)
+![](/files/better_01.png)
+![](/files/better_02.png)
 
 I don't ask for much from my website besides elegance, ease, and expressibility. Whatever solution I implement, I want it to sort of fade into the background and let the real task of creating and consuming content stand out. Technology is cool, but not for its own sake. It is supposed to _enhance_ what we do.
 

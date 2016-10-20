@@ -10,9 +10,10 @@ permalink: vscodeextensions
 
 The bells ring, the confetti flies, the fans go wild!
 <!--more-->
+
 The two things we all wanted from Code was...
 
-1.  to [see it go open source](http://codefoster.com/vscodeopen)
+1.  to [see it go open source](/vscodeopen)
 2.  to get extensions.
 
 If you were following the [user voice page for Code](https://visualstudio.uservoice.com/forums/293070-visual-studio-code) like I was, you'd have seen way more votes for extensions than for any other feature. The size of the vote count made it look like not having extensions was a total deal breaker and for many folks I talked to... it was.
@@ -51,7 +52,7 @@ There's a lot more the MDTools extension can do to, so check it out.
 
 ### [Quick Snippet](https://marketplace.visualstudio.com/items/mousetraps.quicksnippet)
 
-Quick Snippet is a great idea for an extension by my colleague Sara Itani ([@mousetraps](http://twitter.com/mousetraps)). See my interview of Sara on [episode 048](http://codefoster.com/codechat/048) of my podcast [CodeChat](http://codefoster.com/codechat). It allows a developer to highlight a block of text they've written and quickly and easily create a snippet out of it. In my experience, it takes a little bit of discipline to create snippets today to save time tomorrow. This extension excites me because it removes some of the friction and makes snippet creation fast. Now I can save time on saving time!
+Quick Snippet is a great idea for an extension by my colleague Sara Itani ([@mousetraps](http://twitter.com/mousetraps)). See my interview of Sara on [episode 048](/codechat/048) of my podcast [CodeChat](/codechat). It allows a developer to highlight a block of text they've written and quickly and easily create a snippet out of it. In my experience, it takes a little bit of discipline to create snippets today to save time tomorrow. This extension excites me because it removes some of the friction and makes snippet creation fast. Now I can save time on saving time!
 
 ![](/files/vscodeextensions_02.png)
 

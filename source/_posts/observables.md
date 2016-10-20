@@ -2,11 +2,12 @@
 title: Creating an Observable Object in Windows 8 JavaScript
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-04-10
 permalink: observables
 ---
 
 Living in the JavaScript world for a while will help you to appreciate the offerings of C# for sure. Many concepts like classes, inheritance, observable collections, list extensions (LINQ) are  simply absent and so a creative alternative has been created either in WinJS or just in recommended practice.
+<!-- more -->
 
 One of these is in the area of data binding.
 

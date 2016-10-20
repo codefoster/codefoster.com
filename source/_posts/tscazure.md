@@ -8,6 +8,7 @@ permalink: tscazure
 
 I'm working on a fun project called Waterbug. You can peek or play at [github.com/codefoster/waterbug](http://github.com/codefoster/waterbug).
 <!--more-->
+
 Waterbug is an app that collects data as you row on a [WaterRower](http://www.waterrower.com) and visualizes it in an [Angular 2.0](http://angular.io) app.
 
 It's a fun app because it uses a lot of modern stuff. Modern stuff is usually the fun stuff, and that's why it's always nice to be working on a [greenfield project](https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjjj4b2hMHMAhUO2GMKHTS6AYIQFggcMAA&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGreenfield_project&amp;usg=AFQjCNHt9ZMyc4v_k0ZTE7IyXOBBTOfUyA&amp;sig2=-GGq36iBYcMBQo6NPXF4Tw).

@@ -7,6 +7,7 @@ permalink: deviceinfo
 ---
 
 I have plenty of experience in the C# space with accessing Windows API, but I'm still finding it rather novel and delightful to do the same thing in JavaScript. The fact that I can do something like...
+<!-- more -->
 
 ``` js
 Windows.Devices.Enumeration.DeviceInformation
@@ -58,7 +59,7 @@ When the call returns, I create an anonymous object shaped like the data that my
 
 A little bit of CSS work later we have something that looks like this...
 
-[![](http://codefoster.blob.core.windows.net/site/image/8587aabb01e4441e9b05e9886161c6ba/deviceinfo_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Getting-Windows-Device-Info/3FCCC8D3/image.png)
+![](/files/deviceinfo_01.png)
 
 If you have any questions, just leave a comment and I'll approve and respond as soon as I can.
 

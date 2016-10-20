@@ -8,6 +8,7 @@ permalink: vscode
 
 If you haven't watched the first day's keynote from Microsoft's Build 2015 conference, [go do that now](http://buildwindows.com/). It has a few wow moments such as Android and iOS code for building Windows 10 apps, elastic pools for Azure SQL databases, and the amazing HoloLens robot that was a hologram and a real robot in one - amazing!
 <!--more-->
+
 One of the pieces of the conference that's going to affect my every day, though is Visual Studio's new, free, light edition called simply Code. Code is what I've been looking for in a code editor - in a text editor even. It will replace a few other apps in my MRU list - Visual Studio Community, Notepad++, and Atom to name a few.
 
 **Console.** code.exe is in your path after your basic install, so from your shell, you can type `code` to run the app from scratch. You can also type `code myfile.txt` and launch into the editing of your file or `code mydirectory` to open it with the explorer pane's context already set to your directory. So my new favorite command is going to be `code .` for opening the current directory in Code. I was looking for some PowerShell magic to make that possible with VS Community, but now I no longer have the need.

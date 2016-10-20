@@ -9,10 +9,11 @@ permalink: bandgripe
 For the most part, I've been really enjoying the Microsoft Band that I bought the day they went on sale.
 
 Like the rest of the world, I learned about the landing of some new Microsoft Health apps in the various app stores on Wed, Nov 29, and like the rest of the world, was thrilled to hear the next morning that they were available for sale. Serindipidously, I had broken my last watch (of 8 years!) only weeks before, and was holding out on buying a new one in case we released something. Then we did, so I was ready to buy.
+<!-- more -->
 
 Since my purchase, I have been continuously pleased to have certain bits of information on my wrist. I've never really had any useful information on my wrist before. Sure, I had a Casio Data Bank watch in the 80's like any good geek.
 
-![](http://codefoster.blob.core.windows.net/site/image/e5b92d7a56534d168225f8f12deade65/databank_1.jpg)
+![](/files/bandgripe_01.jpg)
 
 But I'm talking about _useful_ information. The difference between a helpful computer and a truly _useful_ computer, in my opinion, has always been connectivity. A computer without connectivity is a glorified calculator. So there's a big difference between my Data Bank and my new Band.
 
@@ -26,7 +27,7 @@ Sure, I found watch mode in the settings, but immediately made the wrong assumpt
 
 Recently I actually gave watch mode a try and am absolutely thrilled to realize that both of my problems are solved.
 
-![](http://codefoster.blob.core.windows.net/site/image/38c09500b68047718008a1795eee4dc0/bandgripe_watchmode_1.jpg)
+![](/files/bandgripe_02.jpg)
 
 Certainly there will be an amperal impact to keeping certain pixels white 24/7, but my intuition tells me it won't be much and my colleague [Tobiah Marks](http://www.tobiahmarks.com) tells me he's been using watch mode and still gets at least 1.5 days. I don't have any trouble, as I initially thought, finding time to charge my Band, so this is absolutely fine with me.
 

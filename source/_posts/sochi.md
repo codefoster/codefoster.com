@@ -7,6 +7,7 @@ permalink: sochi
 ---
 
 [Not so many people](http://www.aleteia.org/en/world/article/winter-olympics-set-to-open-in-sochi-even-amid-safety-and-attendence-concerns-5773727555911680) decided to travel to Sochi, Russia to attend the 2014 Winter Olympics. I'm not surprised. Who wants to go to Russia this time of year? Actually, I do, but not to Sochi. Especially when I can watch the Olympic events from any and every screen I own.
+<!-- more -->
 
 The streaming of this world event is backed by Microsoft's Azure cloud servers - 10,000 <span style="text-decoration: line-through;">of them</span> cores to be exact. You might wonder why it's Azure that's backing this and not AWS.
 
@@ -18,9 +19,9 @@ Let me draw an analogy. AWS is like a deliver fleet of trucks. You hire them for
 
 It's perhaps a bit like this.
 
-![](http://codefoster.blob.core.windows.net/site/image/116caf856af94c5da3e8f172410971d3/sochi_01_1.png)
+![](/files/sochi_01.png)
 
-![](http://codefoster.blob.core.windows.net/site/image/874eb946410446829790dc9d2d650292/sochi_02_1.png)
+![](/files/sochi_02.png)
 
 I'm not sure how the helicopter fits with the analogy except just to add a little bit of awesome.
 
