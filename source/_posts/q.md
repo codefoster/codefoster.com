@@ -19,7 +19,7 @@ function q(query, context) {
 }
 ```
 
-I just drop it in the global namespace (*handslap*) so I don't have to worry about qualifying it with a namespace prefix. So, more specifically, I just add it outside of the function on the default.js page, and that makes it available to all of the pages in my app.
+I just drop it in the global namespace (*handslap*) so I don&#39;t have to worry about qualifying it with a namespace prefix. So, more specifically, I just add it outside of the function on the default.js page, and that makes it available to all of the pages in my app.
 
 The original goal was to make it easier to type then things like...
 
@@ -35,7 +35,7 @@ var allDivs = document.querySelectorAll("div");
 
 But I subsequently decided to combine the selection of single elements and multiple elements. The logic dictates that if multiple results are found, then they are all returned, but if just one is found then that one is returned. Furthermore, you can see that I am turning the NodeList result that comes back in the case of multiple results into a standard JavaScript array using a slice. This way I can use array methods like .map, .filter, etc.
 
-It accepts a context which if it's omitted will default to the _document_ object. If provided, however, then the selection is done below the DOM element specified. Therefore this...
+It accepts a context which if it&#39;s omitted will default to the _document_ object. If provided, however, then the selection is done below the DOM element specified. Therefore this...
 
 ``` js
 var allDivs = q("div");

@@ -15,9 +15,9 @@ What do you need to do to get a token? Here are the key steps:
 
 1.  Create a great application or game and get it ready.
 2.  Let me know about it by contacting me via [jeremy.foster@microsoft.com](mailto:jeremy.foster@microsoft.com)
-3.  I'll help you register so you can get your application through our Application Accelerator Labs where the app will get reviewed to confirm it is done and conforms to the [Metro guidelines](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424) and [certification requirements](http://msdn.microsoft.com/en-us/library/windows/apps/hh694083.aspx).
+3.  I&#39;ll help you register so you can get your application through our Application Accelerator Labs where the app will get reviewed to confirm it is done and conforms to the [Metro guidelines](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424) and [certification requirements](http://msdn.microsoft.com/en-us/library/windows/apps/hh694083.aspx).
 
-This is a great opportunity to not only be first to market with your app, but also to get feedback from a Microsoft Services Engineer to make your app great. If you are serious about creating an application this is a chance that you probably don't want to pass up.
+This is a great opportunity to not only be first to market with your app, but also to get feedback from a Microsoft Services Engineer to make your app great. If you are serious about creating an application this is a chance that you probably don&#39;t want to pass up.
 
 In addition, our team is holding a series of events and office hours to help you - we want to make sure you have what you need to be successful. You can come learn more about how to build apps for Windows 8 or show up and build your app with one of our evangelists or others in your community available to help you if you need it. You can find more information about our events and availability at...
 

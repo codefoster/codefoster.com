@@ -1,33 +1,33 @@
 ---
-title: Microsoft's Vendor Specific CSS Prefixes
+title: Microsoft&#39;s Vendor Specific CSS Prefixes
 categories: []
 tags: []
 date: 2001-01-01
 permalink: cssprefix
 ---
 
-Much of my audience, I'll presume, has at least some familiarity with CSS.
+Much of my audience, I&#39;ll presume, has at least some familiarity with CSS.
 
 If you have none, then let me simply say that CSS is basically a big, flat list of style and layout properties that are grouped together into rules and determined to affect certain portions of an HTML document.
 <!-- xmore -->
 
-I like to draw the analogy to the classic word processor, because pretty much everyone has experience with a word processor. When you're working on a letter to grandma and you want to emphasize that you **don't like nuts in your brownies**, you might choose to bold that text, right? So you first _select_ the important words and then you _affect_ them with a bold command.
+I like to draw the analogy to the classic word processor, because pretty much everyone has experience with a word processor. When you&#39;re working on a letter to grandma and you want to emphasize that you **don&#39;t like nuts in your brownies**, you might choose to bold that text, right? So you first _select_ the important words and then you _affect_ them with a bold command.
 
 CSS works like that. You write _selectors_ that identify certain parts of your UI and then you define properties and values that _affect_ them.
 
-Most of the available CSS properties are governed by a standards body - the [W3C](http://www.w3c.org). They are a consortium of companies with a vested interest in web technologies that put their heads together and decide on the best way to do things. They decide things like "hey, let's do away with the <b> tag and use a <strong> tag instead because it's more semantic". All of the other smart guys in the room say "good idea!" and then they spend 18 months going through the paperwork to make the standard final. That's a bit of exaggeration laced with cynicism perhaps, but it is frustrating sometimes that the W3C can't turn the ship quicker. It's a big ship. I'll give them that.
+Most of the available CSS properties are governed by a standards body - the [W3C](http://www.w3c.org). They are a consortium of companies with a vested interest in web technologies that put their heads together and decide on the best way to do things. They decide things like "hey, let&#39;s do away with the <b> tag and use a <strong> tag instead because it&#39;s more semantic". All of the other smart guys in the room say "good idea!" and then they spend 18 months going through the paperwork to make the standard final. That&#39;s a bit of exaggeration laced with cynicism perhaps, but it is frustrating sometimes that the W3C can&#39;t turn the ship quicker. It&#39;s a big ship. I&#39;ll give them that.
 
-Once you've selected your target HTML elements with a well formed CSS selector, you go about choosing properties, and in Visual Studio that leaves you somewhere like this...
+Once you&#39;ve selected your target HTML elements with a well formed CSS selector, you go about choosing properties, and in Visual Studio that leaves you somewhere like this...
 
 ![](/files/cssprefix_01.png)
 
-...that is, Intellisense gives you an enormous list of CSS properties. _All_ of them. And it pretty much has to. There's not really a way for the tooling to know which properties you might apply. More strongly typed UI frameworks define which properties can be applied to which UI elements, but in the world of HTML and CSS, you can apply anything to anything. It may not do anything or it may do something different, but you're free to do it.
+...that is, Intellisense gives you an enormous list of CSS properties. _All_ of them. And it pretty much has to. There&#39;s not really a way for the tooling to know which properties you might apply. More strongly typed UI frameworks define which properties can be applied to which UI elements, but in the world of HTML and CSS, you can apply anything to anything. It may not do anything or it may do something different, but you&#39;re free to do it.
 
 If you scroll to the top of that Intellisense list, you see this...
 
 ![](/files/cssprefix_02.png)
 
-...that is, a bunch of properties that are prefixed with -ms-. That means that these are Microsoft specific properties. We actually call them vendor specific and the syntax (a dash, a vendor code, and another dash) is part of the standard, and it's a good one in my opinion. It means that vendors will forever be free to do custom stuff and it will be readily apparent to everyone that it's not necessarily part of the standard.
+...that is, a bunch of properties that are prefixed with -ms-. That means that these are Microsoft specific properties. We actually call them vendor specific and the syntax (a dash, a vendor code, and another dash) is part of the standard, and it&#39;s a good one in my opinion. It means that vendors will forever be free to do custom stuff and it will be readily apparent to everyone that it&#39;s not necessarily part of the standard.
 
 When you see a vendor specific prefix it means one of three things:
 
@@ -35,9 +35,9 @@ When you see a vendor specific prefix it means one of three things:
 *   the property is part of a CSS spec that has not been run through all of its paperwork yet
 *   the property is part of a CSS spec that is final, but the feature is only partially implemented so far
 
-I found it helpful to look through the many Microsoft vendor specific properties and see what they do. It gave me an idea of where IE is relative to the standards (it's doing pretty good these days by the way) and also an idea of what I can do when I'm targeting an IE browser only (such as when I'm building a Windows app using JavaScript). I'd like to enumerate them for you, because they aren't necessarily easy to find. My first search brought properties compatible with Windows Mobile 6.5\. Oops!
+I found it helpful to look through the many Microsoft vendor specific properties and see what they do. It gave me an idea of where IE is relative to the standards (it&#39;s doing pretty good these days by the way) and also an idea of what I can do when I&#39;m targeting an IE browser only (such as when I&#39;m building a Windows app using JavaScript). I&#39;d like to enumerate them for you, because they aren&#39;t necessarily easy to find. My first search brought properties compatible with Windows Mobile 6.5\. Oops!
 
-Here's the complete list as of today with links to documentation. Do keep in mind that the list is rather time-sensitive and very subject to change. Also, know that some of these are not required for later versions of Internet Explorer, but are still supported for backward compatibility.
+Here&#39;s the complete list as of today with links to documentation. Do keep in mind that the list is rather time-sensitive and very subject to change. Also, know that some of these are not required for later versions of Internet Explorer, but are still supported for backward compatibility.
 
 *   -ms-accelerator
 *   -ms-behavior

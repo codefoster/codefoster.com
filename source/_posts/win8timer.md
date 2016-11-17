@@ -1,5 +1,5 @@
 ---
-title: 'Creating a Timer in Windows 8 (C#)'
+title: &#39;Creating a Timer in Windows 8 (C#)&#39;
 categories: []
 tags: []
 date: 2012-03-30
@@ -17,4 +17,4 @@ Looking for a time in Windows 8? Look no further. Just drop this code into the A
     d.Tick += (sender, o) => { Debug.WriteLine("tick"); };
 ```
 
-Now go take a look at Visual Studio's Output pane and watch it tick.
+Now go take a look at Visual Studio&#39;s Output pane and watch it tick.

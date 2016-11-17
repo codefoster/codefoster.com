@@ -6,14 +6,14 @@ date: 2016-07-27
 permalink: npm-win10-error
 ---
 
-Just in case someone else is running into the same thing, I'm running Windows 10 Insiders Build 14367 (on the fast ring), and I'm unable to use npm. When I do a simple `npm -v` I get this error...
+Just in case someone else is running into the same thing, I&#39;m running Windows 10 Insiders Build 14367 (on the fast ring), and I&#39;m unable to use npm. When I do a simple `npm -v` I get this error...
 <!-- xmore -->
 
 ```
 C:\code>npm -v
 
 events.js:160
-      throw er; // Unhandled 'error' event
+      throw er; // Unhandled &#39;error&#39; event
       ^
 
 Error: This socket is closed
@@ -31,4 +31,4 @@ Error: This socket is closed
  3.9.5
 ```
 
-My workaround is simply to type `bash` and get into Ubuntu where I have node and npm. There's not really any disadvantage to this either since it operates on the same directory structure. I'm loving this Bash on Ubuntu on Windows thing.
+My workaround is simply to type `bash` and get into Ubuntu where I have node and npm. There&#39;s not really any disadvantage to this either since it operates on the same directory structure. I&#39;m loving this Bash on Ubuntu on Windows thing.

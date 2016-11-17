@@ -11,6 +11,6 @@ There was a feature of Windows 8.1 Preview that opened the Start Screen on which
 
 In the final release of Windows 8.1, however, this is configurable.
 
-Simple right click your task bar, choose properties, go to the Navigation tab and uncheck the box for _Show Start on the display I'm using when I press the Windows logo key_.
+Simple right click your task bar, choose properties, go to the Navigation tab and uncheck the box for _Show Start on the display I&#39;m using when I press the Windows logo key_.
 
 ![](/files/start_01.png)

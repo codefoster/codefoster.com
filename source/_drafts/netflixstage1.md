@@ -8,17 +8,17 @@ permalink: netflixstage1
 
 A previous post [link removed] illustrated how to call into the Netflix API to create a quick and dirty grid of movies with data from Netflix.
 
-Well, that version landed during the CP version of Windows 8 and before a lot of other little things I've learned about the platform, so I've been meaning to improve it for some time, and now is that time. Let's do this...
+Well, that version landed during the CP version of Windows 8 and before a lot of other little things I&#39;ve learned about the platform, so I&#39;ve been meaning to improve it for some time, and now is that time. Let&#39;s do this...
 
 ## Discovery
 
-Any time you're planning to utilize a public API like this, you might want to spend some time in discovery. Check the documentation, hit the API, look at the results, and overall just get a really good idea of what you're looking at so you don't waste time doing it while you're writing your code.
+Any time you&#39;re planning to utilize a public API like this, you might want to spend some time in discovery. Check the documentation, hit the API, look at the results, and overall just get a really good idea of what you&#39;re looking at so you don&#39;t waste time doing it while you&#39;re writing your code.
 
-Let's do some discovery, then of Netflix's API.
+Let&#39;s do some discovery, then of Netflix&#39;s API.
 
-Some companies have a link for developers available on their public portal. There's nothing like that on Netflix's site though. The next obvious thing to do is Bing it. A search for [netflix developer api](http://www.bing.com/search?q=netflix+developer+api&amp;src=IE-TopResult&amp;FORM=IE10TR) brings up some good results. The first takes us to [developer.netflix.com](http://developer.netflix.com/). This is a well made portal for developers and does a good job of informing us what we have to work with. On the documentation page, you can see that there is a JavaScript API and a REST API. Either of those would likely work, but I'm in love with OData, and if you look a bit further down that page you'll see that they have an [OData Catalog](http://developer.netflix.com/docs/OData_Catalog) in beta. That's what I want to use. OData rocks because you get typed and interrelated entities with a common query URL language that various clients have been created for. But you can also just hit it sans client with HTTP calls and you can request a JSON response instead of the default XML if that's what you're into... and that's exactly what I'm into!
+Some companies have a link for developers available on their public portal. There&#39;s nothing like that on Netflix&#39;s site though. The next obvious thing to do is Bing it. A search for [netflix developer api](http://www.bing.com/search?q=netflix+developer+api&amp;src=IE-TopResult&amp;FORM=IE10TR) brings up some good results. The first takes us to [developer.netflix.com](http://developer.netflix.com/). This is a well made portal for developers and does a good job of informing us what we have to work with. On the documentation page, you can see that there is a JavaScript API and a REST API. Either of those would likely work, but I&#39;m in love with OData, and if you look a bit further down that page you&#39;ll see that they have an [OData Catalog](http://developer.netflix.com/docs/OData_Catalog) in beta. That&#39;s what I want to use. OData rocks because you get typed and interrelated entities with a common query URL language that various clients have been created for. But you can also just hit it sans client with HTTP calls and you can request a JSON response instead of the default XML if that&#39;s what you&#39;re into... and that&#39;s exactly what I&#39;m into!
 
-The catalog is at odata.netflix.com/catalog. Let's make like dudes and skip the manual and just jump right in. I'll open [Fiddler](http://www.fiddler2.com/) up. If you're using Google Chrome, you can use the Dev Http Client app to do something similar. In Fiddler, I'll go to the Composer tab and add [http://odata.netflix.com/catalog](http://odata.netflix.com/catalog) for the GET request and hit Execute. The body of the response that I get back is like this...
+The catalog is at odata.netflix.com/catalog. Let&#39;s make like dudes and skip the manual and just jump right in. I&#39;ll open [Fiddler](http://www.fiddler2.com/) up. If you&#39;re using Google Chrome, you can use the Dev Http Client app to do something similar. In Fiddler, I&#39;ll go to the Composer tab and add [http://odata.netflix.com/catalog](http://odata.netflix.com/catalog) for the GET request and hit Execute. The body of the response that I get back is like this...
 
 ``` xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
@@ -53,31 +53,31 @@ The catalog is at odata.netflix.com/catalog. Let's make like dudes and skip the 
 </service>
 ```
 
-That's what the primary endpoint of an OData feed always looks like. It tells us what entities we are dealing with. You might expect to see a _Movies_ entity here, but in fact it's called _Titles_. Now all we have to do to access the Titles is change our request from [http://odata.netflix.com/catalog](http://odata.netflix.com/catalog) to [http://odata.netflix.com/catalog/Titles](http://odata.netflix.com/catalog/Titles).
+That&#39;s what the primary endpoint of an OData feed always looks like. It tells us what entities we are dealing with. You might expect to see a _Movies_ entity here, but in fact it&#39;s called _Titles_. Now all we have to do to access the Titles is change our request from [http://odata.netflix.com/catalog](http://odata.netflix.com/catalog) to [http://odata.netflix.com/catalog/Titles](http://odata.netflix.com/catalog/Titles).
 
-Doing so and hitting Execute comes back with a 3,383,106-byte reponse! That's because we've just request ALL of Netflix movies.
+Doing so and hitting Execute comes back with a 3,383,106-byte reponse! That&#39;s because we&#39;ve just request ALL of Netflix movies.
 
-Let's do a couple of things here. First, let's request it in JSON and see what the size is. There are two ways (that I know of) to request a JSON response. We can either add $format=json as a URL parameter, or we can add Accept: application/json to the request headers. I'll do the latter so as not to clog up my URL. So here's what my request in Fiddler is looking like...
+Let&#39;s do a couple of things here. First, let&#39;s request it in JSON and see what the size is. There are two ways (that I know of) to request a JSON response. We can either add $format=json as a URL parameter, or we can add Accept: application/json to the request headers. I&#39;ll do the latter so as not to clog up my URL. So here&#39;s what my request in Fiddler is looking like...
 
 [![image](http://codefoster.blob.core.windows.net/site/image/339703299dc84bdb935f1819326d1b5d/netflixstage1_01_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Netflix-Browser/0BCE0024/image.png)
 
-Execute that and you'll see that our response size is down from 3,383,106 to 1,852,565! Awesome. That's why I'm into JSON. And it will be smaller still once it implements JSON Light (more on that later). Not only are there a lot of Titles in this response, but there are a lot of properties per Title. Double click on the response (in the left pane of Fiddler) and look at the raw results (in the right pane) and see how many properties each title has. It's a lot, and most of those are _deferred_ properties which means that they are themselves typed entities containing a rich set of properties and we haven't even pulled that data down yet!
+Execute that and you&#39;ll see that our response size is down from 3,383,106 to 1,852,565! Awesome. That&#39;s why I&#39;m into JSON. And it will be smaller still once it implements JSON Light (more on that later). Not only are there a lot of Titles in this response, but there are a lot of properties per Title. Double click on the response (in the left pane of Fiddler) and look at the raw results (in the right pane) and see how many properties each title has. It&#39;s a lot, and most of those are _deferred_ properties which means that they are themselves typed entities containing a rich set of properties and we haven&#39;t even pulled that data down yet!
 
-Well, let's make our payload reasonable first of all by just grabbing the first 10 titles. You would do that by using [http://odata.netflix.com/catalog/Titles?$top=10](http://odata.netflix.com/catalog/Titles?$top=10). Now we're pretty small, so we can afford to get some of this deferred data. Let's issue this [http://odata.netflix.com/catalog/Titles?$top=10&amp;$expand=Cast](http://odata.netflix.com/catalog/Titles?$top=10&amp;$expand=Cast), and see what you get. Notice the Cast is not longer deferred, but it has fetched all of the cast members of the title (don't look at the first one... it doesn't have any cast).
+Well, let&#39;s make our payload reasonable first of all by just grabbing the first 10 titles. You would do that by using [http://odata.netflix.com/catalog/Titles?$top=10](http://odata.netflix.com/catalog/Titles?$top=10). Now we&#39;re pretty small, so we can afford to get some of this deferred data. Let&#39;s issue this [http://odata.netflix.com/catalog/Titles?$top=10&amp;$expand=Cast](http://odata.netflix.com/catalog/Titles?$top=10&amp;$expand=Cast), and see what you get. Notice the Cast is not longer deferred, but it has fetched all of the cast members of the title (don&#39;t look at the first one... it doesn&#39;t have any cast).
 
-There's just a ton more that I could show you about interacting with this OData feed, but you should just check out [http://www.odata.org](http://www.odata.org) to get your information from the source. It's a ton of fun and really powerful, but we have an app to write.
+There&#39;s just a ton more that I could show you about interacting with this OData feed, but you should just check out [http://www.odata.org](http://www.odata.org) to get your information from the source. It&#39;s a ton of fun and really powerful, but we have an app to write.
 
 ##  
 
 ## Writing our Metro app...
 
-Now that we're pros at fetching Netflix data, let's do something with it. In my last Netflix post I started with the Grid Application, but this time I'm going to start with blank... actually, I'll want the navigation functionality too, so fire up Visual Studio 2012 and start the Navigation App template...
+Now that we&#39;re pros at fetching Netflix data, let&#39;s do something with it. In my last Netflix post I started with the Grid Application, but this time I&#39;m going to start with blank... actually, I&#39;ll want the navigation functionality too, so fire up Visual Studio 2012 and start the Navigation App template...
 
 [![image](http://codefoster.blob.core.windows.net/site/image/6d090f2e369e4cbdb35f8dfa98f04b6a/netflixstage1_02_1.png "image")](http://{fix}/image.axd?picture=Windows-Live-Writer/Netflix-Browser/0B645DE0/image.png)
 
-In case you haven't seen this template before, this is just the blank template but with the recommended navigation pattern for apps already implemented. So you get the navigator.js file (under the js folder) and you get the pages folder with the home page already in there for you. That's where we'll start.
+In case you haven&#39;t seen this template before, this is just the blank template but with the recommended navigation pattern for apps already implemented. So you get the navigator.js file (under the js folder) and you get the pages folder with the home page already in there for you. That&#39;s where we&#39;ll start.
 
-Before we begin though, I want to add a helper function that tends to make my life easier. Paste the following into the default.js file _after_ the modular function so that it's in the global namespace...
+Before we begin though, I want to add a helper function that tends to make my life easier. Paste the following into the default.js file _after_ the modular function so that it&#39;s in the global namespace...
 
 ``` js
 function q(query, context) {
@@ -91,7 +91,7 @@ function q(query, context) {
 
 Now for query selections, we can just do something like q("#myelementid").
 
-Now open home.html, home.js, and home.css. We're going to be in those three file for a while.
+Now open home.html, home.js, and home.css. We&#39;re going to be in those three file for a while.
 
 In home.js, add the following to the ready function...
 

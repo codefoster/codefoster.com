@@ -6,14 +6,14 @@ date: 2016-06-25
 permalink: pi-oldnode
 ---
 
-I beat my head against a wall for a long time wondering why I wasn't able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.
+I beat my head against a wall for a long time wondering why I wasn&#39;t able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.
 <!-- xmore -->
 
-Lucky for me (and perhaps you) I got to the bottom of it and am going to document it here for posterity. Let's go.
+Lucky for me (and perhaps you) I got to the bottom of it and am going to document it here for posterity. Let&#39;s go.
 
 The head beating happened at a hackathon I recently attended with some colleagues.
 
-The task was simple - turn on an LED. It's so simple that it's become the "hello world" app of the IoT world. There's zero reason in the world why this task should take more than 10 minutes. And yet I was stumped.
+The task was simple - turn on an LED. It&#39;s so simple that it&#39;s become the "hello world" app of the IoT world. There&#39;s zero reason in the world why this task should take more than 10 minutes. And yet I was stumped.
 
 After a fresh image of Raspbian, an install of NVM, and then a subsequent installation of Node.js 6.2.2, I wrote a blink app using a variety of modules. I used `pi-gpio`, `rpi-gpio`, `onoff`, and finally `johnny-five` and the `raspi-io` driver.
 
@@ -39,7 +39,7 @@ sudo ln -s /usr/local/node/bin/node node
 
 sudo ln -s /usr/local/node/bin/npm npm`
 
-I like using NVM on my dev machine, but it's logical and simpler to use a single, static version of Node on the pi itself.
+I like using NVM on my dev machine, but it&#39;s logical and simpler to use a single, static version of Node on the pi itself.
 
 And that did it. I had blinky working in under 3 minutes and considering I get quite obsessive about unresolved issues like this, I had a massive weight lifted.
 
