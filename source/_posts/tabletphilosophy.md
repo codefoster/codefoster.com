@@ -1,5 +1,5 @@
 ---
-title: &#39;Microsoft vs. Apple: Differences in Tablet Philosophy&#39;
+title: Microsoft vs. Apple - Differences in Tablet Philosophy
 categories: []
 tags: []
 date: 2001-01-01
