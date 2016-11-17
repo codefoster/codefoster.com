@@ -8,11 +8,11 @@ subtitle:
 description:
 author: Jeremy Foster
 language: en
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://codefoster.com
 root: /
 permalink: :title
 permalink_defaults:
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: Uncategorized
+default_category: Other
 category_map:
 tag_map:
 
