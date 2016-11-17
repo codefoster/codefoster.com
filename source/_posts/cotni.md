@@ -1,7 +1,7 @@
 ---
 title: Children of the Nations
 categories: [Other]
-tags: [feed, children, charity]
+tags: [feed, children, charity, give, help, good]
 date: 2013-05-17
 permalink: cotni
 ---
