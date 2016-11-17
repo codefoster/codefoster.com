@@ -5,6 +5,6 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "public": true
+        "public": false
     }
 }
