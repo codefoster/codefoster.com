@@ -33,7 +33,7 @@ Look at the website versus the Metro versions of the Times of India...
 
 ![](/files/appbarbuttons_02.png)
 
-Most of the space in the website version is taken up with navigation commands (hyperlinks), which is a good example of an app telling you about "where you might go" instead of telling you where you are and letting the user navigate with the content.
+Most of the space in the website version is taken up with navigation commands (hyperlinks), which is a good example of an app telling you about &quot;where you might go&quot; instead of telling you where you are and letting the user navigate with the content.
 
 ## Okay, fine, but which buttons should I put in the app bar and which should remain on the canvas?
 

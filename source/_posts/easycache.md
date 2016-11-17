@@ -40,7 +40,7 @@ You can wait for _all_ of the promises in an array to complete by using WinJS.Pr
 
 So the articlesCached variable which I hang on the WebData object is going to be a promise that completes when all of the individual calls to the article content are complete.
 
-Now, you might be wondering at this point what I do with the results of those HTTP requests. The answer is that I do _nothing_ with them. I don&#39;t need to. GET requests over HTTP are cached by default, so the next time the user launches an article and the system attempts to access its content using the .contentUrl, it essentially says "Hey, I&#39;ve done this before. I&#39;ll just use the results of that last network call instead of doing another one."
+Now, you might be wondering at this point what I do with the results of those HTTP requests. The answer is that I do _nothing_ with them. I don&#39;t need to. GET requests over HTTP are cached by default, so the next time the user launches an article and the system attempts to access its content using the .contentUrl, it essentially says &quot;Hey, I&#39;ve done this before. I&#39;ll just use the results of that last network call instead of doing another one.&quot;
 
 And that&#39;s all it took.
 

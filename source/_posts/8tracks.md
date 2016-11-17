@@ -12,7 +12,7 @@ permalink: 8tracks
 
 ![](/files/8tracks_01.jpg)
 
-PT: My name is Paul Tidwell, I have been writing code as a hobby since I was 12\. I currently work for Bungie, Inc where we are in the processes of bringing the world of "Destiny" to life.  For fun, I am getting 8tracks ready for the Xbox 360.
+PT: My name is Paul Tidwell, I have been writing code as a hobby since I was 12\. I currently work for Bungie, Inc where we are in the processes of bringing the world of &quot;Destiny&quot; to life.  For fun, I am getting 8tracks ready for the Xbox 360.
 
 **ME: Okay, so what&#39;s this 8tracks app you made? What&#39;s the purpose of the app and was it your idea?**
 

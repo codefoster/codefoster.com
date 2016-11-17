@@ -9,7 +9,7 @@ permalink: appart
 One of my favorite steps in the app development lifecycle is the creation of the artwork. I&#39;m not stellar at _creating_ original artwork, but I definitely recognize when things look just right, and sometimes I stumble upon it. I must also have a little bit of marketing in me, because it&#39;s my constant effort to brand things.
 <!-- xmore -->
 
-The artwork and branding is important, because an app developer must live in a constant state of capturing the user amid so much noise. An app needs to say "here&#39;s precisely what I do and how it adds value to your life". It takes a lot of design thought and effort to cut through the noise and reach your audience.
+The artwork and branding is important, because an app developer must live in a constant state of capturing the user amid so much noise. An app needs to say &quot;here&#39;s precisely what I do and how it adds value to your life&quot;. It takes a lot of design thought and effort to cut through the noise and reach your audience.
 
 Good messages to communicate are: <span style="font-size: 16pt;">**clean, simple, creative, elegant, and fluid**</span>.
 
@@ -19,7 +19,7 @@ My artwork for Everyview started with the creation of a symbol. The symbol had t
 
 ![](/files/appart_01.png)
 
-Looking into the eye of a camera invokes a bit of a "live" feeling, as if you&#39;re on the air. I chose not to embellish the icon with a lot of gradients and or other attempts to make it look more realistic. As long as it says "camera" to the user, that&#39;s enough. I did, however, ad a lens glare that identifies it without doubt as a camera lens.
+Looking into the eye of a camera invokes a bit of a &quot;live&quot; feeling, as if you&#39;re on the air. I chose not to embellish the icon with a lot of gradients and or other attempts to make it look more realistic. As long as it says &quot;camera&quot; to the user, that&#39;s enough. I did, however, ad a lens glare that identifies it without doubt as a camera lens.
 
 Let me show you how I created this image.
 
