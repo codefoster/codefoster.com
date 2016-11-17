@@ -7,7 +7,7 @@ permalink: snagit-tip
 ---
 
 I have been using SnagIt by [TechSmith](http://www.techsmith.com) for a few versions. A few months back I upgraded to SnagIt 12\. The UI is quite different from version 11, and I think the changes are for the better. The design is cleaner, flatter, and more appealing in my opinion, and the functionality of new UI is intuitive and functional.
-<!--more-->
+<!-- xmore -->
 
 My main workflow is this...
 

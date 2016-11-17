@@ -8,7 +8,7 @@ permalink: 8tracks
 
 
 **ME: Hi, Paul. Would you mind introducing yourself. Tell us where you work and what's the most interesting thing you're working on.**
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/8tracks_01.jpg)
 

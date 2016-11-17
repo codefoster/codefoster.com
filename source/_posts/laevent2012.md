@@ -7,7 +7,7 @@ permalink: laevent2012
 ---
 
 If you are in the Los Angeles area Monday event or if you can get there, you should stop by the Nokia Theater Live next to the LA Convention Center and get a whirlwind tour of Windows 8 from a developers perspective!
-<!-- more -->
+<!-- xmore -->
 
 Everything from breakfast to dinner will be information straight from Microsoft to you. Then, after dinner, you'll be joining us for Coding with the Experts where you walk through an excellent series of tutorials to create a full-fledged Windows 8 app. You're guaranteed to walk away with skills.
 

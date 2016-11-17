@@ -7,7 +7,7 @@ permalink: better
 ---
 
 You'll likely notice that codefoster.com looks a bit different. I put a shine on it, but I also put it up on blocks and did a complete engine swap.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/better_01.png)
 ![](/files/better_02.png)

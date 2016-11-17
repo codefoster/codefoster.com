@@ -7,7 +7,7 @@ permalink: introcodechat
 ---
 
 I'm starting a new venture and I'm announcing it now.
-<!-- more -->
+<!-- xmore -->
 
 It's been on my mind for some time and I'm finally going to make it happen.
 

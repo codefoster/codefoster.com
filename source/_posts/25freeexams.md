@@ -7,7 +7,7 @@ permalink: 25freeexams
 ---
 
 If you're looking to take an exam and get MCSD certified, have I got a deal for you!
-<!-- more -->
+<!-- xmore -->
 
 I'm going to give away 25 (that means you have a high chance of winning!) coupons that will get you two exams for the price of one.
 

@@ -7,7 +7,7 @@ permalink: f360green
 ---
 
 In the interest of avoiding a TL;DR situation, here's the video first and explanation afterward. Basically, I'm just showing you a simple model in Fusion 360\. I get excited about things and explain them to the n-th degree though, so if you're up for it, read on.
-<!-- more -->
+<!-- xmore -->
 
 <video controls src="/files/f360green_01.mp4" style="width: 700px;"></video>
 

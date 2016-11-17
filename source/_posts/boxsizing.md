@@ -9,7 +9,7 @@ permalink: boxsizing
 Don't miss the box-sizing property in CSS. It's important. I'll tell you why.
 
 Let me start by showing you a diagram of the HTML box model.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/boxsizing_01.png)
 

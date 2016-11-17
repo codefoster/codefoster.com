@@ -7,7 +7,7 @@ permalink: snappoints
 ---
 
 Let's say you have a bunch of tiles in your Windows 8 app.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/snappoints_01.png)
 

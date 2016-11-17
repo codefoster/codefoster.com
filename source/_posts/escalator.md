@@ -7,7 +7,7 @@ permalink: escalator
 ---
 
 You want your app to be successful and to be successful, _you must think about the user_.
-<!-- more -->
+<!-- xmore -->
 
 Windows 8 thinks about the user through and through. It puts the user in control of what shows up on their start screen, when the app bar and charms bar appear over their content, and what apps have the capability of doing on their machine.
 

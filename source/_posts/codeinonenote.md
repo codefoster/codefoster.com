@@ -9,7 +9,7 @@ permalink: codeinonenote
 [NoteHighLight on CodePlex](http://bit.ly/notehighlight)
 
 If you haven't started using OneNote, you might want to consider it. You can create a notebook a free instance of SkyDrive and it makes note taking, collaboration, and sharing all very easy. The part I couldn't live without is my ability to just hit [WIN + N] from anywhere in Windows and instantly get a new note. I don't have to worry about saving it either. By default, it lands in my Unfiled Notes (in my SkyDrive notebook). I can move it to another location later for more organization if I want to, but honestly the searching in OneNote is so good, that I usually don't bother. As long as I give it a good title, I'm always able to find it later. Actually, even if you paste images into your note, the indexer recognizes the text in your image and will even search on that!
-<!-- more -->
+<!-- xmore -->
 
 On my Windows Phone 7, I can do the same thing. I pin a "New Note" tile to my start page and I can just hit that to create an unfiled note. The great thing is that both notes land in the same place... on my SkyDrive. So if I jot a note from the field, it's available to me in Windows on my laptop later. Nice.
 

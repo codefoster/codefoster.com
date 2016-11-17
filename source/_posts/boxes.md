@@ -7,7 +7,7 @@ permalink: boxes
 ---
 
 HTML and CSS is great, but there's at least one thing that has driven web designers mad for ages - layout. We used to use tables and it worked. We knew their weaknesses, but they worked. Then we were told that tables are for tabular data and div elements are for layout, but divs are wretched creatures. To set divs next to each other one had to float them, but then when finished floating had to be explicitly turned off - argh. Also, divs had no notion of filling vertical space or of controlling the vertical placement of anything within it.
-<!-- more -->
+<!-- xmore -->
 
 So a myriad of web designers resorted to absolute positioning, browser hacks, jQuery UI positioning, or some other means just to get things to go where they ought.
 

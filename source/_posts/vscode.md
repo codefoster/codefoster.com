@@ -7,7 +7,7 @@ permalink: vscode
 ---
 
 If you haven't watched the first day's keynote from Microsoft's Build 2015 conference, [go do that now](http://buildwindows.com/). It has a few wow moments such as Android and iOS code for building Windows 10 apps, elastic pools for Azure SQL databases, and the amazing HoloLens robot that was a hologram and a real robot in one - amazing!
-<!--more-->
+<!-- xmore -->
 
 One of the pieces of the conference that's going to affect my every day, though is Visual Studio's new, free, light edition called simply Code. Code is what I've been looking for in a code editor - in a text editor even. It will replace a few other apps in my MRU list - Visual Studio Community, Notepad++, and Atom to name a few.
 

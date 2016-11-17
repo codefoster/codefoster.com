@@ -9,7 +9,7 @@ permalink: edison-setup
 This is a guide to getting started with the Intel Edison.
 
 Intel has published [a guide](http://communities.intel.com/docs/DOC-23192) for getting started with this device as well, but I wanted to get everything into one place, tell it from my perspective, and smooth over a couple of the bumps I hit on the way. Let me know with a comment below if you have any questions.
-<!-- more -->
+<!-- xmore -->
 
 I like to keep things simple, so I'm going to help you get started with the Edison as easily as possible.
 

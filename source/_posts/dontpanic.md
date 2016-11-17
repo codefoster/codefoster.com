@@ -7,7 +7,7 @@ permalink: dontpanic
 ---
 
 I saw this tweet and decided to respond.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/dontpanic_01.png)
 

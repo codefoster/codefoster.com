@@ -7,7 +7,7 @@ permalink: datapresentation
 ---
 
 Sometimes it's hard to know what control to use when you're thinking about bringing your data feed into your Windows 8 app. You know you want to bring them in as tiles of some form or another. Maybe you want to do classic square tiles like eBay.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/datapresentation_01.png)
 

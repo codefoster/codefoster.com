@@ -7,7 +7,7 @@ permalink: discover
 ---
 
 I just finished reading Jakob Nielsen's article [Windows 8 - Disappointing Usability for Both Novice and Power Users](http://www.useit.com/alertbox/windows-8.html) where the summary reads...
-<!-- more -->
+<!-- xmore -->
 
 _Hidden features, reduced discoverability, cognitive overhead from dual environment, and reduced power from a single-window UI and low information density. Too bad. _
 

@@ -7,7 +7,7 @@ permalink: holo
 ---
 
 If you're interested in learning how to write apps for Windows 8 but don't want to leave your desk to do it, then I have just the thing for you. They're called HOLOs. That's a Hands-On Lab Online. It goes like this.
-<!-- more -->
+<!-- xmore -->
 
 First, you register and then when the event comes around, you log in and are hooked up with a Live Meeting to a presenter and a bunch of other attendees and also with a Hyper-V session to a Windows 8 virtual machine with all of the course work ready to go. You listen to the presenter for a while, and then you run through the labs with the instructor right there and ready to help when you raise your virtual hand.
 

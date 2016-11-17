@@ -7,7 +7,7 @@ permalink: blend-design-execute-interact
 ---
 
 This is likely apparent to anyone that has already ventured into Windows 8 development using Blend for Visual Studio 11, but if you haven't ventured in yet for some reason... like say you're busy actually getting work done! I know how that goes. I was recently in industry trying to meet deadlines and didn't have much opportunity to look at new technology.
-<!-- more -->
+<!-- xmore -->
 
 So allow me to quickly highlight an incredible feature in Windows 8 development &ndash; specifically in Blend for Visual Studio 11.
 

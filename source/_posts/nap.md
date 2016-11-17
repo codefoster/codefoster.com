@@ -9,7 +9,7 @@ permalink: nap
 A what?!
 
 "codefoster, I thought you were all about productivity and being effective and efficient in a development career... being a valuable and highly contributing part of a workgroup. So what's this about taking naps?"
-<!-- more -->
+<!-- xmore -->
 
 Yeah, that's what I'm all about. I get inspired by the folks that get books (emphasis on the plural) out the door, blog like maniacs, have numerous libraries on GitHub, put together informative and inspiring presentations, and do all of that without a single sacrifice to the higher calling of loving their family well and still relaxing and playing and exploring. Let's face it, there's a lot of loving to do and a lot of world to explore. I want to be that guy. I call it _effective_.
 

@@ -7,7 +7,7 @@ permalink: pi
 ---
 
 I've been doing a lot of hacking on the Raspberry Pi, and I've written a few articles on the topic. I've assembled all of my posts here for easy access.
-<!--more-->
+<!-- xmore -->
 
 *   [_Accidental Old Version of Node on the Raspberry Pi_](/pi-oldnode) - I beat my head against a wall for a long time wondering why I wasn't able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.Lucky for me (and perhaps you) I got to the bottom of it and am going to document it here for posterity.
 *   [_The Most Basic Way to Access GPIO on a Raspberry Pi_](/pi-basicgpio) - I'm always looking for the lowest level understanding, because I hate not knowing how things work. On a Raspberry Pi, I'm able to write a Node app that changes GPIO, but how does that work? Turns out it's pretty interesting. I'll show you.

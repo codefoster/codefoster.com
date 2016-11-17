@@ -6,8 +6,7 @@ date: 2016-10-18 09:39:11
 permalink: soylent
 ---
 
-​I've been one month now on an (almost) exclusively [Soylent](http://soylent.com) diet.
-<!-- more -->
+​I&#39;ve been one month now on an (almost) exclusively [Soylent](http://soylent.com) diet.
 
 Soylent is a drink engineered to be everything the human body needs for food. They don't explicitly recommend that a person eats nothing besides Soylent, but they certainly don't say it can't be done, and there are plenty of folks that do it.
 

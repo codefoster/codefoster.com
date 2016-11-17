@@ -7,7 +7,7 @@ permalink: hatejavascript
 ---
 
 We're called coders. We're called software developers. But despite what we're called and despite our primary function of turning human logic and scenarios into ones and zeros, not everything we do in these roles comes down to a programming language. The soft skills, in fact, end up being massively importance. I could elaborate in a separate blog post (and just may) about the centrality of grammar skills, technical writing skills, communication skills, diplomacy skills, and so on. I'm tempted to call on Napolean Dynamite to elaborate on [the importance of various skills](http://www.youtube.com/watch?v=XsiiIa6bs9I), but none of his examples actually work toward my point, so I'll refrain.
-<!-- more -->
+<!-- xmore -->
 
 Nevertheless, a good portion of our roles _does_ end up as code, and our choice of language ends up being a significant and quite personal matter.
 

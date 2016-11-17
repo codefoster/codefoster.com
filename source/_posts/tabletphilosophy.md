@@ -7,7 +7,7 @@ permalink: tabletphilosophy
 ---
 
 Microsoft and Apple have a long and tangled past. From most perspectives, the two would certainly be considered competitors, but when fitted with the right glasses (rose) one can also choose to see the two technology giants collaborating to add enjoyment, value, education, and information to the lives of billions. I used to teach high school and there were occasions when both companies made significant donations to classrooms to bring better education to my students.
-<!-- more -->
+<!-- xmore -->
 
 But right now I want to talk about a fundamental difference in how each company appears to approach the tablet market.
 

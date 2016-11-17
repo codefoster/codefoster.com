@@ -7,7 +7,7 @@ permalink: rusticcitrus
 ---
 
 I love writing code, but I also love the developer community and talking to other developers that have made or are working on great apps.
-<!-- more -->
+<!-- xmore -->
 
 The way I see it, apps are a medium for expression much like so many other forms of media. Apps take it a bit further though, since they have form and function as well. I know that good art adds real value to our lives, and so do good apps. They inspire us, but they also offer entertainment, communication, and time savings &ndash; true utilities.
 

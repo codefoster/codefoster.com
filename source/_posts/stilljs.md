@@ -7,7 +7,7 @@ permalink: stilljs
 ---
 
 For many reasons, I still love developing Windows 8 apps using HTML, CSS, and JavaScript. I have extensive C# experience and always want to be able to say "I'm a C# developer", but I'd like to add that "I'm a JavaScript developer" as well.
-<!-- more -->
+<!-- xmore -->
 
 Some months ago I was a little pained to make even a short term commitment to write more JavaScript than C#. It felt a little like when I was learning French and found myself hesitant to start trying to think in French as if I would lose my English. Of course, that won't happen, and we shouldn't be afraid even of immersing ourselves in other languages. In fact, I'm a big advocate of the polyglot theory of intentionally moving into other languages spaces to expand our own scope, our value, and our perspective.
 

@@ -7,7 +7,7 @@ permalink: simplenodeserver
 ---
 
 I'll start with the code...
-<!--more-->
+<!-- xmore -->
 
 `require('express')().get('/',function(req,res){
 

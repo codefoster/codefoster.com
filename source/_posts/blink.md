@@ -7,7 +7,7 @@ permalink: blink
 ---
 
 Last Friday my user group ("The Ocho") met and heard a special presentation on Metro Design thanks to Blink Interactive.
-<!-- more -->
+<!-- xmore -->
 
 Valentina and Christina are UW students and interns at Blink and gave us a ton of information about user centric design and then the history and concepts behind Metro design.
 

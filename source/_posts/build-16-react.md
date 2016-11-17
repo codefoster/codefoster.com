@@ -9,7 +9,7 @@ permalink: build-16-react
 Microsoft takes opportunity every year at [//build](http://build.microsoft.com) - its annual conference for developers - to make as many shock and awe announcements as it can, and this year in 2016, there was plenty of shock and plenty of awe.
 
 Maybe you've watched all the keynotes already. Maybe you've even watched all of the sessions already. We're going to assume, however, that even if you have seen or otherwise caught wind of the announcements that you would like to get an answer to the question "What does that mean for me?"
-<!--more-->
+<!-- xmore -->
 In this post, I'm going to invite a number of colleagues - all Microsoft Technical Evangelists - to share in detail via blog posts and videos about their favorite announcements, and what they mean for you - the developer.
 
 This is an active blog post that will be updated as new content lands, so check back often.

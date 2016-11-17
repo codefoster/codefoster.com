@@ -7,7 +7,7 @@ permalink: grandvoyage
 ---
 
 I'm not far from setting sail in a 38' boat for what promises to be an epic voyage by my standards. I have done plenty of sailing, but entirely within sight of land.
-<!-- more -->
+<!-- xmore -->
 
 <aside>The sight of land is quite an encouragement when you're in a boat. Even when a swim for shore isn't remotely possible, it's warming to imagine it is.</aside>
 

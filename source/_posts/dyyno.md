@@ -7,7 +7,7 @@ permalink: dyyno
 ---
 
 I hosted an episode of [DevRadio ](http://channel9.msdn.com/Niners/DevRadio)the other day and now it's live on Channel9\. It's an interview with Vamshi Sriperumbudur and Dr. Sid Annapureddy from a Silicon Valley based company called Dyyno [link removed] that is doing some exciting work on the Windows 8 platform. Dyyno helps more than 30 content creators or aggregators distribute their content on smart devices, and their app _Flix Universe_ brings this content to Windows 8.
-<!-- more -->
+<!-- xmore -->
 
 Here's the full interview on DevRadio. Enjoy.
 

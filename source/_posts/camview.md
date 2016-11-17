@@ -7,7 +7,7 @@ permalink: camview
 ---
 
 I'm on leave but I return to work next week. I took some of my off time to write another app. It's a quick one that is tied to a specific piece of hardware, but I have said hardware and I use this app all the time now.
-<!-- more -->
+<!-- xmore -->
 
 It's a webcam viewer for the Foscam FI9820\. I will expand it at some point to work with more cameras and do a lot more to it, but for now I have done with I always recommend my independent developer friends do and I kept the scope very low.
 

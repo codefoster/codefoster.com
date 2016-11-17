@@ -8,7 +8,7 @@ permalink: fastrefresh
 
 
 Hey, Metro developers, if you're using HTML/JS to build your apps, I have a little golden nugget for you. Actually, it's possible you already know and I'm the one that's late to the game. Anyway, have you ever made a little tiny tweak to your HTML structure, a slight mod to your CSS style, or a little enhancement to your JavaScript and wanted to see the change effect immediately instead of relaunching your app each time? It's a valid desire. My last job was website development and so I'm used to the whole save, switch, refresh workflow.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/fastrefresh_01.png)
 

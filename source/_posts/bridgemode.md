@@ -7,11 +7,11 @@ permalink: bridgemode
 ---
 
 My wife and I have acquired a coach RV, parked it on our property, remodeled the interior, and done most of the work of listing it on [Airbnb](http://www.airbnb.com).
-<!-- more -->
+<!-- xmore -->
 
 I was looking to allow guests that stay in the space to use wireless internet for free, but I am not interested in giving them credentials to just jump onto my network.
 
-The solution, I knew, was a bridge <!--more--> - essentially a device with two wireless NICs and the ability to communicate between them for you. I hadn't hooked up a bridge before, and I expected it was going to be hard. I expect most things to be hard and am seldom disappointed. Actually, that's not entirely true. I do expect most things to be hard, but I'm still quite often disappointed.
+The solution, I knew, was a bridge <!-- xmore --> - essentially a device with two wireless NICs and the ability to communicate between them for you. I hadn't hooked up a bridge before, and I expected it was going to be hard. I expect most things to be hard and am seldom disappointed. Actually, that's not entirely true. I do expect most things to be hard, but I'm still quite often disappointed.
 
 I talked with my colleague [@KennySpade](http://www.twitter.com/kennyspade) about it and I liked his answer - "I think this little device I have in my hand will do the trick. I'll send it to you. It was only $12."
 

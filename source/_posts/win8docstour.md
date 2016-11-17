@@ -42,7 +42,7 @@ div.wordsection1
 </style>
 
 Last night I did a presentation at a very active and exciting Seattle user group called vNext. The topic, of course, was Windows 8\. If you read my blog, you know that that's most of what I'm talking about these days. Instead of creating tangential content, relied on the excellent documentation that you can browse any time in the Windows Dev Center at dev.windows.com.
-<!-- more -->
+<!-- xmore -->
 
 The Dev Center is an enormous place, but it's well organized and I think you'll find it's not too difficult to find what you're looking for. Still, I'm including my compiled outline below in case it helps you navigate the sea of information.
 

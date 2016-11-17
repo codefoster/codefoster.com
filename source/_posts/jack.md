@@ -7,7 +7,7 @@ permalink: jack
 ---
 
 My wife and I just recently had our second son. His name is Jack. I made him a bassinet to sleep in, and this is an article about the process and method.
-<!-- more -->
+<!-- xmore -->
 
 I warn you now - this project doesn't involve any electronics or software of any kind. I know that makes it a bit boring, and I realize there are a myriad ways to bring digital awesomeness to such a scenario - moisure detection, controlled motion, music or white noise, notifications, camera integration - but it just isn't happening at this point. Someday. The infamous _someday_.
 

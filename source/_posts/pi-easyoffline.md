@@ -7,7 +7,7 @@ permalink: pi-easyoffline
 ---
 
 Getting a Raspberry Pi online is really easy if you have an HDMI monitor, keyboard, and mouse.
-<!--more-->
+<!-- xmore -->
 
 Subsequently getting an SSH connection to your pi is easy if you have a home router with internet access that you're both (your PC and your pi) connected to.
 

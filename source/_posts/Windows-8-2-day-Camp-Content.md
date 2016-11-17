@@ -7,7 +7,7 @@ permalink: windows-8-2-day-camp-content
 ---
 
 Thanks to all of the attendees of our Windows 8 2-day Camp and Hackathon last week!
-<!-- more -->
+<!-- xmore -->
 
 It was an exhausting but excited couple of days and some attendees left with Samsung Series 7 slates, an XBox console, a bunch of XBox games, and more.
 

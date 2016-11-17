@@ -7,7 +7,7 @@ permalink: vssearch
 ---
 
 There's more than one way to skin a cat and more than one way to do a search in Visual Studio. There are 5 (that I know of, comment if you know of another) to be precise.
-<!-- more -->
+<!-- xmore -->
 
 ## Navigate To (CTRL + ,)
 

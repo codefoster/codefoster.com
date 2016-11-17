@@ -7,7 +7,7 @@ permalink: resjs
 ---
 
 Many developers (present parties included) are neglecting to take advantage of other cultures and are missing relatively easily earned revenue as a consequence.
-<!-- more -->
+<!-- xmore -->
 
 Localizing your app by referencing resource strings is the first step and sets you up for easy translation to other languages. It's simple enough to add your data-win-res in your HTML, but what about when you need to do the same thing from JavaScript?
 

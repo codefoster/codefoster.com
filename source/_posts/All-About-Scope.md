@@ -9,7 +9,7 @@ permalink:
 ## Abstract
 
 It may not be clear immediately how variable scopes work when you're creating a Windows 8 app using HTML and JavaScript. Even if you're very proficient at writing JavaScript code, you might not know where you're supposed to write it! Let me take a stab at clarifying...
-<!-- more -->
+<!-- xmore -->
 
 When you first look at a JavaScript page in a Windows 8 project you see  something like this...
 

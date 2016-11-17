@@ -7,7 +7,7 @@ permalink: semanticzoom
 ---
 
 Semantic Zoom is super easy, but even the easy things can use some conceptual explanation and examples to clarify them. Rest assured that once you see it, you'll go "Ah! That won't be a problem then."
-<!-- more -->
+<!-- xmore -->
 
 If you use XAML/C# to make your Metro apps, then you should check out [Jerry Nixon's post on semantic zoom](http://blog.jerrynixon.com/2012/03/windows-8-semantic-zoom-versus-optical.html#more).
 

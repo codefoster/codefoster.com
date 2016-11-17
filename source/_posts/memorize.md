@@ -8,7 +8,7 @@ permalink: memorize
 
 
 Web development involves the use of a lot of technologies and languages implemented according to a lot of standards. It's not exactly the most cohesive stack and I would attribute that to its long and democratic evolution as well as its very broad acceptance and implementation.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/memorize_01.png)
 

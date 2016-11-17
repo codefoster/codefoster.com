@@ -7,7 +7,7 @@ permalink: pushusers
 ---
 
 I received a question that I'd like to turn into a blog post for the benefit of the masses. I've gotten this question a number of times in the past.
-<!-- more -->
+<!-- xmore -->
 
 _Is it possible to do push notifications to all users/only a specific user/only a specific set of users? _
 

@@ -7,7 +7,7 @@ permalink: cotni
 ---
 
 I've worked with Children of the Nations (COTNI) in the past and they are a very cool organization.
-<!-- more -->
+<!-- xmore -->
 
 At one point, my wife and I and some friends volunteered for their Meal Marathon &ndash; an extremely grassroots effort to get food to hungry kids. The program wasn't a hundred layers of abstraction away from the actual goal &ndash; feeding hungry kids. Instead it was a simple matter of putting food in bags, putting bags in boxes, putting boxes in a shipping container, and shipping the container to Sierra Leone and the Dominican Republic. So simple... so helpful.
 

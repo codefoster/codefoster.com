@@ -7,7 +7,7 @@ permalink: settings
 ---
 
 I presented at a developer camp in Redmond recently on the subject of implementing Windows 8 contracts. You can find the [video on Channel 9](http://channel9.msdn.com/Events/Windows-Camp/Windows-8-Developer-Camp-Redmond/WIN8-CAMP-05). Unfortunately, I didn't have enough time to cover the implementation of the Settings contract, so I want to cover that now in the attached screencast.
-<!-- more -->
+<!-- xmore -->
 
 The Settings contract is an important one, since almost every app known to mankind has some user preferences or options to store. In previous Windows development, the convention was to put options like this into the Tools | Options menu item, but there are plenty of examples of apps that chose to find another place for it.
 

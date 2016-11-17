@@ -7,7 +7,7 @@ permalink: vsninja
 ---
 
 This post is taken from a local presentation I did on April 2, or rather my presentation was taken from this post. One or the other is true, and so is the other.
-<!-- more -->
+<!-- xmore -->
 
 As developers, we all aspire to be proverbial ninjas and we all love our tooling. If you don't fit in those categories, then ask yourself whether you're a developer or just on your way to project management.
 

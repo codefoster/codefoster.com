@@ -7,7 +7,7 @@ permalink: freebackpack
 ---
 
 codefoster.com is entirely overhauled and with it my provider for blog commenting functionality.
-<!-- more -->
+<!-- xmore -->
 
 
 I chose [DISQUS](http://disqus.com) and I'm pretty happy with it so far. It was very easy to plug in and gives me the basic commenting functionality that I'd like. I like the fact that many web users have used the system before and are already authenticated. I also like that comment threads can be tied to the page URL and are not tied into the content management software.

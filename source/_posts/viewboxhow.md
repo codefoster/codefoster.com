@@ -9,7 +9,7 @@ permalink: viewboxhow
 I just learned something about the WinJS.UI.ViewBox and wanted to share.
 
 I have known for some time _what_ the ViewBox does, but I recently learned how it does it.
-<!-- more -->
+<!-- xmore -->
 
 First, let me reiterate what the ViewBox does. I compared its functionality to the FlexBox in my [When to Use ViewBoxes and FlexBoxes](/boxes) post. The ViewBox itself snaps to the size of the container it is in and resizes its child (without changing its aspect ratio) to fit.
 

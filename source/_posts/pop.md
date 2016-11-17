@@ -7,7 +7,7 @@ permalink: pop
 ---
 
 I you haven't dived into the app marketplace, what are you waiting for?
-<!-- more -->
+<!-- xmore -->
 
 If Flappy Birds can bring in so much attention and cold, hard cash, who's to say you can't crank an app out in a weekend and be a contender.
 

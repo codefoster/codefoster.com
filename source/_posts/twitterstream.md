@@ -7,7 +7,7 @@ permalink: twitterstream
 ---
 
 I found a number of examples of how to hook in to Twitter's Streaming API using JavaScript (via Node.js) and _every example I found was too hard_. Not _really_ hard, but too hard.
-<!-- more -->
+<!-- xmore -->
 
 I find so much value in simple examples. It's the whole reason I created [codeShow](http://github.com/codefoster/codeshow).
 

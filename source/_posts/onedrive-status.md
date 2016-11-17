@@ -7,7 +7,7 @@ permalink: onedrive-status
 ---
 
 I don't know how long the feature has been active, but I only recently realized that I can now see the status of all of the upload and download activity for OneDrive.
-<!-- more -->
+<!-- xmore -->
 
 It used to be that you could hover over the OneDrive icon in the system tray and see some very basic status on OneDrive's current effort to keep your local files in sync with your cloud storage. You saw that it was "Processing changes..." or that it had "247kB of 1.2GB uploaded". It was slightly helpful knowing that it was actually working on something, but left a truck load of room for improvement.
 

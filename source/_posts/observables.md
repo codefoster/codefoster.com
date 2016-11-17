@@ -7,7 +7,7 @@ permalink: observables
 ---
 
 Living in the JavaScript world for a while will help you to appreciate the offerings of C# for sure. Many concepts like classes, inheritance, observable collections, list extensions (LINQ) are  simply absent and so a creative alternative has been created either in WinJS or just in recommended practice.
-<!-- more -->
+<!-- xmore -->
 
 One of these is in the area of data binding.
 

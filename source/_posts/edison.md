@@ -7,7 +7,7 @@ permalink: edison
 ---
 
 I am playing with the Intel Edison a lot these days. I'm a big promoponent of it, because I'm a big proponent of both power and simplicity. This device has enough power for whatever maker, robotic, gadgeteer project I can conceive of, and it's all set up to easily run JavaScript via Node via Linux. This means I can use higher level libraries like Cylon.js. This means if I want to turn a motor, it's easy. If I want to read accelerometer data from an ADXL377, it's easy. If I want to include a Node module for storing temperature and humidity data in Azure, it's super duper easy. I like easy - just not at the cost of power.
-<!-- more -->
+<!-- xmore -->
 
 I'll stop being wordy, though and just index the posts that I've creating (and am still creating) for the Intel Edison. Here they are.
 

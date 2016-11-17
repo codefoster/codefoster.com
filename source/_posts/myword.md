@@ -7,7 +7,7 @@ permalink: myword
 ---
 
 I'm excited about what I just implemented. I'm always excited when I figure something out or learn something big. This one is big for me. Hopefully this post will add some value to your life as well.
-<!-- more -->
+<!-- xmore -->
 
 ## First the problem statement...
 

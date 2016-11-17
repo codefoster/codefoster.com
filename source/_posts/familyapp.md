@@ -7,7 +7,7 @@ permalink: familyapp
 ---
 
 Imagine this scenario. You buy a game for $4.99 and you really like it, but your wife sees you playing it and wants it too. Your options are to a) hand your tablet to your wife (when you're not playing it), b) log your wife into her tablet with your credentials (never the right choice and not even possible on _other_ operating systems ;), or c) make sure you're using Windows 8 because the Windows Store has a elegant solution for this scenario.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/familyapp_01.png)
 

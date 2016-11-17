@@ -7,7 +7,7 @@ permalink: savecode
 ---
 
 I finally realized why I wasn't investing a lot of thought or time on my Visual Studio Code snippet library. It's transient.
-<!--more-->
+<!-- xmore -->
 
 I looked up where the user settings are being saved - `C:\users\<me>\AppData\Roaming\Code\User`.
 

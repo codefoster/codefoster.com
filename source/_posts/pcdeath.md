@@ -7,7 +7,7 @@ permalink: pcdeath
 ---
 
 Ugh... if I hear one more time about the death of the PC...
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/pcdeath_01.png)
 

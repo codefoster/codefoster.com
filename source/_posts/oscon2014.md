@@ -7,7 +7,7 @@ permalink: oscon2014
 ---
 
 At OSCON this year, Olivier Bloch and I declare Portland to be the open source capital of the world, and while our declaration might not be official, it certainly makes sense.
-<!-- more -->
+<!-- xmore -->
 
 The breadth of innovation represented in the exhibit hall is both impressive and inspiring.
 

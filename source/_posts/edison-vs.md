@@ -7,7 +7,7 @@ permalink: edison-vs
 ---
 
 In previous blog posts, I explained [how to setup your Intel Edison](/edison-setup) and [how to start writing code for it](/edison-coding). And in case you got here directly, I created a [full index of my Edison](/edison) posts to help you find what you need.
-<!-- more -->
+<!-- xmore -->
 
 In this post, we'll take a look at writing code for it using Visual Studio. Visual Studio, once you add the free [Node.js Tools for Visual Studio plugin](http://nodejstools.codeplex.com), happens to be pretty great at working with Node.js projects. It runs node behind the scenes, so it offer the following...
 

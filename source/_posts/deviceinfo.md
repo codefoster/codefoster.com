@@ -7,7 +7,7 @@ permalink: deviceinfo
 ---
 
 I have plenty of experience in the C# space with accessing Windows API, but I'm still finding it rather novel and delightful to do the same thing in JavaScript. The fact that I can do something like...
-<!-- more -->
+<!-- xmore -->
 
 ``` js
 Windows.Devices.Enumeration.DeviceInformation

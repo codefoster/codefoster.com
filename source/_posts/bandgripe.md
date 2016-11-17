@@ -9,7 +9,7 @@ permalink: bandgripe
 For the most part, I've been really enjoying the Microsoft Band that I bought the day they went on sale.
 
 Like the rest of the world, I learned about the landing of some new Microsoft Health apps in the various app stores on Wed, Nov 29, and like the rest of the world, was thrilled to hear the next morning that they were available for sale. Serindipidously, I had broken my last watch (of 8 years!) only weeks before, and was holding out on buying a new one in case we released something. Then we did, so I was ready to buy.
-<!-- more -->
+<!-- xmore -->
 
 Since my purchase, I have been continuously pleased to have certain bits of information on my wrist. I've never really had any useful information on my wrist before. Sure, I had a Casio Data Bank watch in the 80's like any good geek.
 

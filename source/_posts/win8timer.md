@@ -7,7 +7,7 @@ permalink: win8timer
 ---
 
 Ready for the shortest blog post in history?
-<!-- more -->
+<!-- xmore -->
 
 Looking for a time in Windows 8? Look no further. Just drop this code into the App constructor on the App.xaml.cs page...
 

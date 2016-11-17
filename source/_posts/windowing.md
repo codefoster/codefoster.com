@@ -7,7 +7,7 @@ permalink: windowing
 ---
 
 Windows (the OS) has always had windows - rectangular portals into an application that allow shrinking, expanding, moving, maximizing, minimizing, and whatever else. A window is a foundational element of many UI's. It's not right for every UI, but it's great for many and is a part of many popular operating systems.
-<!-- more -->
+<!-- xmore -->
 
 In Windows XP, I used a utility app called Resizer (I think that was the name) that allowed me to quickly relegate a window to a certain quadrant of the screen (upper right, for instance). It also showed the width and height in pixels of the selected window to allow for easier web development compatibility checking.
 

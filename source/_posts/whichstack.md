@@ -7,7 +7,7 @@ permalink: whichstack
 ---
 
 I had a conversation with an attendee at the recent Windows 8 developers event at LA Live on Monday that I want to put into words and share in case it is of benefit. The question was this:
-<!-- more -->
+<!-- xmore -->
 
 _I'm new to development and I'm jumping in to Windows 8 development. Which language stack should I choose &ndash; HTML/JavaScript or XAML/C#?_
 

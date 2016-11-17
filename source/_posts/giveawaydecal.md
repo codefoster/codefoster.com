@@ -7,7 +7,7 @@ permalink: giveawaydecal
 ---
 
 I'm giving away one large (8.5" x 11") Visual Studio 2012 logo window decal and one small "I heart VS2012" decal. I'm sure these will be all over the place soon, but you can be the first around if you're the lucky winner.
-<!-- more -->
+<!-- xmore -->
 
 ![](/files/giveawaydecal_01.jpg)
 

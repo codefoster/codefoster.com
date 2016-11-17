@@ -7,7 +7,7 @@ permalink: pi-basicgpio
 ---
 
 ​I've been hacking on the Raspberry Pi of late and wanted to share out some of the more interesting learnings.
-<!--more-->
+<!-- xmore -->
 
 I think people that love technology love understanding how things work. When I was a kid I took apart the family phone because I was compelled to see what was inside that made it tick. My brother didn't care. If it made phone calls, he was fine with it. I had to understand.
 

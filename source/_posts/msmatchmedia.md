@@ -7,7 +7,7 @@ permalink: msmatchmedia
 ---
 
 If you throw down with a media query like this...
-<!-- more -->
+<!-- xmore -->
 
 ``` css
 @media screen and (-ms-view-state: fullscreen-portrait) {

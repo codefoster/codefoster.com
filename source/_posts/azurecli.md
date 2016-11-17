@@ -7,7 +7,7 @@ permalink: azurecli
 ---
 
 At the time of this writing, there are two Azure portals you can use.
-<!-- more -->
+<!-- xmore -->
 
 To get to the main, full-featured, current Azure portal, you browse to [manage.windowsazure.com](http://manage.windowsazure.com) in any modern browser, and it looks like this...
 

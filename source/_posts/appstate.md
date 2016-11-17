@@ -7,7 +7,7 @@ permalink: appstate
 ---
 
 _Process Lifetime Management_ (PLM) is also known as the _Application Lifecycle_, but don't confuse it with _Product Lifecycle Management_ (also PLM) or with the general Application Lifecycle Management (ALM).
-<!-- more -->
+<!-- xmore -->
 
 By Microsoft's conventional definitions and in the best of my understanding, _Process Lifetime Management_ and _Application Lifecycle_ are one and the same, are defined (for Windows 8) [here](http://msdn.microsoft.com/en-us/library/windows/apps/hh464925.aspx), and are defined as such...
 

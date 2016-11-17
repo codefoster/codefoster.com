@@ -7,7 +7,7 @@ permalink: win8pagenav
 ---
 
 I'd like to talk a bit about navigating in Metro apps using HTML/JavaScript. There are a few options for doing so, and as you probably know whenever there's more than one way to do things, then you the developer have power but not necessarily clarity.  The latter is what I hope to offer here.
-<!-- more -->
+<!-- xmore -->
 
 First of all, the HTML/JavaScript that Metro apps are based on are identical to the HTML/JavaScript that websites are based on. It is entirely based on the standards. This is good because proprietary things are bad - generally speaking. This means that you can navigate exactly like you do in websites, but don't. I'll explain why not.
 

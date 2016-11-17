@@ -7,7 +7,7 @@ permalink: xhr
 ---
 
 You know the story. A call to a website used to be little more than a single request with its single response. But times have changed. The web is all grown up and any given visit to a website is often accompanied by multiple requests for more atomic bits of data.
-<!-- more -->
+<!-- xmore -->
 
 The popular thing to do now, in fact, is to implement websites using a single page architecture where the user does one primary request and response to get the core document, and then the rest of his or her time spent in the app consists only of these tiny requests/response cycles that bring just what's necessary.
 
