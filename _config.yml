@@ -78,8 +78,21 @@ deploy:
 # Aliases
 ## https://github.com/hexojs/hexo-generator-alias
 alias:
-  Children-of-the-Nations: /cotni
-  blend-design-execute-interact: /blend
-  open-existing-nodejs-project-in-visual-studio: /existingnode
-  resharper-7-is-released: /rs7released
+  Children-of-the-Nations: cotni
+  blend-design-execute-interact: blend
+  open-existing-nodejs-project-in-visual-studio: existingnode
+  resharper-7-is-released: rs7released
   get-that-winrt-documentation-local: docslocal
+  contact: about
+  Adding-a-New-Page-in-Windows-8: newpageinwin8
+  All-About-Scope: scope
+  A-Primer-on-LINQ-and-Lambda: linqlambda
+  articles/codeshow: codeshow
+  articles/im-on-a-boat: onaboat
+  A-Tour-Through-the-Windows-8-Documentation: win8docstour
+  avatar: {}
+  Ban-the-Region: banregion
+  big-windows-developer-event-in-la: laevent2012
+  blog/feed: atom.xml
+  codechat: http://channel9.msdn.com/shows/codechat
+  
