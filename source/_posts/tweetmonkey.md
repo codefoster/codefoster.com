@@ -168,7 +168,7 @@ Now clone [https://github.com/codefoster/tweetmonkey.git](https://github.com/cod
 *   There&#39;s a config.js file that you need to fill in with your particulars.
 *   Go to [apps.twitter.com](apps.twitter.com) and create a new app to get the Twitter API keys and secrets.
 *   There&#39;s a gulpfile.js that has a deployment project. The IP address and password you enter into the config.js will determine where this project gets deployed.
-*   There&#39;s a `{ track: &#39;#cfmonkey&#39; }` in the app.js that you need to change the value of. This is what the search is going to look for. This is not looking for tweets _from a user_ actually, but rather looking for tweets with certain text in the body. I will try to update the GitHub repo with comments for how to search for tweets to a certain user. 
+*   There&#39;s a `{ track: '#cfmonkey' }` in the app.js that you need to change the value of. This is what the search is going to look for. This is not looking for tweets _from a user_ actually, but rather looking for tweets with certain text in the body. I will try to update the GitHub repo with comments for how to search for tweets to a certain user. 
 *   The code in the app.js is hooking into Twitter&#39;s "streaming API". This means that you don&#39;t have to poll the service every second to see if any relevant tweets have landed yet. Rather, Twitter will look for them and when one does land, it will call the your code&#39;s function. That&#39;s a thing of beauty!
 
 ## Step 6\. Running the app

@@ -62,7 +62,7 @@ So the values of acceleration on the individual axes matter not. What matters is
 So, let me go ahead and list some simple code for determining this. This is JavaScript. If you&#39;re interested in writing JavaScript on a device, then head on over to my [Setting up an Intel Edison](/edison-setup) post and see how I got here.
 
 ``` js
-var cylon = require(&#39;cylon&#39;);
+var cylon = require('cylon');
 
 cylon.robot({
     connection: { name: 'eddie', adaptor: 'intel-iot' },

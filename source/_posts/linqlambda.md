@@ -64,7 +64,7 @@ var states = States.Where(s => true);
 
 ...then we would get all states. They would not be filtered at all.
 
-Notice also that our function doesn&#39;t have any mustaches around it, doesn&#39;t have a semicolon, and the "return" keyword is omitted. It doesn&#39;t say s => { return s.Name.StartsWith(&lsquo;a&#39;); } . This is another feature of lambda expressions. If you&#39;re entire function is a single statement and evaluates to the return type that the lambda expression is expected to return, then the typical adornments can be omitted and it works. Know, however, that you are welcome to add the adornments and thus grant yourself the ability to get all sorts of fancy with your function. You can, for instance, do a few steps imperatively before you return a value. Let&#39;s look at what that might look like although the following example is again rather silly except that it illustrates my point...
+Notice also that our function doesn&#39;t have any mustaches around it, doesn&#39;t have a semicolon, and the `return` keyword is omitted. It doesn&#39;t say `s => { return s.Name.StartsWith("a"); }`. This is another feature of lambda expressions. If you&#39;re entire function is a single statement and evaluates to the return type that the lambda expression is expected to return, then the typical adornments can be omitted and it works. Know, however, that you are welcome to add the adornments and thus grant yourself the ability to get all sorts of fancy with your function. You can, for instance, do a few steps imperatively before you return a value. Let&#39;s look at what that might look like although the following example is again rather silly except that it illustrates my point...
 
 ```csharp
 var statesThatStartWithA = States.Where(s => {

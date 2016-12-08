@@ -90,7 +90,7 @@ var config = require('./config');
 
 // JS hint task
 // this is just a nice library for making sure your JavaScript syntax is all good
-var jshint = require(&#39;gulp-jshint&#39;);
+var jshint = require('gulp-jshint');
 gulp.task('jshint', function () { // <--------------
     gulp.src('./*.js')
     .pipe(jshint())
@@ -100,7 +100,7 @@ gulp.task('jshint', function () { // <--------------
 // deploy to the device
 // NOTE: this will only deploy files at the root level; it is not recursive
 
-var scp = require(&#39;gulp-scp2&#39;);
+var scp = require('gulp-scp2');
 gulp.task('deploy', function () { // <----------------
     return gulp.src(['*.{js,json}', '!gulpfile.js'])
         .pipe(scp({

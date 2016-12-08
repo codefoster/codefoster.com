@@ -115,7 +115,7 @@ First, make sure you&#39;re SSH&#39;ed to the device. So run that same `ssh root
 
 **Hello World!** First things first. Let&#39;s greet the world using JavaScript (via NodeJS). Type `node` and hit Enter and you should be at a `>` prompt. You&#39;re in NodeJS... on your Edison. Man, that was easy.
 
-Now type `console.log(&#39;Hello World&#39;);` and hit Enter. There you have it.
+Now type `console.log('Hello World');` and hit Enter. There you have it.
 
 Hit CTRL+C twice to get back to your Linux prompt.
 
@@ -123,7 +123,7 @@ Hit CTRL+C twice to get back to your Linux prompt.
 
 ``` js
 node //enter NodeJS again
-var mraa = require(&#39;mraa&#39;); //create a reference to the built-in mraa library (which provides easy access to hardware capabilities)
+var mraa = require('mraa'); //create a reference to the built-in mraa library (which provides easy access to hardware capabilities)
 var led = new mraa.Gpio(13); //setup a variable for pin 13 which also happens to be an LED on the board (how convenient)
 led.dir(mraa.DIR_OUT); //tell pin 13 that it should act as an _output_ pin for now
 led.write(1); //turn the LED on 

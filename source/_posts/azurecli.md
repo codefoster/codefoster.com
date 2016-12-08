@@ -7,7 +7,6 @@ permalink: azurecli
 ---
 
 At the time of this writing, there are two Azure portals you can use.
-<!-- xmore -->
 
 To get to the main, full-featured, current Azure portal, you browse to [manage.windowsazure.com](http://manage.windowsazure.com) in any modern browser, and it looks like this...
 
@@ -40,7 +39,7 @@ azure vm image list | grep 'Ubuntu.*14_04_1.*LTS'
 Once I&#39;ve chosen the image I want to start with, I simple call the following to create a new VM in the West US region. I add the `-e` parameter to add ssh capability so I can ssh into the machine when it&#39;s finished.
 
 ```
-azure vm create -l ';West US'; VM_NAME b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-trusty-14_04_1-LTS-amd64-server-20141110-en-us-30GB codefoster -e
+azure vm create -l 'West US' VM_NAME b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-trusty-14_04_1-LTS-amd64-server-20141110-en-us-30GB codefoster -e
 ```
 
 ![](/files/azurecli_04.png)

@@ -7,7 +7,6 @@ permalink: resjs
 ---
 
 Many developers (present parties included) are neglecting to take advantage of other cultures and are missing relatively easily earned revenue as a consequence.
-<!-- xmore -->
 
 Localizing your app by referencing resource strings is the first step and sets you up for easy translation to other languages. It&#39;s simple enough to add your data-win-res in your HTML, but what about when you need to do the same thing from JavaScript?
 
@@ -94,7 +93,7 @@ Let me break down each of the five lines of that function, so you can see not on
 
 This simply gives a shorter handle to the resources core which is built into the Windows application model. It&#39;s a common practice to use this feature of JavaScript to shorten deeply embedded classes or even functions, and it does nothing more than keep your code shorter.
 
-**Line 2:** `var resourceMap = resourceNS.ResourceManager.current.mainResourceMap.getSubtree(&#39;Resources&#39;);`
+**Line 2:** `var resourceMap = resourceNS.ResourceManager.current.mainResourceMap.getSubtree('Resources');`
 
 This is the first call to ResourceManager which handles the available resources in the current application. The getSubtree method is rather robust, but in this case it&#39;s essentially allowing us to identify the file that our resources are in. In a large app, we may choose to separate our resources out topically for a better architecture.
 

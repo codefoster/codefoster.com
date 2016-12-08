@@ -124,8 +124,8 @@ Now the command line way. Navigate to the root of this project at a command line
 Now open up the app.js and paste this in...
 
 ``` js
-var http = require(&#39;http&#39;);
-var app = require(&#39;express&#39;)();
+var http = require('http');
+var app = require('express')();
 var targetSocket;
 
 app.set('port', process.env.PORT);
@@ -220,17 +220,17 @@ In Visual Studio, right click on the solution and Add | New Project... and add a
 Using the technique above for installing npm packages, install the `socket.io-client` npm package.
 
 ``` js
-var cylon = require(&#39;cylon&#39;);
-var socket = require(&#39;socket.io-client&#39;)
-    .connect(&#39;http://CommandMonkey.azurewebsites.net&#39;);
+var cylon = require('cylon');
+var socket = require('socket.io-client')
+    .connect('http://CommandMonkey.azurewebsites.net');
 
 cylon.robot({
-    name: &#39;edison&#39;,
-    connections: { edison: { adaptor: &#39;intel-iot&#39; } },
-    devices: { monkey: { driver: &#39;direct-pin&#39;, pin: 2 } },
+    name: 'edison',
+    connections: { edison: { adaptor: 'intel-iot' } },
+    devices: { monkey: { driver: 'direct-pin', pin: 2 } },
     work: function (edison) {
-        socket.emit(&#39;setTarget&#39;);
-        socket.on(&#39;command&#39;, function (cmd) {
+        socket.emit('setTarget');
+        socket.on('command', function (cmd) {
             edison.monkey.digitalWrite(1);
             setTimeout(function () { edison.monkey.digitalWrite(0); }, 2000);
         })
@@ -238,11 +238,11 @@ cylon.robot({
 }).start();
 ```
 
-You can see that this code is connecting to our web service in Azure - CommandMonkey.azurewebsites.net.
+You can see that this code is connecting to our web service in Azure - `CommandMonkey.azurewebsites.net`.
 
 It also requires and initializes the Cylon library so it can talk to the hardware in an easy, expressive, and modern way.
 
-The Cylon `work` method is like Cylon&#39;s "ready" method, and so that&#39;s where we&#39;ll invoke the &#39;setTarget&#39; event. This socket event request for the server to save this socket as the "target" socket. That just means that when anyone triggers messages on the server, _this_ is the device that&#39;s going to pick them up. You may want to create this as an array and thus allow for multiple devices to be targets, but I&#39;m keeping it simple here.
+The Cylon `work` method is like Cylon&#39;s `ready` method, and so that&#39;s where we&#39;ll invoke the `setTarget` event. This socket event request for the server to save this socket as the "target" socket. That just means that when anyone triggers messages on the server, _this_ is the device that&#39;s going to pick them up. You may want to create this as an array and thus allow for multiple devices to be targets, but I&#39;m keeping it simple here.
 
 Finally, it handles the &#39;command&#39; event that the server is going to pass it and simply raises the digital pin for 2 seconds.
 

@@ -19,7 +19,7 @@ First, a note as to why you&#39;d want to do this. Of course, you could do the a
 Here it is... _in its entirety_...
 
 ``` js
-var twitter = require(&#39;twitter&#39;);
+var twitter = require('twitter');
 
 var twit = new twitter({
     consumer_key: 'PtSsmBwqSPtc8zQRDJ3GtbhKj',
