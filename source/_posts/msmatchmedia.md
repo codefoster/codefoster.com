@@ -1,5 +1,5 @@
 ---
-title: msMatchMedia: programmatic access to media queries
+title: msMatchMedia - programmatic access to media queries
 categories: []
 tags: []
 date: 2012-08-25
