@@ -1,5 +1,5 @@
 ---
-title: &#39;Ban the #Region&#39;
+title: Ban the &#35;Region
 categories: []
 tags: []
 date: 2012-04-24
