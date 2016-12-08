@@ -1,5 +1,5 @@
 ---
-title: What&#39;s Microsoft Doing for Students?
+title: What's Microsoft Doing for Students?
 categories: []
 tags: []
 date: 2001-01-01
