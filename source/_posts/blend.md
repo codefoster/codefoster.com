@@ -1,5 +1,5 @@
 ---
-title: &#39;Blend: Design, Execute, Interact&#39;
+title: Blend: Design, Execute, Interact
 categories: []
 tags: []
 date: 2012-04-16

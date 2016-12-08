@@ -65,13 +65,13 @@ So, let me go ahead and list some simple code for determining this. This is Java
 var cylon = require(&#39;cylon&#39;);
 
 cylon.robot({
-    connection: { name: &#39;eddie&#39;, adaptor: &#39;intel-iot&#39; },
+    connection: { name: 'eddie', adaptor: 'intel-iot' },
     devices: [
-        { name: &#39;x&#39;, driver: &#39;analogSensor&#39;, pin: 0 },
-        { name: &#39;y&#39;, driver: &#39;analogSensor&#39;, pin: 1 },
-        { name: &#39;z&#39;, driver: &#39;analogSensor&#39;, pin: 2 },
+        { name: 'x', driver: 'analogSensor', pin: 0 },
+        { name: 'y', driver: 'analogSensor', pin: 1 },
+        { name: 'z', driver: 'analogSensor', pin: 2 },
     ]
-}).on(&#39;ready&#39;, function (eddie) {
+}).on('ready', function (eddie) {
     every((0.05).second(), function () {
         var m = mag(eddie.x.analogRead(), eddie.y.analogRead(), eddie.z.analogRead());
     });

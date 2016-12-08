@@ -1,5 +1,5 @@
 ---
-title: &#39;Giveaway: Gears of War 3 for Xbox 360&#39;
+title: Giveaway: Gears of War 3 for Xbox 360
 categories: []
 tags: []
 date: 2012-10-23

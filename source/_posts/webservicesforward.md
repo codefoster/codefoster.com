@@ -37,7 +37,7 @@ Date: Tue, 23 Sept 2014 23:00:00 GMT
 Content-Type: text/plain
 Content-Length: 21
 
-{response:&#39;hi there&#39;}
+{response:'hi there'}
 ```
 
 The round trip in total is not that large, but if you&#39;re talking about 10&#39;s of thousands of messages then it might become a consideration. Using HTTP messaging is hugely convenient in a number of ways - not the least of which is the practically instant compatibility with a lot of client systems. Everyone these days speaks HTTP with a wide variety of helper classes out there. If you&#39;re in JavaScript you have jQuery&#39;s ajax(), WinJS&#39;s xhr(), and likely about 7,820 more. If you&#39;re in C# you have the HttpClient helper class. Even if you don&#39;t have any helpers, composing a text message like the sample above wouldn&#39;t be rocket science (unless of course you&#39;re in the aerospace industry).
@@ -66,7 +66,7 @@ SOAPAction: [http://mydomain.com/MyAction](http://mydomain.com/MyAction)
 </soap:Envelope>
 ```
 
-As you may spot immediately, SOAP is XML, so besides its inherent, relative verbosity, it is also subject to the verbosity of XML. When you have to `<thing>`wrap all the things`</thing>`, they start to get pretty long, n&#39;est pas? SOAP is the foundation of the WS* stack - a suite of standards to determine _one_ way to implement web services. The problem is the WS* stack is pretty thorough and pretty pervasive in the enterprise. So if you&#39;re an enterprise developer trying to introduce some agility to your group, you may run up against the constraint of having to speak SOAP.
+As you may spot immediately, SOAP is XML, so besides its inherent, relative verbosity, it is also subject to the verbosity of XML. When you have to `<thing>` wrap all the things `</thing>`, they start to get pretty long, n&#39;est pas? SOAP is the foundation of the WS* stack - a suite of standards to determine _one_ way to implement web services. The problem is the WS* stack is pretty thorough and pretty pervasive in the enterprise. So if you&#39;re an enterprise developer trying to introduce some agility to your group, you may run up against the constraint of having to speak SOAP.
 
 *   **You don&#39;t need Reliable Messaging, WS-Transactions, or any of the other WS* junk. **Web API implements web services using a variety of primitive and largely preexisting protocols such as HTTP, WebSockets, and SSL, so you don&#39;t get the various higher level protocols such as RM or WS-Transaction. You don&#39;t get the power of those protocols, but you also avoid the headache in my opinion. I have always felt the process of implementing such protocols was relegated either to suspicious black magic libraries or pain staking implementation ceremony.
 
@@ -77,7 +77,7 @@ There may be more, but those are the basic constraints I can come up with on a m
 It seems like everyone is talking about the raw and simple HTTP REST JSON approach, and that&#39;s great, but there are a couple of other approaches to consider. One of them is a shaking of even the HTTP protocol. You can accomplish that by embracing web sockets. You can implement an entire API using Signal R and it would surely be very fast and very impressive. Another alternative is to keep the HTTP envelope but get more specific with your data format specification by embracing OData. A client can look at any OData set of data with standard tools or code because they&#39;re always formatted the same. Additionally, OData allows me to query my data with clever URL strings so I only get back the data I want. OData is nifty. Here&#39;s a simple HTTP request to an OData resource...
 
 ```
-GET /mypath/widgets?$filter=name eq Widget1&amp;$select=id HTTP/1.0
+GET /mypath/widgets?$filter=name eq Widget1&$select=id HTTP/1.0
 ```
 
 This is a simple GET to an OData resource (a collection of widgets it appears) that will take only the _id_ column of the widget with the name "Widget1". So that is going to return a microscopic result that looks something like...

@@ -57,7 +57,7 @@ Great. Now you have the resource string. The word _greeting_ there is what you u
 Now, as I mentioned, utilizing this from your HTML is quite straightforward. you just add an attribute to whatever element you want to suck it into. If you want it to populate a div, you would use...
 
 ``` html
-<div data-win-res="{textContent: &#39;greeting&#39;}"></div>
+<div data-win-res="{textContent: 'greeting'}"></div>
 ```
 
 In case you&#39;re new to this, the `data-win-res` tag is so named for a few good reasons. The `data-` means it&#39;s a valid HTML5 and will not trigger any syntax validators. The `win-` means it&#39;s something provided by the WinJS library and makes it easier to distinguish from other libraries or from your own code. And the `res` obviously stands for `resource`, but you didn&#39;t need me to tell you that.
@@ -102,11 +102,11 @@ This is the first call to ResourceManager which handles the available resources 
 
 The getForCurrentView method of the ResourceContext fetches the correct resource context for you. This is necessary because in Windows 8.1 resources can be customized for various scaling levels (which are determined by the screen resolution of the device your app is running on).
 
-**Line 4 (optional):** `context.languages = [&#39;en-US&#39;];`
+**Line 4 (optional):** `context.languages = ['en-US'];`
 
 The fourth line is optional actually. If you don&#39;t specify a language for the current context then your system&#39;s current culture will be used. If you choose a language that you don&#39;t have installed on the system then it will revert to whatever your system&#39;s current culture is as well.
 
-**Line 5:** `mydiv.innerText = resourceMap.getValue(&#39;greeting&#39;, context).valueAsString;`
+**Line 5:** `mydiv.innerText = resourceMap.getValue('greeting', context).valueAsString;`
 
 Finally, you simply set the value of your UI element to the results of a call to the getValue method of your resource map.
 

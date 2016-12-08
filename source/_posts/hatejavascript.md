@@ -1,5 +1,5 @@
 ---
-title: &#39;Top 5 Things C# Developers Hate About JavaScript&#39;
+title: Top 5 Things C# Developers Hate About JavaScript
 categories: []
 tags: []
 date: 2014-07-28

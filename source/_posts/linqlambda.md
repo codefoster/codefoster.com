@@ -27,17 +27,17 @@ LINQ is essentially a collection of extension methods that act on lists. It&#39;
 
 The best place to go to learn about LINQ is [101 LINQ Samples](http://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b). But know this... when they created LINQ, they created a whole new way of writing the code. It&#39;s called the LINQ query syntax and it feels a little like you&#39;re writing SQL. But everything you write in LINQ can either be written using this LINQ query syntax <span style="text-decoration: underline;">or</span> it can be written using extension methods. The 101 LINQ Samples writes everything in LINQ query syntax, but I all but never use this syntax anymore. I strongly prefer the extension method syntax myself.
 
-So these are equivalent statements that filter a list of states for the ones that start with the letter &lsquo;a&#39;:
+So these are equivalent statements that filter a list of states for the ones that start with the letter &quot;a&quot;:
 
 **LINQ Query Syntax:**
 
 ``` csharp
-var statesThatStartWithA = from s in States where s.Name.StartsWith(&#39;a&#39;);
+var statesThatStartWithA = from s in States where s.Name.StartsWith('a');
 ```
 
 **LINQ Extension Method Syntax:**
 ``` csharp
-var statesThatStartWithA = States.Where(s => s.Name.StartsWith(&#39;a&#39;));
+var statesThatStartWithA = States.Where(s => s.Name.StartsWith('a'));
 ```
 
 # Lambda Expressions
@@ -50,13 +50,13 @@ Dynamic languages like JavaScript make handling and passing functions a beautifu
 
 Lambda expressions are simply anonymous functions. They&#39;re just a really shorthand way of writing a function without even giving it a name.
 
-Notice in the code above where we filter out the states that begin with &lsquo;a&#39; using the extension method syntax that the Where method takes a single parameter and that parameter is a lambda expression...
+Notice in the code above where we filter out the states that begin with &quot;a&quot; using the extension method syntax that the Where method takes a single parameter and that parameter is a lambda expression...
 
 ```csharp
-s => s.Name.StartsWith(&#39;a&#39;)
+s => s.Name.StartsWith('a')
 ```
 
-This is awesome because functions are powerful. In this case we use s => which means that our function takes in a single parameter (which we know is going to be the type of whatever item types exists in our list... in this case States) and it returns a Boolean value of true if the state starts with an &lsquo;a&#39;. If we did this (which would be silly of course)...
+This is awesome because functions are powerful. In this case we use s => which means that our function takes in a single parameter (which we know is going to be the type of whatever item types exists in our list... in this case States) and it returns a Boolean value of true if the state starts with an &quot;a&quot;. If we did this (which would be silly of course)...
 
 ```csharp
 var states = States.Where(s => true);
@@ -68,7 +68,7 @@ Notice also that our function doesn&#39;t have any mustaches around it, doesn&#3
 
 ```csharp
 var statesThatStartWithA = States.Where(s => {
-	char letter = &#39;a&#39;;
+	char letter = 'a';
 	bool result = s.Name.StartsWith(letter);
 	return result;
 });

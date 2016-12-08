@@ -1,5 +1,5 @@
 ---
-title: &#39;msMatchMedia: programmatic access to media queries&#39;
+title: msMatchMedia: programmatic access to media queries
 categories: []
 tags: []
 date: 2012-08-25
@@ -7,7 +7,6 @@ permalink: msmatchmedia
 ---
 
 If you throw down with a media query like this...
-<!-- xmore -->
 
 ``` css
 @media screen and (-ms-view-state: fullscreen-portrait) {

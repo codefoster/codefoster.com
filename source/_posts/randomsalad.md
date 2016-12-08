@@ -1,5 +1,5 @@
 ---
-title: &#39;My Q&A with Indie Game Dev Studio, Random Salad&#39;
+title: My Q&A with Indie Game Dev Studio, Random Salad
 categories: []
 tags: []
 date: 2013-08-29

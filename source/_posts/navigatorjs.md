@@ -31,7 +31,7 @@ Follow these steps to add navigation to a blank application. And I encourage you
 	``` html
 	<span style="background: white; color: black;">    </span><span style="background: white; color: blue;"><</span><span style="background: white; color: maroon;">div </span><span style="background: white; color: red;">id</span><span style="background: white; color: blue;">="contenthost"
 			</span><span style="background: white; color: red;">data-win-control</span><span style="background: white; color: blue;">="Application2.PageControlNavigator"
-			</span><span style="background: white; color: red;">data-win-options</span><span style="background: white; color: blue;">="{ home: &#39;/html/page1.html&#39; }"></</span><span style="background: white; color: maroon;">div</span><span style="background: white; color: blue;">></span>
+			</span><span style="background: white; color: red;">data-win-options</span><span style="background: white; color: blue;">="{ home: '/html/page1.html' }"></</span><span style="background: white; color: maroon;">div</span><span style="background: white; color: blue;">></span>
 	```
 	Note: the `data-win-control` makes this an official WinJS control. The data-win-options "home" property tells this control which page to start with and which page to return to when the user elects through the navigator to go home.
 

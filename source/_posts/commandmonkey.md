@@ -86,12 +86,12 @@ sf.getFileFromApplicationUriAsync(new Windows.Foundation.Uri("ms-appx:///vcd.xml
 
 And there&#39;s one more step to completing the Cortana integration. We need to actually do something when our application is invoked using this voice command.
 
-Still in the `default.js`, add this after the the `if` statement that is looking for the `activation.ActivationKind.launch`
+Still in the `default.js`, add this after the `if` statement that is looking for the `activation.ActivationKind.launch`
 
 ``` js
 else if (args.detail.kind === activation.ActivationKind.voiceCommand) {
   var command = args.detail.result.semanticInterpretation.properties.command[0];
-  WinJS.xhr({ url: &#39;http://CommandMonkey.azurewebsites.net/api/command?cmd=&#39; + command });
+  WinJS.xhr({ url: 'http://CommandMonkey.azurewebsites.net/api/command?cmd=' + command });
 }
 ```
 
@@ -128,19 +128,19 @@ var http = require(&#39;http&#39;);
 var app = require(&#39;express&#39;)();
 var targetSocket;
 
-app.set(&#39;port&#39;, process.env.PORT);
+app.set('port', process.env.PORT);
 
-app.get(&#39;/api/command&#39;, function (req, res) {
-    if(targetSocket) targetSocket.emit(&#39;command&#39;, req.query.cmd);
+app.get('/api/command', function (req, res) {
+    if(targetSocket) targetSocket.emit('command', req.query.cmd);
 });
 
 module.exports = app;
-var server = http.createServer(app).listen(app.get(&#39;port&#39;));
-var io = require(&#39;socket.io&#39;)(server);
-io.on(&#39;connection&#39;, function (socket) {
-    console.log(&#39;connection from client &#39; + socket.id);
-    socket.on(&#39;setTarget&#39;, function () {
-        console.log(&#39;Setting &#39; + socket.id + &#39; as target...&#39;);
+var server = http.createServer(app).listen(app.get('port'));
+var io = require('socket.io')(server);
+io.on('connection', function (socket) {
+    console.log('connection from client ' + socket.id);
+    socket.on('setTarget', function () {
+        console.log('Setting ' + socket.id + ' as target...');
         targetSocket = socket
     });
 });

@@ -118,11 +118,11 @@ Fire up Fiddler and hit that service root URL appending each of the following an
 			<td valign="top" width="472">fetches all entities, but projects them to lighter JSON objects by only including the Id and Name properties.</td>
 		</tr>
 		<tr>
-			<td valign="top" width="351">_{root service URL}?$filter=Location%20eq%20&#39;North&#39;_</td>
+			<td valign="top" width="351">_{root service URL}?$filter=Location%20eq%20'North'_</td>
 			<td valign="top" width="472">gives you entitites that have a Location value of "North".</td>
 		</tr>
 		<tr>
-			<td valign="top" width="351">_{root service URL}?$filter=substringof(&#39;Falls&#39;,Name)%20eq%20true"_</td>
+			<td valign="top" width="351">_{root service URL}?$filter=substringof('Falls',Name)%20eq%20true"_</td>
 			<td valign="top" width="472">gives you only entites with the word "Falls" in their Name</td>
 		</tr>
 		<tr>

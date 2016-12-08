@@ -1,5 +1,5 @@
 ---
-title: &#39;Giveaway: Visual Studio Windows Decals&#39;
+title: Giveaway: Visual Studio Windows Decals
 categories: []
 tags: []
 date: 2012-06-04

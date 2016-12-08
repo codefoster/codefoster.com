@@ -7,7 +7,6 @@ permalink: jslibraries
 ---
 
 Windows 8 is one of those environments that&#39;s just fun and expressive to develop in. So is JavaScript. The convergence of the two is just rockin&#39;.
-<!-- xmore -->
 
 One of the great things about JavaScript is the enormous amount of code that other people have already written and put up on the web for your consumption. Do you want to wrap local storage ([store.js](https://github.com/marcuswestin/store.js)), detect faces ([liuliu](http://liuliu.me/ccv/js/nss/#http%3A%2F%2Fwww2.tbo.com%2Fmgmedia%2Fimage%2F0%2F354%2F128693%2Favett-brothers%2F)), implement lightweight pubsub ([minpubsub](https://github.com/daniellmb/MinPubSub)), or load JavaScript asynchronously ([include.js](http://capmousse.github.com/include.js/))? You can do it by simply including a library in your Windows 8 project.
 

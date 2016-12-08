@@ -7,7 +7,6 @@ permalink: edison-vs
 ---
 
 In previous blog posts, I explained [how to setup your Intel Edison](/edison-setup) and [how to start writing code for it](/edison-coding). And in case you got here directly, I created a [full index of my Edison](/edison) posts to help you find what you need.
-<!-- xmore -->
 
 In this post, we&#39;ll take a look at writing code for it using Visual Studio. Visual Studio, once you add the free [Node.js Tools for Visual Studio plugin](http://nodejstools.codeplex.com), happens to be pretty great at working with Node.js projects. It runs node behind the scenes, so it offer the following...
 
@@ -85,33 +84,33 @@ Adding some gulp tasks to your app is easy. You just add a `gulpfile.js `to the 
 The edref project has a little bit of gulp built in to deploy your code to your Edison device. Here&#39;s that gulpfile.js content so we can talk about what gulp tasks look like...
 
 ``` js
-/// <vs BeforeBuild=&#39;jshint&#39; AfterBuild=&#39;deploy&#39; />
-var gulp = require(&#39;gulp&#39;);
-var config = require(&#39;./config&#39;);
+/// <vs BeforeBuild='jshint' AfterBuild='deploy' />
+var gulp = require('gulp');
+var config = require('./config');
 
 // JS hint task
 // this is just a nice library for making sure your JavaScript syntax is all good
 var jshint = require(&#39;gulp-jshint&#39;);
-gulp.task(&#39;jshint&#39;, function () { // <--------------
-    gulp.src(&#39;./*.js&#39;)
+gulp.task('jshint', function () { // <--------------
+    gulp.src('./*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter(&#39;default&#39;));
+    .pipe(jshint.reporter('default'));
 });
 
 // deploy to the device
 // NOTE: this will only deploy files at the root level; it is not recursive
 
 var scp = require(&#39;gulp-scp2&#39;);
-gulp.task(&#39;deploy&#39;, function () { // <----------------
-    return gulp.src([&#39;*.{js,json}&#39;, &#39;!gulpfile.js&#39;])
+gulp.task('deploy', function () { // <----------------
+    return gulp.src(['*.{js,json}', '!gulpfile.js'])
         .pipe(scp({
             host: config.host,
             username: config.user,
             password: config.password,
             dest: config.deployFolder
         }))
-        .on(&#39;error&#39;, function (err) {
-            console.log(&#39;ERR: &#39; + err);
+        .on('error', function (err) {
+            console.log('ERR: ' + err);
         });
 });
 ```

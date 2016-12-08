@@ -19,7 +19,7 @@ If you&#39;re a veteran of web development, answer this question: how do you add
 </html>
 ```
 
-That&#39;s HTML by anyone&#39;s definition, but it&#39;s not going to get you very far in Windows 8 if you&#39;re using the standard navigation model.
+That&#39;s HTML by anyones definition, but it&#39;s not going to get you very far in Windows 8 if you&#39;re using the standard navigation model.
 
 What you really wanted to do is to add a Page Control. Try Right click | Add | New Item... and then choose Page Control and you should get more than just an HTML file. You should also get a JavaScript file (.js) and a stylesheet (.css). Furthermore, the HTML file is a bit more robust:
 

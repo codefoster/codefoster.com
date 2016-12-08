@@ -13,7 +13,7 @@ Just in case someone else is running into the same thing, I&#39;m running Window
 C:\code>npm -v
 
 events.js:160
-      throw er; // Unhandled &#39;error&#39; event
+      throw er; // Unhandled 'error' event
       ^
 
 Error: This socket is closed

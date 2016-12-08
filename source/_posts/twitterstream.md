@@ -22,14 +22,14 @@ Here it is... _in its entirety_...
 var twitter = require(&#39;twitter&#39;);
 
 var twit = new twitter({
-    consumer_key: &#39;PtSsmBwqSPtc8zQRDJ3GtbhKj&#39;,
-    consumer_secret: &#39;CsAsJ8fMDS3EPvhQhLawo8La6MwSiuEm1pAZbEDKDYULQFO513&#39;,
-    access_token_key: &#39;176376243-RgYPr0nf9GWNe7ppxU5fLq9KXbmu5m2AT3qB0Box&#39;,
-    access_token_secret: &#39;P0V8b94x0Csmw41GubwfI45h9p4gKPNAIWNtMauFtz8vT&#39;
+    consumer_key: 'PtSsmBwqSPtc8zQRDJ3GtbhKj',
+    consumer_secret: 'CsAsJ8fMDS3EPvhQhLawo8La6MwSiuEm1pAZbEDKDYULQFO513',
+    access_token_key: '176376243-RgYPr0nf9GWNe7ppxU5fLq9KXbmu5m2AT3qB0Box',
+    access_token_secret: 'P0V8b94x0Csmw41GubwfI45h9p4gKPNAIWNtMauFtz8vT'
 });
 
-twit.stream(&#39;filter&#39;, { track: &#39;dog&#39; }, function (stream) {
-    stream.on(&#39;data&#39;, function (data) {
+twit.stream('filter', { track: 'dog' }, function (stream) {
+    stream.on('data', function (data) {
         console.log(data.text);
     });
 });

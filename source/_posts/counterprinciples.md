@@ -11,7 +11,7 @@ Likely you&#39;ve read the [Metro style design principles](http://msdn.microsoft
 
 # 1\. Show Shame in Mediocrity
 
-To really show shame in mediocrity, just look at about 80% of the apps in any major app marketplace. These apps may get a users attention with a catchy title or a promise to solve some problem, but then they fail to add any value to anyone&#39;s life. Even if they are not devoid of functional value they fail to provide any user joy.
+To really show shame in mediocrity, just look at about 80% of the apps in any major app marketplace. These apps may get a users attention with a catchy title or a promise to solve some problem, but then they fail to add any value to anyones life. Even if they are not devoid of functional value they fail to provide any user joy.
 
 *   Ignore the little things
 *   Do something different in every little user interaction so you can keep them on their toes

@@ -27,9 +27,9 @@ Somewhere in the whole process, we decided we wanted to reduce the size of the s
 
 She gave me a 33" x 15" mattress to work with. I had plenty of midnight hours for step 1 - brainstorming designs. I ended up deciding to employ the laser cutter at the Maker Garage where I work at Microsoft. It turned out to be kind of a fun project, so I&#39;ll share the process and the final product here.
 
-My only raw material was some 7 1/2" x 1/2" x 3&#39; poplar wood from Home Depot. I was out $35 overall, which isn&#39;t necessarily a savings over what we were finding online, but this design had the advantage of being **custom** and **chemical free** and **entirely fun**.
+My only raw material was some 7 1/2&quot; x 1/2&quot; x 3&quot; poplar wood from Home Depot. I was out $35 overall, which isn&#39;t necessarily a savings over what we were finding online, but this design had the advantage of being **custom** and **chemical free** and **entirely fun**.
 
-The laser cutter I use has a bed size of 24" x 18". The 33" mattress was obviously going to demand something longer, so I had to get creative and design it in two pieces and stitch it together. This ended up working quite nicely.
+The laser cutter I use has a bed size of 24&quot; x 18&quot;. The 33&quot; mattress was obviously going to demand something longer, so I had to get creative and design it in two pieces and stitch it together. This ended up working quite nicely.
 
 I&#39;ll show you the final product first so you can envisage the whole thing...
 
