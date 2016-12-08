@@ -2,7 +2,7 @@
 title: Good Design for App Bar Button Placement
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-05-21
 permalink: appbarbuttons
 ---
 

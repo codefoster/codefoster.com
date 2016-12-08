@@ -2,7 +2,7 @@
 title: The Azure CLI
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-11-12
 permalink: azurecli
 ---
 
@@ -30,7 +30,7 @@ I had a glance some time ago at the node tooling for Azure as well, but didn&#39
 The following will generate a list of Azure VM images and allows me to pipe to a regular expression to pull out just the stable (LTS) Ubuntu images of a certain version (14.04.1). It&#39;s also possible to add a `--json `property to the request and get this data back in JSON format.
 
 ```
-azure vm image list | grep &#39;Ubuntu.*14_04_1.*LTS&#39;
+azure vm image list | grep 'Ubuntu.*14_04_1.*LTS'
 ```
 
 ![](/files/azurecli_03.png)
@@ -40,7 +40,7 @@ azure vm image list | grep &#39;Ubuntu.*14_04_1.*LTS&#39;
 Once I&#39;ve chosen the image I want to start with, I simple call the following to create a new VM in the West US region. I add the `-e` parameter to add ssh capability so I can ssh into the machine when it&#39;s finished.
 
 ```
-azure vm create -l &#39;West US&#39; VM_NAME b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-trusty-14_04_1-LTS-amd64-server-20141110-en-us-30GB codefoster -e
+azure vm create -l ';West US'; VM_NAME b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu_DAILY_BUILD-trusty-14_04_1-LTS-amd64-server-20141110-en-us-30GB codefoster -e
 ```
 
 ![](/files/azurecli_04.png)
@@ -63,7 +63,7 @@ What else can we do with the azure-cli? Oh, man. Glad you asked. Let&#39;s creat
 
 ## Creating a Mobile Service...
 
-First, we create the service like the following where gg4p4pzmfi is simply the name of my particular SQL Server. I already have it, so I may as well use that instead of creating a new one. My service is actually going to be called "cfms".
+First, we create the service like the following where gg4p4pzmfi is simply the name of my particular SQL Server. I already have it, so I may as well use that instead of creating a new one. My service is actually going to be called &quot;cfms&quot;.
 
 ```
 azure mobile create --sqlServer gg4p4pzmfi cfms
@@ -96,7 +96,7 @@ Function post ($uri, $body)
 So now we can write a record into our new widgets table like so...
 
 ```
-post [http://cfms.azure-mobile.net/tables/widgets](http://cfms.azure-mobile.net/tables/widgets) &#39;{"name":"widget 1"}&#39;
+post [http://cfms.azure-mobile.net/tables/widgets](http://cfms.azure-mobile.net/tables/widgets) '{"name":"widget 1"}';
 ```
 
 ![](/files/azurecli_10.png)

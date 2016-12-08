@@ -2,7 +2,7 @@
 title: Open Existing Node.js Project in Visual Studio
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-11-24
 permalink: existingnode
 ---
 

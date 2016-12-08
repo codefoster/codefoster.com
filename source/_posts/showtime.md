@@ -2,7 +2,7 @@
 title: 12 Things to Do Before You Start a Presentation
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-09-30
 permalink: showtime
 ---
 

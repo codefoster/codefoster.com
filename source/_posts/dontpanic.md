@@ -2,12 +2,11 @@
 title: Unintentionally Open Source?
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-12-11
 permalink: dontpanic
 ---
 
 I saw this tweet and decided to respond.
-<!-- xmore -->
 
 ![](/files/dontpanic_01.png)
 

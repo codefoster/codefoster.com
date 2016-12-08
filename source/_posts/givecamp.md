@@ -2,7 +2,7 @@
 title: Seattle Give Camp just around the corner
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-08-31
 permalink: givecamp
 ---
 

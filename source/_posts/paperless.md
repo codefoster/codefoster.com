@@ -2,7 +2,7 @@
 title: Going Paperless
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-08-27
 permalink: paperless
 ---
 

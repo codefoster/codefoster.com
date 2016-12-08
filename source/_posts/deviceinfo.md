@@ -2,12 +2,11 @@
 title: Getting Windows Device Info
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-08-17
 permalink: deviceinfo
 ---
 
 I have plenty of experience in the C# space with accessing Windows API, but I&#39;m still finding it rather novel and delightful to do the same thing in JavaScript. The fact that I can do something like...
-<!-- xmore -->
 
 ``` js
 Windows.Devices.Enumeration.DeviceInformation

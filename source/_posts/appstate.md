@@ -2,7 +2,7 @@
 title: App States and Activation Kinds
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-05-08
 permalink: appstate
 ---
 

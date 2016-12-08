@@ -2,7 +2,7 @@
 title: 8tracks for Windows 8
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-02-17
 permalink: 8tracks
 ---
 
@@ -20,7 +20,7 @@ PT: My name is Paul Tidwell, I have been writing code as a hobby since I was 12\
 
 PT: 8tracks is a small company from San Francisco founded in 2006.  It provides a [streaming music service ](http://8tracks.com/)similar to how people think of Pandora or Spotify. 8tracks is different from those in at least one important way: its content is provided by its community of users. That is the users upload music from their own collection, organize it into a &lsquo;mix&#39; and then share it with the world. The clever folks at 8tracks figured out how to do this legally by making sure the artists are paid for their work and by following the rules set out in the Digital Millennium Copyright Act (DMCA).
 
-I got involved with 8tracks when I was looking for a first project to do on Windows Phone. I had been using 8tracks (from their website) as a source of music and music discovery, when I happened to noticed they offered a public API for accessing and playing back their music. When I tried it out on Windows Phone, it worked beautifully and my first Windows Phone app ["Mixtapes"](http://www.windowsphone.com/en-us/store/app/mixtapes/a059e6b8-c3c8-4131-a198-737bb5314a3a) was born.  Mixtapes was a moderately successful Windows Phone app and got the attention of the folks at 8tracks.
+I got involved with 8tracks when I was looking for a first project to do on Windows Phone. I had been using 8tracks (from their website) as a source of music and music discovery, when I happened to noticed they offered a public API for accessing and playing back their music. When I tried it out on Windows Phone, it worked beautifully and my first Windows Phone app [&quot;Mixtapes&quot;](http://www.windowsphone.com/en-us/store/app/mixtapes/a059e6b8-c3c8-4131-a198-737bb5314a3a) was born.  Mixtapes was a moderately successful Windows Phone app and got the attention of the folks at 8tracks.
 
 In early fall of 2012, 8tracks approached me and asked if I would be interested in developing their official Windows 8 app. I agreed.
 
@@ -38,7 +38,7 @@ PT: I used Visual Studio 2012 Ultimate (although Express would have worked too),
 
 **ME: What were the biggest obstacles you had to overcome making this app?**
 
-<div class="sidebar right">**New to XAML?** Spend some online time with Jerry Nixon and Daren May in their [MVA JumpStart series](http://blogs.msdn.com/b/jerrynixon/archive/2013/05/10/ready-to-learn-xaml.aspx)</div>
+<div>**New to XAML?** Spend some online time with Jerry Nixon and Daren May in their [MVA JumpStart series](http://blogs.msdn.com/b/jerrynixon/archive/2013/05/10/ready-to-learn-xaml.aspx)</div>
 
 PT: The biggest obstacle was my limited knowledge of XAML. At some point I ended up buying a [big thick book on WPF ](http://www.amazon.com/gp/product/1430272058/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1430272058&amp;linkCode=as2&amp;tag=codefostercom-20)which I read cover to cover.  This helped me understand important concepts like [Dependency Properties](http://msdn.microsoft.com/en-us/library/ms752914(v=vs.110).aspx) and [Routed Events ](http://msdn.microsoft.com/en-us/library/ms742806(v=vs.110).aspx)that I had been using by mimicking example code but never really understanding. This knowledge helped me debug issues and write better controls.
 

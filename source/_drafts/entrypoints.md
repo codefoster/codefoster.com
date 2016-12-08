@@ -2,7 +2,7 @@
 title: App Dev Entry Points
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-01-30
 permalink: entrypoints
 ---
 

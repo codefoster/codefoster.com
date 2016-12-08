@@ -2,8 +2,8 @@
 title: Metro on an Alternate Monitor?!
 categories: []
 tags: []
-date: 2001-01-01
-permalink: 
+date: 2012-03-27
+permalink: secondscreenmetro 
 ---
 
 You know those sonic noise guns that you can shoot at people and they supposedly just stop in their tracks because it&#39;s physically disorienting? I felt like I got hit with one when I ran across this little nugget.

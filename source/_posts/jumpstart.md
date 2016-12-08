@@ -2,7 +2,7 @@
 title: Jump Start Your Brain
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-09-20
 permalink: jumpstart
 ---
 

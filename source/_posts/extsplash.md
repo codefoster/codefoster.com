@@ -2,7 +2,7 @@
 title: Extending that Splash Screen
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-08-23
 permalink: extsplash
 ---
 

@@ -2,7 +2,7 @@
 title: ReSharper 7 is Released
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-07-30
 permalink: rs7released
 ---
 

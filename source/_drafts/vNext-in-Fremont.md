@@ -2,8 +2,8 @@
 title: vNext in Fremont
 categories: []
 tags: []
-date: 2001-01-01
-permalink: 
+date: 2012-03-14
+permalink: vnext-in-fremont
 ---
 
 Is there anything better than joining a bunch of other people that like writing software to talk about writing software? Yes. There’s beer and sandwiches for one, and for two there’s conjoining on the subject of Windows 8 which is an exciting new software development opportunity.

@@ -2,7 +2,7 @@
 title: &#39;My Q&A with Indie Game Dev Studio, Random Salad&#39;
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-08-29
 permalink: randomsalad
 ---
 

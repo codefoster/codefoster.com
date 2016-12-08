@@ -2,7 +2,7 @@
 title: &#39;Giveaway: Visual Studio Windows Decals&#39;
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-04
 permalink: giveawaydecal
 ---
 

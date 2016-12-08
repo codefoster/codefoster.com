@@ -2,8 +2,8 @@
 title: All About Scope
 categories: []
 tags: []
-date: 2001-01-01
-permalink: 
+date: 2012-03-16
+permalink: scope
 ---
 
 ## Abstract

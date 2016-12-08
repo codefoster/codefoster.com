@@ -2,7 +2,7 @@
 title: I give you my word...
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-05-29
 permalink: myword
 ---
 

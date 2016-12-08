@@ -2,7 +2,7 @@
 title: codeSHOW is now in the Windows Store!
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-11-29
 permalink: codeshowapp
 ---
 

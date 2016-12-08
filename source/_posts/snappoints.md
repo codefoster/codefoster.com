@@ -2,7 +2,7 @@
 title: Snap to Your Tiles
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-08-29
 permalink: snappoints
 ---
 

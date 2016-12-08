@@ -2,7 +2,7 @@
 title: Microsoft vs. Apple - Differences in Tablet Philosophy
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-05
 permalink: tabletphilosophy
 ---
 

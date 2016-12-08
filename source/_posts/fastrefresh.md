@@ -1,14 +1,13 @@
 ---
 title: Fast Refresh... Nugget!
-categories: []
-tags: []
-date: 2001-01-01
+categories: ['Developer Tools']
+tags: ['ide','productivity']
+date: 2012-06-18
 permalink: fastrefresh
 ---
 
 
 Hey, Metro developers, if you&#39;re using HTML/JS to build your apps, I have a little golden nugget for you. Actually, it&#39;s possible you already know and I&#39;m the one that&#39;s late to the game. Anyway, have you ever made a little tiny tweak to your HTML structure, a slight mod to your CSS style, or a little enhancement to your JavaScript and wanted to see the change effect immediately instead of relaunching your app each time? It&#39;s a valid desire. My last job was website development and so I&#39;m used to the whole save, switch, refresh workflow.
-<!-- xmore -->
 
 ![](/files/fastrefresh_01.png)
 

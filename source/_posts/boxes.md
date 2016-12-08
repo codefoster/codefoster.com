@@ -2,7 +2,7 @@
 title: When to Use ViewBoxes and FlexBoxes
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-12
 permalink: boxes
 ---
 

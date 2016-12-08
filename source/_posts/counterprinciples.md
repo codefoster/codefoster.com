@@ -2,7 +2,7 @@
 title: The Counter Principles of Metro Style Design
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-05-30
 permalink: counterprinciples
 ---
 

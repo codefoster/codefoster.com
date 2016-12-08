@@ -2,7 +2,7 @@
 title: Let&#39;s Go MoDev!
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-08-08
 permalink: gomodev
 ---
 

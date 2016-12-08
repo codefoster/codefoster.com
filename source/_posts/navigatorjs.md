@@ -2,8 +2,8 @@
 title: navigator.js
 categories: []
 tags: []
-date: 2001-01-01
-permalink: 
+date: 2012-03-26
+permalink: navigatorjs
 ---
 
 If you create a blank JavaScript application in Windows 8, you get just that &ndash; a blank application. You don&#39;t get page references to the WinJS library, you don&#39;t get a grid or a list or any other navigation structure, and you don&#39;t get the navigation code to implement the Microsoft recommended navigation method &ndash; single page navigation.

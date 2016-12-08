@@ -2,8 +2,8 @@
 title: Dynamic Link to Internet Calendars
 categories: []
 tags: []
-date: 2001-01-01
-permalink: 
+date: 2012-03-15
+permalink: callink
 ---
 
 I&#39;m really not sure how I missed this little trick all these years. Sometimes I spend significant bits of time doing something the hard way before I just take 20 minutes out of my day to ask or research the easy way.

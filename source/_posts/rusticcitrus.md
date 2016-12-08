@@ -2,7 +2,7 @@
 title: The Design of Rustic Citrus - Interview with an Indie Game Dev
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-10-14
 permalink: rusticcitrus
 ---
 

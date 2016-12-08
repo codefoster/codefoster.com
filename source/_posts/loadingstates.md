@@ -2,7 +2,7 @@
 title: Loading States of the WinJS.UI.ListView
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-01-08
 permalink: loadingstates
 ---
 

@@ -2,7 +2,7 @@
 title: Introducing CodeChat
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-06-24
 permalink: introcodechat
 ---
 

@@ -2,7 +2,7 @@
 title: Update on ReSharper 7 EAP
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-05-28
 permalink: rs7eap
 ---
 

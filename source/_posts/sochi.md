@@ -2,7 +2,7 @@
 title: Why Azure is Running the Sochi Olympics and Not AWS
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-02-14
 permalink: sochi
 ---
 

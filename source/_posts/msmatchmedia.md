@@ -2,7 +2,7 @@
 title: &#39;msMatchMedia: programmatic access to media queries&#39;
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-08-25
 permalink: msmatchmedia
 ---
 

@@ -2,7 +2,7 @@
 title: Selecting Elements in a Windows 8 HTML App
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-03-15
 permalink: selectingelements
 ---
 

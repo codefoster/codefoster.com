@@ -2,7 +2,7 @@
 title: Page Navigation in Windows 8 JavaScript Apps
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-21
 permalink: win8pagenav
 ---
 

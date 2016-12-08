@@ -2,7 +2,7 @@
 title: Anatomy of a Push Notification
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-11-15
 permalink: anatomyofpush
 ---
 

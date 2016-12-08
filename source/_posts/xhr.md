@@ -2,12 +2,11 @@
 title: Using WinJS.xhr to Fetch This and That
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-09-26
 permalink: xhr
 ---
 
 You know the story. A call to a website used to be little more than a single request with its single response. But times have changed. The web is all grown up and any given visit to a website is often accompanied by multiple requests for more atomic bits of data.
-<!-- xmore -->
 
 The popular thing to do now, in fact, is to implement websites using a single page architecture where the user does one primary request and response to get the core document, and then the rest of his or her time spent in the app consists only of these tiny requests/response cycles that bring just what&#39;s necessary.
 

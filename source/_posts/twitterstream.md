@@ -2,12 +2,11 @@
 title: Taking Twitter by Stream
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-11-25
 permalink: twitterstream
 ---
 
 I found a number of examples of how to hook in to Twitter&#39;s Streaming API using JavaScript (via Node.js) and _every example I found was too hard_. Not _really_ hard, but too hard.
-<!-- xmore -->
 
 I find so much value in simple examples. It&#39;s the whole reason I created [codeShow](http://github.com/codefoster/codeshow).
 

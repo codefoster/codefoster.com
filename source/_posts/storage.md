@@ -2,7 +2,7 @@
 title: Storage in a Windows 8 App
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-09-26
 permalink: storage
 ---
 

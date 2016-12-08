@@ -2,7 +2,7 @@
 title: The All New codefoster.com
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-08-07
 permalink: newblog
 ---
 

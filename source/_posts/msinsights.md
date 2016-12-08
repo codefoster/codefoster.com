@@ -2,7 +2,7 @@
 title: Microsoft Insights
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-10-28
 permalink: msinsights
 ---
 

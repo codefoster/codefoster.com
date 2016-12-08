@@ -2,7 +2,7 @@
 title: Art Matters
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-05-31
 permalink: artmatters
 ---
 

@@ -2,7 +2,7 @@
 title: Metro Fridays
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-01
 permalink: metro-fridays
 ---
 

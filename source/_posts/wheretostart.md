@@ -2,12 +2,11 @@
 title: Where to Start
 categories: []
 tags: []
-date: 2001-01-01
-permalink: start
+date: 2013-10-18
+permalink: wheretostart
 ---
 
 There was a feature of Windows 8.1 Preview that opened the Start Screen on whichever screen you were actively using. This drove me nuts. I expected my Start Screen to be on a certain screen. The constancy is important and I also wanted it to appear on the touchscreen of my laptop, not my external touchless monitor.
-<!-- xmore -->
 
 In the final release of Windows 8.1, however, this is configurable.
 

@@ -2,7 +2,7 @@
 title: One Strong Case for Windows RT
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-08-01
 permalink: caseforrt
 ---
 

@@ -2,7 +2,7 @@
 title: Death of the PC... I Think Not
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-10-18
 permalink: pcdeath
 ---
 

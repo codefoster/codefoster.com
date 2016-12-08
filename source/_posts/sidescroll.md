@@ -2,7 +2,7 @@
 title: Horizontal Panning
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-08-20
 permalink: sidescroll
 ---
 

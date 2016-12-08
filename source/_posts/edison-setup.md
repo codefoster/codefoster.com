@@ -2,7 +2,7 @@
 title: Setting up an Intel Edison
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-11-20
 permalink: edison-setup
 ---
 

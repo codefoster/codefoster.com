@@ -2,7 +2,7 @@
 title: Web API or WCF... Which Way to Go?
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-09-04
 permalink: webservicesforward
 ---
 

@@ -2,7 +2,7 @@
 title: Event Handlers in a Windows 8 App
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-10-01
 permalink: eventhandlers
 ---
 

@@ -2,7 +2,7 @@
 title: Another app in the Store
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-12-06
 permalink: camview
 ---
 

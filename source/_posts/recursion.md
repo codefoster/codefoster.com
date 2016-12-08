@@ -2,7 +2,7 @@
 title: Recursion Plain and Simple
 categories: []
 tags: []
-date: 2001-01-01
+date: 2014-09-24
 permalink: recursion
 ---
 

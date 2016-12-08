@@ -2,7 +2,7 @@
 title: MCSD HTML5 Exam Offer
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-11-09
 permalink: exams
 ---
 

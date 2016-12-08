@@ -2,7 +2,7 @@
 title: How the WinJS.UI.ViewBox Actually Works
 categories: []
 tags: []
-date: 2001-01-01
+date: 2012-06-29
 permalink: viewboxhow
 ---
 

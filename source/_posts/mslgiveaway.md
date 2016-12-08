@@ -2,7 +2,7 @@
 title: Prometric Exam Giveaway
 categories: []
 tags: []
-date: 2001-01-01
+date: 2013-07-03
 permalink: mslgiveaway
 ---
 

@@ -11,7 +11,7 @@ One of my favorite steps in the app development lifecycle is the creation of the
 
 The artwork and branding is important, because an app developer must live in a constant state of capturing the user amid so much noise. An app needs to say &quot;here&#39;s precisely what I do and how it adds value to your life&quot;. It takes a lot of design thought and effort to cut through the noise and reach your audience.
 
-Good messages to communicate are: <span style="font-size: 16pt;">**clean, simple, creative, elegant, and fluid**</span>.
+Good messages to communicate are: **clean, simple, creative, elegant, and fluid**.
 
 I&#39;d like to walk you through my process of creating artwork for an app called Everyview. Everyview is webcam viewer that attempts to implement well the design principles of Windows 8\. It&#39;s intended to feel like a breath of fresh air. There are plenty of apps for viewing web cams and it&#39;s nothing that can&#39;t be done in the browser too, but it&#39;s seldom a consolidated and elegant experience. As of this writing, Everyview is not yet published to the Windows Store, but by the time you read it, it may be. Try searching for Everyview.
 
