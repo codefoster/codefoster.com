@@ -7,7 +7,7 @@ permalink: media
 ---
 
 I decided to put together a reference post for when you&#39;re looking for stock photos, clipart, audio, music, or video. I will update this post as I am made aware of new sources.
-<!-- xmore -->
+
 
 ## Photos
 

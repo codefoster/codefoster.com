@@ -7,7 +7,7 @@ permalink: tweetmonkey
 ---
 
 <span style="line-height: 1.6em;">This is a very, very simple maker project. It&#39;s clean. It&#39;s easy. It&#39;s quick. I&#39;m hoping the process and architecture inspire you to make something of your own, and I hope the world of possibilities in this space start opening up for you as they are for me (as evidenced by my fantastically long project idea list).</span>
-<!-- xmore -->
+
 
 Let&#39;s get started!
 

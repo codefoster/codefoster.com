@@ -1,7 +1,7 @@
 ---
 title: Microsoft&#39;s Vendor Specific CSS Prefixes
 categories: [HTML/CSS]
-tags: []
+tags: [style,styles,standards]
 date: 2014-07-16
 permalink: cssprefix
 ---
@@ -9,7 +9,6 @@ permalink: cssprefix
 Much of my audience, I&#39;ll presume, has at least some familiarity with CSS.
 
 If you have none, then let me simply say that CSS is basically a big, flat list of style and layout properties that are grouped together into rules and determined to affect certain portions of an HTML document.
-<!-- xmore -->
 
 I like to draw the analogy to the classic word processor, because pretty much everyone has experience with a word processor. When you&#39;re working on a letter to grandma and you want to emphasize that you **don&#39;t like nuts in your brownies**, you might choose to bold that text, right? So you first _select_ the important words and then you _affect_ them with a bold command.
 

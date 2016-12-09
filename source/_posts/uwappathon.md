@@ -7,7 +7,7 @@ permalink: uwappathon
 ---
 
 If you&#39;re a student at UW, then I&#39;ve got a cool opportunity to throw your way.
-<!-- xmore -->
+
 
 Come to the Microsoft Appathon @ UW, learning to build apps, eat free food, win cool prizes, and get $100 per app on top of it all!
 

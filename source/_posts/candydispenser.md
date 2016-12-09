@@ -9,7 +9,7 @@ permalink: candydispenser
 I&#39;m going to keep much of my latest project under wraps for now, but I need your help designing one piece of it.
 
 I&#39;m looking to create a device that is small and light and will dispense one piece of candy at a time programmatically.
-<!-- xmore -->
+
 Here are the requirements...
 
 1.  Light - no more than 1oz

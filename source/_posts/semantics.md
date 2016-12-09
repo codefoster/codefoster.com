@@ -9,7 +9,7 @@ permalink: semantics
 I had a question from a developer in my community and I decided to respond via a blog post.
 
 I have taken liberty to distill and rephrase the question as follows...
-<!-- xmore -->
+
 
 _HTML is less verbose than XAML, but it&#39;s often times harder to figure out what&#39;s going on with a bunch of div&#39;s on the page. How do you determine by looking at your HTML what&#39;s going on with the styling? Shouldn&#39;t it be more like XAML - easy to read?_
 

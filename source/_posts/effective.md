@@ -1,7 +1,7 @@
 ---
 title: 5 Ways to Be Effective
 categories: [Productivity]
-tags: []
+tags: [tasks,minimalism,calendar,teamwork,balance,organization]
 date: 2013-06-06
 permalink: effective
 ---
@@ -9,7 +9,6 @@ permalink: effective
 What effect do you have on the world?
 
 Do you affect it consistently and positively? Do you affect it efficiently? Do you affect the world at large? How about your small world - your family and your work team? How about the customers that buy the widgets you make?
-<!-- xmore -->
 
 I know very few (and I don&#39;t know them for long) that don&#39;t have any desire to have an effect. It&#39;s a core desire. It&#39;s a healthy desire.
 

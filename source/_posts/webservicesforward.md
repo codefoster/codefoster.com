@@ -9,7 +9,7 @@ permalink: webservicesforward
 Have you noticed the overlap between WCF and Web API? I did.
 
 And not only have I noticed it, but I&#39;ve watched both of the frameworks change so that the overlap between them evolved, and I&#39;ve done my fair share of speculating about what the potential paths forward are and when to use which.
-<!-- xmore -->
+
 
 Overall, the story with WCF and Web API is a convergent and not a divergent one. The teams at Microsoft are completely unified and so is the strategy. Nevertheless, the two frameworks exist as does the overlap and developers&#39; various solutions using one, the other, or some combination, so a little discussion on the matter might be helpful. A smidgen of official guidance on the subject is available from Microsoft&#39;s developer network in an article called [WCF and ASP.NET Web API](http://msdn.microsoft.com/en-us/library/jj823172(v=vs.110).aspx), but it is by no means wordy and leaves a lot of architectural concepts and decisions to you, the developer.
 

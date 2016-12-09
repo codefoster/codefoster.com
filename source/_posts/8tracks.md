@@ -1,14 +1,14 @@
 ---
 title: 8tracks for Windows 8
 categories: [Developer Stories]
-tags: []
+tags: [dev,startup,app,music,music app,8 tracks]
 date: 2014-02-17
 permalink: 8tracks
 ---
 
 
 **ME: Hi, Paul. Would you mind introducing yourself. Tell us where you work and what&#39;s the most interesting thing you&#39;re working on.**
-<!-- xmore -->
+
 
 ![](/files/8tracks_01.jpg)
 

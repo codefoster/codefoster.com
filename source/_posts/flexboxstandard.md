@@ -9,7 +9,7 @@ permalink: flexboxstandard
 **_Question: what is Microsoft&#39;s position on Flexbox and fallbacks for IE10 and legacy? _**
 
 While I&#39;m not the official voice of Microsoft and am not the smartest Softie in Redmond when it comes to the web standards, I&#39;ll attempt to answer this question anyway.
-<!-- xmore -->
+
 
 The official standard for the flexbox style in CSS is documented in exhaustive detail at [W3C](http://www.w3.org/TR/css3-flexbox/). The abstract of this implement is helpful stating that the flexbox is
 

@@ -9,7 +9,7 @@ permalink: placeforstyles
 I got a question from the community.
 
 _When working on a Windows app, how do you get a complete list of the style properties that apply to any given HTML element?_
-<!-- xmore -->
+
 
 The short answer is _you don&#39;t_. And that&#39;s not a Windows thing, it&#39;s an HTML/CSS thing.
 

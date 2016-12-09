@@ -9,7 +9,7 @@ permalink: linqlambda
 # Introduction
 
 I still remember the day well. I had heard a ton of buzz about LINQ statements and lambda expressions, so I knew they were pretty big deals, but I didn&#39;t have the concept. I didn&#39;t know why they were important or when. In short, I didn&#39;t know what problem they solved.
-<!-- xmore -->
+
 
 I looked all over the internet for a good description of the why/when... for the problem statement... for the concept, but I didn&#39;t really find it. I found enough information to extrapolate the concept in rather short order, but I&#39;d like to write a primer on the composite topic of LINQ and lambdas because it&#39;s what I would have like to have seen.
 

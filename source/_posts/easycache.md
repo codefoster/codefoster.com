@@ -1,13 +1,12 @@
 ---
 title: Easy Caching in WinJS Apps
 categories: [HTML/CSS]
-tags: []
+tags: [app development,performance,winjs]
 date: 2013-08-24
 permalink: easycache
 ---
 
 I set out the other day to help a developer add some cache functionality for his app.
-<!-- xmore -->
 
 The app is 1Vigor and there&#39;s a version for [swimmers](http://apps.microsoft.com/windows/en-us/app/f616e79d-42b6-4acb-bf62-4d99a119c0db), one for [runners](http://apps.microsoft.com/windows/en-us/app/f9d94f63-4ce4-4683-9f06-a1bf1f941e67), and another for learning how to generate peak performance in whatever sport or fitness activity you&#39;re doing (not quite ready for the Store). The 1Vigor apps pull content from the 1vigor.com website and provide some great articles for athletes. The authors of the articles are first rate and the amount of content available is impressive too.
 
@@ -36,11 +35,11 @@ var B = A.map(function(i) { return i*2; });
 
 So, back to the first block of code... the value of the results variable is going to be an array of Promise objects.
 
-You can wait for _all_ of the promises in an array to complete by using WinJS.Promise.join(myArrayOfPromises).
+You can wait for _all_ of the promises in an array to complete by using `WinJS.Promise.join(myArrayOfPromises)`.
 
 So the articlesCached variable which I hang on the WebData object is going to be a promise that completes when all of the individual calls to the article content are complete.
 
-Now, you might be wondering at this point what I do with the results of those HTTP requests. The answer is that I do _nothing_ with them. I don&#39;t need to. GET requests over HTTP are cached by default, so the next time the user launches an article and the system attempts to access its content using the .contentUrl, it essentially says &quot;Hey, I&#39;ve done this before. I&#39;ll just use the results of that last network call instead of doing another one.&quot;
+Now, you might be wondering at this point what I do with the results of those HTTP requests. The answer is that I do _nothing_ with them. I don&#39;t need to. GET requests over HTTP are cached by default, so the next time the user launches an article and the system attempts to access its content using the `.contentUrl`, it essentially says &quot;Hey, I&#39;ve done this before. I&#39;ll just use the results of that last network call instead of doing another one.&quot;
 
 And that&#39;s all it took.
 

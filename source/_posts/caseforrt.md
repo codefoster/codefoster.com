@@ -1,14 +1,12 @@
 ---
 title: One Strong Case for Windows RT
 categories: [Windows]
-tags: []
+tags: [arm,mobile]
 date: 2014-08-01
 permalink: caseforrt
 ---
 
-
 Windows RT is that version of Windows that runs on low power ARM devices. I think for most people the pros and cons of this architecture are pretty clear already.
-<!-- xmore -->
 
 ![](/files/caseforrt_01.jpg)
 

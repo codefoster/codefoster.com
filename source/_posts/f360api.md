@@ -7,7 +7,7 @@ permalink: f360api
 ---
 
 I like making things.
-<!-- xmore -->
+
 
 I used to mostly just make things that show up on the computer screen - software things. Lately, however, I&#39;ve been re-inspired to make _real_ things. Things out of wood and things out of plastic and metal and fabric and string.
 

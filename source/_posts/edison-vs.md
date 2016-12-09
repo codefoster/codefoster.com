@@ -1,7 +1,7 @@
 ---
 title: Using Visual Studio to Write Node for Devices
 categories: [Maker]
-tags: []
+tags: [visual studio,Node.js,node,iot,device]
 date: 2014-12-06
 permalink: edison-vs
 ---

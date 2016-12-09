@@ -9,7 +9,7 @@ permalink: commandmonkey
 Alright, this is going to be fun. The process is going to be fun, and the end game is going to be even more so.
 
 Let me paint a picture of the final product. I have a monkey toy on the table before me. I then hold my Microsoft Band up to my mouth and talk into it like Maxwell Smart. I say two simple words - "Monkey, dance!"
-<!-- xmore -->
+
 And in no time flat, the monkey toy obeys my command and is set into motion.
 
 The whole thing reminds you of [Tweet Monkey](/tweetmonkey) and it should. This is Tweet Monkey&#39;s older and slightly more involved brother.

@@ -7,7 +7,7 @@ permalink: extsplash
 ---
 
 I&#39;m hard at work updating codeShow for Windows 8.1\. I could have simply migrated my code from Windows 8 and tweaked it here and there, but in typical fashion, I decided to start from scratch. The [open source codeShow project](http://codeshow.codeplex.com/SourceControl/latest) is intended as an instrument of learning and that&#39;s exactly what I end up doing as I work on it... learning.
-<!-- xmore -->
+
 
 Since the start of codeShow, the number of demos has continued to grow and the amount of time it takes to load up all of those demos when the app is launched has been increasing. It&#39;s actually quite a lot of file fetching and parsing that has to happen, so it&#39;s perfectly reasonable that it would take some time.
 

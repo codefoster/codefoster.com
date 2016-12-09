@@ -1,13 +1,12 @@
 ---
 title: Windows 8 App Design Sheet
 categories: [Design]
-tags: []
+tags: [resource,pdf]
 date: 2012-06-28
 permalink: designsheet
 ---
 
 Attached is a worksheet that might help you when you&#39;re brainstorming the design of your Windows 8 app.
-<!-- xmore -->
 
 It encourages the 3-tier navigation structure that&#39;s common with these apps. The grid units are 1 unit (20 pixels). There are rules for the top and left margins (5 units and 6 units respectively) as well as for an app bar (88 pixels). The Windows 8 version includes a guide for snapped view (320 pixels), whereas the Windows 8.1 version has minimum width guides at 320 and 500 pixels.
 

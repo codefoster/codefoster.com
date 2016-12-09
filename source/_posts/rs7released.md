@@ -7,7 +7,7 @@ permalink: rs7released
 ---
 
 I got a note in my inbox a few days ago saying that ReSharper 7 had been released. I was pretty surprised since I assumed they still had a ton of kinks to work out, but I&#39;ve got it installed and am flying through some Windows 8 development and haven&#39;t run into any glitches so far.
-<!-- xmore -->
+
 
 I&#39;m kind of always excited about ReSharper, but here are a few reasons why version 7 is keeping my fire lit.
 

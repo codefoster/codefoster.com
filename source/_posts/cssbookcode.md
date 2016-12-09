@@ -1,7 +1,7 @@
 ---
 title: Code for CSS for Windows 8 App Development
 categories: [Other]
-tags: []
+tags: [publish,book]
 date: 2013-01-10
 permalink: cssbookcode
 ---

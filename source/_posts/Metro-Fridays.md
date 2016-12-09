@@ -7,7 +7,7 @@ permalink: metro-fridays
 ---
 
 Developers anywhere near Seattle, I&#39;m talking to you.
-<!-- xmore -->
+
 
 If you&#39;re developing Windows 8 applications, we want to support you. We&#39;re going to be at Microsoft&#39;s Civica location (easy to find, free parking, free coffee, etc.) every Friday in June and July (except July 6). Join us in person or via Lync to get live help coding your app or talking about getting your app into the store.
 

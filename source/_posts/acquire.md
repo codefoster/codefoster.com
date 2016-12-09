@@ -1,7 +1,7 @@
 ---
 title: Acquiring Images Without Committing Plagiarism
 categories: [UI/UX]
-tags: []
+tags: [media,graphics,art,legal,license,plagiarize,images]
 date: 2014-08-04
 permalink: acquire
 ---
@@ -9,7 +9,7 @@ permalink: acquire
 The easiest way to find the image you&#39;re looking for is a Bing/Google image search.
 
 Did you know, though, that Bing and Google (and likely the other players) actually do their best to index the licenses associated with the images they crawl?
-<!-- xmore -->
+
 
 In a Google Images search, you perform a search and then hit Search Tools and then drop down the Usage Rights. As to why Google gives us astronaut Neapolitan and strawberry waffles... well, I can&#39;t speak to that, but I&#39;m sure those algorithms are really hard to write so we should have grace. 
 

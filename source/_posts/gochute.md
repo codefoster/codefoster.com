@@ -7,7 +7,7 @@ permalink: gochute
 ---
 
 This is a live post, so be sure to check out the addendums at the bottom.
-<!-- xmore -->
+
 
 I haven&#39;t entirely given up on my GoChute idea, but it has slid down the priority list somewhat. I&#39;d better explain.
 

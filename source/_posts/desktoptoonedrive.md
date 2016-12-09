@@ -7,7 +7,7 @@ permalink: desktoptoonedrive
 ---
 
 The fierce competition between online storage providers has led to where we are today. Today a consumer can store their entire life in the cloud. Okay, "their entire life" might be an exaggeration, but you know what I mean.
-<!-- xmore -->
+
 
 Do you have multiple terabytes of family photos, videos, and email archives? Yeah, me too. How would you feel if you lost them? Pretty rotten. Me too.
 

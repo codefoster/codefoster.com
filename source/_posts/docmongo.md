@@ -7,7 +7,6 @@ permalink: docmongo
 ---
 
 On March 31, 2016 it was announced at //build and also by Stephen Baron [via the DocumentDB blog](https://azure.microsoft.com/en-us/updates/public-preview-documentdb-protocol-support-for-mongodb/) that DocumentDB could now be used as the cloud data store for apps that already target MongoDB.
-<!-- xmore -->
 
 There&#39;s [a good video](http://channel9.msdn.com/Events/Build/2016/B840) all about DocumentDB that came out of the recent [//build](http://build.microsoft.com) event, and if you [jump to 16:20](https://channel9.msdn.com/Events/Build/2016/B840#time=16m20s) you&#39;ll hear John Macintyre describe this new offering in good detail.
 

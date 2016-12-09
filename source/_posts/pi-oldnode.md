@@ -7,7 +7,7 @@ permalink: pi-oldnode
 ---
 
 I beat my head against a wall for a long time wondering why I wasn&#39;t able to do basic GPIO on a Raspberry Pi using Node. Even after a fresh image and install, I was getting cryptic node error messages when I ran my basic blinky app.
-<!-- xmore -->
+
 
 Lucky for me (and perhaps you) I got to the bottom of it and am going to document it here for posterity. Let&#39;s go.
 

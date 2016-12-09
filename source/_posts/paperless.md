@@ -7,7 +7,7 @@ permalink: paperless
 ---
 
 It&#39;s been the goal for a really long time - let&#39;s get rid of paper and live digitally. Well, how are we (people... humans... earth dwellers) progressing and what more can we do to get there?
-<!-- xmore -->
+
 
 It&#39;s takes a long time to turn a big ship. Actually, not _that_ long, but so goes the analogy. And it takes a long time to change habits. Paper has long been an integral part of our world and for many - especially the older generations - hitting print is the ingrained habit.
 

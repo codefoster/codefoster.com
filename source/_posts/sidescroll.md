@@ -7,7 +7,7 @@ permalink: sidescroll
 ---
 
 If you drop a ListView into your HTML page and fill it with data that fills up your page and overflows, what happens to the overflow? The answer is that it gets cut off by the right side of the screen and thus hints to the user to swipe to scroll the rest of the content into view. Easy.
-<!-- xmore -->
+
 
 But what if you aren&#39;t using a ListView, or what if you have some content that you want to show _next to_ your ListView and you want them to both pan together when the user swipes?
 

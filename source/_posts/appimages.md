@@ -1,7 +1,7 @@
 ---
 title: App Images
 categories: [Windows]
-tags: []
+tags: [icons,tiles,graphics]
 date: 2014-08-04
 permalink: appimages
 ---
@@ -9,7 +9,7 @@ permalink: appimages
 There&#39;s an array of images that you need to create before you can call your app complete.
 
 Images to represent your app are very important, because they&#39;re often the first thing a potential user sees and the first opportunity to convince them your app will add value to their day.
-<!-- xmore -->
+
 
 The best resource I know on the subject is [Choosing your app images](http://msdn.microsoft.com/en-us/library/windows/apps/Hh846296.aspx) on MSDN.
 

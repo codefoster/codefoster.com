@@ -8,7 +8,7 @@ permalink: gomodev
 
 
 Next week, I&#39;m going to be joining a few folks from my team and a bunch of folks from Seattle for MoDev&#39;s next conference right here in our sunny city.
-<!-- xmore -->
+
 
 ![](/files/gomodev_01.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Gen Appathon!
 categories: [Events]
-tags: []
+tags: [resources,links]
 date: 2012-05-17
 permalink: appathon
 ---

@@ -9,7 +9,7 @@ permalink: vscodeextensions
 ## Visual Studio Code has extensions!
 
 The bells ring, the confetti flies, the fans go wild!
-<!-- xmore -->
+
 
 The two things we all wanted from Code was...
 

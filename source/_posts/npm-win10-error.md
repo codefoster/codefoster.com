@@ -7,7 +7,7 @@ permalink: npm-win10-error
 ---
 
 Just in case someone else is running into the same thing, I&#39;m running Windows 10 Insiders Build 14367 (on the fast ring), and I&#39;m unable to use npm. When I do a simple `npm -v` I get this error...
-<!-- xmore -->
+
 
 ```
 C:\code>npm -v

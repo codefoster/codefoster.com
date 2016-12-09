@@ -7,7 +7,7 @@ permalink: swipe
 ---
 
 Yesteryear we used tabs in UI. The problem with tabs and similar navigation aides is that they demand pixels to tell users about where they _might_ go, whereas, good Windows 8 design tells users about where they _are_.
-<!-- xmore -->
+
 
 If you&#39;re on a page that shows multiple entities or sections or parts or whatever, just hint to the user that there&#39;s more off the page by giving yourself a left margin but cutting content off on the right.
 

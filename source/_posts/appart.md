@@ -7,7 +7,7 @@ permalink: appart
 ---
 
 One of my favorite steps in the app development lifecycle is the creation of the artwork. I&#39;m not stellar at _creating_ original artwork, but I definitely recognize when things look just right, and sometimes I stumble upon it. I must also have a little bit of marketing in me, because it&#39;s my constant effort to brand things.
-<!-- xmore -->
+
 
 The artwork and branding is important, because an app developer must live in a constant state of capturing the user amid so much noise. An app needs to say &quot;here&#39;s precisely what I do and how it adds value to your life&quot;. It takes a lot of design thought and effort to cut through the noise and reach your audience.
 

@@ -1,7 +1,7 @@
 ---
 title: Good Design for App Bar Button Placement
 categories: [Design]
-tags: []
+tags: [ui,ux,ui/ux,user interface,buttons]
 date: 2012-05-21
 permalink: appbarbuttons
 ---
@@ -9,7 +9,7 @@ permalink: appbarbuttons
 I&#39;ve watched a few developers port their existing apps over to Windows 8.
 
 The first thing they do is drop all of their UI into their new app and run it to see it work. It&#39;s nice to see things work, but Windows 8 is more than just a new API for accessing modern computer hardware. It&#39;s a completely new design for user experience as well. So after you drop all of your buttons into your new app and see it work, you should migrate most of those buttons to the app bar.
-<!-- xmore -->
+
 
 The app bar, for the uninitiated, is the bar that slides up from the bottom of the screen whenever the user swipes up from off screen (and sometimes it appears all on its own). That app bar is nice. It avoids bothering the user by appearing only when the user requests it.
 

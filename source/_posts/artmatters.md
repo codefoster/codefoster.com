@@ -1,7 +1,7 @@
 ---
 title: Art Matters
 categories: [Design]
-tags: []
+tags: [soft skills,ui,ux,ui/ux]
 date: 2012-05-31
 permalink: artmatters
 ---

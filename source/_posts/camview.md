@@ -1,13 +1,12 @@
 ---
 title: Another app in the Store
 categories: [App Development]
-tags: []
+tags: [app,windows,ip camera,ip cam,webcam]
 date: 2012-12-06
 permalink: camview
 ---
 
 I&#39;m on leave but I return to work next week. I took some of my off time to write another app. It&#39;s a quick one that is tied to a specific piece of hardware, but I have said hardware and I use this app all the time now.
-<!-- xmore -->
 
 It&#39;s a webcam viewer for the Foscam FI9820\. I will expand it at some point to work with more cameras and do a lot more to it, but for now I have done with I always recommend my independent developer friends do and I kept the scope very low.
 

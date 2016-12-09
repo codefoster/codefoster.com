@@ -1,13 +1,12 @@
 ---
 title: Get An App Into the Windows 8 Store
 categories: [App Development]
-tags: []
+tags: [mobile,events,learning]
 date: 2012-05-10
 permalink: appinstore
 ---
 
 As you likely know Windows 8 is coming in the near future. You can download, use it, and even develop apps for it today. At this point in time, the Windows Store is not open for everyone to deploy, but we are looking for the first wave of great applications which highlight the power of Metro and Windows 8, especially those developers that want to get to market first and build the awareness and brand for their applications.
-<!-- xmore -->
 
 In order to submit your application today, you need a token which is something I can help you get.
 

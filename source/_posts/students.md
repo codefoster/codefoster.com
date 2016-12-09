@@ -7,7 +7,7 @@ permalink: students
 ---
 
 If you&#39;re a student and you want to get involved in developing apps for Microsoft, then this page is for you. I&#39;m going to outline and maintain all the resources I know about that are specifically designed to give you free software, train you, and prepare you for making great apps on Windows and Windows Phone.
-<!-- xmore -->
+
 
 <div class="resources">
 

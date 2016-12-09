@@ -1,13 +1,12 @@
 ---
-title: Dyyno&#39;s Journey - Developing an App for Windows 8
+title: Dyyno's Journey - Developing an App for Windows 8
 categories: [Developer Stories]
-tags: []
+tags: [dev radio,video]
 date: 2012-09-20
 permalink: dyyno
 ---
 
 I hosted an episode of [DevRadio ](http://channel9.msdn.com/Niners/DevRadio)the other day and now it&#39;s live on Channel9\. It&#39;s an interview with Vamshi Sriperumbudur and Dr. Sid Annapureddy from a Silicon Valley based company called Dyyno [link removed] that is doing some exciting work on the Windows 8 platform. Dyyno helps more than 30 content creators or aggregators distribute their content on smart devices, and their app _Flix Universe_ brings this content to Windows 8.
-<!-- xmore -->
 
 Here&#39;s the full interview on DevRadio. Enjoy.
 

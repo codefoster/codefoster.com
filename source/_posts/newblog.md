@@ -7,7 +7,7 @@ permalink: newblog
 ---
 
 Woohoo! Welcome to the all new codefoster.com website.
-<!-- xmore -->
+
 
 I changed a lot about codefoster.com in this latest iteration, I&#39;ve got most of my boxes unpacked, and I&#39;m excited to be working out of the new space.
 

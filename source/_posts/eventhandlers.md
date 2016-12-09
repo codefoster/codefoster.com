@@ -1,7 +1,7 @@
 ---
 title: Event Handlers in a Windows 8 App
 categories: [App Development]
-tags: []
+tags: [events,javascript,functional,app development,windows]
 date: 2012-10-01
 permalink: eventhandlers
 ---

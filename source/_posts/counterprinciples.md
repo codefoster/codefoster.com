@@ -1,13 +1,13 @@
 ---
 title: The Counter Principles of Metro Style Design
 categories: [Design]
-tags: []
+tags: [ui,ux,ui/ux,art,graphics]
 date: 2012-05-30
 permalink: counterprinciples
 ---
 
 Likely you&#39;ve read the [Metro style design principles](http://msdn.microsoft.com/en-us/library/windows/apps/Hh781237.aspx), but you haven&#39;t seen the counter principles yet (because I made them up). Here we go...
-<!-- xmore -->
+
 
 # 1\. Show Shame in Mediocrity
 

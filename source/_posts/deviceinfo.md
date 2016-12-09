@@ -1,7 +1,7 @@
 ---
 title: Getting Windows Device Info
 categories: [Windows]
-tags: []
+tags: [hardware,api]
 date: 2012-08-17
 permalink: deviceinfo
 ---

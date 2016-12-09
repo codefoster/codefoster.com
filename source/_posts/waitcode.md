@@ -7,7 +7,7 @@ permalink: waitcode
 ---
 
 There&#39;s a decent chance that you, like me, ended up with Visual Studio Code incorrectly configured as Git&#39;s core editor. I&#39;m talking about Windows here.
-<!-- xmore -->
+
 
 Take a look at your .gitconfig file and see what you have configured. You will likely find that in c:\users\&amp;lt;username&amp;gt;\.
 

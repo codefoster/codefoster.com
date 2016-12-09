@@ -1,13 +1,12 @@
 ---
 title: The Intel Edison
 categories: [Maker]
-tags: []
+tags: [device,devices,soc,iot]
 date: 2014-12-01
 permalink: edison
 ---
 
 I am playing with the Intel Edison a lot these days. I&#39;m a big promoponent of it, because I&#39;m a big proponent of both power and simplicity. This device has enough power for whatever maker, robotic, gadgeteer project I can conceive of, and it&#39;s all set up to easily run JavaScript via Node via Linux. This means I can use higher level libraries like Cylon.js. This means if I want to turn a motor, it&#39;s easy. If I want to read accelerometer data from an ADXL377, it&#39;s easy. If I want to include a Node module for storing temperature and humidity data in Azure, it&#39;s super duper easy. I like easy - just not at the cost of power.
-<!-- xmore -->
 
 I&#39;ll stop being wordy, though and just index the posts that I&#39;ve creating (and am still creating) for the Intel Edison. Here they are.
 

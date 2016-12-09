@@ -1,7 +1,7 @@
 ---
 title: The Azure CLI
-categories: [Azure]
-tags: []
+categories: [Developer Tools]
+tags: [cli,command line,bash,linux,mac,cross platform,tooling,developer tools]
 date: 2014-11-12
 permalink: azurecli
 ---

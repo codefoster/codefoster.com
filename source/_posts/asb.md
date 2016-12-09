@@ -9,7 +9,7 @@ permalink: asb
 The topic of our conversation was encouragement to go beyond our inevitable role as _digital consumers_ and aspiring to be _digital producers_ first and foremost.
 
 That means, we don&#39;t just entertain ourselves with what others have created, but we get behind the paint brush, the hand saw, or the mouse and we create it ourselves. We use it to inspire others, to lead others, and ultimately to love others. That&#39;s a charter.
-<!-- xmore -->
+
 
 First, we talked about making websites. You each got free Azure Passes, and I hope you&#39;ll redeem them for some cloud time. We made a website in just a few seconds in class, and you can do the same thing from home.
 

@@ -1,7 +1,7 @@
 ---
 title: Box Sizing
 categories: [HTML/CSS]
-tags: []
+tags: [css,css properties,css property,style,styles]
 date: 2012-11-06
 permalink: boxsizing
 ---
@@ -9,7 +9,7 @@ permalink: boxsizing
 Don&#39;t miss the box-sizing property in CSS. It&#39;s important. I&#39;ll tell you why.
 
 Let me start by showing you a diagram of the HTML box model.
-<!-- xmore -->
+
 
 ![](/files/boxsizing_01.png)
 

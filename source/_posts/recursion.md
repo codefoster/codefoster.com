@@ -7,7 +7,7 @@ permalink: recursion
 ---
 
 I&#39;m not setting out to explain recursion in full detail right now. I just want to do my best to relay the concept.
-<!-- xmore -->
+
 
 Recursion, in simple terms, is logic that depends on itself. I honestly can&#39;t tell you whether it&#39;s the simplest or the most complicated of concepts. It&#39;s sort of both. Let me attempt to explain.
 

@@ -7,7 +7,7 @@ permalink: making
 ---
 
 I&#39;m going to wander philosophically for a little bit about the very recent yet surprisingly welcome divergence of my job role.
-<!-- xmore -->
+
 
 Though the functions are much the same, the differences feel pronounced.
 

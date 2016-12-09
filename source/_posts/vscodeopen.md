@@ -6,7 +6,7 @@ date: 2015-11-19
 permalink: vscodeopen
 ---
 Visual Studio Code is now open source.
-<!-- xmore -->
+
 
 > Me: What do you think of Visual Studio Code?
 > Some Dude: It&#39;s awesome. I just wish it were open source.
