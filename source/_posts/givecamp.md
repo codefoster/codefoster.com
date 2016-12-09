@@ -1,13 +1,12 @@
 ---
 title: Seattle Give Camp just around the corner
-categories: []
+categories: [Events]
 tags: []
 date: 2012-08-31
 permalink: givecamp
 ---
 
 In less than two months, a number of charities will gather in the Commons on the Microsoft campus with a lot of project requirements to share. Those projects will be matched up with developers from the area that are willing to give a weekend to help out a good cause. Many hours will be spent furiously designing and coding away, and at the end of the weekend the fruits will be shared.
-<!-- xmore -->
 
 I haven&#39;t been to a Give Camp before, but I&#39;ve heard that it&#39;s pretty remarkable what can get accomplished in a weekend and how helpful it is to the charities. Many of these groups are on very tight budgets and don&#39;t normally have IT help or don&#39;t have nearly enough.
 

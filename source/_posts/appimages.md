@@ -1,6 +1,6 @@
 ---
 title: App Images
-categories: []
+categories: [Windows]
 tags: []
 date: 2014-08-04
 permalink: appimages

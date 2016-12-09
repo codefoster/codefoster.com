@@ -1,13 +1,12 @@
 ---
 title: So Many Ways to Search in Visual Studio 11
-categories: []
+categories: [IDE]
 tags: []
 date: 2012-03-29
 permalink: vssearch
 ---
 
 There&#39;s more than one way to skin a cat and more than one way to do a search in Visual Studio. There are 5 (that I know of, comment if you know of another) to be precise.
-<!-- xmore -->
 
 ## Navigate To (CTRL + ,)
 

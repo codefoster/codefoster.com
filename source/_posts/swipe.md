@@ -1,6 +1,6 @@
 ---
 title: Super Simple Swipe Sections
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-10-02
 permalink: swipe

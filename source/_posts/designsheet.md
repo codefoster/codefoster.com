@@ -1,6 +1,6 @@
 ---
 title: Windows 8 App Design Sheet
-categories: []
+categories: [Design]
 tags: []
 date: 2012-06-28
 permalink: designsheet

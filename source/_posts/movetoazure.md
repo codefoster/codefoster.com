@@ -1,6 +1,6 @@
 ---
 title: Azure Websites
-categories: []
+categories: [Azure]
 tags: []
 date: 2013-01-14
 permalink: movetoazure

@@ -1,6 +1,6 @@
 ---
 title: Easy Caching in WinJS Apps
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2013-08-24
 permalink: easycache

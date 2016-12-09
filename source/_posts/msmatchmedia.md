@@ -1,6 +1,6 @@
 ---
 title: msMatchMedia - programmatic access to media queries
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2012-08-25
 permalink: msmatchmedia
@@ -26,7 +26,7 @@ To execute the media query above from could you can do this...
 
 ``` js
 if (msMatchMedia("(-ms-view-state: fullscreen-portrait)").matches) {
-    //do something if we&#39;re in portrait
+    //do something if we're in portrait
 }
 ```
 

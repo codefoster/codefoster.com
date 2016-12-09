@@ -1,6 +1,6 @@
 ---
 title: Loading States of the WinJS.UI.ListView
-categories: []
+categories: [App Development]
 tags: []
 date: 2013-01-08
 permalink: loadingstates

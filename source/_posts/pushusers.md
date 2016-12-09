@@ -1,13 +1,12 @@
 ---
 title: Push Notifications for Specific Users
-categories: []
+categories: [App Development]
 tags: []
 date: 2013-03-18
 permalink: pushusers
 ---
 
 I received a question that I&#39;d like to turn into a blog post for the benefit of the masses. I&#39;ve gotten this question a number of times in the past.
-<!-- xmore -->
 
 _Is it possible to do push notifications to all users/only a specific user/only a specific set of users? _
 

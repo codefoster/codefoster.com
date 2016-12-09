@@ -1,6 +1,6 @@
 ---
 title: Windows 8 App Bar Icons (from Segoe UI)
-categories: []
+categories: [Design]
 tags: []
 date: 2012-08-18
 permalink: win8icons

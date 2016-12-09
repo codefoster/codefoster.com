@@ -1,6 +1,6 @@
 ---
 title: Dyyno&#39;s Journey - Developing an App for Windows 8
-categories: []
+categories: [Developer Stories]
 tags: []
 date: 2012-09-20
 permalink: dyyno

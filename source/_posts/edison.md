@@ -1,6 +1,6 @@
 ---
 title: The Intel Edison
-categories: []
+categories: [Maker]
 tags: []
 date: 2014-12-01
 permalink: edison

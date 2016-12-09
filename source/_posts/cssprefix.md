@@ -1,6 +1,6 @@
 ---
 title: Microsoft&#39;s Vendor Specific CSS Prefixes
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2014-07-16
 permalink: cssprefix

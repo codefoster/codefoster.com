@@ -1,6 +1,6 @@
 ---
 title: Metro Fridays
-categories: []
+categories: [Events]
 tags: []
 date: 2012-06-01
 permalink: metro-fridays

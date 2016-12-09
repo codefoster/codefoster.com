@@ -1,6 +1,6 @@
 ---
 title: ReSharper 7 EAP in Visual Studio 11
-categories: []
+categories: [Productivity]
 tags: []
 date: 2012-03-27
 permalink: resharper-7-eap-in-visual-studio-11

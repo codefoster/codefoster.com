@@ -1,13 +1,12 @@
 ---
 title: How to do Semantic Zoom in an HTML/JS App
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-06-13
 permalink: semanticzoom
 ---
 
 Semantic Zoom is super easy, but even the easy things can use some conceptual explanation and examples to clarify them. Rest assured that once you see it, you&#39;ll go "Ah! That won&#39;t be a problem then."
-<!-- xmore -->
 
 If you use XAML/C# to make your Metro apps, then you should check out [Jerry Nixon&#39;s post on semantic zoom](http://blog.jerrynixon.com/2012/03/windows-8-semantic-zoom-versus-optical.html#more).
 

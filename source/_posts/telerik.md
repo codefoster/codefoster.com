@@ -1,6 +1,6 @@
 ---
 title: Well done, Telerik
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-10-04
 permalink: telerik

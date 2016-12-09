@@ -1,6 +1,6 @@
 ---
 title: 8tracks for Windows 8
-categories: []
+categories: [Developer Stories]
 tags: []
 date: 2014-02-17
 permalink: 8tracks

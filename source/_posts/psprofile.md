@@ -1,6 +1,6 @@
 ---
 title: PowerShell Profile That Enables Posh Git and Azure
-categories: []
+categories: [Productivity]
 tags: []
 date: 2015-01-25
 permalink: psprofile

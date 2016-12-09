@@ -1,13 +1,12 @@
 ---
 title: Stayin’ Alive
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-12-20
 permalink: stayalive
 ---
 
 Of course now that you&#39;ve seen my post title, you&#39;re going to have the Bee Gees stuck in your head for the foreseeable future. Sorry about that. I&#39;m actually not talking about the song at all, but rather about getting your Windows 8 app to tell the system that something happening and it should not go to sleep.
-<!-- xmore -->
 
 You have to use good judgment here for obvious reasons. Keeping your users system alive is obviously going to peg their battery and may disappoint. Often times, however, it&#39;s exactly the functionality the user wants. Who wants to start a video and then have the system lock 5 minutes in?
 

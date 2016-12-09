@@ -1,6 +1,6 @@
 ---
 title: Prometric Exam Giveaway
-categories: []
+categories: [Other]
 tags: []
 date: 2013-07-03
 permalink: mslgiveaway

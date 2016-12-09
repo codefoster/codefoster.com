@@ -1,6 +1,6 @@
 ---
 title: Did You Know About Microsoft HomeOS?
-categories: []
+categories: [Other]
 tags: []
 date: 2013-08-23
 permalink: homeos

@@ -1,13 +1,12 @@
 ---
-title: Don&#39;t Make Your App Boil the Ocean!
-categories: []
+title: Don't Make Your App Boil the Ocean!
+categories: [App Development]
 tags: []
 date: 2014-03-04
 permalink: pop
 ---
 
 I you haven&#39;t dived into the app marketplace, what are you waiting for?
-<!-- xmore -->
 
 If Flappy Birds can bring in so much attention and cold, hard cash, who&#39;s to say you can&#39;t crank an app out in a weekend and be a contender.
 

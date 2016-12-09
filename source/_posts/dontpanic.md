@@ -1,6 +1,6 @@
 ---
 title: Unintentionally Open Source?
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-12-11
 permalink: dontpanic

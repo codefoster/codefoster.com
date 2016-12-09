@@ -1,6 +1,6 @@
 ---
 title: Another app in the Store
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-12-06
 permalink: camview

@@ -1,6 +1,6 @@
 ---
 title: Insert Formatted Code into OneNote
-categories: []
+categories: [Code]
 tags: []
 date: 2012-03-30
 permalink: codeinonenote

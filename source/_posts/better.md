@@ -1,6 +1,6 @@
 ---
 title: That Was Good... This is Better
-categories: []
+categories: [Blogging]
 tags: []
 date: 2014-07-14
 permalink: better

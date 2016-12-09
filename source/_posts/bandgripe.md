@@ -1,6 +1,6 @@
 ---
 title: I had one gripe with the Microsoft Band... Now I have zero.
-categories: []
+categories: [Productivity]
 tags: []
 date: 2014-11-09
 permalink: bandgripe

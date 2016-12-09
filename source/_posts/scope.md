@@ -1,6 +1,6 @@
 ---
 title: All About Scope
-categories: []
+categories: [Other]
 tags: []
 date: 2012-03-16
 permalink: scope
@@ -9,7 +9,6 @@ permalink: scope
 ## Abstract
 
 It may not be clear immediately how variable scopes work when you&#39;re creating a Windows 8 app using HTML and JavaScript. Even if you&#39;re very proficient at writing JavaScript code, you might not know where you&#39;re supposed to write it! Let me take a stab at clarifying...
-<!-- xmore -->
 
 When you first look at a JavaScript page in a Windows 8 project you see  something like this...
 
@@ -22,7 +21,7 @@ When you first look at a JavaScript page in a Windows 8 project you see  somethi
     function updateLayout(element, viewState){ }
 
     var myLocalFunction = function(){
-        log(&#39;myLocalFunction called&#39;);
+        log('myLocalFunction called');
     }
 
     WinJS.UI.Pages.define("/html/page1.html", {

@@ -1,6 +1,6 @@
 ---
 title: Creating a Timer in Windows 8 (C#)
-categories: []
+categories: [C#]
 tags: []
 date: 2012-03-30
 permalink: win8timer

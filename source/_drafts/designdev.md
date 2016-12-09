@@ -1,6 +1,6 @@
 ---
 title: Design Before You Develop
-categories: []
+categories: [Design]
 tags: []
 date: 2012-04-09
 permalink: designdev

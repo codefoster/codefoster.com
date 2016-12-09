@@ -1,13 +1,12 @@
 ---
 title: Page Navigation in Windows 8 JavaScript Apps
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-06-21
 permalink: win8pagenav
 ---
 
 I&#39;d like to talk a bit about navigating in Metro apps using HTML/JavaScript. There are a few options for doing so, and as you probably know whenever there&#39;s more than one way to do things, then you the developer have power but not necessarily clarity.  The latter is what I hope to offer here.
-<!-- xmore -->
 
 First of all, the HTML/JavaScript that Metro apps are based on are identical to the HTML/JavaScript that websites are based on. It is entirely based on the standards. This is good because proprietary things are bad - generally speaking. This means that you can navigate exactly like you do in websites, but don&#39;t. I&#39;ll explain why not.
 

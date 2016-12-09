@@ -1,13 +1,12 @@
 ---
 title: Reduced Discoverability in Windows 8
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-11-20
 permalink: discover
 ---
 
 I just finished reading Jakob Nielsen&#39;s article [Windows 8 - Disappointing Usability for Both Novice and Power Users](http://www.useit.com/alertbox/windows-8.html) where the summary reads...
-<!-- xmore -->
 
 _Hidden features, reduced discoverability, cognitive overhead from dual environment, and reduced power from a single-window UI and low information density. Too bad. _
 

@@ -1,6 +1,6 @@
 ---
 title: Introducing CodeChat
-categories: []
+categories: [Other]
 tags: []
 date: 2014-06-24
 permalink: introcodechat

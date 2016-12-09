@@ -1,6 +1,6 @@
 ---
 title: Git Cheat Sheet
-categories: []
+categories: [Productivity]
 tags: []
 date: 2014-08-05
 permalink: gitsheet

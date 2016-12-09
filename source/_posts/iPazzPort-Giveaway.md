@@ -1,6 +1,6 @@
 ---
 title: iPazzPort Giveaway
-categories: []
+categories: [Other]
 tags: []
 date: 2012-05-25
 permalink: ipazzport-giveaway

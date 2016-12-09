@@ -1,6 +1,6 @@
 ---
 title: Anatomy of a Push Notification
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-11-15
 permalink: anatomyofpush

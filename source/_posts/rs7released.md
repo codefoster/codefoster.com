@@ -1,6 +1,6 @@
 ---
 title: ReSharper 7 is Released
-categories: []
+categories: [Productivity]
 tags: []
 date: 2012-07-30
 permalink: rs7released

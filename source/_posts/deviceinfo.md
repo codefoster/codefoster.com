@@ -1,6 +1,6 @@
 ---
 title: Getting Windows Device Info
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-08-17
 permalink: deviceinfo
@@ -23,11 +23,11 @@ With a ListView and a WinJS.Binding.List in place and with the two hooked togeth
 ``` js
 Windows.Devices.Enumeration.DeviceInformation.findAllAsync().done(function (devices) {
     devices
-        .filter(function (d) { return d.name.length > 0 &amp;&amp; d.isEnabled; })
+        .filter(function (d) { return d.name.length > 0 && d.isEnabled; })
         .distinct(function (d) { return d.name; })
         .forEach(function (d) {
             d.getGlyphThumbnailAsync().then(function(thumbnail) {
-                if (thumbnail &amp;&amp; thumbnail.size > 0) {
+                if (thumbnail && thumbnail.size > 0) {
                     devicesList.push({
                         imageUrl: URL.createObjectURL(thumbnail, { oneTimeOnly: false }),
                         name: d.name

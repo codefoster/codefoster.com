@@ -1,6 +1,6 @@
 ---
 title: Student Resources
-categories: []
+categories: [Student]
 tags: []
 date: 2013-10-13
 permalink: students

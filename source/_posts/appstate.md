@@ -1,6 +1,6 @@
 ---
 title: App States and Activation Kinds
-categories: []
+categories: [App Development]
 tags: []
 date: 2014-05-08
 permalink: appstate

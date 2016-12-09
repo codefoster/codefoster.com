@@ -1,6 +1,6 @@
 ---
 title: Death of the PC... I Think Not
-categories: []
+categories: [Other]
 tags: []
 date: 2013-10-18
 permalink: pcdeath

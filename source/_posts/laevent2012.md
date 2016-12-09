@@ -1,6 +1,6 @@
 ---
 title: Big Windows Developer Event in LA!
-categories: []
+categories: [Events]
 tags: []
 date: 2012-04-22
 permalink: laevent2012

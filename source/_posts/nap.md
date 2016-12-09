@@ -1,6 +1,6 @@
 ---
 title: How to Take a Nap
-categories: []
+categories: [Productivity]
 tags: []
 date: 2014-03-07
 permalink: nap
@@ -9,7 +9,6 @@ permalink: nap
 A what?!
 
 "codefoster, I thought you were all about productivity and being effective and efficient in a development career... being a valuable and highly contributing part of a workgroup. So what&#39;s this about taking naps?"
-<!-- xmore -->
 
 Yeah, that&#39;s what I&#39;m all about. I get inspired by the folks that get books (emphasis on the plural) out the door, blog like maniacs, have numerous libraries on GitHub, put together informative and inspiring presentations, and do all of that without a single sacrifice to the higher calling of loving their family well and still relaxing and playing and exploring. Let&#39;s face it, there&#39;s a lot of loving to do and a lot of world to explore. I want to be that guy. I call it _effective_.
 

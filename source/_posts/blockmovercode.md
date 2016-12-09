@@ -1,6 +1,6 @@
 ---
 title: BlockMover Sample from Jake and Sam
-categories: []
+categories: [Events]
 tags: []
 date: 2012-07-16
 permalink: blockmovercode

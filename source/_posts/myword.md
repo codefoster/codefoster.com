@@ -1,13 +1,12 @@
 ---
 title: I give you my word...
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-05-29
 permalink: myword
 ---
 
 I&#39;m excited about what I just implemented. I&#39;m always excited when I figure something out or learn something big. This one is big for me. Hopefully this post will add some value to your life as well.
-<!-- xmore -->
 
 ## First the problem statement...
 

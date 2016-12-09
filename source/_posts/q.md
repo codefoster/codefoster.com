@@ -1,13 +1,12 @@
 ---
 title: Query Selector Helper for Metro Apps
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-05-02
 permalink: q
 ---
 
 I wrote a [post](/selectingelements) sometime back  about selecting DOM elements in your Metro apps. I have since written myself a helper method that I find quite useful and perhaps you will too. It looks like this...
-<!-- xmore -->
 
 ``` js
 function q(query, context) {

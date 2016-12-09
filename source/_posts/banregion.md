@@ -1,6 +1,6 @@
 ---
 title: Ban the &#35;Region
-categories: []
+categories: [Code]
 tags: []
 date: 2012-04-24
 permalink: banregion

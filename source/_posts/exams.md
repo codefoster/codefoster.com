@@ -1,6 +1,6 @@
 ---
 title: MCSD HTML5 Exam Offer
-categories: []
+categories: [Other]
 tags: []
 date: 2012-11-09
 permalink: exams

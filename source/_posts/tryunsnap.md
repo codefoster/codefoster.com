@@ -1,6 +1,6 @@
 ---
 title: Try Unsnap
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-10-26
 permalink: tryunsnap

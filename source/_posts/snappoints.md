@@ -1,13 +1,12 @@
 ---
 title: Snap to Your Tiles
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-08-29
 permalink: snappoints
 ---
 
 Let&#39;s say you have a bunch of tiles in your Windows 8 app.
-<!-- xmore -->
 
 ![](/files/snappoints_01.png)
 

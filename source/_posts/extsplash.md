@@ -1,6 +1,6 @@
 ---
 title: Extending that Splash Screen
-categories: []
+categories: [UI/UX]
 tags: []
 date: 2013-08-23
 permalink: extsplash

@@ -1,13 +1,12 @@
 ---
 title: Open Existing Node.js Project in Visual Studio
-categories: []
+categories: [Node.js]
 tags: []
 date: 2014-11-24
 permalink: existingnode
 ---
 
 Working on a coding project inside of Visual Studio is hugely helpful. VS does so many things to support the developer, that I myself (and millions of others) define it as indispensable. Whether I&#39;m writing C# or JavaScript, I still want to do it in Visual Studio.
-<!-- xmore -->
 
 I have a lot of Node.js code on my box and occasionally I&#39;ll get into a situation when I have an existing Node.js project (one that I didn&#39;t create initially using Visual Studio), and I want to open it in VS.
 

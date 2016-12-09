@@ -1,6 +1,6 @@
 ---
 title: Setting up an Intel Edison
-categories: []
+categories: [Maker]
 tags: []
 date: 2014-11-20
 permalink: edison-setup

@@ -1,13 +1,12 @@
 ---
 title: Save New Projects When Created
-categories: []
+categories: [IDE]
 tags: []
 date: 2012-04-05
 permalink: vsnewproj
 ---
 
 Do you occasionally write a one-off project in Visual Studio that you know is not going to go anywhere?
-<!-- xmore -->
 
 I used to have a console application that I called Sandbox that I had a shortcut to. I could open it, write some code, and then close without caring what it&#39;s state was when it closed. The bummer was when I opened it, sometimes I had to do a little cleanup to get it ready for fresh code. It wasn&#39;t ideal and I abandoned the practice a long time ago.
 

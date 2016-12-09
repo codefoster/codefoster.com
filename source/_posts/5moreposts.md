@@ -1,6 +1,6 @@
 ---
 title: 5 More Posts
-categories: []
+categories: [Blogging]
 tags: ['discipline','productivity']
 date: 2016-12-08
 permalink: 5moreposts

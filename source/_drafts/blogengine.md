@@ -1,6 +1,6 @@
 ---
 title: Completed the Move - WordPress to BlogEngine.NET
-categories: []
+categories: [Other]
 tags: []
 date: 2012-03-26
 permalink: blogengine

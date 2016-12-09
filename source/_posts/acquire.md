@@ -1,6 +1,6 @@
 ---
 title: Acquiring Images Without Committing Plagiarism
-categories: []
+categories: [UI/UX]
 tags: []
 date: 2014-08-04
 permalink: acquire

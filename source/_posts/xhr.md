@@ -1,6 +1,6 @@
 ---
 title: Using WinJS.xhr to Fetch This and That
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-09-26
 permalink: xhr

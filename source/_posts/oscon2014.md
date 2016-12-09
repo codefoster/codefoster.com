@@ -1,6 +1,6 @@
 ---
 title: OSCON 2014 in the Rearview Mirror
-categories: []
+categories: [Events]
 tags: []
 date: 2014-07-14
 permalink: oscon2014

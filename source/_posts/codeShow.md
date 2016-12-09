@@ -1,6 +1,6 @@
 ---
 title: codeShow
-categories: []
+categories: [Other]
 tags: []
 date: 2014-07-21
 permalink: codeshow

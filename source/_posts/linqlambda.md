@@ -1,6 +1,6 @@
 ---
 title: A Primer on LINQ and Lambda
-categories: []
+categories: [C#]
 tags: []
 date: 2012-05-01
 permalink: linqlambda

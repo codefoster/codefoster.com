@@ -1,6 +1,6 @@
 ---
 title: The Design of Rustic Citrus - Interview with an Indie Game Dev
-categories: []
+categories: [Developer Stories]
 tags: []
 date: 2013-10-14
 permalink: rusticcitrus

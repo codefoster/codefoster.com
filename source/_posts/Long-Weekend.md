@@ -1,13 +1,12 @@
 ---
 title: Long Weekend
-categories: []
+categories: [Productivity]
 tags: []
 date: 2012-05-25
 permalink: long-weekend
 ---
 
 It&#39;s the long weekend!
-<!-- xmore -->
 
 Time to breath a sigh of relief and take some time off. If you&#39;re a tech head and love your job like me then it might be a bit of a discipline to shut down all the systems, unplug, and relax. But it&#39;s worth it.
 

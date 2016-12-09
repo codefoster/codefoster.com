@@ -1,6 +1,6 @@
 ---
 title: The Azure CLI
-categories: []
+categories: [Azure]
 tags: []
 date: 2014-11-12
 permalink: azurecli

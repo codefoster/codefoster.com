@@ -1,6 +1,6 @@
 ---
 title: The All New codefoster.com
-categories: []
+categories: [Blogging]
 tags: []
 date: 2013-08-07
 permalink: newblog

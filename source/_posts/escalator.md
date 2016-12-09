@@ -1,6 +1,6 @@
 ---
 title: The Escalator Ride
-categories: []
+categories: [Design]
 tags: []
 date: 2012-11-20
 permalink: escalator

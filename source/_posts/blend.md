@@ -1,6 +1,6 @@
 ---
-title: Blend: Design, Execute, Interact
-categories: []
+title: Blend - Design, Execute, Interact
+categories: [Design]
 tags: []
 date: 2012-04-16
 permalink: blend-design-execute-interact

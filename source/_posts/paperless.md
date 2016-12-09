@@ -1,6 +1,6 @@
 ---
 title: Going Paperless
-categories: []
+categories: [Productivity]
 tags: []
 date: 2013-08-27
 permalink: paperless

@@ -1,13 +1,12 @@
 ---
 title: Query Your DOM
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2012-09-24
 permalink: query
 ---
 
 Your HTML describes the structure and sequence of your document. It&#39;s the starting point for your UI. But it&#39;s just the starting point. Things change. Items get added, removed, or moved. Styles change. Dialogs appear and disappear, and the user touches things and drags them around. All (or at least most) of this interaction happens in JavaScript where you can instruct your document in the language of code to react to your user and do what you command.
-<!-- xmore -->
 
 Before you can move something, remove something, or add to something, though, you&#39;ll need to select it. That&#39;s what I&#39;m going to talk about here. I&#39;m going to talk about selecting one or more elements from your document object model (DOM) from JavaScript so you can work with them. This is called _querying the DOM_.
 

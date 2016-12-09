@@ -1,6 +1,6 @@
 ---
 title: Dynamic Link to Internet Calendars
-categories: []
+categories: [Other]
 tags: []
 date: 2012-03-15
 permalink: callink

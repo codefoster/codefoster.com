@@ -1,6 +1,6 @@
 ---
 title: Get That WinRT Documentation Local
-categories: []
+categories: [Other]
 tags: []
 date: 2012-04-26
 permalink: docslocal

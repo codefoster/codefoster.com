@@ -1,6 +1,6 @@
 ---
 title: A Grand Voyage
-categories: []
+categories: [Personal]
 tags: []
 date: 2014-07-15
 permalink: grandvoyage

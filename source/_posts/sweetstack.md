@@ -1,13 +1,12 @@
 ---
 title: One Sweet Stack
-categories: []
+categories: [Code]
 tags: []
 date: 2012-06-21
 permalink: sweetstack
 ---
 
 Following is a mongo post. A huge post. A massive amount of information. The general recommendation is that blog posts should be short, but rules are made to be broken. You can&#39;t tame me. I&#39;m like a wild stallion. So here is a huge blog post.
-<!-- xmore -->
 
 Last Saturday at the Seattle Code Camp I delivered a presentation I called One Sweet Stack which showed how to start with a SQL Azure database (though it would work with any relational database really), connect to it using Entity Framework, and extend it as OData with WCF Data Services.
 

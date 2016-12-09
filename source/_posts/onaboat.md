@@ -1,6 +1,6 @@
 ---
 title: I&#39;m On a Boat
-categories: []
+categories: [Personal]
 tags: []
 date: 2014-08-11
 permalink: onaboat

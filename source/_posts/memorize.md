@@ -1,6 +1,6 @@
 ---
 title: Things a Web Developer Should Have Memorized
-categories: []
+categories: [Other]
 tags: []
 date: 2014-11-05
 permalink: memorize

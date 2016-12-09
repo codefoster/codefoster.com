@@ -1,6 +1,6 @@
 ---
 title: The Book to Buy for Learning WinJS
-categories: []
+categories: [Other]
 tags: []
 date: 2012-10-26
 permalink: waltherbook

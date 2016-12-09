@@ -1,6 +1,6 @@
 ---
-title: Giveaway: Visual Studio Windows Decals
-categories: []
+title: Giveaway - Visual Studio Windows Decals
+categories: [Other]
 tags: []
 date: 2012-06-04
 permalink: giveawaydecal

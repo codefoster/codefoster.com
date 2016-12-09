@@ -1,6 +1,6 @@
 ---
 title: Windows 8 2-day Camp - Content
-categories: []
+categories: [Events]
 tags: []
 date: 2012-08-06
 permalink: win8camp

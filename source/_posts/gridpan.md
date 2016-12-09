@@ -1,6 +1,6 @@
 ---
 title: How to Make Your Grid Pan Automatically
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-06-24
 permalink: gridpan

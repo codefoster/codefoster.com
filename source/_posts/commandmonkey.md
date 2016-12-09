@@ -1,6 +1,6 @@
 ---
 title: Command Monkey
-categories: [Node.js]
+categories: [Maker]
 tags: [maker, iot, node, javascript, node-js, windows-phone, web-sockets, socket.io]
 date: 2015-02-11
 permalink: commandmonkey

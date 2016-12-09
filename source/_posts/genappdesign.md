@@ -1,6 +1,6 @@
 ---
 title: Gen Appathon Design Slides
-categories: []
+categories: [Design]
 tags: []
 date: 2012-11-12
 permalink: genappdesign

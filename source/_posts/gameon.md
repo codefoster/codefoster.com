@@ -1,6 +1,6 @@
 ---
 title: Game On Events
-categories: []
+categories: [Events]
 tags: []
 date: 2013-10-08
 permalink: gameon

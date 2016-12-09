@@ -1,6 +1,6 @@
 ---
 title: Taking Twitter by Stream
-categories: []
+categories: [Node.js]
 tags: []
 date: 2014-11-25
 permalink: twitterstream

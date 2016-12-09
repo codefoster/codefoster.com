@@ -1,13 +1,12 @@
 ---
 title: Referring to Package Files
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-09-05
 permalink: packagefiles
 ---
 
 When you&#39;re working with a Windows 8 project in VS2012, you have some number of project files in your Solution Explorer. You have HTML files, CSS files, JavaScript files, images, and perhaps some XML or JSON or TXT files - something like that.
-<!-- xmore -->
 
 If, in the course of executing logic in your app, you need to access these files, there are a number of ways and you should know when you might use what and why... that&#39;s as opposed to being incapacitated or stabbing in the dark.
 

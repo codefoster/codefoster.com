@@ -1,6 +1,6 @@
 ---
 title: Project GoChute
-categories: []
+categories: [Other]
 tags: []
 date: 2014-11-22
 permalink: gochute

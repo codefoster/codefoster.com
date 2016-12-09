@@ -1,6 +1,6 @@
 ---
 title: Top 5 Things C# Developers Hate About JavaScript
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2014-07-28
 permalink: hatejavascript

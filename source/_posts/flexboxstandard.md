@@ -1,6 +1,6 @@
 ---
 title: The Flexbox CSS Standard
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2012-11-12
 permalink: flexboxstandard

@@ -1,6 +1,6 @@
 ---
 title: What's Microsoft Doing for Students?
-categories: []
+categories: [Student]
 tags: []
 date: 2014-01-10
 permalink: student

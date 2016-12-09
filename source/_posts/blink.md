@@ -1,6 +1,6 @@
 ---
 title: Metro Design by Blink Interactive
-categories: []
+categories: [Design]
 tags: []
 date: 2012-06-24
 permalink: blink

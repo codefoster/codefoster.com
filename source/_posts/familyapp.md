@@ -1,6 +1,6 @@
 ---
 title: Buy an app for the whole family
-categories: []
+categories: [Windows]
 tags: []
 date: 2012-11-18
 permalink: familyapp

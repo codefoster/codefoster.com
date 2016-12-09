@@ -1,6 +1,6 @@
 ---
 title: App Accelerator Resources
-categories: []
+categories: [Events]
 tags: []
 date: 2012-03-17
 permalink: app-accelerator-resources

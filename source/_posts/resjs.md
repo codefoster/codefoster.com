@@ -1,6 +1,6 @@
 ---
 title: Tapping Into Your Localized Resources Using JavaScript
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2014-07-20
 permalink: resjs

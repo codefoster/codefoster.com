@@ -1,6 +1,6 @@
 ---
 title: A JavaScript Library for Everything
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-07-21
 permalink: jslibraries

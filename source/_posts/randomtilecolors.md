@@ -1,13 +1,12 @@
 ---
 title: Random Tile Colors
-categories: []
+categories: [JavaScript]
 tags: []
 date: 2012-07-12
 permalink: randomtilecolors
 ---
 
 This tip is quite short and simple, but worth a post I think. If you want to colorize some tiles like the start screen does, here&#39;s one simple way to do it.
-<!-- xmore -->
 
 ``` js
 var demos = [

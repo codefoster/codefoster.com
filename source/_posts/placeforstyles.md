@@ -1,6 +1,6 @@
 ---
 title: The Place for Styles in HTML and XAML
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2014-11-08
 permalink: placeforstyles

@@ -1,6 +1,6 @@
 ---
 title: Horizontal Panning
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-08-20
 permalink: sidescroll

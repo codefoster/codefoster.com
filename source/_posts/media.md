@@ -1,6 +1,6 @@
 ---
 title: Source Media
-categories: []
+categories: [Other]
 tags: []
 date: 2012-11-20
 permalink: media

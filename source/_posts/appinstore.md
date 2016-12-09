@@ -1,6 +1,6 @@
 ---
 title: Get An App Into the Windows 8 Store
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-05-10
 permalink: appinstore

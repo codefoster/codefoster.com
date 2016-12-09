@@ -1,6 +1,6 @@
 ---
 title: Where to Start
-categories: []
+categories: [App Development]
 tags: []
 date: 2013-10-18
 permalink: wheretostart

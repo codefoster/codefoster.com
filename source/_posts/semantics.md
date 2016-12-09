@@ -1,6 +1,6 @@
 ---
 title: The Semantics of HTML and XAML
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2014-05-19
 permalink: semantics

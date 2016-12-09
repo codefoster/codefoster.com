@@ -1,6 +1,6 @@
 ---
 title: Cutting through the noise
-categories: []
+categories: [UI/UX]
 tags: []
 date: 2013-07-08
 permalink: noise

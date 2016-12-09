@@ -1,6 +1,6 @@
 ---
 title: Update on ReSharper 7 EAP
-categories: []
+categories: [Productivity]
 tags: []
 date: 2012-05-28
 permalink: rs7eap

@@ -1,6 +1,6 @@
 ---
 title: Giveaway - Gears of War 3 for Xbox 360
-categories: []
+categories: [Other]
 tags: []
 date: 2012-10-23
 permalink: gow3

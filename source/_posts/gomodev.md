@@ -1,6 +1,6 @@
 ---
-title: Let&#39;s Go MoDev!
-categories: []
+title: Let's Go MoDev!
+categories: [Events]
 tags: []
 date: 2013-08-08
 permalink: gomodev

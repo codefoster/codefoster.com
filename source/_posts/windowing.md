@@ -1,6 +1,6 @@
 ---
 title: Windowing in Windows 8.1
-categories: []
+categories: [Productivity]
 tags: []
 date: 2013-08-25
 permalink: windowing

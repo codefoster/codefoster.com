@@ -1,6 +1,6 @@
 ---
 title: Recursion Plain and Simple
-categories: []
+categories: [Other]
 tags: []
 date: 2014-09-24
 permalink: recursion

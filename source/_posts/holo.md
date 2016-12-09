@@ -1,6 +1,6 @@
 ---
 title: Learn Windows 8 Development in Your Underwear
-categories: []
+categories: [Other]
 tags: []
 date: 2012-08-13
 permalink: holo

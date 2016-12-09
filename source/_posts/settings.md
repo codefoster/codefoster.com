@@ -1,6 +1,6 @@
 ---
 title: Implementing the Settings Contract
-categories: []
+categories: [App Development]
 tags: []
 date: 2012-08-27
 permalink: settings

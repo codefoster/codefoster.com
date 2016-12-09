@@ -1,6 +1,6 @@
 ---
 title: Giveaway - Prometric Exam Coupons
-categories: []
+categories: [Other]
 tags: []
 date: 2013-10-16
 permalink: 25freeexams

@@ -1,6 +1,6 @@
 ---
 title: Box Sizing
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2012-11-06
 permalink: boxsizing

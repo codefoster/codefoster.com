@@ -1,6 +1,6 @@
 ---
 title: When to Use ViewBoxes and FlexBoxes
-categories: []
+categories: [HTML/CSS]
 tags: []
 date: 2012-06-12
 permalink: boxes
