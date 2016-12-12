@@ -78,61 +78,8 @@ deploy:
 # Aliases
 ## https://github.com/hexojs/hexo-generator-alias
 alias:
-  contact: about
-  me: about
-  contact.aspx: about
-  # blog/feed: rss
-  # feed: rss
-  How-the-WinJSUIViewBox-Actually-Works/: /viewboxhow/
-  Children-of-the-Nations: cotni
-  blend-design-execute-interact: blend
-  open-existing-nodejs-project-in-visual-studio: existingnode
-  resharper-7-is-released: rs7released
-  A-Primer-on-LINQ-and-Lambda: linqlambda
-  articles/codeshow: codeshow
-  articles/im-on-a-boat: onaboat
-  A-Tour-Through-the-Windows-8-Documentation: win8docstour
-  Ban-the-Region: banregion
-  big-windows-developer-event-in-la: laevent2012
-  codechat: http://channel9.msdn.com/shows/codechat
-  win8camp: windows-8-2-day-camp-content
-  Welcome-to-BlogEngineNET-27/: /blogengine/
-  Random-Tile-Colors/: /randomtilecolors
-  Styling-the-ListView/: /listviewstyle/
-  The-Ocho: ocho
-  The-Counter-Principles-of-Metro-Style-Design/: /counterprinciples/
-  I-give-you-my-word/: /myword/
-  Update-on-ReSharper-7-EAP/: /rs7eap/
-  Good-Design-for-App-Bar-Button-Placement/: /appbarbuttons/
-  Get-An-App-Into-the-Windows-8-Store/: /appinstore/
-  Ban-the-Region/: /banregion/
-  big-windows-developer-event-in-la/: /laevent2012/
-  A-Tour-Through-the-Windows-8-Documentation/: /win8docstour/
-  Design-Before-You-Develop/: /designdev/
-  Save-New-Projects-When-Created/: /vsnewproj/
-  creating-a-timer-in-windows-8-c/: /win8timer/
-  So-Many-Ways-to-Search-in-Visual-Studio-11/: /vssearch/
-  you-cant-beat-free-html5css3-training/: /cantbeatfree/
-  All-About-Scope: scope
-  Dynamic-Link-to-Internet-Calendars/: /callink/
-  Print-the-Screen-in-Windows-8/: /win8printscreen/
-  completed-the-move-wordpress-to-blogengine-net/: /blogengine/
-  query-selector-helper-for-metro-apps/: /q/
-  deviceinfo/netflixstage1/: /netflixstage1/
-  Adding-a-New-Page-in-Windows-8: newpageinwin8
-  using-promises/: /usingpromises/
-  page/resources.aspx/: /resources/
-  page/resources/: /resources/
-  Visual-Studio-11-Ninja-Skills/: /vsninja/
-  Which-Windows-8-Language-Stack-Should-I-Choose/: /whichstack/
-  Creating-an-Observable-Object-in-Windows-8-JavaScript/: /observables/
-  A-Primer-on-LINQ-and-Lambda/: /linqlambda/
-  Page-Navigation/: /win8pagenav/
-  sweetstacksoon/: /sweetstack/
-  onesweetstack/: /sweetstack/
-  articles/im-on-a-boat/: /onaboat/
-  oscon2014rearview/: /codechat/oscon/
-  get-that-winrt-documentation-local: docslocal
+  stories: codechat
+  codechat/: http://channel9.msdn.com/shows/codechat
   avatar/: http://codefoster.blob.core.windows.net/site/image/abcf6a96083749889590d13c8cbbe054/atlanta_1.png
   deck/scc15/: http://1drv.ms/1WKzRCO
   deck/svcc15/: http://1drv.ms/1PM1tCl
@@ -153,10 +100,9 @@ alias:
   pdxjs/: https://1drv.ms/p/s!AvStLR7eqJbDw-c0oG3hLiE2iSSMqw
   pdxnode/: https://1drv.ms/p/s!AvStLR7eqJbDw-16gS30qVUPCawV1A
   cdsummit/: https://1drv.ms/p/s!AvStLR7eqJbDxKwsRp-VWzCDDeVnmA
-  codechat/: http://channel9.msdn.com/shows/codechat
   codechat/feed/: http://s.ch9.ms/Shows/codechat/RSS
   codechat/feed/audio/: http://s.ch9.ms/Shows/codechat/feed/mp3
-  stories: codechat
+  oscon2014rearview: codechat/oscon
   codechat/000/: http://channel9.msdn.com/Shows/codechat/000
   codechat/001/: http://channel9.msdn.com/Shows/codechat/001
   codechat/002/: http://channel9.msdn.com/Shows/codechat/Episode-002-Jason-Short-The-Cloud-
@@ -241,117 +187,16 @@ alias:
   codechat/077/: http://channel9.msdn.com/Shows/codechat/077
   codechat/078/: http://channel9.msdn.com/Shows/codechat/078
   codechat/079/: http://channel9.msdn.com/Shows/codechat/079
-  post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML.aspx/: /htmloverxaml/
-  post/2013/01/08/loadingstates.aspx/: /loadingstates/
-  post/2012/08/31/givecamp/: /givecamp/
-  post/2012/07/12/Random-Tile-Colors.aspx/: /random-tile-colors/
-  post/2012/11/20/media/: /media/
-  post/2012/06/05/win8keys.aspx/: /win8keys/
-  post/2012/06/29/How-the-WinJSUIViewBox-Actually-Works.aspx/: /viewboxhow/
-  post/2012/08/18/win8icons.aspx/: /win8icons/
-  post/2013/03/18/pushusers/: /pushusers/
-  post/2013/04/15/appart/: /appart/
-  post/2012/03/29/So-Many-Ways-to-Search-in-Visual-Studio-11.aspx/: /vssearch/
-  post/2012/08/23/nth-child/: /nthchild/
-  post/2013/02/11/ready/: /ready/
-  post/2012/05/22/Windows-8-Building-Up-to-Blank.aspx/: /blank/
-  post/2012/03/16/All-About-Scope.aspx/: /scope/
-  post/2012/05/29/I-give-you-my-word.aspx/: /myword/
-  post/2012/09/20/dyyno.aspx/: /dyyno/
-  post/2012/08/22/panning/: /panning/
-  post/2012/11/09/exams/: /exams/
-  post/2012/06/13/semanticzoom.aspx/: /semanticzoom/
-  post/2012/06/22/Using-Promises.aspx/: /usingpromises/
-  post/2012/09/14/datapresentation.aspx/: /datapresentation/
-  post/2012/11/12/flexboxstandard.aspx/: /flexboxstandard/
-  post/2012/09/06/packagefiles/: /packagefiles/
-  post/2012/03/30/Insert-Formatted-Code-into-OneNote.aspx/: /codeinonenote/
-  post/2012/04/11/Simple-Netflix-Browser-in-Windows-8-JavaScript-Part-1.aspx/: /netflixstage1/
-  post.aspx/: /blog/
-  post/2012/03/27/ReSharper-7-EAP-in-Visual-Studio-11/: /resharper-7-eap-in-visual-studio-11/
-  post/2012/03/30/Yay-Syntax-Highlighting/: /Yay-Syntax-Highlighting/
-  post/2012/04/04/Snippets-Overview-in-VS11-and-ReSharper.aspx/: /snippets/
-  post/2012/06/12/boxes/: /boxes/
-  post/2012/06/13/Styling-the-ListView/: /listviewstyle/
-  post/2012/06/13/netflixstage1/: /netflixstage1/
-  post/2012/10/01/community.aspx/: /community/
-  post/feed/2012/06/18/fastrefresh/: /fastrefresh/
-  post/feed/2012/09/20/jumpstart/: /jumpstart/
-  post/feed/2012/09/24/query/: /query/
-  post/feed/2012/09/26/xhr/: /xhr/
-  post/feed/2012/11/12/genappdesign/: /genappdesign/
-  post/feed/2013/01/10/cssbookcode/: /cssbookcode/
-  post/2012/06/12/boxes.aspx/: /boxes/
-  post/2012/11/19/familyapp.aspx/: /familyapp/
-  post/2012/03/30/Insert-Formatted-Code-into-OneNote/: /codeinonenote/
-  post/feed/2012/11/12/flexboxstandard/: /flexboxstandard/
-  post/feed/2012/11/09/exams/: /exams/
-  post/feed/2012/09/20/dyyno/: /dyyno/
-  post/feed/2012/09/14/datapresentation/: /datapresentation/
-  post/2012/11/19/familyapp/: /familyapp/
-  post/2012/05/29/I-give-you-my-word/: /myword/
-  post/feed/2012/06/22/Using-Promises/: /usingpromises/
-  post/2012/06/21/Page-Navigation-in-Windows-8-JavaScript-Apps/: /win8pagenav/
-  post/2012/06/21/Page-Navigation-in-Windows-8-JavaScript-Apps.aspx/: /win8pagenav/
-  post/2012/04/09/Design-Before-You-Develop.aspx/: /designdev/
-  post/2012/04/09/Design-Before-You-Develop/: /designdev/
-  post/2012/09/20/jumpstart/: /jumpstart/
-  post/2012/12/11/dontpanic/: /dontpanic/
-  post/2012/12/11/dontpanic.aspx/: /dontpanic/
-  post/2012/10/01/eventHandlers.aspx/: /eventhandlers/
-  post/2012/10/01/eventHandlers/: /eventhandlers/
-  post/2012/04/05/Save-New-Projects-When-Created.aspx/: /vsnewproj/
-  post/2012/04/05/Save-New-Projects-When-Created/: /vsnewproj/
-  post/2013/02/11/ready.aspx/: /ready/
-  post/2012/03/15/Dynamic-Link-to-Internet-Calendars.aspx/: /callink/
-  post/2012/03/15/Dynamic-Link-to-Internet-Calendars/: /callink/
-  post/2012/10/02/swipe/: /swipe/
-  post/2012/10/02/swipe.aspx/: /swipe/
-  post/2012/06/28/designsheet.aspx/: /designsheet/
-  post/2012/03/27/SecondScreenMetro.aspx/: /secondscreenmetro/
-  post/2012/08/29/snappoints.aspx/: /snappoints/
-  post/2012/06/21/sweetstack.aspx/: /sweetstack/
-  post/2013/07/08/noise/: /noise/
-  post/2012/11/15/anatomyofpush.aspx/: /anatomyofpush/
-  post/2012/09/26/storage.aspx/: /storage/
-  post/2012/11/20/escalator.aspx/: /escalator/
-  post/2012/12/19/cssbook/: /cssbook/
-  post/2012/05/30/the-counter-principles-of-metro-style-design.aspx/: /counterprinciples/
-  post/2012/12/06/camview/: /camview/
-  post/2012/06/13/netflixstage1.aspx/: /netflixstage1/
-  post/2012/09/14/datapresentation/: /datapresentation/
-  post/2012/03/09/Adding-a-New-Page-in-Windows-8.aspx/: newpageinwin8
-  post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML/: /htmloverxaml/
-  post/feed/2012/06/05/tabletphilosophy.aspx/: /tabletphilosophy/
-  post/2012/08/22/panning.aspx/: /panning/
-  post/2012/06/22/Using-Promises/: /usingpromises/
-  post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App/: /selectingelements/
-  post/feed/2012/06/22/Using-Promises.aspx/: /usingpromises/
-  post/2012/12/27/stilljs.aspx/: /stilljs/
-  post/2013/01/08/loadingstates/: /loadingstates/
-  post/2012/05/21/Good-Design-for-App-Bar-Button-Placement.aspx/: /appbarbuttons/
-  post/2012/10/26/tryunsnap.aspx/: /tryunsnap/
-  post/2012/04/25/Which-Windows-8-Language-Stack-Should-I-Choose/: /whichstack/
-  post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App.aspx/: /selectingelements/
-  post/2012/11/15/anatomyofpush/: /anatomyofpush/
-  post/2012/05/17/App-Accelerator-Resources/: /App-Accelerator-Resources/
-  post/2012/11/20/discover.aspx/: /discover/
-  post/2012/06/29/How-the-WinJSUIViewBox-Actually-Works/: /viewboxhow/
-  post/2012/08/18/win8icons/: /win8icons/
-  post/2012/09/06/packagefiles.aspx/: /packagefiles/
-  post/2012/11/20/escalator/: /escalator/
-  post/2012/11/06/Box-Sizing.aspx/: /boxsizing/
-  post/2012/11/20/media.aspx/: /media/
-  post/2012/09/26/storage/: /storage/
-  post/2012/04/10/Creating-an-Observable-Object-in-Windows-8-JavaScript.aspx/: /observables/
-  post/2012/06/13/semanticzoom/: /semanticzoom/
-  post/2012/08/06/Windows-8-2-day-Camp-Content.aspx/: /windows-8-2-day-camp-content/
-  post/2012/10/04/telerik.aspx/: /telerik/
-  post/2012/06/28/metrosheet.aspx/: /designsheet/
-  post/feed/2012/04/26/Get-That-WinRT-Documentation-Local: docslocal
-  post/2012/05/30/The-Counter-Principles-of-Metro-Style-Design/: /The-Counter-Principles-of-Metro-Style-Design/
-  post/2012/05/02/Query-Selector-Helper-for-Metro-Apps.aspx/: /Query-Selector-Helper-for-Metro-Apps.aspx/
-  post/2012/09/26/xhr.aspx/: /xhr/
-  post/2012/08/13/holo.aspx/: /holo/
-  post/feed/2012/12/19/cssbook/: /cssbook/
-  post/2012/05/13/Windows-8-Camp-Content.aspx/: /Windows-8-Camp-Content/
+  post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML.aspx: htmloverxaml
+  post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML/: htmloverxaml
+  post/2012/05/13/Windows-8-Camp-Content.aspx/: Windows-8-Camp-Content
+  Styling-the-ListView/: listviewstyle
+  you-cant-beat-free-html5css3-training/: cantbeatfree
+  page/resources.aspx/: resources
+  page/resources/: resources
+  post/2012/06/05/win8keys.aspx: win8keys
+  post/2012/08/23/nth-child: nthchild
+  post/2012/05/22/Windows-8-Building-Up-to-Blank.aspx: blank
+  post/2012/06/13/Styling-the-ListView: listviewstyle
+  post/2012/03/30/Yay-Syntax-Highlighting: Yay-Syntax-Highlighting
+  post/2012/10/01/community.aspx: community

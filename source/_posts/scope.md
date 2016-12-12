@@ -4,6 +4,9 @@ categories: [Other]
 tags: []
 date: 2012-03-16
 permalink: scope
+alias:
+- All-About-Scope/
+- post/2012/03/16/All-About-Scope.aspx
 ---
 
 ## Abstract

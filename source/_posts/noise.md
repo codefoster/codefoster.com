@@ -4,6 +4,7 @@ categories: [UI/UX]
 tags: []
 date: 2013-07-08
 permalink: noise
+alias: post/2013/07/08/noise/
 ---
 
 As an application developer, you&#39;re trying to communicate with your users in a sense. Not so much like an author is, though. An author can only communicate information, ideas, and the like, but an app developer can communicate behavior as well as information. You have the opportunity to make your users feel empowered as well as informed.

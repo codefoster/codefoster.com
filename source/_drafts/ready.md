@@ -4,6 +4,9 @@ categories: []
 tags: []
 date: 2013-02-11
 permalink: ready
+alias:
+- post/2013/02/11/ready.aspx
+- post/2013/02/11/ready/
 ---
 
 First of all, if you need any help getting your system configured to start developing Windows 8, just go to [usdpe.ohours.org](http://usdpe.ohours.org) and set up an office hours appointment with a Microsoft Developer Evangelist near you. They&#39;ll walk you through the whole process.

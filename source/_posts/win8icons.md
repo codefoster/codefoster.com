@@ -4,6 +4,9 @@ categories: [Design]
 tags: []
 date: 2012-08-18
 permalink: win8icons
+alias:
+- post/2012/08/18/win8icons/
+- post/2012/08/18/win8icons.aspx
 ---
 
 **UPDATE: since writing this I&#39;ve found [this MSDN article](http://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx) that I think has more information than my post. Hope that&#39;s helpful.**

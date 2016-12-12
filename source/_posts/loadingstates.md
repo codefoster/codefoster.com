@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2013-01-08
 permalink: loadingstates
+alias:
+- post/2013/01/08/loadingstates/
+- post/2013/01/08/loadingstates.aspx
 ---
 
 If you make Windows 8 apps using HTML and JavaScript, you are definitely going to be chums with the WinJS ListView control. It&#39;s the fundamental list control. You use it to create item grids as are so typical to Windows 8 apps, and you use it as well for lists - more vertically item lists like you might often find in the snap view of various apps.

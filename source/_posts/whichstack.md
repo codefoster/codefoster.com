@@ -4,6 +4,9 @@ categories: [Code]
 tags: []
 date: 2012-04-25
 permalink: whichstack
+alias:
+- post/2012/04/25/Which-Windows-8-Language-Stack-Should-I-Choose/
+- Which-Windows-8-Language-Stack-Should-I-Choose/
 ---
 
 I had a conversation with an attendee at the recent Windows 8 developers event at LA Live on Monday that I want to put into words and share in case it is of benefit. The question was this:

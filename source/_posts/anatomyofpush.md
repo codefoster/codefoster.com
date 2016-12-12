@@ -4,10 +4,12 @@ categories: [App Development]
 tags: [mobile,mobile development,notifications,toast,push server]
 date: 2012-11-15
 permalink: anatomyofpush
+alias:
+- post/2012/11/15/anatomyofpush.aspx
+- post/2012/11/15/anatomyofpush/
 ---
 
 I can hardly stand _not_ knowing how something works under the hood. More often than not, I&#39;d rather have a working knowledge of a system than the convenience or function of the system itself. It&#39;s why I chased degrees in Computer Electronics and Computer Engineering in the first place. I don&#39;t know so much about all of the fancy things that engineers put into processors and primary system boards these days, but I&#39;m relieved to have at least a fundamental understanding of a control bus, a machine clock, a MOSFET, an assembly program, and the higher level software abstractions. But I digress...
-
 
 What I want to talk about right now is the anatomy of a push notification message. I was intimidated by the subject when I was first introduced to it, but I&#39;ve climbed on top of the general concept now and feel confident enough to post on the matter.
 

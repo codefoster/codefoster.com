@@ -4,6 +4,7 @@ categories: [Code]
 tags: [region,collapse,expand,fold,folding,code folding,visual studio,ide]
 date: 2012-04-24
 permalink: banregion
+alias: Ban-the-Region/
 ---
 
 Just in case you didn&#39;t know, you don&#39;t need to use the #region designator any more to collapse code. When you use the #region indicator, you create a region for everyone you share your code with, and some people hate having regions in their files. I&#39;m one of them.

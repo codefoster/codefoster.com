@@ -4,6 +4,7 @@ categories: [Other]
 tags: [app,sample,learning]
 date: 2014-07-21
 permalink: codeshow
+alias: articles/codeshow/
 ---
 
 codeShow is a app for learning to make apps. It&#39;s very meta in that way. The whole project is an open source project with community contributions. Use it to learn the web platform and Windows app development.

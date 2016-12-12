@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2012-09-05
 permalink: packagefiles
+alias:
+- post/2012/09/06/packagefiles
+- post/2012/09/06/packagefiles.aspx
 ---
 
 When you&#39;re working with a Windows 8 project in VS2012, you have some number of project files in your Solution Explorer. You have HTML files, CSS files, JavaScript files, images, and perhaps some XML or JSON or TXT files - something like that.

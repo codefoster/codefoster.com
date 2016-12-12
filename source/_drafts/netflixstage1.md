@@ -4,6 +4,11 @@ categories: []
 tags: []
 date: 2012-06-13
 permalink: netflixstage1
+alias:
+- post/2012/06/13/netflixstage1
+- post/2012/06/13/netflixstage1.aspx
+- deviceinfonetflixstage1/
+- post/2012/04/11/Simple-Netflix-Browser-in-Windows-8-JavaScript-Part-1.aspx
 ---
 
 A previous post [link removed] illustrated how to call into the Netflix API to create a quick and dirty grid of movies with data from Netflix.

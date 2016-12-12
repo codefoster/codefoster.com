@@ -4,6 +4,9 @@ categories: [JavaScript]
 tags: []
 date: 2012-09-26
 permalink: xhr
+alias:
+- post/feed/2012/09/26/xhr/
+- post/2012/09/26/xhr.aspx
 ---
 
 You know the story. A call to a website used to be little more than a single request with its single response. But times have changed. The web is all grown up and any given visit to a website is often accompanied by multiple requests for more atomic bits of data.

@@ -4,6 +4,7 @@ categories: [Events]
 tags: []
 date: 2012-08-31
 permalink: givecamp
+alias: post/2012/08/31/givecamp/
 ---
 
 In less than two months, a number of charities will gather in the Commons on the Microsoft campus with a lot of project requirements to share. Those projects will be matched up with developers from the area that are willing to give a weekend to help out a good cause. Many hours will be spent furiously designing and coding away, and at the end of the weekend the fruits will be shared.

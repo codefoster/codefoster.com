@@ -4,6 +4,7 @@ categories: [Design]
 tags: [art, design, creative, ui, ux]
 date: 2013-04-15
 permalink: appart
+alias: post/2013/04/15/appart/
 ---
 
 One of my favorite steps in the app development lifecycle is the creation of the artwork. I&#39;m not stellar at _creating_ original artwork, but I definitely recognize when things look just right, and sometimes I stumble upon it. I must also have a little bit of marketing in me, because it&#39;s my constant effort to brand things.

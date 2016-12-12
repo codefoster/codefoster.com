@@ -4,6 +4,7 @@ categories: [HTML/CSS]
 tags: []
 date: 2012-09-24
 permalink: query
+alias: post/feed/2012/09/24/query/
 ---
 
 Your HTML describes the structure and sequence of your document. It&#39;s the starting point for your UI. But it&#39;s just the starting point. Things change. Items get added, removed, or moved. Styles change. Dialogs appear and disappear, and the user touches things and drags them around. All (or at least most) of this interaction happens in JavaScript where you can instruct your document in the language of code to react to your user and do what you command.

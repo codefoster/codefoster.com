@@ -4,6 +4,7 @@ categories: [App Development]
 tags: []
 date: 2012-08-29
 permalink: snappoints
+alias: post/2012/08/29/snappoints.aspx
 ---
 
 Let&#39;s say you have a bunch of tiles in your Windows 8 app.

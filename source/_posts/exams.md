@@ -4,6 +4,9 @@ categories: [Other]
 tags: [certification,learning,exams,hackathon,events]
 date: 2012-11-09
 permalink: exams
+alias:
+- post/feed/2012/11/09/exams/
+- post/2012/11/09/exams/
 ---
 
 It&#39;s was a big day in Building 33 as 100 or so people gathered to write Windows 8 apps, compete for prizes, and hopefully learn a little something along the way. One of the things attendees learned was that Microsoft Learning (MSL) is really rockin&#39; the Microsoft certifications lately. Paul Lee joined us at the hackathon to talk about the state of Microsoft certifications. They have tracks that based on software solutions and the technologies a developer would use to create them.

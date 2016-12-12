@@ -4,6 +4,7 @@ categories: [Events]
 tags: []
 date: 2012-06-06
 permalink: ocho
+alias: The-Ocho/
 ---
 
 There&#39;s nothing better for learning a new platform, framework, or language than getting together with other people. Shared experience brings not only technical know-how, but also know-how-not-to! I always say that our careers are made of three things: education, inspiration, and experience. You need all three. Education can be rote. You get it from books, videos, classes, etc. Inspiration is the energy and motivation for doing what you&#39;re doing. If you&#39;re not working on a project that is exciting and has the potential to change the world, you might just be a bit bored. Experience then is what you get when you try to do it over and over. You succeed, you fail, but each time you learn how to and how not to do things.

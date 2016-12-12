@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2012-08-22
 permalink: panning
+alias:
+- post/2012/08/22/panning.aspx
+- post/2012/08/22/panning/
 ---
 
 You may have heard or read or noticed, that in Windows 8, things move side to side. What&#39;s with that? We&#39;ve been scrolling vertically on the web since the stone age (and by stone age I&#39;m referring to the early 90&#39;s). And while we&#39;re on the subject, what&#39;s the difference between panning and scrolling anyway?! Hold your britches... you&#39;re about to find out.

@@ -4,6 +4,9 @@ categories: [Design]
 tags: [easy,mobile development,mobile]
 date: 2012-11-20
 permalink: escalator
+alias:
+- post/2012/11/20/escalator.aspx
+- post/2012/11/20/escalator/
 ---
 
 You want your app to be successful and to be successful, _you must think about the user_.

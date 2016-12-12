@@ -4,6 +4,9 @@ categories: [App Development]
 tags: [events,javascript,functional,app development,windows]
 date: 2012-10-01
 permalink: eventhandlers
+alias:
+- post/2012/10/01/eventHandlers.aspx
+- post/2012/10/01/eventHandlers/
 ---
 
 One of the nicest things about JavaScript is the way it considers function. Instead of being wholly owned subsidiaries of classes, functions are as portable as any other object, and their arguments are dynamic too. This makes for some elegant event handling.

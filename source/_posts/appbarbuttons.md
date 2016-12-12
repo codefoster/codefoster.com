@@ -4,6 +4,9 @@ categories: [Design]
 tags: [ui,ux,ui/ux,user interface,buttons]
 date: 2012-05-21
 permalink: appbarbuttons
+alias:
+- post/2012/05/21/Good-Design-for-App-Bar-Button-Placement.aspx
+- Good-Design-for-App-Bar-Button-Placement/
 ---
 
 I&#39;ve watched a few developers port their existing apps over to Windows 8.

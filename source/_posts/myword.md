@@ -4,6 +4,10 @@ categories: [JavaScript]
 tags: []
 date: 2012-05-29
 permalink: myword
+alias:
+- post/2012/05/29/I-give-you-my-word/
+- I-give-you-my-word/
+- post/2012/05/29/I-give-you-my-word.aspx
 ---
 
 I&#39;m excited about what I just implemented. I&#39;m always excited when I figure something out or learn something big. This one is big for me. Hopefully this post will add some value to your life as well.

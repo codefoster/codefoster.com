@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2012-10-02
 permalink: swipe
+alias:
+- post/2012/10/02/swipe.aspx
+- post/2012/10/02/swipe/
 ---
 
 Yesteryear we used tabs in UI. The problem with tabs and similar navigation aides is that they demand pixels to tell users about where they _might_ go, whereas, good Windows 8 design tells users about where they _are_.

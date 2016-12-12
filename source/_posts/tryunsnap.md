@@ -4,6 +4,7 @@ categories: [Windows]
 tags: []
 date: 2012-10-26
 permalink: tryunsnap
+alias: post/2012/10/26/tryunsnap.aspx
 ---
 
 Here&#39;s a tidbit that is easy to miss if you&#39;re not looking for it.

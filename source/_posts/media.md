@@ -4,10 +4,12 @@ categories: [Other]
 tags: []
 date: 2012-11-20
 permalink: media
+alias:
+- post/2012/11/20/media.aspx
+- post/2012/11/20/media/
 ---
 
 I decided to put together a reference post for when you&#39;re looking for stock photos, clipart, audio, music, or video. I will update this post as I am made aware of new sources.
-
 
 ## Photos
 

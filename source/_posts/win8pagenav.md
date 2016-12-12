@@ -4,6 +4,10 @@ categories: [JavaScript]
 tags: []
 date: 2012-06-21
 permalink: win8pagenav
+alias:
+- Page-Navigation/
+- post/2012/06/21/Page-Navigation-in-Windows-8-JavaScript-Apps/
+- post/2012/06/21/Page-Navigation-in-Windows-8-JavaScript-Apps.aspx
 ---
 
 I&#39;d like to talk a bit about navigating in Metro apps using HTML/JavaScript. There are a few options for doing so, and as you probably know whenever there&#39;s more than one way to do things, then you the developer have power but not necessarily clarity.  The latter is what I hope to offer here.

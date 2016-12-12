@@ -4,6 +4,7 @@ categories: [IDE]
 tags: []
 date: 2012-04-03
 permalink: vsninja
+alias: Visual-Studio-11-Ninja-Skills/
 ---
 
 This post is taken from a local presentation I did on April 2, or rather my presentation was taken from this post. One or the other is true, and so is the other.

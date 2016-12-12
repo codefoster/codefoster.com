@@ -4,6 +4,10 @@ categories: [IDE]
 tags: []
 date: 2012-04-05
 permalink: vsnewproj
+alias:
+- post/2012/04/05/Save-New-Projects-When-Created.aspx
+- post/2012/04/05/Save-New-Projects-When-Created/
+- Save-New-Projects-When-Created/
 ---
 
 Do you occasionally write a one-off project in Visual Studio that you know is not going to go anywhere?

@@ -4,6 +4,7 @@ categories: [Productivity]
 tags: []
 date: 2012-07-30
 permalink: rs7released
+alias: resharper-7-is-released/
 ---
 
 I got a note in my inbox a few days ago saying that ReSharper 7 had been released. I was pretty surprised since I assumed they still had a ton of kinks to work out, but I&#39;ve got it installed and am flying through some Windows 8 development and haven&#39;t run into any glitches so far.

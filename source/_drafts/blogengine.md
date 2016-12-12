@@ -4,6 +4,9 @@ categories: [Other]
 tags: []
 date: 2012-03-26
 permalink: blogengine
+alias:
+- Welcome-to-BlogEngineNET-27/
+- completed-the-move-wordpress-to-blogengine-net/
 ---
 
 I&#39;ve done it. I&#39;ve moved off of WordPress. I&#39;m not sure what it is I didn&#39;t like about WordPress, but I just didn&#39;t. It&#39;s not that they&#39;re too big... shoot, I work at Microsoft. It&#39;s not that their blogging solution doesn&#39;t work because it definitely does. I guess I just felt like I was in a machine. I like to feel free.

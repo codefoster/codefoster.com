@@ -4,6 +4,9 @@ categories: []
 tags: []
 date: 2012-03-09
 permalink: newpageinwin8
+alias:
+- post/2012/03/09/Adding-a-New-Page-in-Windows-8.aspx
+- Adding-a-New-Page-in-Windows-8/
 ---
 
 If you&#39;re a veteran of web development, answer this question: how do you add a new HTML page to your web project? You do a right click | Add | New Item... and then you choose HTML Page, right? Easy enough. Turns out with Windows 8 if you do this you get exactly what you asked for but perhaps not exactly what you expected. Certainly a new HTML file lands in your project and here are the contents:

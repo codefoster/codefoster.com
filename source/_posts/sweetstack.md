@@ -4,6 +4,10 @@ categories: [Code]
 tags: []
 date: 2012-06-21
 permalink: sweetstack
+alias:
+- post/2012/06/21/sweetstack.aspx
+- sweetstacksoon/
+- onesweetstack/
 ---
 
 Following is a mongo post. A huge post. A massive amount of information. The general recommendation is that blog posts should be short, but rules are made to be broken. You can&#39;t tame me. I&#39;m like a wild stallion. So here is a huge blog post.

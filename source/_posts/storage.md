@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2012-09-26
 permalink: storage
+alias:
+- post/2012/09/26/storage.aspx
+- post/2012/09/26/storage/
 ---
 
 Apps generate data. Some of them generate a ton of data and others just a few little bits and pieces. Allow me to enumerate your options for storing stuff when you&#39;re working on an app for Windows 8\. There are subtle differences between the way storage is done in an HTML/JS app versus a .NET or a C++, but for most of the techniques you&#39;re just accessing the WinRT library so the steps are practically identical.

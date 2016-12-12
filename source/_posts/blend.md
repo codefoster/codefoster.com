@@ -4,6 +4,7 @@ categories: [Design]
 tags: [ide,visual studio,developer tools]
 date: 2012-04-16
 permalink: blend-design-execute-interact
+alias: blend-design-execute-interact/
 ---
 
 This is likely apparent to anyone that has already ventured into Windows 8 development using Blend for Visual Studio 11, but if you haven&#39;t ventured in yet for some reason... like say you&#39;re busy actually getting work done! I know how that goes. I was recently in industry trying to meet deadlines and didn&#39;t have much opportunity to look at new technology.

@@ -4,6 +4,9 @@ categories: [App Development]
 tags: []
 date: 2012-06-13
 permalink: semanticzoom
+alias:
+- post/2012/06/13/semanticzoom/
+- post/2012/06/13/semanticzoom.aspx
 ---
 
 Semantic Zoom is super easy, but even the easy things can use some conceptual explanation and examples to clarify them. Rest assured that once you see it, you&#39;ll go "Ah! That won&#39;t be a problem then."

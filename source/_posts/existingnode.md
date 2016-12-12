@@ -4,6 +4,7 @@ categories: [Node.js]
 tags: []
 date: 2014-11-24
 permalink: existingnode
+alias: open-existing-nodejs-project-in-visual-studio/
 ---
 
 Working on a coding project inside of Visual Studio is hugely helpful. VS does so many things to support the developer, that I myself (and millions of others) define it as indispensable. Whether I&#39;m writing C# or JavaScript, I still want to do it in Visual Studio.

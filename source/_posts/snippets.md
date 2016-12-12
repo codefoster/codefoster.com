@@ -4,6 +4,7 @@ categories: [IDE]
 tags: []
 date: 2012-04-04
 permalink: snippets
+alias: post/2012/04/04/Snippets-Overview-in-VS11-and-ReSharper.aspx
 ---
 
 Following is an overview of getting started with Snippets. This will be the overview from 30,000 feet. If you want to get into the nitty gritty how-to then follow my links. As with all of my posts these days, this one will reference VS11 which is still in beta. Most of the concepts are the same for VS2010.

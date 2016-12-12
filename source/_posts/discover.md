@@ -4,6 +4,7 @@ categories: [Windows]
 tags: [ui,ux,ui/ux]
 date: 2012-11-20
 permalink: discover
+alias: post/2012/11/20/discover.aspx
 ---
 
 I just finished reading Jakob Nielsen&#39;s article [Windows 8 - Disappointing Usability for Both Novice and Power Users](http://www.useit.com/alertbox/windows-8.html) where the summary reads...

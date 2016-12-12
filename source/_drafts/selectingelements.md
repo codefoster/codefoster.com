@@ -4,6 +4,9 @@ categories: []
 tags: []
 date: 2012-03-15
 permalink: selectingelements
+alias:
+- post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App
+- post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App.aspx
 ---
 
 [![Windows 8 Logo](http://codefoster.blob.core.windows.net/site/image/3aa0b63f9bfe4a7aa30a126c29e30eac/selectingelements_01_1.jpg "12950-windows-_article")](http://codefost.w05.winhost.com/image.axd?picture=Windows-Live-Writer/e0bf766857da/077C1324/12950-windows-_article.jpg)

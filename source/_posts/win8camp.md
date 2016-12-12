@@ -4,6 +4,9 @@ categories: [Events]
 tags: []
 date: 2012-08-06
 permalink: win8camp
+alias:
+- windows-8-2-day-camp-content/
+- post/2012/08/06/Windows-8-2-day-Camp-Content.aspx
 ---
 
 Thanks to all of the attendees of our Windows 8 2-day Camp and Hackathon last week!

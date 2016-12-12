@@ -4,6 +4,7 @@ categories: [JavaScript]
 tags: []
 date: 2012-12-27
 permalink: stilljs
+alias: post/2012/12/27/stilljs.aspx
 ---
 
 For many reasons, I still love developing Windows 8 apps using HTML, CSS, and JavaScript. I have extensive C# experience and always want to be able to say "I&#39;m a C# developer", but I&#39;d like to add that "I&#39;m a JavaScript developer" as well.

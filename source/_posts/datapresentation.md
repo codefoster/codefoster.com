@@ -4,6 +4,10 @@ categories: [Design]
 tags: [ui,ux,ui/ux]
 date: 2012-09-14
 permalink: datapresentation
+alias:
+- post/feed/2012/09/14/datapresentation/
+- post/2012/09/14/datapresentation/
+- post/2012/09/14/datapresentation.aspx
 ---
 
 Sometimes it&#39;s hard to know what control to use when you&#39;re thinking about bringing your data feed into your Windows 8 app. You know you want to bring them in as tiles of some form or another. Maybe you want to do classic square tiles like eBay.

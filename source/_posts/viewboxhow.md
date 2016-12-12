@@ -4,6 +4,10 @@ categories: [App Development]
 tags: []
 date: 2012-06-29
 permalink: viewboxhow
+alias:
+- How-the-WinJSUIViewBox-Actually-Works/
+- post/2012/06/29/How-the-WinJSUIViewBox-Actually-Works/
+- post/2012/06/29/How-the-WinJSUIViewBox-Actually-Works.aspx
 ---
 
 I just learned something about the WinJS.UI.ViewBox and wanted to share.

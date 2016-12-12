@@ -4,10 +4,10 @@ categories: [Events]
 tags: [links,references]
 date: 2012-03-17
 permalink: app-accelerator-resources
+alias: post/2012/05/17/App-Accelerator-Resources/
 ---
 
 To everyone who joined [@mjconnection](http://www.twitter.com/twitter) and I ([@codefoster](http://www.twitter.com/codefoster)) at the Windows 8 App Accelerator the last 3 days, thanks for bringing all the energy, questions, and app ideas! I know I had a great time.
-
 
 I promised everyone that I would provide a list of resources that we brought up in class. If you think of any more that I missed, feel free to leave it in a comment and I&#39;ll merge it into this list.
 

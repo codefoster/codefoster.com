@@ -4,6 +4,9 @@ categories: [HTML/CSS]
 tags: []
 date: 2012-11-12
 permalink: flexboxstandard
+alias:
+- post/feed/2012/11/12/flexboxstandard/
+- post/2012/11/12/flexboxstandard.aspx
 ---
 
 **_Question: what is Microsoft&#39;s position on Flexbox and fallbacks for IE10 and legacy? _**

@@ -4,6 +4,7 @@ categories: [Other]
 tags: []
 date: 2012-08-13
 permalink: holo
+alias: post/2012/08/13/holo.aspx
 ---
 
 If you&#39;re interested in learning how to write apps for Windows 8 but don&#39;t want to leave your desk to do it, then I have just the thing for you. They&#39;re called HOLOs. That&#39;s a Hands-On Lab Online. It goes like this.

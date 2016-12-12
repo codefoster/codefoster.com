@@ -4,6 +4,7 @@ categories: [Personal]
 tags: []
 date: 2014-08-11
 permalink: onaboat
+alias: articles/im-on-a-boat/
 ---
 
 As you read this, I&#39;m in the Pacific ocean, actually hopefully I&#39;m _on_ the Pacific ocean in a sail boat.

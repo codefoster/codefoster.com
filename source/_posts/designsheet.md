@@ -4,6 +4,9 @@ categories: [Design]
 tags: [resource,pdf]
 date: 2012-06-28
 permalink: designsheet
+alias:
+- post/2012/06/28/designsheet.aspx
+- post/2012/06/28/metrosheet.aspx
 ---
 
 Attached is a worksheet that might help you when you&#39;re brainstorming the design of your Windows 8 app.

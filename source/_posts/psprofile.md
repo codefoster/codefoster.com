@@ -8,7 +8,6 @@ permalink: psprofile
 
 I know how it goes. You run into an inconvenience such as having to load an extra window, type an extra line, or whatever and you face a quick decision - should I get off the track I&#39;m on and spend some time fixing this workflow or should I just make it work for now and get back to what I&#39;m paid for? It&#39;s not an easy call.
 
-
 I&#39;ve heard it said, if you do something more than once, script it. That rule doesn&#39;t normally equate to gains for me. If I can spend 2 minutes twice, that&#39;s a win over spending 30 minutes perfecting a script. If I have to do it a few times though, then it certainly starts to pay off. The big wins come when you find someone else that already did it and just plug it in. Win!
 
 ## Creating Your PowerShell Profile in OneDrive

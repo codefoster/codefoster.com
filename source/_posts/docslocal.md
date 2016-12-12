@@ -4,6 +4,9 @@ categories: [Other]
 tags: [docs]
 date: 2012-04-26
 permalink: docslocal
+alias:
+- post/feed/2012/04/26/Get-That-WinRT-Documentation-Local/
+- get-that-winrt-documentation-local/
 ---
 
 If you haven&#39;t seen the modified help system in Visual Studio 11 then prepare to be impressed. Now when you go to the Help menu, you can choose _Add and Remove Local Help Content_. Upon doing so, you&#39;ll be presented with a very helpful dialog box.

@@ -4,6 +4,7 @@ categories: [App Development]
 tags: []
 date: 2012-10-04
 permalink: telerik
+alias: post/2012/10/04/telerik.aspx
 ---
 
 If you haven&#39;t seen Telerik&#39;s Windows 8 controls, you should check it out. Just go to telerik.com and install the trial and then open the demo app (there&#39;s one for HTML/JS and one for XAML/C#) in Visual Studio and launch it.

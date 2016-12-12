@@ -4,6 +4,7 @@ categories: [Events]
 tags: []
 date: 2012-04-22
 permalink: laevent2012
+alias: big-windows-developer-event-in-la/
 ---
 
 If you are in the Los Angeles area Monday event or if you can get there, you should stop by the Nokia Theater Live next to the LA Convention Center and get a whirlwind tour of Windows 8 from a developers perspective!
