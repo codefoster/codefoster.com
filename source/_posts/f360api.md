@@ -72,7 +72,7 @@ There are two tabs - Scripts and Add-Ins. They&#39;re the same thing except that
 
 Let&#39;s focus on the Scripts tab for now.
 
-You&#39;ll see a number of sample scripts in there. Some of them will have the JavaScript icon... ![](/files/f360api_04.png) ...and others will have the Python icon... ![](/files/f360api_05.png).
+You&#39;ll see a number of sample scripts in there. Some of them will have the JavaScript icon... ![](/files/f360api_04.png) ...and others will have the Python icon... ![](/files/f360api_05.png)
 
 The Fusion 360 API supports 3 languages: C++, Python, and JavaScript. 
 
