@@ -78,6 +78,13 @@ deploy:
 # Aliases
 ## https://github.com/hexojs/hexo-generator-alias
 alias:
+  blog: /
+  content: /
+  rss: atom.xml
+  feed: atom.xml
+  rss2: atom.xml
+  blog/feed: atom.xml
+  blog/rss: atom.xml
   stories: codechat
   codechat/: http://channel9.msdn.com/shows/codechat
   avatar/: http://codefoster.blob.core.windows.net/site/image/abcf6a96083749889590d13c8cbbe054/atlanta_1.png
