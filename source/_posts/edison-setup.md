@@ -12,7 +12,7 @@ Intel has published [a guide](http://communities.intel.com/docs/DOC-23192) for g
 
 I like to keep things simple, so I&#39;m going to help you get started with the Edison as easily as possible.
 
-In a subsequent post, I&#39;m going to show you how you can very, very easily start writing JavaScript to control your Edison. You won&#39;t have to deal with Wiring code, you won&#39;t have to install the Arduino IDE (argh!), and you won&#39;t have to install Intel&#39;s attempt at an IDE - Intel XDK IoT Edition. You&#39;ll be able to use [Visual Studio](http://visualstudio.com/community), deploy to the device wirelessly, and then have plenty of time when it&#39;s done to jump in the air and click your heels together.
+In a subsequent post, I&#39;m going to show you how you can very, very easily start writing JavaScript to control your Edison. You won&#39;t have to deal with Wiring code, you won&#39;t have to install the Arduino IDE (argh!), and you won&#39;t have to install Intel&#39;s attempt at an IDE - _Intel XDK IoT Edition_. You&#39;ll be able to use [Visual Studio](http://visualstudio.com/community), deploy to the device wirelessly, and then have plenty of time when it&#39;s done to jump in the air and click your heels together.
 
 In another post, I&#39;m going to show you how to use Azure&#39;s Event Hub and Service Bus (via a framework called NitrogenJS) to not only do cool things on _one_ Edison, but to do cool (likely cooler actually) things on multiple Edisons, other devices, webpages, computers, etc.
 
@@ -66,7 +66,7 @@ Do make sure the itty bitty switch next to the USB micro plugs is switched _towa
 
 **Download Intel Edison Drivers.** Now you need drivers for RNDIS, CDC, and DFU. It sounds hard, but it&#39;s not. Go to [Intel&#39;s Edison software downloads page](https://communities.intel.com/docs/DOC-23242) and look for the "Windows Driver setup". This downloads a zip file called _IntelEdisonDriverSetup1.0.0.exe_. Execute the file and comlete installation. The download goofed up for me in IE11 on Windows 10, so if you run into that, go to the link at the bottom of the page that says it&#39;s for "older versions". The download for that same file is there and it&#39;s not an older version.
 
-_Note: In case you want to know, the RNDIS ([Remote Network Driver Interface Spec](http://en.wikipedia.org/wiki/RNDIS)) is for virtual Ethernet link over USB, the CDC ([Composite Device Class](http://en.wikipedia.org/wiki/USB_communications_device_class)) is a standard for recognizing and communicating with devices, and DFU ([Device Firmware Upgrade](http://wiki.openmoko.org/wiki/USB_DFU_-_The_USB_Device_Firmware_Upgrade_standard)) is functionality for updating firmware on devices._
+>Note: In case you want to know, the RNDIS ([Remote Network Driver Interface Spec](http://en.wikipedia.org/wiki/RNDIS)) is for virtual Ethernet link over USB, the CDC ([Composite Device Class](http://en.wikipedia.org/wiki/USB_communications_device_class)) is a standard for recognizing and communicating with devices, and DFU ([Device Firmware Upgrade](http://wiki.openmoko.org/wiki/USB_DFU_-_The_USB_Device_Firmware_Upgrade_standard)) is functionality for updating firmware on devices.
 
 **Copy flash files over. **With these two driver packs installed, you should have a new Windows drive letter in Explorer called Edison. This is good, because that&#39;s where you copy the files that will be used to flash the device. Go back to the [Intel Edison software downloads page ](https://communities.intel.com/docs/DOC-23242)and locate and download "Edison Yocto complete image". Save it local and unzip it. Now make sure the Edison drive in Windows Explorer is completely empty and then copy the entire contents of the zip file you just downloaded into that drive. 
 
@@ -76,7 +76,7 @@ The Intel guide walks you through using PuTTY (a Windows client for doing things
 
 Go to the [PuTTY download page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), download _plink_ and save the resulting _plink.exe_ file into some local directory. I use c:\bin. Now you&#39;re ready to use PowerShell to connect to a serial port. Very cool.
 
-_Note: plink in PowerShell does something goofy with the backspace key. It works, but it renders ?[J for each time it&#39;s pressed. If you know a way around this, let me know._
+>Note: plink in PowerShell does something goofy with the backspace key. It works, but it renders `?[J` for each time it&#39;s pressed. If you know a way around this, let me know.
 
 Before you connect, you have to see what the COM port is for the Edison. Go to Device Manager and expand the _Ports (COM &amp; LPT)_. Now look for USB Serial Port (COM_X_). Mine is COM5.
 
@@ -116,7 +116,7 @@ First, make sure you&#39;re SSH&#39;ed to the device. So run that same `ssh root
 
 Now type `console.log('Hello World');` and hit Enter. There you have it.
 
-Hit CTRL+C twice to get back to your Linux prompt.
+Hit `CTRL+C` twice to get back to your Linux prompt.
 
 **Blink the light, already!** You haven&#39;t gotten started with an IoT device until you&#39;ve blinked an LED, so let&#39;s get to it. Still SSH&#39;ed to your device, execute each of these lines (each at the prompt) followed by Enter...
 

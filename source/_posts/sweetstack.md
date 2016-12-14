@@ -97,11 +97,11 @@ This one just FEELS like it&#39;s going to take a while. Low and behold, however
 5.  Copy the <connectionstrings> element from the app.config of the .Entities project into the web.config of your .Service project
 6.  Put your hands down... you&#39;re done!
 
-Set your .Service project to the startup project and run it. You should get a browser that looks like this...
+Set your `.Service` project to the startup project and run it. You should get a browser that looks like this...
 
 ![](/files/sweetstack_02.png)
 
-Note: if you get a list of files instead, just click on the Entities.svc first.
+>Note: if you get a list of files instead, just click on the `Entities.svc` first.
 
 ## Next, we let&#39;s see what we&#39;ve got...
 
