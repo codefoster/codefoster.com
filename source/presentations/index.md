@@ -1,7 +1,7 @@
 ---
 title: Presentations
 date: 2016-11-17 10:17:49
-alias: foo
+alias: presents
 ---
 
 In my role as a Technical Evangelist at Microsoft, I do a lot of presentations.
