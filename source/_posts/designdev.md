@@ -16,4 +16,4 @@ This is still true in Windows 8 development, but a lot of work has already been 
 
 Here&#39;s a video I recorded that will walk you through the design philosophy &ndash; the 8 traits of Metro style design. Enjoy. Happy designing.
 
-[Design Before You Develop.wmv](/bcms-media/Files/Download?id=a9209818-96ba-42f8-9bf8-a366005d00e0)
+[Design Before You Develop.wmv](/files/designdev_01.wmv)
