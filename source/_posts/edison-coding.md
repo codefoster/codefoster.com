@@ -6,7 +6,7 @@ date: 2014-11-25
 permalink: edison-coding
 ---
 
-In my [last article](/edison-setup) about the Intel Edison, I showed you how to take yours out of the box, and get it set up. Consider this article a follow-on. I'm going to pick up pretty much where the last one ended.
+In my [last article](/edison-setup) about the Intel Edison, I showed you how to take yours out of the box, and get it set up. Consider this article a follow-on. I&#39;m going to pick up pretty much where the last one ended.
 
 We actually wrote a little bit of code in the setup article, so you got a taste. Now we&#39;re going to learn...
 - how to use the power of Node.js to bring in libraries and command our device
@@ -60,29 +60,29 @@ Notice the syntax of the SCP command. It wants scp <files> <user>@<host>:<direct
 
 <video src="/files/edison-coding_03.mp4" controls></video>
 
-You didn't see anything happen there, but I did. My LED came on.
+You didn&#39;t see anything happen there, but I did. My LED came on.
 
-There are a few things that are cool about this. It's cool that the mraa library preexists and makes communicating with the device pins so easy from a high-level language like JavaScript. Also, it's great that we're remoting and remote deploying our project wirelessly. This means that we can build something like an intelligent camera device, install it in a bird nest, and then remotely upgrade our software without disturbing the birds. That's just the first example that came to mind.
+There are a few things that are cool about this. It&#39;s cool that the mraa library preexists and makes communicating with the device pins so easy from a high-level language like JavaScript. Also, it&#39;s great that we&#39;re remoting and remote deploying our project wirelessly. This means that we can build something like an intelligent camera device, install it in a bird nest, and then remotely upgrade our software without disturbing the birds. That&#39;s just the first example that came to mind.
 
 Alright, now lets make our development really clean and easy by employing the CylonJS library.
 
 ## Using CylonJS
-CylonJS can be found at [cylonjs.com](http://cylonjs.com). You won't even need to go there to get the code, because we're going to use NPM, but you may want to go check it out to get familiar with the project and eventually to research the documentation for whatever device and driver you're using.
-Let's run through the steps to do something similar to our hellonode app above, but use the Cylon library.
+CylonJS can be found at [cylonjs.com](http://cylonjs.com). You won&#39;t even need to go there to get the code, because we&#39;re going to use NPM, but you may want to go check it out to get familiar with the project and eventually to research the documentation for whatever device and driver you&#39;re using.
+Let&#39;s run through the steps to do something similar to our hellonode app above, but use the Cylon library.
 
-In this video we will: create a project folder, create our app.js file with some sample code from cylonjs.com that will cause pin 13 to blink, generate a package.json file, install cylon.js via NPM using the `--save` parameter to add it as a dependency in our package.json file, then we'll deploy to the device, and finally SSH to the device and execute the node program. You'll actually see a video of the device with the LED blinking. Just a quick warning - we're not only going to be holding off on Visual Studio at this point, but I've decided to use a CLI text editor for the hilarious factor as well as the convenience of showing everything in one window. I actually really like using the command line, but GUI's are great too. As long as I don't have to remove my hands from my keyboard, I'm a happy programmer.
+In this video we will: create a project folder, create our app.js file with some sample code from cylonjs.com that will cause pin 13 to blink, generate a package.json file, install cylon.js via NPM using the `--save` parameter to add it as a dependency in our package.json file, then we&#39;ll deploy to the device, and finally SSH to the device and execute the node program. You&#39;ll actually see a video of the device with the LED blinking. Just a quick warning - we&#39;re not only going to be holding off on Visual Studio at this point, but I&#39;ve decided to use a CLI text editor for the hilarious factor as well as the convenience of showing everything in one window. I actually really like using the command line, but GUI&#39;s are great too. As long as I don&#39;t have to remove my hands from my keyboard, I&#39;m a happy programmer.
 
->EDIT: Thanks to Roberto Cervantes in the comments for pointing out a step that I should have called special attention to. In the following video, notice that after I `scp` the files to the device and then `ssh` to the device, I execute the command `npm install`. This looks into the `package.json` file that we just deployed to see what my project's dependencies are, it goes out to the internet (to the NPM repository) to fetch the packages, and then it installs them. If you skip this step your app will have no idea what `require('cylon')` means.
+>EDIT: Thanks to Roberto Cervantes in the comments for pointing out a step that I should have called special attention to. In the following video, notice that after I `scp` the files to the device and then `ssh` to the device, I execute the command `npm install`. This looks into the `package.json` file that we just deployed to see what my project&#39;s dependencies are, it goes out to the internet (to the NPM repository) to fetch the packages, and then it installs them. If you skip this step your app will have no idea what `require('cylon')` means.
 
 <video src="/files/edison-coding_04.mp4" controls></video>
  
 A few things to note about this video...
 
-- My `edit app.js` command won't work for you because that's a special command line text editor that I use. I'm going to go ahead and assume you have your own favorite way to edit a text file. :)
+- My `edit app.js` command won&#39;t work for you because that&#39;s a special command line text editor that I use. I&#39;m going to go ahead and assume you have your own favorite way to edit a text file. :)
 
-- Note that installing the `cylon-intel-iot` module added dependencies in the package.json for itself as well as for its dependencies. We actually never had to create the `cylon` module as a dependency. That happened implicitly because the cylon-intel-iot module knew that it needed it. That's a cool thing about node modules - they each know exactly what they depend on and a single `install` command recursively takes care of business.
+- Note that installing the `cylon-intel-iot` module added dependencies in the package.json for itself as well as for its dependencies. We actually never had to create the `cylon` module as a dependency. That happened implicitly because the cylon-intel-iot module knew that it needed it. That&#39;s a cool thing about node modules - they each know exactly what they depend on and a single `install` command recursively takes care of business.
 
-- We copied over only the app.js and the package.json. We did not copy over the node_modules folder - you'll notice that I deleted it before deploying. This is the right way to deploy project. You don't check the `node_modules` in to source control and don't copy it over in a deployment. Instead, you rely on the dependencies defined in your package.json file. On the deployment server, you execute `npm install` and if anything doesn't get installed correctly, then you need to add it to your `package.json` file.
+- We copied over only the app.js and the package.json. We did not copy over the node_modules folder - you&#39;ll notice that I deleted it before deploying. This is the right way to deploy project. You don&#39;t check the `node_modules` in to source control and don&#39;t copy it over in a deployment. Instead, you rely on the dependencies defined in your package.json file. On the deployment server, you execute `npm install` and if anything doesn&#39;t get installed correctly, then you need to add it to your `package.json` file.
 
 And now a bit about the CylonJS code. Here it is...
 
@@ -103,15 +103,15 @@ Cylon.robot({
 }).start();
 ```
 
-Just like in our simpler hellonode app, we are doing a require right off the bat here. We are not, however, requiring the mraa library. Instead we're requiring the `cylon` module. The `cylon-intel-iot` module will be invoked from within cylon and it will make calls to the mraa library. We risen up one layer of abstraction. The big benefit here is that we're no longer writing device specific code. We could theoretically switch our Edison out for a Spark and it would just work.
+Just like in our simpler hellonode app, we are doing a require right off the bat here. We are not, however, requiring the mraa library. Instead we&#39;re requiring the `cylon` module. The `cylon-intel-iot` module will be invoked from within cylon and it will make calls to the mraa library. We risen up one layer of abstraction. The big benefit here is that we&#39;re no longer writing device specific code. We could theoretically switch our Edison out for a Spark and it would just work.
 
-The code block is, I admit, unnecessarily heavy if you're just blinking a light, but ponder for a minute the elegance of this compared to the inevitable mass of imperative code that would occur were we doing anything more complicated.
+The code block is, I admit, unnecessarily heavy if you&#39;re just blinking a light, but ponder for a minute the elegance of this compared to the inevitable mass of imperative code that would occur were we doing anything more complicated.
 
 There are a couple of Cylon terms that I should explicitly call out...
 
 A Cylon _robot_ is the device - the Edison or Beaglebone or Spheo or Tessel or any the other [32 or so devices](http://cylonjs.com/) that Cylon already has adaptors for. You define your robot with a connection and you use an adaptor (in the example it&#39;s `intel-iot`).
 
-A _device_ in Cylon parlance is more like a component on the device. In our example above, the pin is a component and so it's registered as a device. The important part of the device declaration is the driver. A driver is the interface that Cylon will use to interact with it. When the led driver is used, then the thing we&#39;re calling led will have functions like `.turnOn()` and `.turnOff()`. This makes it so that our we only ever speak to our components with sensible language - you tell a servo motor `.clockwise()` and you capture a button press with `.on('push',function(){})`. Sensible is good in my book.
+A _device_ in Cylon parlance is more like a component on the device. In our example above, the pin is a component and so it&#39;s registered as a device. The important part of the device declaration is the driver. A driver is the interface that Cylon will use to interact with it. When the led driver is used, then the thing we&#39;re calling led will have functions like `.turnOn()` and `.turnOff()`. This makes it so that our we only ever speak to our components with sensible language - you tell a servo motor `.clockwise()` and you capture a button press with `.on('push',function(){})`. Sensible is good in my book.
 
 Besides declaring the connections and devices, we declare a function that is to run when the robot is finished with its setup. In this case, we&#39;re using the built-in every function provided by the Cylon library to toggle the led every second. Easy peasy.
 

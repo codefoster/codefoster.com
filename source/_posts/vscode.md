@@ -11,7 +11,7 @@ If you haven&#39;t watched the first day&#39;s keynote from Microsoft&#39;s Buil
 
 One of the pieces of the conference that&#39;s going to affect my every day, though is Visual Studio&#39;s new, free, light edition called simply Code. Code is what I&#39;ve been looking for in a code editor - in a text editor even. It will replace a few other apps in my MRU list - Visual Studio Community, Notepad++, and Atom to name a few.
 
-**Console.** code.exe is in your path after your basic install, so from your shell, you can type `code` to run the app from scratch. You can also type `code myfile.txt` and launch into the editing of your file or `code mydirectory` to open it with the explorer pane&#39;s context already set to your directory. So my new favorite command is going to be `code .` for opening the current directory in Code. I was looking for some PowerShell magic to make that possible with VS Community, but now I no longer have the need.
+**Console.** `code.exe` is in your path after your basic install, so from your shell, you can type `code` to run the app from scratch. You can also type `code myfile.txt` and launch into the editing of your file or `code mydirectory` to open it with the explorer pane&#39;s context already set to your directory. So my new favorite command is going to be `code .` for opening the current directory in Code. I was looking for some PowerShell magic to make that possible with VS Community, but now I no longer have the need.
 
 **Speed.** It takes about 3 seconds to launch code.exe cold, and iut doesn&#39;t appear to take any extra milliseconds to load either a file or a directory.
 
@@ -19,11 +19,11 @@ One of the pieces of the conference that&#39;s going to affect my every day, tho
 
 **Languages.** There are a ton of languages supported out of the box. Code recognizes Batch, C#, C++, CSS, Clojure, CoffeeScript, Dockerfile, F#, Go, HTML, Handlebars, Ini, JSON, Jade, Java, JavaScript, Less, Lua, Makefile, Markdown, Objective-C, PHP, Perl, Perl 6, Plain text, PowerShell, Python, R, Razor, Ruby, SQL, Sass, Shell Script (Bash), TypeScript, Visual Basic, XML, and YAML. If that doesn&#39;t cover what you&#39;re writing, I&#39;d be really interested to know what you&#39;re writing!
 
-**Commands.** Hit CTRL + SHIFT + P to open the Command Palette and do most anything you want.
+**Commands.** Hit `CTRL + SHIFT + P` to open the Command Palette and do most anything you want.
 
-**Autosave.** Code can be configured to autosave your file as you change it like Atom does. Keep in mind, of course, that if you&#39;re using file watchers like gulp&#39;s .watch() method, this is going to trigger every time you type a character in your code. Autosave is off by default. To turn it on, hit CTRL + SHIFT + P and type auto.
+**Autosave.** Code can be configured to autosave your file as you change it like Atom does. Keep in mind, of course, that if you&#39;re using file watchers like gulp&#39;s .watch() method, this is going to trigger every time you type a character in your code. Autosave is off by default. To turn it on, hit `CTRL + SHIFT + P` and type auto.
 
-**Search.** You can CTRL + SHIFT + F search over all files in the open folder and it supports regex. It ignores certain folders like node_modules by default since that&#39;s the right thing to do.
+**Search.** You can `CTRL + SHIFT + F` search over all files in the open folder and it supports regex. It ignores certain folders like node_modules by default since that&#39;s the right thing to do.
 
 There&#39;s a ton more in Code, but that&#39;s all I&#39;m mentioning for now.
 

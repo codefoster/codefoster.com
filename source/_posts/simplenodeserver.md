@@ -8,11 +8,13 @@ permalink: simplenodeserver
 
 I&#39;ll start with the code...
 
-`require('express')().get('/',function(req,res){
+``` js
+require('express')().get('/',function(req,res){
 
     res.send('hello world');
 
-}).listen(3000);`
+}).listen(3000);
+```
 
 There it is. The simplest Node.js webserver/website. Three lines of code.
 
@@ -26,7 +28,7 @@ The `.get()` creates the root route (`'/'`)  and then allows you to provide a fu
 
 The `.listen()` starts up the engine.
 
-After creating a JavaScript file called app.js with this content in it, just type `node app`, and you should get zero feedback. But then hit `http://localhost:3000` in your browser of choice and you&#39;ll get the assuring "hello world".
+After creating a JavaScript file called app.js with this content in it, just type `node app`, and you should get zero feedback. But then hit `http://localhost:3000` in your browser of choice and you&#39;ll get the reassuring &quot;hello world&quot;.
 
 By the way, if you&#39;re using ES2015, that gets even shorter...
 
