@@ -13,7 +13,7 @@ Lucky for me (and perhaps you) I got to the bottom of it and am going to documen
 
 The head beating happened at a hackathon I recently attended with some colleagues.
 
-The task was simple - turn on an LED. It&#39;s so simple that it&#39;s become the "hello world" app of the IoT world. There&#39;s zero reason in the world why this task should take more than 10 minutes. And yet I was stumped.
+The task was simple - turn on an LED. It&#39;s so simple that it&#39;s become the &quot;hello world&quot; app of the IoT world. There&#39;s zero reason in the world why this task should take more than 10 minutes. And yet I was stumped.
 
 After a fresh image of Raspbian, an install of NVM, and then a subsequent installation of Node.js 6.2.2, I wrote a blink app using a variety of modules. I used `pi-gpio`, `rpi-gpio`, `onoff`, and finally `johnny-five` and the `raspi-io` driver.
 
@@ -21,25 +21,26 @@ None of these strategies were successful. Ugh. Node worked fine, but any of the 
 
 I was getting an obscure error about an `undefined symbol: node_module_register`. No amount of searching was bringing me any help until I found [this GitHub issue](https://github.com/Unitech/PM2/issues/1477) where [nodesocket](https://github.com/nodesocket) (thanks, nodesocket!) mentioned that he had the same issue and it was caused by an NVM install of Node and an accidental, residual version of node still living in /usr/local/bin. In fact, that was exactly what was happening for me. It was a subtle issue. Running node -v returned my v6.2.2\. Running which node returned my NVM version. But somewhere in the build process of the GPIO modules, the old version (v0.10) of node from the /usr/local/bin folder was being used. 
 
-There are two resolutions to this problem. You can kill the old version of node by deleting the linked file using sudo rm /usr/local/bin/node and then create a new one pointing to your NVM node. I decided, however, to deactive NVM...
+There are two resolutions to this problem. You can kill the old version of node by deleting the linked file using `sudo rm /usr/local/bin/node` and then create a new one pointing to your NVM node. I decided, however, to deactive NVM...
 
-`nvm deactivate`
+```
+nvm deactivate
+```
 
 ...and then follow these instructions (from [here](https://github.com/nebrius/raspi-io/wiki/Getting-a-Raspberry-Pi-ready-for-NodeBots)) to install a single version node...
 
-`wget http://nodejs.org/dist/v6.2.2/node-v6.2.2-linux-armv7l.tar.xz`` <span class="pl-c"># Copied link</span>
-
-tar -xf node-v6.2.2-linux-armv7l.tar.xz <span class="pl-c"># Name of the file that was downloaded</span>
-
+``` bash
+wget http://nodejs.org/dist/v6.2.2/node-v6.2.2-linux-armv7l.tar.xz`` # Copied link
+tar -xf node-v6.2.2-linux-armv7l.tar.xz # Name of the file that was downloaded
 sudo mv node-v6.2.2-linux-armv7l /usr/local/node
-
-<span class="pl-c1">cd</span> /usr/local/bin
-
+cd /usr/local/bin
 sudo ln -s /usr/local/node/bin/node node
-
-sudo ln -s /usr/local/node/bin/npm npm`
+sudo ln -s /usr/local/node/bin/npm npm
+```
 
 I like using NVM on my dev machine, but it&#39;s logical and simpler to use a single, static version of Node on the pi itself.
+
+>EDIT (2016-12-14): Since writing this, I discovered the awesomeness of [nvs](https://github.com/jasongin/nvs). Check it out for yourself.
 
 And that did it. I had blinky working in under 3 minutes and considering I get quite obsessive about unresolved issues like this, I had a massive weight lifted.
 

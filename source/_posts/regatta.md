@@ -14,7 +14,7 @@ This entire idea is super fun. Imagine exercising on a rowing machine in a studi
 
 There are just so many awesome scenarios that are possible at this point.
 
-The visual of the boats alone is encouragement for you to work harder to compete against others in the class. But that&#39;s pretty obvious isn&#39;t it. What about the less obvious scenarios? What about being able to add in a _phantom_ boat that represents the groups average from yesterday&#39;s workout? Now you&#39;re not competing _against_ your fellow rowers - you&#39;re competing _with_ them. You *have* to beat that phantom boat!
+The visual of the boats alone is encouragement for you to work harder to compete against others in the class. But that&#39;s pretty obvious isn&#39;t it. What about the less obvious scenarios? What about being able to add in a _phantom_ boat that represents the group&#39;s average from yesterday&#39;s workout? Now you&#39;re not competing _against_ your fellow rowers - you&#39;re competing _with_ them. You *have* to beat that phantom boat!
 
 As soon as things in the real world - like our efforts to stay in shape - are digitized and turned into data, we get to do things like capture our progress, integrate with other fitness tracker systems, or even do data analysis to determine some deep learning from it.
 
