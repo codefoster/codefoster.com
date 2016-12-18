@@ -83,7 +83,6 @@ alias:
   rss: atom.xml
   feed: atom.xml
   rss2: atom.xml
-
   stories: codechat
   codechat/: http://channel9.msdn.com/shows/codechat
   avatar/: http://codefoster.blob.core.windows.net/site/image/abcf6a96083749889590d13c8cbbe054/atlanta_1.png
@@ -106,6 +105,7 @@ alias:
   pdxjs/: https://1drv.ms/p/s!AvStLR7eqJbDw-c0oG3hLiE2iSSMqw
   pdxnode/: https://1drv.ms/p/s!AvStLR7eqJbDw-16gS30qVUPCawV1A
   cdsummit/: https://1drv.ms/p/s!AvStLR7eqJbDxKwsRp-VWzCDDeVnmA
+  swad/: https://1drv.ms/p/s!AvStLR7eqJbDxK8Udff_Zekp_yWZIg
   codechat/feed/: http://s.ch9.ms/Shows/codechat/RSS
   codechat/feed/audio/: http://s.ch9.ms/Shows/codechat/feed/mp3
   oscon2014rearview: codechat/oscon
