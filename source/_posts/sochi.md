@@ -3,11 +3,9 @@ title: Why Azure is Running the Sochi Olympics and Not AWS
 categories: [Azure]
 tags: []
 date: 2014-02-14
-permalink: sochi
 ---
 
 [Not so many people](http://www.aleteia.org/en/world/article/winter-olympics-set-to-open-in-sochi-even-amid-safety-and-attendence-concerns-5773727555911680) decided to travel to Sochi, Russia to attend the 2014 Winter Olympics. I&#39;m not surprised. Who wants to go to Russia this time of year? Actually, I do, but not to Sochi. Especially when I can watch the Olympic events from any and every screen I own.
-
 
 The streaming of this world event is backed by Microsoft&#39;s Azure cloud servers - 10,000 <span style="text-decoration: line-through;">of them</span> cores to be exact. You might wonder why it&#39;s Azure that&#39;s backing this and not AWS.
 

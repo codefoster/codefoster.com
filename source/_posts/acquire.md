@@ -3,7 +3,6 @@ title: Acquiring Images Without Committing Plagiarism
 categories: [UI/UX]
 tags: [media,graphics,art,legal,license,plagiarize,images]
 date: 2014-08-04
-permalink: acquire
 ---
 
 The easiest way to find the image you&#39;re looking for is a Bing/Google image search.

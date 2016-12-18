@@ -3,7 +3,6 @@ title: How to do Semantic Zoom in an HTML/JS App
 categories: [App Development]
 tags: []
 date: 2012-06-13
-permalink: semanticzoom
 alias:
 - post/2012/06/13/semanticzoom/
 - post/2012/06/13/semanticzoom.aspx

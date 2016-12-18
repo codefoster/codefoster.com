@@ -3,7 +3,6 @@ title: PowerShell Profile That Enables Posh Git and Azure
 categories: [Productivity]
 tags: []
 date: 2015-01-25
-permalink: psprofile
 ---
 
 I know how it goes. You run into an inconvenience such as having to load an extra window, type an extra line, or whatever and you face a quick decision - should I get off the track I&#39;m on and spend some time fixing this workflow or should I just make it work for now and get back to what I&#39;m paid for? It&#39;s not an easy call.

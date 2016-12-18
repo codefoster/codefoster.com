@@ -3,7 +3,6 @@ title: Reduced Discoverability in Windows 8
 categories: [Windows]
 tags: [ui,ux,ui/ux]
 date: 2012-11-20
-permalink: discover
 alias: post/2012/11/20/discover.aspx
 ---
 

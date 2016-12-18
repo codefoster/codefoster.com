@@ -3,12 +3,10 @@ title: Try Unsnap
 categories: [Windows]
 tags: []
 date: 2012-10-26
-permalink: tryunsnap
 alias: post/2012/10/26/tryunsnap.aspx
 ---
 
 Here&#39;s a tidbit that is easy to miss if you&#39;re not looking for it.
-
 
 If your user has snapped your app, but then they take an action in your app that gives you reason to attempt to get back out of snap mode, you can do so by calling...
 

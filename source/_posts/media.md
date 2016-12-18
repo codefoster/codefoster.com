@@ -3,7 +3,6 @@ title: Source Media
 categories: [Other]
 tags: []
 date: 2012-11-20
-permalink: media
 alias:
 - post/2012/11/20/media.aspx
 - post/2012/11/20/media/

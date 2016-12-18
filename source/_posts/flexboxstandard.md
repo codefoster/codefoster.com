@@ -3,7 +3,6 @@ title: The Flexbox CSS Standard
 categories: [HTML/CSS]
 tags: []
 date: 2012-11-12
-permalink: flexboxstandard
 alias:
 - post/feed/2012/11/12/flexboxstandard/
 - post/2012/11/12/flexboxstandard.aspx

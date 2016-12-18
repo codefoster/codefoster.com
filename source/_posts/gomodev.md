@@ -3,12 +3,9 @@ title: Let's Go MoDev!
 categories: [Events]
 tags: []
 date: 2013-08-08
-permalink: gomodev
 ---
 
-
 Next week, I&#39;m going to be joining a few folks from my team and a bunch of folks from Seattle for MoDev&#39;s next conference right here in our sunny city.
-
 
 ![](/files/gomodev_01.png)
 

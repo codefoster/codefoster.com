@@ -3,7 +3,6 @@ title: Windows Phone Emulator on Windows 10 TP Build 9926
 categories: [Other]
 tags: [windows-phone,visual-studio,ide]
 date: 2015-02-04
-permalink: wponwin10
 ---
 
 After upgrading to Windows 10 Technical Preview Build 9926, I found myself unable to run the Windows Phone Emulator either from the Developer Power Tools or by executing a phone app from Visual Studio 2013.

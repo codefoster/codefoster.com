@@ -3,7 +3,6 @@ title: Jump Start Your Brain
 categories: [Events]
 tags: []
 date: 2012-09-20
-permalink: jumpstart
 alias:
 - post/2012/09/20/jumpstart/
 - post/feed/2012/09/20/jumpstart/

@@ -3,7 +3,6 @@ title: A Month of Soylent
 categories: [Productivity]
 tags: [food, productivity, health, exercise, eating, diet, energy, vitamins, convenient, meal, meals]
 date: 2016-10-18 09:39:11
-permalink: soylent
 ---
 
 ​I&#39;ve been one month now on an (almost) exclusively [Soylent](http://soylent.com) diet.

@@ -3,13 +3,11 @@ title: The Place for Styles in HTML and XAML
 categories: [HTML/CSS]
 tags: []
 date: 2014-11-08
-permalink: placeforstyles
 ---
 
 I got a question from the community.
 
 _When working on a Windows app, how do you get a complete list of the style properties that apply to any given HTML element?_
-
 
 The short answer is _you don&#39;t_. And that&#39;s not a Windows thing, it&#39;s an HTML/CSS thing.
 

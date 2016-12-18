@@ -3,7 +3,6 @@ title: Top 5 Things C# Developers Hate About JavaScript
 categories: [JavaScript]
 tags: []
 date: 2014-07-28
-permalink: hatejavascript
 ---
 
 We&#39;re called coders. We&#39;re called software developers. But despite what we&#39;re called and despite our primary function of turning human logic and scenarios into ones and zeros, not everything we do in these roles comes down to a programming language. The soft skills, in fact, end up being massively importance. I could elaborate in a separate blog post (and just may) about the centrality of grammar skills, technical writing skills, communication skills, diplomacy skills, and so on. I&#39;m tempted to call on Napolean Dynamite to elaborate on [the importance of various skills](http://www.youtube.com/watch?v=XsiiIa6bs9I), but none of his examples actually work toward my point, so I&#39;ll refrain.

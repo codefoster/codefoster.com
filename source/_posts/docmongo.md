@@ -3,7 +3,6 @@ title: On the New Mongo Capabilities in DocumentDB
 categories: [Azure]
 tags: [mongo, docdb, documentdb, data, azure, cloud, database, cloud-data, document-db]
 date: 2016-04-20
-permalink: docmongo
 ---
 
 On March 31, 2016 it was announced at //build and also by Stephen Baron [via the DocumentDB blog](https://azure.microsoft.com/en-us/updates/public-preview-documentdb-protocol-support-for-mongodb/) that DocumentDB could now be used as the cloud data store for apps that already target MongoDB.

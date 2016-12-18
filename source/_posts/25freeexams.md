@@ -3,7 +3,6 @@ title: Giveaway - Prometric Exam Coupons
 categories: [Other]
 tags: [giveaway,certification,exams,training]
 date: 2013-10-16
-permalink: 25freeexams
 ---
 
 If you&#39;re looking to take an exam and get MCSD certified, have I got a deal for you!

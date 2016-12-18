@@ -3,7 +3,6 @@ title: The Azure CLI
 categories: [Developer Tools]
 tags: [cli,command line,bash,linux,mac,cross platform,tooling,developer tools]
 date: 2014-11-12
-permalink: azurecli
 ---
 
 At the time of this writing, there are two Azure portals you can use.

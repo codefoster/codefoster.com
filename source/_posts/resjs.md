@@ -3,7 +3,6 @@ title: Tapping Into Your Localized Resources Using JavaScript
 categories: [JavaScript]
 tags: []
 date: 2014-07-20
-permalink: resjs
 ---
 
 Many developers (present parties included) are neglecting to take advantage of other cultures and are missing relatively easily earned revenue as a consequence.

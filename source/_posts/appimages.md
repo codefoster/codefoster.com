@@ -3,7 +3,6 @@ title: App Images
 categories: [Windows]
 tags: [icons,tiles,graphics]
 date: 2014-08-04
-permalink: appimages
 ---
 
 There&#39;s an array of images that you need to create before you can call your app complete.

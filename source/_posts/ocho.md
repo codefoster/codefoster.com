@@ -3,7 +3,6 @@ title: The Ocho
 categories: [Events]
 tags: []
 date: 2012-06-06
-permalink: ocho
 alias: The-Ocho/
 ---
 

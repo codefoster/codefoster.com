@@ -3,7 +3,6 @@ title: Unintentionally Open Source?
 categories: [Windows]
 tags: [oss,source code]
 date: 2012-12-11
-permalink: dontpanic
 alias:
 - post/2012/12/11/dontpanic/
 - post/2012/12/11/dontpanic.aspx

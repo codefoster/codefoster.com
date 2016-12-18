@@ -3,7 +3,6 @@ title: 3D Printed Tiny Sea Creatures
 categories: [Maker]
 tags: [3d-printing, iot]
 date: 2015-03-12
-permalink: seacreatures
 ---
 
 I hack in Microsoft&#39;s Maker Garage whenever I can. The Maker Garage is a relatively new addition to [The Garage](http://www.microsoft.com/en-us/garage/), which you may already be familiar with. The Maker Garage is a space where Microsoft Employees can come build things - hardware things, electronic things, software things, any things.

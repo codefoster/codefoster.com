@@ -3,7 +3,6 @@ title: One Sweet Stack
 categories: [Code]
 tags: []
 date: 2012-06-21
-permalink: sweetstack
 alias:
 - post/2012/06/21/sweetstack.aspx
 - sweetstacksoon/

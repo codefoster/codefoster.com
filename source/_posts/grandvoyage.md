@@ -3,7 +3,6 @@ title: A Grand Voyage
 categories: [Personal]
 tags: []
 date: 2014-07-15
-permalink: grandvoyage
 ---
 
 I&#39;m not far from setting sail in a 38&#39; boat for what promises to be an epic voyage by my standards. I have done plenty of sailing, but entirely within sight of land.

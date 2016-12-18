@@ -3,7 +3,6 @@ title: Cutting through the noise
 categories: [UI/UX]
 tags: []
 date: 2013-07-08
-permalink: noise
 alias: post/2013/07/08/noise/
 ---
 

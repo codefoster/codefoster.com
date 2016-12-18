@@ -3,7 +3,6 @@ title: Well done, Telerik
 categories: [App Development]
 tags: []
 date: 2012-10-04
-permalink: telerik
 alias: post/2012/10/04/telerik.aspx
 ---
 

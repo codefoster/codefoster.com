@@ -3,7 +3,6 @@ title: Update on ReSharper 7 EAP
 categories: [Productivity]
 tags: []
 date: 2012-05-28
-permalink: rs7eap
 alias: Update-on-ReSharper-7-EAP/
 ---
 

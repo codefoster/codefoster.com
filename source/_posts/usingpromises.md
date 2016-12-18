@@ -3,7 +3,6 @@ title: Using Promises
 categories: [JavaScript]
 tags: []
 date: 2012-06-22
-permalink: usingpromises
 alias:
 - post/feed/2012/06/22/Using-Promises/
 - post/feed/2012/06/22/Using-Promises.aspx

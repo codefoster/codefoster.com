@@ -3,7 +3,6 @@ title: 'CSS Tip: nth-child and nth-of-type Pseudoclasses'
 categories: [HTML/CSS]
 tags: [pseudoclass]
 date: 2012-08-23
-permalink: nthchild
 ---
 
 Let&#39;s say we have the following HTML…

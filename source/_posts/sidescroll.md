@@ -3,7 +3,6 @@ title: Horizontal Panning
 categories: [App Development]
 tags: []
 date: 2012-08-20
-permalink: sidescroll
 ---
 
 If you drop a ListView into your HTML page and fill it with data that fills up your page and overflows, what happens to the overflow? The answer is that it gets cut off by the right side of the screen and thus hints to the user to swipe to scroll the rest of the content into view. Easy.

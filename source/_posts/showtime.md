@@ -3,11 +3,9 @@ title: 12 Things to Do Before You Start a Presentation
 categories: [Other]
 tags: []
 date: 2014-09-30
-permalink: showtime
 ---
 
 I give pretty many presentations about things an aspiring developer might want to know - how to spin up a Node.js service, how to get web sockets firing, how to do some duck typing in JavaScript - you know, fun stuff.
-
 
 Before I give a presentation, especially a bigger one, I open OneNote and have a glance at my _Show Time_ Checklist to make sure I&#39;m running on a well-oiled machine and have given myself the best chance at a snag free show.
 

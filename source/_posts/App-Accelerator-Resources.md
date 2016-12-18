@@ -3,7 +3,6 @@ title: App Accelerator Resources
 categories: [Events]
 tags: [links,references]
 date: 2012-03-17
-permalink: app-accelerator-resources
 alias: post/2012/05/17/App-Accelerator-Resources/
 ---
 

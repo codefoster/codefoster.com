@@ -3,7 +3,6 @@ title: My Q&A with Indie Game Dev Studio, Random Salad
 categories: [Developer Stories]
 tags: []
 date: 2013-08-29
-permalink: randomsalad
 ---
 
 ![](/files/randomsalad_01.jpg)

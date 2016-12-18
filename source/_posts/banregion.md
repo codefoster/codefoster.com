@@ -3,7 +3,6 @@ title: Ban the &#35;Region
 categories: [Code]
 tags: [region,collapse,expand,fold,folding,code folding,visual studio,ide]
 date: 2012-04-24
-permalink: banregion
 alias: Ban-the-Region/
 ---
 

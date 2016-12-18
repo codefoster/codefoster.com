@@ -3,7 +3,6 @@ title: App Art
 categories: [Design]
 tags: [art, design, creative, ui, ux]
 date: 2013-04-15
-permalink: appart
 alias: post/2013/04/15/appart/
 ---
 

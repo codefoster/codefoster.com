@@ -3,7 +3,6 @@ title: Microsoft vs. Apple - Differences in Tablet Philosophy
 categories: [Other]
 tags: []
 date: 2012-06-05
-permalink: tabletphilosophy
 alias: post/feed/2012/06/05/tabletphilosophy.aspx
 ---
 

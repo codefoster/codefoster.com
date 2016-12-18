@@ -3,7 +3,6 @@ title: Metro Design by Blink Interactive
 categories: [Design]
 tags: [metro,design,ui,ux,ui/ux,material,design language]
 date: 2012-06-24
-permalink: blink
 ---
 
 Last Friday my user group ("The Ocho") met and heard a special presentation on Metro Design thanks to Blink Interactive.

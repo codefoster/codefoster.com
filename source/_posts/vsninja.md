@@ -3,7 +3,6 @@ title: Visual Studio 11 Ninja Skills
 categories: [IDE]
 tags: []
 date: 2012-04-03
-permalink: vsninja
 alias: Visual-Studio-11-Ninja-Skills/
 ---
 

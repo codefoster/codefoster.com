@@ -3,7 +3,6 @@ title: Anatomy of a Push Notification
 categories: [App Development]
 tags: [mobile,mobile development,notifications,toast,push server]
 date: 2012-11-15
-permalink: anatomyofpush
 alias:
 - post/2012/11/15/anatomyofpush.aspx
 - post/2012/11/15/anatomyofpush/

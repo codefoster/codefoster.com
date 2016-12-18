@@ -3,13 +3,11 @@ title: Extensible Code
 categories: [Other]
 tags: [editor, add-ons, extensions, developer, code, extensibility, visual-studio, ide]
 date: 2015-11-24
-permalink: vscodeextensions
 ---
 
 ## Visual Studio Code has extensions!
 
 The bells ring, the confetti flies, the fans go wild!
-
 
 The two things we all wanted from Code was...
 

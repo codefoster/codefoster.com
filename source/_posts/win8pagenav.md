@@ -3,7 +3,6 @@ title: Page Navigation in Windows 8 JavaScript Apps
 categories: [JavaScript]
 tags: [metro,nav,windows,windows-8,winjs]
 date: 2012-06-21
-permalink: win8pagenav
 alias:
 - Page-Navigation/
 - post/2012/06/21/Page-Navigation-in-Windows-8-JavaScript-Apps/

@@ -3,11 +3,9 @@ title: Deploying TypeScript Projects to Azure from GitHub Using Continuous Deplo
 categories: [Azure]
 tags: [nodejs, node, azure, azure-webapps, typescript, javascript]
 date: 2016-05-04
-permalink: tscazure
 ---
 
 I&#39;m working on a fun project called Waterbug. You can peek or play at [github.com/codefoster/waterbug](http://github.com/codefoster/waterbug).
-
 
 Waterbug is an app that collects data as you row on a [WaterRower](http://www.waterrower.com) and visualizes it in an [Angular 2.0](http://angular.io) app.
 

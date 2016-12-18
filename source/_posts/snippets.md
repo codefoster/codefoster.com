@@ -3,7 +3,6 @@ title: Snippets Overview in VS11 and ReSharper
 categories: [IDE]
 tags: []
 date: 2012-04-04
-permalink: snippets
 alias: post/2012/04/04/Snippets-Overview-in-VS11-and-ReSharper.aspx
 ---
 

@@ -3,7 +3,6 @@ title: Get An App Into the Windows 8 Store
 categories: [App Development]
 tags: [mobile,events,learning]
 date: 2012-05-10
-permalink: appinstore
 alias: Get-An-App-Into-the-Windows-8-Store/
 ---
 

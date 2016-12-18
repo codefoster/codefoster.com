@@ -3,7 +3,6 @@ title: Gen Appathon Design Slides
 categories: [Design]
 tags: []
 date: 2012-11-12
-permalink: genappdesign
 alias: post/feed/2012/11/12/genappdesign/
 ---
 

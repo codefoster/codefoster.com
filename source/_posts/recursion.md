@@ -3,7 +3,6 @@ title: Recursion Plain and Simple
 categories: [Other]
 tags: []
 date: 2014-09-24
-permalink: recursion
 ---
 
 I&#39;m not setting out to explain recursion in full detail right now. I just want to do my best to relay the concept.

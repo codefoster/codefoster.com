@@ -3,7 +3,6 @@ title: Using Visual Studio to Write Node for Devices
 categories: [Maker]
 tags: [visual studio,Node.js,node,iot,device]
 date: 2014-12-06
-permalink: edison-vs
 ---
 
 In previous blog posts, I explained [how to setup your Intel Edison](/edison-setup) and [how to start writing code for it](/edison-coding). And in case you got here directly, I created a [full index of my Edison](/edison) posts to help you find what you need.

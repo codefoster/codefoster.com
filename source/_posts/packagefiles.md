@@ -3,7 +3,6 @@ title: Referring to Package Files
 categories: [App Development]
 tags: []
 date: 2012-09-05
-permalink: packagefiles
 alias:
 - post/2012/09/06/packagefiles
 - post/2012/09/06/packagefiles.aspx

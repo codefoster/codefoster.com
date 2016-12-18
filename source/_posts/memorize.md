@@ -3,7 +3,6 @@ title: Things a Web Developer Should Have Memorized
 categories: [Other]
 tags: []
 date: 2014-11-05
-permalink: memorize
 ---
 
 Web development involves the use of a lot of technologies and languages implemented according to a lot of standards. It&#39;s not exactly the most cohesive stack and I would attribute that to its long and democratic evolution as well as its very broad acceptance and implementation.

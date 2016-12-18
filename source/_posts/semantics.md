@@ -3,7 +3,6 @@ title: The Semantics of HTML and XAML
 categories: [HTML/CSS]
 tags: []
 date: 2014-05-19
-permalink: semantics
 ---
 
 I had a question from a developer in my community and I decided to respond via a blog post.

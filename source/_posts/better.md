@@ -3,7 +3,6 @@ title: That Was Good... This is Better
 categories: [Blogging]
 tags: [blog,blog engine,bettercms,wordpress,blogengine,lemoon,hexo]
 date: 2014-07-14
-permalink: better
 ---
 
 You&#39;ll likely notice that codefoster.com looks a bit different. I put a shine on it, but I also put it up on blocks and did a complete engine swap.

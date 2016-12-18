@@ -3,7 +3,6 @@ title: Writing JavaScript for an Intel Edison
 categories: [Maker]
 tags: [device,devices,iot,soc]
 date: 2014-11-25
-permalink: edison-coding
 ---
 
 In my [last article](/edison-setup) about the Intel Edison, I showed you how to take yours out of the box, and get it set up. Consider this article a follow-on. I&#39;m going to pick up pretty much where the last one ended.

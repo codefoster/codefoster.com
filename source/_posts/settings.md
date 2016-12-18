@@ -3,7 +3,6 @@ title: Implementing the Settings Contract
 categories: [App Development]
 tags: []
 date: 2012-08-27
-permalink: settings
 ---
 
 I presented at a developer camp in Redmond recently on the subject of implementing Windows 8 contracts. You can find the [video on Channel 9](http://channel9.msdn.com/Events/Windows-Camp/Windows-8-Developer-Camp-Redmond/WIN8-CAMP-05). Unfortunately, I didn&#39;t have enough time to cover the implementation of the Settings contract, so I want to cover that now in the attached screencast.

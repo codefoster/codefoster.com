@@ -3,9 +3,7 @@ title: A Primer on LINQ and Lambda
 categories: [C#]
 tags: []
 date: 2012-05-01
-permalink: linqlambda
-alias:
-- A-Primer-on-LINQ-and-Lambda/
+alias: A-Primer-on-LINQ-and-Lambda/
 ---
 
 # Introduction

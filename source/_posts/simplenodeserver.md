@@ -3,7 +3,6 @@ title: The Simplest Node Website
 categories: [Node.js]
 tags: [web, website, webserver, express, node, node-js, node.js]
 date: 2015-07-10
-permalink: simplenodeserver
 ---
 
 I&#39;ll start with the code...

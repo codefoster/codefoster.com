@@ -3,7 +3,6 @@ title: Extending that Splash Screen
 categories: [UI/UX]
 tags: []
 date: 2013-08-23
-permalink: extsplash
 ---
 
 I&#39;m hard at work updating codeShow for Windows 8.1\. I could have simply migrated my code from Windows 8 and tweaked it here and there, but in typical fashion, I decided to start from scratch. The [open source codeShow project](http://codeshow.codeplex.com/SourceControl/latest) is intended as an instrument of learning and that&#39;s exactly what I end up doing as I work on it... learning.

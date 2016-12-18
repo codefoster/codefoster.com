@@ -3,7 +3,6 @@ title: Don't Make Your App Boil the Ocean!
 categories: [App Development]
 tags: []
 date: 2014-03-04
-permalink: pop
 ---
 
 I you haven&#39;t dived into the app marketplace, what are you waiting for?

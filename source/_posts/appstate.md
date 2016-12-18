@@ -3,7 +3,6 @@ title: App States and Activation Kinds
 categories: [App Development]
 tags: [launch,mobile,state]
 date: 2014-05-08
-permalink: appstate
 ---
 
 _Process Lifetime Management_ (PLM) is also known as the _Application Lifecycle_, but don&#39;t confuse it with _Product Lifecycle Management_ (also PLM) or with the general Application Lifecycle Management (ALM).

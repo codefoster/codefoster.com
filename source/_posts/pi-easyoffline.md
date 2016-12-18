@@ -3,7 +3,6 @@ title: Easy and Offline Connection to your Raspberry Pi
 categories: [Maker]
 tags: [raspberry-pi, device, raspberry, board, iot, hardware, internet-of-things, electronics, pi, maker]
 date: 2016-06-25
-permalink: pi-easyoffline
 ---
 
 Getting a Raspberry Pi online is really easy if you have an HDMI monitor, keyboard, and mouse.

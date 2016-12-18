@@ -3,11 +3,9 @@ title: Windowing in Windows 8.1
 categories: [Productivity]
 tags: []
 date: 2013-08-25
-permalink: windowing
 ---
 
 Windows (the OS) has always had windows - rectangular portals into an application that allow shrinking, expanding, moving, maximizing, minimizing, and whatever else. A window is a foundational element of many UI&#39;s. It&#39;s not right for every UI, but it&#39;s great for many and is a part of many popular operating systems.
-
 
 In Windows XP, I used a utility app called Resizer (I think that was the name) that allowed me to quickly relegate a window to a certain quadrant of the screen (upper right, for instance). It also showed the width and height in pixels of the selected window to allow for easier web development compatibility checking.
 

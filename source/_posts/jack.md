@@ -3,7 +3,6 @@ title: Jack in the Box
 categories: [Maker]
 tags: []
 date: 2015-01-13
-permalink: jack
 ---
 
 My wife and I just recently had our second son. His name is Jack. I made him a bassinet to sleep in, and this is an article about the process and method.

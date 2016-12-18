@@ -3,7 +3,6 @@ title: So Many Ways to Search in Visual Studio 11
 categories: [IDE]
 tags: []
 date: 2012-03-29
-permalink: vssearch
 alias:
 - So-Many-Ways-to-Search-in-Visual-Studio-11/
 - post/2012/03/29/So-Many-Ways-to-Search-in-Visual-Studio-11.aspx

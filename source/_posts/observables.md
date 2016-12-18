@@ -3,7 +3,6 @@ title: Creating an Observable Object in Windows 8 JavaScript
 categories: [JavaScript]
 tags: []
 date: 2012-04-10
-permalink: observables
 alias:
 - post/2012/04/10/Creating-an-Observable-Object-in-Windows-8-JavaScript.aspx
 - Creating-an-Observable-Object-in-Windows-8-JavaScript/

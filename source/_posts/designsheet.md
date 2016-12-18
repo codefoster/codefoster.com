@@ -3,7 +3,6 @@ title: Windows 8 App Design Sheet
 categories: [Design]
 tags: [resource,pdf]
 date: 2012-06-28
-permalink: designsheet
 alias:
 - post/2012/06/28/designsheet.aspx
 - post/2012/06/28/metrosheet.aspx

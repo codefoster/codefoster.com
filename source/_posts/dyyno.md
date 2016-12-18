@@ -3,7 +3,6 @@ title: Dyyno's Journey - Developing an App for Windows 8
 categories: [Developer Stories]
 tags: [dev radio,video]
 date: 2012-09-20
-permalink: dyyno
 alias:
 - post/feed/2012/09/20/dyyno/
 - post/2012/09/20/dyyno.aspx

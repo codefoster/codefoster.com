@@ -3,7 +3,6 @@ title: Selecting Elements in a Windows 8 HTML App
 categories: []
 tags: []
 date: 2012-03-15
-permalink: selectingelements
 alias:
 - post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App
 - post/2012/03/15/Selecting-Elements-in-a-Windows-8-HTML-App.aspx

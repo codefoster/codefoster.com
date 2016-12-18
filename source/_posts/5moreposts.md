@@ -3,7 +3,6 @@ title: 5 More Posts
 categories: [Blogging]
 tags: [discipline,productivity]
 date: 2016-12-08
-permalink: 5moreposts
 ---
 
 Blogging is a chore. _Writing_ in general is a chore. It&#39;s not easy to formulate thoughts and put them into words. I have a ton of respect for prolific authors that generate volumes in their lifetime, because that&#39;s a phenominal feat.

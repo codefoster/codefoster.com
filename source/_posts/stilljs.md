@@ -3,12 +3,10 @@ title: 7 Reasons I Still Love JavaScript
 categories: [JavaScript]
 tags: []
 date: 2012-12-27
-permalink: stilljs
 alias: post/2012/12/27/stilljs.aspx
 ---
 
 For many reasons, I still love developing Windows 8 apps using HTML, CSS, and JavaScript. I have extensive C# experience and always want to be able to say "I&#39;m a C# developer", but I&#39;d like to add that "I&#39;m a JavaScript developer" as well.
-
 
 Some months ago I was a little pained to make even a short term commitment to write more JavaScript than C#. It felt a little like when I was learning French and found myself hesitant to start trying to think in French as if I would lose my English. Of course, that won&#39;t happen, and we shouldn&#39;t be afraid even of immersing ourselves in other languages. In fact, I&#39;m a big advocate of the polyglot theory of intentionally moving into other languages spaces to expand our own scope, our value, and our perspective.
 

@@ -3,7 +3,6 @@ title: A JavaScript Library for Everything
 categories: [JavaScript]
 tags: []
 date: 2012-07-21
-permalink: jslibraries
 ---
 
 Windows 8 is one of those environments that&#39;s just fun and expressive to develop in. So is JavaScript. The convergence of the two is just rockin&#39;.

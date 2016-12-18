@@ -3,7 +3,6 @@ title: Hail Bridge Mode
 categories: [Other]
 tags: [hardware, networking, tcp, wireless, airbnb, router, bridge]
 date: 2015-07-09
-permalink: bridgemode
 ---
 
 My wife and I have acquired a coach RV, parked it on our property, remodeled the interior, and done most of the work of listing it on [Airbnb](http://www.airbnb.com).

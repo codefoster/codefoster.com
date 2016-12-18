@@ -3,7 +3,6 @@ title: Art Matters
 categories: [Design]
 tags: [soft skills,ui,ux,ui/ux]
 date: 2012-05-31
-permalink: artmatters
 ---
 
 I&#39;m in a Microsoft building today that I&#39;ve not been in before. There are a lot of them since I&#39;m a relatively new employee. This one houses a lot of the work that goes into the Windows Phone 7 operating system, and that&#39;s pretty cool.

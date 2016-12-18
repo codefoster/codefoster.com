@@ -3,7 +3,6 @@ title: The Git Add Patch Command
 categories: [Code]
 tags: [github,git,source-control]
 date: 2016-12-15
-permalink: addpatch
 ---
 
 When you&#39;re using Git for your version control, each commit should be *atomic* and *topical*. That is, it should contain related changes and nothing _but_ related changes.

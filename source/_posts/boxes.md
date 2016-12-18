@@ -3,7 +3,6 @@ title: When to Use ViewBoxes and FlexBoxes
 categories: [HTML/CSS]
 tags: [design,ui,ux,ui/ux,winjs]
 date: 2012-06-12
-permalink: boxes
 alias:
 - post/2012/06/12/boxes
 - post/2012/06/12/boxes.aspx

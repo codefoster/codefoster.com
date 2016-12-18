@@ -3,7 +3,6 @@ title: Data Presentation
 categories: [Design]
 tags: [ui,ux,ui/ux]
 date: 2012-09-14
-permalink: datapresentation
 alias:
 - post/feed/2012/09/14/datapresentation/
 - post/2012/09/14/datapresentation/

@@ -3,7 +3,6 @@ title: codeShow
 categories: [Other]
 tags: [app,sample,learning]
 date: 2014-07-21
-permalink: codeshow
 alias: articles/codeshow/
 ---
 

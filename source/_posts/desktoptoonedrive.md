@@ -3,7 +3,6 @@ title: Moving Desktop and Downloads to OneDrive
 categories: [Productivity]
 tags: [onedrive, productivity, windows, tip, life-hacks, downloads, desktop, cloud, cloud-storage]
 date: 2015-09-23
-permalink: desktoptoonedrive
 ---
 
 The fierce competition between online storage providers has led to where we are today. Today a consumer can store their entire life in the cloud. Okay, "their entire life" might be an exaggeration, but you know what I mean.

@@ -3,7 +3,6 @@ title: Going Paperless
 categories: [Productivity]
 tags: []
 date: 2013-08-27
-permalink: paperless
 ---
 
 It&#39;s been the goal for a really long time - let&#39;s get rid of paper and live digitally. Well, how are we (people... humans... earth dwellers) progressing and what more can we do to get there?

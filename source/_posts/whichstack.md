@@ -3,7 +3,6 @@ title: Which Windows 8 Language Stack Should I Choose?
 categories: [Code]
 tags: []
 date: 2012-04-25
-permalink: whichstack
 alias:
 - post/2012/04/25/Which-Windows-8-Language-Stack-Should-I-Choose/
 - Which-Windows-8-Language-Stack-Should-I-Choose/

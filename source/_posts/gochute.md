@@ -3,7 +3,6 @@ title: Project GoChute
 categories: [Other]
 tags: []
 date: 2014-11-22
-permalink: gochute
 ---
 
 This is a live post, so be sure to check out the addendums at the bottom.

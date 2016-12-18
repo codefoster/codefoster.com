@@ -3,7 +3,6 @@ title: 8tracks for Windows 8
 categories: [Developer Stories]
 tags: [dev,startup,app,music,music app,8 tracks]
 date: 2014-02-17
-permalink: 8tracks
 ---
 
 

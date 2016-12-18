@@ -3,7 +3,6 @@ title: Query Your DOM
 categories: [HTML/CSS]
 tags: []
 date: 2012-09-24
-permalink: query
 alias: post/feed/2012/09/24/query/
 ---
 

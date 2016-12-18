@@ -3,11 +3,9 @@ title: Building Things Using Fusion 360 and JavaScript
 categories: [JavaScript]
 tags: [cad, api, javascript, maker, api, design, make, 3d]
 date: 2016-03-22
-permalink: f360api 
 ---
 
 I like making things.
-
 
 I used to mostly just make things that show up on the computer screen - software things. Lately, however, I&#39;ve been re-inspired to make _real_ things. Things out of wood and things out of plastic and metal and fabric and string.
 

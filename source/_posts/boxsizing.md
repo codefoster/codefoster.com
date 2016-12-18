@@ -3,7 +3,6 @@ title: Box Sizing
 categories: [HTML/CSS]
 tags: [css,css properties,css property,style,styles]
 date: 2012-11-06
-permalink: boxsizing
 alias: post/2012/11/06/Box-Sizing.aspx
 ---
 

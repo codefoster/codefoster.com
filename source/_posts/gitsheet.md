@@ -3,7 +3,6 @@ title: Git Cheat Sheet
 categories: [Productivity]
 tags: []
 date: 2014-08-05
-permalink: gitsheet
 ---
 
 I spend a lot of time using Git these days. It&#39;s one of those technologies you love and hate. I guess I use it because it feels just scrappy and simple and elegant enough to be the right tool for the job in most cases.

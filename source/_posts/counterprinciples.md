@@ -3,7 +3,6 @@ title: The Counter Principles of Metro Style Design
 categories: [Design]
 tags: [ui,ux,ui/ux,art,graphics]
 date: 2012-05-30
-permalink: counterprinciples
 alias:
 - post/2012/05/30/the-counter-principles-of-metro-style-design.aspx
 - post/2012/05/30/The-Counter-Principles-of-Metro-Style-Design/

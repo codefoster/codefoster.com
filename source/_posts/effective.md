@@ -3,7 +3,6 @@ title: 5 Ways to Be Effective
 categories: [Productivity]
 tags: [tasks,minimalism,calendar,teamwork,balance,organization]
 date: 2013-06-06
-permalink: effective
 ---
 
 What effect do you have on the world?

@@ -3,7 +3,6 @@ title: A Simple Model using Fusion 360
 categories: [Maker]
 tags: []
 date: 2015-01-19
-permalink: f360green
 ---
 
 In the interest of avoiding a TL;DR situation, here&#39;s the video first and explanation afterward. Basically, I&#39;m just showing you a simple model in Fusion 360\. I get excited about things and explain them to the n-th degree though, so if you&#39;re up for it, read on.

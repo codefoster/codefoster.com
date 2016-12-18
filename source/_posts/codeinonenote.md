@@ -3,7 +3,6 @@ title: Insert Formatted Code into OneNote
 categories: [Code]
 tags: []
 date: 2012-03-30
-permalink: codeinonenote
 alias:
 - post/2012/03/30/Insert-Formatted-Code-into-OneNote/
 - post/2012/03/30/Insert-Formatted-Code-into-OneNote.aspx

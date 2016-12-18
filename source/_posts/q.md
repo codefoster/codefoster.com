@@ -3,7 +3,6 @@ title: Query Selector Helper for Metro Apps
 categories: [JavaScript]
 tags: []
 date: 2012-05-02
-permalink: q
 alias:
 - post/2012/05/02/Query-Selector-Helper-for-Metro-Apps.aspx
 - query-selector-helper-for-metro-apps/

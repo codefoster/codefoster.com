@@ -3,7 +3,6 @@ title: Free Microsoft Oakley backpack
 categories: [Other]
 tags: []
 date: 2014-07-20
-permalink: freebackpack
 ---
 
 codefoster.com is entirely overhauled and with it my provider for blog commenting functionality.

@@ -3,7 +3,6 @@ title: A Tour Through the Windows 8 Documentation
 categories: [Windows]
 tags: []
 date: 2012-04-11
-permalink: win8docstour
 alias: A-Tour-Through-the-Windows-8-Documentation/
 ---
 

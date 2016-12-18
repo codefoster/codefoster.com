@@ -3,7 +3,6 @@ title: Creating a Timer in Windows 8 (C#)
 categories: [C#]
 tags: [timer,software,tick,timing,time,wait,csharp]
 date: 2012-03-30
-permalink: win8timer
 alias: creating-a-timer-in-windows-8-c/
 ---
 

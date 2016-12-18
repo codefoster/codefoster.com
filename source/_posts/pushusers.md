@@ -3,9 +3,7 @@ title: Push Notifications for Specific Users
 categories: [App Development]
 tags: []
 date: 2013-03-18
-permalink:
-- pushusers/
-- post/2013/03/18/pushusers/
+alias: post/2013/03/18/pushusers/
 ---
 
 I received a question that I&#39;d like to turn into a blog post for the benefit of the masses. I&#39;ve gotten this question a number of times in the past.

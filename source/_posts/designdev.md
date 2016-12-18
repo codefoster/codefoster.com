@@ -3,7 +3,6 @@ title: Design Before You Develop
 categories: [Design]
 tags: []
 date: 2012-04-09
-permalink: designdev
 alias:
 - post/2012/04/09/Design-Before-You-Develop.aspx
 - post/2012/04/09/Design-Before-You-Develop

@@ -3,7 +3,6 @@ title: OneDrive Sync Status
 date: 2016-10-17 12:00:02
 categories: [Other]
 tags: []
-permalink: onedrive-status
 ---
 
 I don&#39;t know how long the feature has been active, but I only recently realized that I can now see the status of all of the upload and download activity for OneDrive.

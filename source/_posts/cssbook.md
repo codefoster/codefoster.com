@@ -3,7 +3,6 @@ title: CSS for Windows 8
 categories: [Other]
 tags: [style]
 date: 2012-12-19
-permalink: cssbook
 alias:
 - post/2012/12/19/cssbook/
 - post/feed/2012/12/19/cssbook/

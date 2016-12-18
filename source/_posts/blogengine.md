@@ -3,7 +3,6 @@ title: Completed the Move - WordPress to BlogEngine.NET
 categories: [Blogging]
 tags: [blogengine,wordpress]
 date: 2012-03-26
-permalink: blogengine
 alias:
 - Welcome-to-BlogEngineNET-27/
 - completed-the-move-wordpress-to-blogengine-net/

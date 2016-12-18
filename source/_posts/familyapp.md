@@ -3,7 +3,6 @@ title: Buy an app for the whole family
 categories: [Windows]
 tags: []
 date: 2012-11-18
-permalink: familyapp
 alias:
 - post/2012/11/19/familyapp.aspx
 - post/2012/11/19/familyapp/

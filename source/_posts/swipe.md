@@ -3,7 +3,6 @@ title: Super Simple Swipe Sections
 categories: [App Development]
 tags: []
 date: 2012-10-02
-permalink: swipe
 alias:
 - post/2012/10/02/swipe.aspx
 - post/2012/10/02/swipe/

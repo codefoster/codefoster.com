@@ -3,7 +3,6 @@ title: Open Existing Node.js Project in Visual Studio
 categories: [Node.js]
 tags: []
 date: 2014-11-24
-permalink: existingnode
 alias: open-existing-nodejs-project-in-visual-studio/
 ---
 

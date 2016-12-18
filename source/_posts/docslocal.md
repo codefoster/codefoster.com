@@ -3,7 +3,6 @@ title: Get That WinRT Documentation Local
 categories: [Other]
 tags: [docs]
 date: 2012-04-26
-permalink: docslocal
 alias:
 - post/feed/2012/04/26/Get-That-WinRT-Documentation-Local/
 - get-that-winrt-documentation-local/

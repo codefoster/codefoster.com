@@ -3,7 +3,6 @@ title: Seattle Give Camp just around the corner
 categories: [Events]
 tags: []
 date: 2012-08-31
-permalink: givecamp
 alias: post/2012/08/31/givecamp/
 ---
 

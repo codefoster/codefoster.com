@@ -3,7 +3,6 @@ title: The Escalator Ride
 categories: [Design]
 tags: [easy,mobile development,mobile]
 date: 2012-11-20
-permalink: escalator
 alias:
 - post/2012/11/20/escalator.aspx
 - post/2012/11/20/escalator/

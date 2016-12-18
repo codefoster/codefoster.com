@@ -3,7 +3,6 @@ title: Another app in the Store
 categories: [App Development]
 tags: [app,windows,ip camera,ip cam,webcam]
 date: 2012-12-06
-permalink: camview
 alias: post/2012/12/06/camview/
 ---
 

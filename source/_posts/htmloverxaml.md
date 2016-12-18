@@ -3,7 +3,6 @@ title: Top 10 Reasons Why I Choose HTML5 Over XAML
 categories: [HTML/CSS]
 tags: [html,xaml,ui,declarative]
 date: 2012-05-23
-permalink: htmloverxaml
 ---
 
 My colleague and friend Jerry Nixon recently wrote an article on the top 10 reasons why he chooses XAML over HTML5 and it begged me for a reply. Alas, here it is...

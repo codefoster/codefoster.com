@@ -3,7 +3,6 @@ title: Loading States of the WinJS.UI.ListView
 categories: [App Development]
 tags: []
 date: 2013-01-08
-permalink: loadingstates
 alias:
 - post/2013/01/08/loadingstates/
 - post/2013/01/08/loadingstates.aspx

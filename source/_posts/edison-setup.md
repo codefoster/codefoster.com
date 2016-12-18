@@ -3,7 +3,6 @@ title: Setting up an Intel Edison
 categories: [Maker]
 tags: [device,devices,iot,soc]
 date: 2014-11-20
-permalink: edison-setup
 ---
 
 This is a guide to getting started with the Intel Edison.

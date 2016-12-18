@@ -3,7 +3,6 @@ title: BlockMover Sample from Jake and Sam
 categories: [Events]
 tags: [reference,code,sample]
 date: 2012-07-16
-permalink: blockmovercode
 ---
 
 Thanks to everyone that showed up to last Friday&#39;s session on JavaScript game development in Windows 8\. I really appreciated the information and demonstration that Jake and Sam presented. I hope it was as helpful for you too.

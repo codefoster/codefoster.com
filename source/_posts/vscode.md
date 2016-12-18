@@ -3,11 +3,9 @@ title: Visual Studio Code
 categories: [Productivity]
 tags: [visual-studio, ide, programming, developer, code, editor, text]
 date: 2015-04-29
-permalink: vscode
 ---
 
 If you haven&#39;t watched the first day&#39;s keynote from Microsoft&#39;s Build 2015 conference, [go do that now](http://buildwindows.com/). It has a few wow moments such as Android and iOS code for building Windows 10 apps, elastic pools for Azure SQL databases, and the amazing HoloLens robot that was a hologram and a real robot in one - amazing!
-
 
 One of the pieces of the conference that&#39;s going to affect my every day, though is Visual Studio&#39;s new, free, light edition called simply Code. Code is what I&#39;ve been looking for in a code editor - in a text editor even. It will replace a few other apps in my MRU list - Visual Studio Community, Notepad++, and Atom to name a few.
 

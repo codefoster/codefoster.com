@@ -3,7 +3,6 @@ title: Random Tile Colors
 categories: [JavaScript]
 tags: []
 date: 2012-07-12
-permalink: randomtilecolors
 alias:
 - Random-Tile-Colors/
 - post/2012/07/12/Random-Tile-Colors.aspx

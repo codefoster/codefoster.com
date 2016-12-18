@@ -3,7 +3,6 @@ title: MCSD HTML5 Exam Offer
 categories: [Other]
 tags: [certification,learning,exams,hackathon,events]
 date: 2012-11-09
-permalink: exams
 alias:
 - post/feed/2012/11/09/exams/
 - post/2012/11/09/exams/

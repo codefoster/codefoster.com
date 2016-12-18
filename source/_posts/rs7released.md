@@ -3,7 +3,6 @@ title: ReSharper 7 is Released
 categories: [Productivity]
 tags: []
 date: 2012-07-30
-permalink: rs7released
 alias: resharper-7-is-released/
 ---
 

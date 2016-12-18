@@ -3,7 +3,6 @@ title: Microsoft&#39;s Vendor Specific CSS Prefixes
 categories: [HTML/CSS]
 tags: [style,styles,standards]
 date: 2014-07-16
-permalink: cssprefix
 ---
 
 Much of my audience, I&#39;ll presume, has at least some familiarity with CSS.

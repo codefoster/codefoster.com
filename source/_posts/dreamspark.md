@@ -3,7 +3,6 @@ title: The Why and How of DreamSpark
 categories: [Students]
 tags: [student,education]
 date: 2014-04-07
-permalink: dreamspark
 ---
 
 Microsoft enjoys giving software away to students. It&#39;s obviously in everyone&#39;s best interest. Students get cutting edge technology and Microsoft gets young and hypercreative minds helping to shape the course of innovation for years to come.

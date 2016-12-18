@@ -3,7 +3,6 @@ title: But WHY do we pan horizontally?
 categories: [App Development]
 tags: []
 date: 2012-08-22
-permalink: panning
 alias:
 - post/2012/08/22/panning.aspx
 - post/2012/08/22/panning/

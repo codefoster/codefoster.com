@@ -3,7 +3,6 @@ title: Did You Know About Microsoft HomeOS?
 categories: [Other]
 tags: []
 date: 2013-08-23
-permalink: homeos
 ---
 
 Because I didn&#39;t. Not until recently.

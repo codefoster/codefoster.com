@@ -3,7 +3,6 @@ title: Create Something
 categories: [Maker]
 tags: [produce,producer,make]
 date: 2013-10-10
-permalink: createsomething
 ---
 
 I recently found a wallpaper for my desktop that reminds me that it is a fundamental human tennant to create. Creation is built into us, but it&#39;s an inherantly difficult process. Many of us in many small ways forego creation for the fear of "doing it wrong" or making something that doesn&#39;t have value. But we also realize that foregoing creation is frustrating because it&#39;s what we&#39;re meant to do.

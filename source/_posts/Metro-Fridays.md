@@ -3,7 +3,6 @@ title: Metro Fridays
 categories: [Events]
 tags: []
 date: 2012-06-01
-permalink: metro-fridays
 ---
 
 Developers anywhere near Seattle, I&#39;m talking to you.

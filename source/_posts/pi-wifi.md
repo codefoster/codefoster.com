@@ -3,11 +3,9 @@ title: Wifi on the Command Line on a Raspberry Pi
 categories: [Maker]
 tags: [raspberry-pi, device, raspberrypi, electronics, iot, hardware, maker, raspbian, linux, gpio]
 date: 2016-06-25
-permalink: pi-wifi
 ---
 
 I hate hooking a monitor up to my Raspberry Pi. It feels wrong. It feels like I should be able to do everything from the command line, and the fact is I can.
-
 
 If you&#39;re pulling your Raspberry Pi out of the box and are interested in bootstrapping without a monitor, check out my other post on [Easy and Offline Connection to your Raspberry Pi](/pi-easyoffline). 
 

@@ -3,7 +3,6 @@ title: Big Windows Developer Event in LA!
 categories: [Events]
 tags: []
 date: 2012-04-22
-permalink: laevent2012
 alias: big-windows-developer-event-in-la/
 ---
 

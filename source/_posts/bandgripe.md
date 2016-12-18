@@ -3,7 +3,6 @@ title: I had one gripe with the Microsoft Band... Now I have zero.
 categories: [Productivity]
 tags: [exercise,fitness,wearable,device,iot]
 date: 2014-11-09
-permalink: bandgripe
 ---
 
 For the most part, I&#39;ve been really enjoying the Microsoft Band that I bought the day they went on sale.

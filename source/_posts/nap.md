@@ -3,7 +3,6 @@ title: How to Take a Nap
 categories: [Productivity]
 tags: []
 date: 2014-03-07
-permalink: nap
 ---
 
 A what?!

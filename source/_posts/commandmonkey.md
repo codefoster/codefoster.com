@@ -3,7 +3,6 @@ title: Command Monkey
 categories: [Maker]
 tags: [maker, iot, node, javascript, node-js, windows-phone, web-sockets, socket.io]
 date: 2015-02-11
-permalink: commandmonkey
 ---
 
 Alright, this is going to be fun. The process is going to be fun, and the end game is going to be even more so.

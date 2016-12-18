@@ -3,7 +3,6 @@ title: Configuring a Custom Domain Using Namecheap and Azure Web Apps
 categories: [Azure]
 tags: [namecheap, azure, dns, domain, domain-names, web]
 date: 2015-08-07
-permalink: namecheap
 ---
 
 Namecheap.com is a domain registrar that treats me very well. Domain registration and DNS records is a strange world that I don&#39;t understand very deeply, so I appreciate a registrar that makes things clear and keeps it fairly simple.

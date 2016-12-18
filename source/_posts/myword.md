@@ -3,7 +3,6 @@ title: I give you my word...
 categories: [JavaScript]
 tags: []
 date: 2012-05-29
-permalink: myword
 alias:
 - post/2012/05/29/I-give-you-my-word/
 - I-give-you-my-word/

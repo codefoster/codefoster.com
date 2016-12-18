@@ -3,11 +3,9 @@ title: iPazzPort Giveaway
 categories: [Other]
 tags: []
 date: 2012-05-25
-permalink: ipazzport-giveaway
 ---
 
 A what?! It&#39;s an [iPazzPort](http://ipazzport.com/). I ordered one recently and I was sent two. Not a bad deal, but I really only need one, so I decided to give one away to one of my Twitter followers. It&#39;s new in the box. Read on for details. First, what is it...
-
 
 ![](/files/ipazzport-giveaway_01.png)
 

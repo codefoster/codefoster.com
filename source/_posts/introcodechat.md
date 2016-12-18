@@ -3,7 +3,6 @@ title: Introducing CodeChat
 categories: [Other]
 tags: []
 date: 2014-06-24
-permalink: introcodechat
 ---
 
 I&#39;m starting a new venture and I&#39;m announcing it now.

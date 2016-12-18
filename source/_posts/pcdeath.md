@@ -3,11 +3,9 @@ title: Death of the PC... I Think Not
 categories: [Other]
 tags: []
 date: 2013-10-18
-permalink: pcdeath
 ---
 
 Ugh... if I hear one more time about the death of the PC...
-
 
 ![](/files/pcdeath_01.png)
 

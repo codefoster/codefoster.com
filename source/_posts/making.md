@@ -3,7 +3,6 @@ title: Making
 categories: [Maker]
 tags: [make, iot, things, make]
 date: 2015-01-26
-permalink: making
 ---
 
 I&#39;m going to wander philosophically for a little bit about the very recent yet surprisingly welcome divergence of my job role.

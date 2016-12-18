@@ -3,7 +3,6 @@ title: Long Weekend
 categories: [Productivity]
 tags: []
 date: 2012-05-25
-permalink: long-weekend
 ---
 
 It&#39;s the long weekend!

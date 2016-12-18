@@ -3,7 +3,6 @@ title: Developer Reactions to Build 2016
 categories: [Events]
 tags: [events, event, build, conference, innovation, bots, technology]
 date: 2016-03-30
-permalink: build-16-react
 ---
 
 Microsoft takes opportunity every year at [//build](http://build.microsoft.com) - its annual conference for developers - to make as many shock and awe announcements as it can, and this year in 2016, there was plenty of shock and plenty of awe.

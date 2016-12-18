@@ -3,7 +3,6 @@ title: Prometric Exam Giveaway
 categories: [Other]
 tags: []
 date: 2013-07-03
-permalink: mslgiveaway
 ---
 
 I have three coupons for Prometric exams for Microsoft certification that I&#39;d like to give away.

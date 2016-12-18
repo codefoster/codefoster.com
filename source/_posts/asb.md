@@ -3,7 +3,6 @@ title: Presentation at ASB
 categories: [Events]
 tags: [javascript, education, presentations, events, event, school]
 date: 2015-02-19
-permalink: asb
 ---
 
 The topic of our conversation was encouragement to go beyond our inevitable role as _digital consumers_ and aspiring to be _digital producers_ first and foremost.

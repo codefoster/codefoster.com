@@ -3,7 +3,6 @@ title: Help Me Design a Candy Dispenser
 categories: [Maker]
 tags: [hardware, design, dispenser, candy, maker, iot]
 date: 2015-06-18
-permalink: candydispenser
 ---
 
 I&#39;m going to keep much of my latest project under wraps for now, but I need your help designing one piece of it.

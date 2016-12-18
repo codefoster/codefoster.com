@@ -3,7 +3,6 @@ title: Taking Twitter by Stream
 categories: [Node.js]
 tags: []
 date: 2014-11-25
-permalink: twitterstream
 ---
 
 I found a number of examples of how to hook in to Twitter&#39;s Streaming API using JavaScript (via Node.js) and _every example I found was too hard_. Not _really_ hard, but too hard.

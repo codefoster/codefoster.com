@@ -3,7 +3,6 @@ title: Easy Caching in WinJS Apps
 categories: [HTML/CSS]
 tags: [app development,performance,winjs]
 date: 2013-08-24
-permalink: easycache
 ---
 
 I set out the other day to help a developer add some cache functionality for his app.

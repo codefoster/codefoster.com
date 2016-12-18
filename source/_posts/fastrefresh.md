@@ -3,7 +3,6 @@ title: Fast Refresh... Nugget!
 categories: ['Developer Tools']
 tags: [ide,productivity]
 date: 2012-06-18
-permalink: fastrefresh
 alias: post/feed/2012/06/18/fastrefresh/
 ---
 

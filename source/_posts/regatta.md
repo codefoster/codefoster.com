@@ -3,7 +3,6 @@ title: The Regatta Project
 categories: [Developer Stories]
 tags: [iot,row,rowing,node,node.js,raspberry-pi,azure,azure-web-apps,api]
 date: 2016-12-10
-permalink: regatta
 ---
 
 My role at Microsoft is that of an evangelist, and that implies that we speak _broadly_ to audiences about technology. Recently, however, my team is working one-on-one with organizations on exciting new Microsoft technologies - making sure they&#39;re exactly what developers need.

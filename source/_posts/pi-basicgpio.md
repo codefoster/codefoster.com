@@ -3,7 +3,6 @@ title: The Most Basic Way to Access GPIO on a Raspberry Pi
 categories: [Maker]
 tags: [raspberry-pi, device, raspberry, board, iot, hardware, internet-of-things, electronics, pi, maker]
 date: 2016-06-25
-permalink: pi-basicgpio
 ---
 
 ​I&#39;ve been hacking on the Raspberry Pi of late and wanted to share out some of the more interesting learnings.

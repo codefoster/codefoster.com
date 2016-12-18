@@ -3,7 +3,6 @@ title: Learn Windows 8 Development in Your Underwear
 categories: [Other]
 tags: []
 date: 2012-08-13
-permalink: holo
 alias: post/2012/08/13/holo.aspx
 ---
 

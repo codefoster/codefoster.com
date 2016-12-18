@@ -3,7 +3,6 @@ title: Using WinJS.xhr to Fetch This and That
 categories: [JavaScript]
 tags: []
 date: 2012-09-26
-permalink: xhr
 alias:
 - post/feed/2012/09/26/xhr/
 - post/2012/09/26/xhr.aspx

@@ -3,7 +3,6 @@ title: Event Handlers in a Windows 8 App
 categories: [App Development]
 tags: [events,javascript,functional,app development,windows]
 date: 2012-10-01
-permalink: eventhandlers
 alias:
 - post/2012/10/01/eventHandlers.aspx
 - post/2012/10/01/eventHandlers/

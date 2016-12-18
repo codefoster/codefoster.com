@@ -3,11 +3,9 @@ title: UW Seattle Student Appathon
 categories: [Events]
 tags: [student, university, college, appathon, hackathon, event]
 date: 2013-05-01
-permalink: uwappathon
 ---
 
 If you&#39;re a student at UW, then I&#39;ve got a cool opportunity to throw your way.
-
 
 Come to the Microsoft Appathon @ UW, learning to build apps, eat free food, win cool prizes, and get $100 per app on top of it all!
 

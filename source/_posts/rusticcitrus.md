@@ -3,7 +3,6 @@ title: The Design of Rustic Citrus - Interview with an Indie Game Dev
 categories: [Developer Stories]
 tags: []
 date: 2013-10-14
-permalink: rusticcitrus
 ---
 
 I love writing code, but I also love the developer community and talking to other developers that have made or are working on great apps.
