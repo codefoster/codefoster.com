@@ -1,0 +1,7 @@
+<div class="main-footer">
+  <% if (theme.copyright) { %>
+    <%- theme.copyright %>
+  <% } else { %>
+    © <%= new Date().getFullYear() %> <%= config.title %> 
+  <% } %>
+</div>

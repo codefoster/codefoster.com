@@ -1,0 +1,68 @@
+<div class="sidebar">
+  <div class="header">
+    <h1 class="title"><a href="<%- url_for('/') %>"><%= config.title %></a></h1>
+    <% if (config.subtitle) { %>
+      <p class="subtitle">
+        <%= config.subtitle %>
+      </p>
+    <% } %>
+    <div class="info">
+      <div class="content">
+        <% if (config.description) { %>
+          <div class="description"><%= config.description %></div>
+        <% } %>
+      </div>
+      <% if (theme.avatar) { %>
+        <div class="avatar">
+          <% if (theme.avatarLink) { %>
+            <a href="<%= theme.avatarLink %>"><img src="<%= theme.avatar %>"></a>
+          <% } else { %>
+            <img src="<%= theme.avatar %>">
+          <% } %>
+        </div>
+      <% } %>
+    </div>
+  </div>
+  <div class="body">
+    <% if (theme.nav && theme.nav.length) { %>
+      <% theme.nav.forEach(function(list) { %>
+        <ul class="nav">
+          <% list.forEach(function(item){ %>
+            <% if (item === 'categories') { %>
+              <li class="category-list-container">
+                <a href="javascript:;"><%- __('categories') %></a>
+                <%- list_categories({depth: -1}) %>
+              </li>
+            <% } else if (item === 'tags') { %>
+              <li class="tag-list-container">
+                <a href="javascript:;"><%- __('tags') %></a>
+                <%- list_tags({show_count:false}) %>
+              </li>
+            <% } else if (item === 'archives') { %>
+              <li class="archive-list-container">
+                <a href="javascript:;"><%- __('archives') %></a>
+                <%- list_archives({type: 'yearly'}) %>
+              </li>
+            <% } else { %>
+              <li>
+                <%- link_to(item.url, item.name, {external: item.url.indexOf('http') === 0}) %>
+              </li>
+            <% } %>
+          <% }) %>
+        </ul>
+      <% }); %>
+    <% } %>
+
+    <div>
+      <% if (theme.social && theme.social.length) { %>
+        <% theme.social.forEach(function(list) { %>
+          <% list.forEach(function(item){ %>
+              <a href="<%- item.url %>">
+                <img src="<%- item.image %>"/>
+              </a>
+          <% }) %>
+        <% }); %>
+      <% } %>
+    </div>
+  </div>
+</div>
