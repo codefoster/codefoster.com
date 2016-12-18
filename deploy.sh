@@ -118,7 +118,7 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   exitWithMessageOnError "npm failed"
 
   echo "Generating hexo site..."
-  ./node_modules/hexo/bin/hexo generate
+  ./node_modules/hexo/bin/hexo generate --debug
 
   cd - > /dev/null
 fi
