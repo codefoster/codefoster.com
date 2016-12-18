@@ -117,8 +117,8 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   eval $NPM_CMD install --production
   exitWithMessageOnError "npm failed"
 
-  echo "Generating hexo site..."
-  ./node_modules/hexo/bin/hexo generate --debug
+  # echo "Generating hexo site..."
+  # ./node_modules/hexo/bin/hexo generate --debug
 
   cd - > /dev/null
 fi
