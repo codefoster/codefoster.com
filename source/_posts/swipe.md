@@ -11,9 +11,9 @@ alias:
 Yesteryear we used tabs in UI. The problem with tabs and similar navigation aides is that they demand pixels to tell users about where they _might_ go, whereas, good Windows 8 design tells users about where they _are_.
 
 
-If you&#39;re on a page that shows multiple entities or sections or parts or whatever, just hint to the user that there&#39;s more off the page by giving yourself a left margin but cutting content off on the right.
+If you're on a page that shows multiple entities or sections or parts or whatever, just hint to the user that there's more off the page by giving yourself a left margin but cutting content off on the right.
 
-I made a pretty simple way to do this for a Windows 8 app and you&#39;re free to steal it.
+I made a pretty simple way to do this for a Windows 8 app and you're free to steal it.
 
 Just add this to your default.css...
 
@@ -77,9 +77,9 @@ Then give it contents something like this...
 
 Notice a few things...
 
-*   the swiper&#39;s immediate children can be any type of element (*). I&#39;m using divs in my example.
+*   the swiper's immediate children can be any type of element (*). I'm using divs in my example.
 *   the children will be 80% and have 80% snappoint intervals. This is so that the content from the next page will show up on screen and _hint_ to the user to swipe and see more
 *   there is an extra <div></div> at the end. This is necessary for being able to snap to the last section with a swipe gesture
 *   each section has a header (h2) and it will automatically have the correct 20 pixels under it
 
-That&#39;s it. I hope it comes in useful to you.
+That's it. I hope it comes in useful to you.

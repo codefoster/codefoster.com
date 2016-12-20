@@ -5,11 +5,11 @@ tags: []
 date: 2012-08-27
 ---
 
-I presented at a developer camp in Redmond recently on the subject of implementing Windows 8 contracts. You can find the [video on Channel 9](http://channel9.msdn.com/Events/Windows-Camp/Windows-8-Developer-Camp-Redmond/WIN8-CAMP-05). Unfortunately, I didn&#39;t have enough time to cover the implementation of the Settings contract, so I want to cover that now in the attached screencast.
+I presented at a developer camp in Redmond recently on the subject of implementing Windows 8 contracts. You can find the [video on Channel 9](http://channel9.msdn.com/Events/Windows-Camp/Windows-8-Developer-Camp-Redmond/WIN8-CAMP-05). Unfortunately, I didn't have enough time to cover the implementation of the Settings contract, so I want to cover that now in the attached screencast.
 
 The Settings contract is an important one, since almost every app known to mankind has some user preferences or options to store. In previous Windows development, the convention was to put options like this into the Tools | Options menu item, but there are plenty of examples of apps that chose to find another place for it.
 
-In Windows 8, the sanctioned place to put your user&#39;s settings is in the Settings pane. This is the pane the user gets when he does one of the following...
+In Windows 8, the sanctioned place to put your user's settings is in the Settings pane. This is the pane the user gets when he does one of the following...
 
 *   swipes from the right to access the Charms and then chooses the Settings charm
 *   presses Win + I

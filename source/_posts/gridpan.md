@@ -28,9 +28,9 @@ element.querySelector(".groupeditemslist").onmousemove = function (ev) {
 
 Let me unpack that for you.
 
-When the user&#39;s mouse is within the grid (that&#39;s the _.groupeditemslist_), then check the event argument that our event function received and see what the location of the user&#39;s mouse is on the screen (that&#39;s _screenX_).
+When the user's mouse is within the grid (that's the _.groupeditemslist_), then check the event argument that our event function received and see what the location of the user's mouse is on the screen (that's _screenX_).
 
-If it is withing 50 pixels of the right side of the page (that&#39;s the _document.body.scrollWidth_) then set _timer_ to a new interval that runs a simple function every 1 millisecond. The body of the function that runs is _listView.scrollPosition += 30,_ which you have likely guessed scrolls (pans) to the right by 30 pixels. And the opposite should obviously happen if the user moves his mouse close to the left edge.
+If it is withing 50 pixels of the right side of the page (that's the _document.body.scrollWidth_) then set _timer_ to a new interval that runs a simple function every 1 millisecond. The body of the function that runs is _listView.scrollPosition += 30,_ which you have likely guessed scrolls (pans) to the right by 30 pixels. And the opposite should obviously happen if the user moves his mouse close to the left edge.
 
 <disclaimer>
 

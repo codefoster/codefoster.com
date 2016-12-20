@@ -5,17 +5,17 @@ tags: [github,git,source-control]
 date: 2016-12-15
 ---
 
-When you&#39;re using Git for your version control, each commit should be *atomic* and *topical*. That is, it should contain related changes and nothing _but_ related changes.
+When you're using Git for your version control, each commit should be *atomic* and *topical*. That is, it should contain related changes and nothing _but_ related changes.
 
-You don&#39;t commit something broad in scope like &quot;changed all the necessary files to implement feature 712&quot;. That&#39;s what a branch is for. Instead, you commit something like &quot;added fetch() method call to the orders page&quot;. That&#39;s likely just one small part of feature 712. A whole bunch of commits end up implementing the feature. 
+You don't commit something broad in scope like "changed all the necessary files to implement feature 712". That's what a branch is for. Instead, you commit something like "added fetch() method call to the orders page". That's likely just one small part of feature 712. A whole bunch of commits end up implementing the feature. 
 
-But what about when you&#39;re working away like crazy on your code base and you end up changing a single file in two different places and these two changes relate to different commits? Most people just go ahead and roll the changes into the same commit. Not ideal.
+But what about when you're working away like crazy on your code base and you end up changing a single file in two different places and these two changes relate to different commits? Most people just go ahead and roll the changes into the same commit. Not ideal.
 
 The hard way to do this right is to delete one change, stage and commit, and then paste the change back in.
 
-There&#39;s an easier way though. It&#39;s called a _patch add_, but I like to call it a _partial add_. `git add -h` will show you the `-p` argument and inform you that it allows you to &quot;select hunks interactively&quot;. As much as that sounds like an online dating service for women, its actually just a really easy way from the command line to stage _portions_ of a file and not the entire file.
+There's an easier way though. It's called a _patch add_, but I like to call it a _partial add_. `git add -h` will show you the `-p` argument and inform you that it allows you to "select hunks interactively". As much as that sounds like an online dating service for women, its actually just a really easy way from the command line to stage _portions_ of a file and not the entire file.
 
-Let&#39;s say we start with this file...
+Let's say we start with this file...
 
 ``` js
 //foobar.js
@@ -28,9 +28,9 @@ function bar() {
 }
 ```
 
-Now let&#39;s say I end up editing both of the functions in that file, but these changes are unrelated to one another. I simply changed `foo` to `foo foo` and `bar` to `bar bar`. Let&#39;s look first at using the command line to take care of business here, and then we&#39;ll try it with Visual Studio Code.
+Now let's say I end up editing both of the functions in that file, but these changes are unrelated to one another. I simply changed `foo` to `foo foo` and `bar` to `bar bar`. Let's look first at using the command line to take care of business here, and then we'll try it with Visual Studio Code.
 
-Here&#39;s the changed file contents...
+Here's the changed file contents...
 
 ``` js
 //foobar.js
@@ -89,7 +89,7 @@ s | split the current hunk into smaller hunks
 e | manually edit the current hunk
 ? | print help
 
-Which to choose? Well, the diff that we see on the screen shows _both_ changes. That&#39;s too much. So we want to press `s` to split this hunk. That gives us...
+Which to choose? Well, the diff that we see on the screen shows _both_ changes. That's too much. So we want to press `s` to split this hunk. That gives us...
 
 ```
 Stage this hunk [y,n,q,a,d,/,s,e,?]? s
@@ -106,10 +106,10 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
 
 ...where now only one of the changes remains and we have our same interactive prompt.
 
-The change we&#39;re looking at is entirely related and should be in a single commit (along with possibly some other files). So we press `y` to stage it and then `q` to quit and we&#39;re finished.
+The change we're looking at is entirely related and should be in a single commit (along with possibly some other files). So we press `y` to stage it and then `q` to quit and we're finished.
 
 ## Visual Studio Code
-Now let&#39;s do the same thing using Visual Studio Code. This and a few other git-enabled IDE&#39;s are smart enough to let you do a patch add. VS Code doesn&#39;t call it a _patch add_ though. It calls it _staging selected lines_, which actually makes good sense.
+Now let's do the same thing using Visual Studio Code. This and a few other git-enabled IDE's are smart enough to let you do a patch add. VS Code doesn't call it a _patch add_ though. It calls it _staging selected lines_, which actually makes good sense.
 
 Start with the same file and changes, and view the changed file in VS Code and you should see...
 
@@ -119,7 +119,7 @@ Now just put your cursor anywhere within the first change in the pane on the rig
 
 ![](/files/addpatch_02.png)
 
-And then if you look in the Git panel, you&#39;ll see that the `foobar.js` file has been staged but it also has changes that have not yet been staged.
+And then if you look in the Git panel, you'll see that the `foobar.js` file has been staged but it also has changes that have not yet been staged.
 
 ![](/files/addpatch_03.png)
 

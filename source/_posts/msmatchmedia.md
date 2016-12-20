@@ -13,13 +13,13 @@ If you throw down with a media query like this...
 }
 ```
 
-...then you&#39;re going to get purple text in all of your paragraphs, right?
+...then you're going to get purple text in all of your paragraphs, right?
 
-Well, what if you wanted to check to see if you were in fullscreen-portrait from your code so you could do something fancy. Of course, you get some help from Windows with that. If you&#39;re using the _navigation_ project template then you can implement an _updateLayout_ method when you define a page and one of the parameters you&#39;ll receive is _viewState_.
+Well, what if you wanted to check to see if you were in fullscreen-portrait from your code so you could do something fancy. Of course, you get some help from Windows with that. If you're using the _navigation_ project template then you can implement an _updateLayout_ method when you define a page and one of the parameters you'll receive is _viewState_.
 
 But you might not be in the updateLayout method and you might want to check some other media query property such as whether the screen is at least 600px wide.
 
-That&#39;s where you may benefit from accessing media queries programmatically.
+That's where you may benefit from accessing media queries programmatically.
 
 To execute the media query above from could you can do this...
 

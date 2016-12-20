@@ -8,7 +8,7 @@ alias:
 - post/2012/07/12/Random-Tile-Colors.aspx
 ---
 
-This tip is quite short and simple, but worth a post I think. If you want to colorize some tiles like the start screen does, here&#39;s one simple way to do it.
+This tip is quite short and simple, but worth a post I think. If you want to colorize some tiles like the start screen does, here's one simple way to do it.
 
 ``` js
 var demos = [
@@ -32,7 +32,7 @@ This is some code from a project I have that showcases some simple code demos, s
 
 This ability to just throw another property onto an object without mucking with the class and affecting all of the other instances, is in my opinion one of the nicest things about a dynamic language like JavaScript, and I take advantage of it quite a lot.
 
-Now to actually use this color for the tiles, it&#39;s a simple matter of adding it to the databinding statement like this...
+Now to actually use this color for the tiles, it's a simple matter of adding it to the databinding statement like this...
 
 ``` html
 <div id="itemTemplate" data-win-control="WinJS.Binding.Template">
@@ -42,4 +42,4 @@ Now to actually use this color for the tiles, it&#39;s a simple matter of adding
 </div>
 ```
 
-Notice the style.backgroundColor:tileColor term. That&#39;s all it takes.
+Notice the style.backgroundColor:tileColor term. That's all it takes.

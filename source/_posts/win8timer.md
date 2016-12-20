@@ -16,4 +16,4 @@ d.Start();
 d.Tick += (sender, o) => { Debug.WriteLine('tick'); };
 ```
 
-Now go take a look at Visual Studio&#39;s Output pane and watch it tick.
+Now go take a look at Visual Studio's Output pane and watch it tick.

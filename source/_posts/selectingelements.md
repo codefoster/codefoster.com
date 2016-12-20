@@ -9,9 +9,9 @@ alias:
 ---
 
 ![Windows 8 Logo](/files/selectingelements_01.jpg)
-In antiquity, I selected DOM objects on my HTML pages by using the [document.getElementById](http://msdn.microsoft.com/en-us/library/ie/ms536437(v=vs.85).aspx) method, and I always hated it. I hated it because it was one of my very few options for find the element I wanted and it was so narrow. So it was a great breakthrough to me to see how it worked in the [jQuery](http://jquery.com/) library. CSS selectors are an awesome way to specify exactly which elements I want whether it&#39;s one or many.
+In antiquity, I selected DOM objects on my HTML pages by using the [document.getElementById](http://msdn.microsoft.com/en-us/library/ie/ms536437(v=vs.85).aspx) method, and I always hated it. I hated it because it was one of my very few options for find the element I wanted and it was so narrow. So it was a great breakthrough to me to see how it worked in the [jQuery](http://jquery.com/) library. CSS selectors are an awesome way to specify exactly which elements I want whether it's one or many.
 
-So when I saw my first Windows 8 HTML/JS example and it was using getElementById I panicked some. I didn&#39;t want to go back in time! My first thought was &quot;I don&#39;t want to use this.&quot; My second thought was &quot;Actually I do, but can I use jQuery?&quot; (the answer to which is yes). And finally, after some research, I realized that even without the aid of jQuery we&#39;re in good shape thanks to some functions built into WinJS. There are a few though so I want to just enumerate what we&#39;ve got.
+So when I saw my first Windows 8 HTML/JS example and it was using getElementById I panicked some. I didn't want to go back in time! My first thought was "I don't want to use this." My second thought was "Actually I do, but can I use jQuery?" (the answer to which is yes). And finally, after some research, I realized that even without the aid of jQuery we're in good shape thanks to some functions built into WinJS. There are a few though so I want to just enumerate what we've got.
 
 ## The JavaScript Way
 Of course, you can still use `document.getElementById`, but that always makes me feel like I'm regressing. :)
@@ -50,10 +50,10 @@ var myDiv = $('#myDiv'); var allDivs = $('div')
 The result of these jQuery function calls is (like practically all jQuery functions) another [jQuery](http://api.jquery.com/jquery/) object. If you want the actual DOM element for the singular call, use the [get](http://api.jquery.com/get/) function, and if you want an array of all of the DOM elements for the plural call, use the [toArray](http://api.jquery.com/toArray/) function.
 
 ## Conclusion
-So you&#39;ve seen that there are, as always, many ways to skin a cat. The deciding factors regarding which to use in my opinion are:
+So you've seen that there are, as always, many ways to skin a cat. The deciding factors regarding which to use in my opinion are:
 
 *   What result type works best for you? Do you want an actual DOM element (or list of DOM elements) or would a QueryCollection or jQuery object give you more functionality?
-*   Is your app exclusively on the Windows 8 client platform? If so then you&#39;re certainly going to want a dependency on the WinJS library and thus the WinJS method might be your best bet.
+*   Is your app exclusively on the Windows 8 client platform? If so then you're certainly going to want a dependency on the WinJS library and thus the WinJS method might be your best bet.
 *   Have you already decided to take a dependency on the jQuery library? Are you already really familiar with using jQuery?
 
-It&#39;s good to have choices. Happy selecting.
+It's good to have choices. Happy selecting.

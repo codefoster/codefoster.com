@@ -16,7 +16,7 @@ Now click on Virtual Switch Manager on the right under Actions...
 
 ![](/files/wponwin10_02.png)
 
-And then choose the Windows Phone Emulator Internal Switch from the list of switches and hit Remove. Don&#39;t worry, a new one will be automatically created for you the next time you try to connect to the emulator in Visual Studio.
+And then choose the Windows Phone Emulator Internal Switch from the list of switches and hit Remove. Don't worry, a new one will be automatically created for you the next time you try to connect to the emulator in Visual Studio.
 
 ![](/files/wponwin10_03.png)
 
