@@ -55,7 +55,7 @@ In previous attempts to eat well, I had to spend _extra_ time considering each m
 
 "Just one more pretzel?"
 
-"My own carton of fries or share my wife?"
+"My own carton of fries or share with my wife?"
 
 But this time it was different. The answer was always the same - "no".
 
