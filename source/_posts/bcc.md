@@ -1,7 +1,7 @@
 ---
 title: bcc
-categories: []
-tags: []
+categories: [Developer Community]
+tags: [boise, community, meetup, learning]
 date: 2017-02-17 10:30:35
 ---
 
