@@ -1,5 +1,5 @@
 ---
-title: bcc
+title: A Developer Community in Boise, Idaho
 categories: [Developer Community]
 tags: [boise, community, meetup, learning]
 date: 2017-02-17 10:30:35
