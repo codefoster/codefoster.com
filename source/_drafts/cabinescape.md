@@ -47,10 +47,11 @@ collection. This is pretty straight forward to do in the Azure portal. Keep in m
 DocumentDB account created before you create the database and collection. 
 
 After setting up the database, we wrote our Azure Functions. We have five functions used to update the 
-game state, communicate with the interactive console (CAI), and control the various systems in the plane.
-Azure Functions can be triggered in various ways, ranging from timer triggers to blob triggers. Our trigger
-based functions were either HTTP or timer based. Along with triggers, Azure Function can accept various
-inputs and outputs configured as bindings. Below are the functions in cabinescape function application.
+game state, communicate with the interactive console (Central Airplane Intelligence - Cai for short), and
+control the various systems in the plane.Azure Functions can be triggered in various ways, ranging from timed
+triggers to blob triggers. Our trigger based functions were either HTTP or timer based. Along with triggers,
+Azure Function can accept various inputs and outputs configured as bindings. Below are the functions in our 
+cabinescape function application.
 
     - GamePulse: 
         * Retrieves the state of the plane alarm, exit door, smoke, overhead bins and sends commands to a raspberry piece
@@ -78,8 +79,8 @@ inputs and outputs configured as bindings. Below are the functions in cabinescap
 
 A limitation we encountered with timer based triggers is the inability to turn them on or off at will. 
 Our timer based functions are on by default, and are triggerd based on an interval (defined with a cron expression).
-The game is not being played 24/7. Ideally, we want the time based functions triggered on when the game starts, 
-and turned off when the game end/winning condition is met.
+In reality, game is not being played 24/7. Ideally, we want the timer based functions triggered on when the game starts,
+and continue on an time interval until the game end condition is met.
 
 # The Controller
 <!-- Jeremy -->
