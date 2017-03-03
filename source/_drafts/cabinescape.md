@@ -12,9 +12,11 @@ The team was myself ([@codefoster](http://twitter.com/codefoster)), Jennifer Mar
 
 The hackathon was themed on some relatively new products - namely Cognitive Services and the Bot Framework. Additionally, some members of the team were looking for some opportunity to fine tune their Azure Functions skills, so we went looking for an idea that included them all.
 
-I have been mulling around the idea of using some of these technologies to implement an escape room. Escape rooms are very popular nowadays. You've probably heard. Perhaps you've even played. They're basically a physical room that you and a few friends enter and are tasked with exiting in a set amount of time. Exiting, however, is a puzzle. 
+I've been mulling around the idea of using some of these technologies to implement an escape room, which as you may know are very popular nowadays. If you haven't played an escape room, perhaps you want to find one nearby and give it a try. An escape room is essentially a physical room that you and a few friends enter and are tasked with exiting in a set amount of time.
 
-This escape room is called Cabin Escape and the setting is an airplane cabin.
+Exiting, however, is a puzzle. 
+
+Our escape room project is called Cabin Escape and the setting is an airplane cabin.
 
 # Game Play
 <!-- Jeremy -->
