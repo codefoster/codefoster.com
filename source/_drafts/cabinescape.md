@@ -1,7 +1,7 @@
 ---
 title: Cabin Escape
-categories: []
-tags: []
+categories: [Code]
+tags: [hackathon,team,functions,documentdb,iot,bot,bot-framework,cognitive-services]
 ---
 
 # The Idea
