@@ -120,7 +120,22 @@ To scope this project to a 3-day hackathon, the various outputs are going to be 
 
 # The Central Airplane Intelligence (Cai)
 <!-- Jennifer -->
-(Coming soon)
+This is a unique "Escape the Room" concept in that it requires a mixture of physical clues in the real world and virtual interaction with a bot.  For example, when the team first enters the room, the plane has just "crashed" so there is an alarm beeping.  This is pretty annoying, so people are highly motivated to figure out how to turn it off quickly.  A lone console is at the front of the airplane, and the players can interact with it.  
+
+![CAI Welcome Screen](../files/cabinescape_CaiWelcome.jpg)
+
+One of the biggest issues with bots is discoverability: how to figure out what the bot can do.  Therefore, good bot design is to greet the user with some examples of what the bot can accomplish.  In our case, the bot is able to respond to many different types of questions, which are mapped to our LUIS intents:
+* What is the plane's current status overall?
+* How do I fix the HVAC system?
+* What is the flight attendant code?
+* How do I get out of here?  
+* How do I unlock the cockpit door?
+* How do I open the overhead bins?
+* How do we clear all this smoke?
+* What is the oxygen level?
+* How do I disable the alarm?  
+
+The bot (named "CAI" for Central Airplane Intelligence) was implemented in C# using [LUIS](http://luis.ai).  The code repository can be found at https://github.com/cabinescape/EscapeTheAirplaneBot.  
 
 # Cameras and Cognitive Services
 <!-- Hao -->
