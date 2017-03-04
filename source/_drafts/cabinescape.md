@@ -33,7 +33,31 @@ The task then becomes a matter of finding all of the hidden boarding passes that
 
 # Architecture
 <!-- Jeremy -->
-Talk about the overall architecture and show the diagram
+Architectures of old were almost invariably n-tiered. We software developers are all intimately familiar with that pattern. Times they are a changing! An n-tier monolithic architecture may accomplish your feat, but it won't scale in a modern cloud very well.
+
+The architecture for cabin escape uses a smattering of platform offerings. What does that mean? It means that we're not going to ask Azure to give us one or more computers and then install our code on them. Instead, we're going to compose our application out of a number of higher level services that are each indepedent of one another.
+
+Let's take a look at an overall architecture diagram.
+
+![architecture](../files/cabinescape_architecture.png)
+
+In Azure, we're using stateless and serverless Azure Functions for business logic. This is quite a paradigm shift from classic web services are often implemented as an API.
+
+API's map to nodes (servers) and whether you see it or not, when your application is running, you are effectively renting that node.
+
+Functions, on the other hand do not conceptually map to servers. Obviously, they are still running on servers, but you don't have to be in the business of declaring how Functions' nodes scale up and down. They handle that implicitly. You also don't pay for nodes when your function is not actually executing.
+
+The difficult part in my opinion is the conceptual change where with a serverless architecture, your business logic is split out into multiple functions. At first it's jarring. Eventually, though you start to understand why it's advantagous.
+
+If any given chunk of business logic ends up being triggered a lot for some reason and some other chunk doesn't, then dividing those chunks of logic in different functions allows one to scale while the other doesn't.
+
+It also starts to feel good from an encapsulation stand point.
+
+Besides Functions, our diagram contains a DocumentDB database for state, a bot using the Bot Framework, LUIS for natural language recognition, and some IoT devices installed in the plane - some of which use cameras.
+
+# Cameras and Cognitive Services
+<!-- Hao and Doris -->
+(Coming soon)
 
 # Cloud Intelligence and Storage
 <!-- Kwadwo -->
@@ -41,12 +65,21 @@ Talk about the Azure Functions and DocumentDB
 
 # The Controller
 <!-- Jeremy -->
-Talk about the controller project and the Raspberry Pi that opens doors, turns on HVAC, etc.
+An escape room is really just a ton of digital flags all over the room that either inquire or assert the binary value of some feature.
+
+* Is the lavatory door open (inquire)
+* Turn the smoke machine on (assert)
+* Is the HVAC switch in the cockpit on? (inquire)
+* Turn the HVAC on (assert)
+
+It's quite simply a set of inputs and outputs, and their coordination is a logic problem.
+
+All of these logic bits, however, have to exist in real life - what I like to call _meat space_, and that's the job of the controller. It's one thing to change a digital flag saying that the door should be open, but it's quite another to actually open a door.
+
+The contoller in our solution is a Raspberry Pi 3 with a Node.js that does two things: 1) it reads and writes theh logical values of the GPIO pins and 2) it dynamically creates an API for all of those flags so they can be manipulated from our solution in the cloud.
+
+To scope this project to a 3-day hackathon, the various outputs are going to be represented with LEDs instead of real motors and stuff. It's meat space, but just barely. It does give everyone a visual on what's going on in the fictional airplane.
 
 # The Central Airplane Intelligence (Cai)
 <!-- Jennifer -->
 Talk about the bot that interfaces with players
-
-# Cameras and Cognitive Services
-<!-- Hao -->
-Talk about the device, camera, and software installed on each seatback for identifying players
