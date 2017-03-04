@@ -61,10 +61,7 @@ Besides Functions, our diagram contains a DocumentDB database for state, a bot u
 
 # Cloud Intelligence and Storage
 <!-- Kwadwo -->
-We use Azure Functions to update and retrieve the state of the game. Our Azure Functions are stateless, 
-however we keep the state of every game stored in DocumentDB. In our design, every Cabin Escape
-room has its own document in the state collection. For the purpose of this project, we have
-one escape room that has id 'officialGameState'. 
+We use Azure Functions to update and retrieve the state of the game. Our Azure Functions are stateless, however we keep the state of every game stored in DocumentDB. In our design, every Cabin Escape room has its own document in the state collection. For the purpose of this project, we have one escape room that has id 'officialGameState'. 
 
 We started by creating a 'GameState' DocumentDB database, and then creating a 'state' 
 collection. This is pretty straight forward to do in the Azure portal. Keep in mind you'll need a
@@ -125,8 +122,8 @@ To scope this project to a 3-day hackathon, the various outputs are going to be 
 
 # The Central Airplane Intelligence (Cai)
 <!-- Jennifer -->
-Talk about the bot that interfaces with players
+(Coming soon)
 
 # Cameras and Cognitive Services
 <!-- Hao -->
-Talk about the device, camera, and software installed on each seatback for identifying players
+(Coming soon)
