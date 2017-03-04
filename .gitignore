@@ -41,6 +41,6 @@ node_modules
 .node_repl_history
 
 # hexo themes
-source/files
+source/files/*.mp4
 
 .vscode
