@@ -99,7 +99,7 @@ After setting up the database, we wrote our Azure Functions. We have five functi
 
 A limitation we encountered with timer based triggers is the inability to turn them on or off at will. Our timer based functions are on by default, and are triggerd based on an interval (defined with a cron expression).
 
-In reality, game is not being played 24/7. Ideally, we want the timer based functions triggered on when the game starts, and continue on an time interval until the game end condition is met.
+In reality, a game is not being played 24/7. Ideally, we want the timer based functions triggered on when a game starts, and continue on an time interval until the game end condition is met.
 
 # The Controller
 <!-- Jeremy -->
