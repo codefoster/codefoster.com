@@ -7,7 +7,7 @@ date: 2017-04-05 22:35:01
 
 I've been reading and studying a bit about blockchain recently and am extremely intrigued.
 
-And now, I'll attempt to explain what what blockchain is in brief. Not because you might need to know, but because I usually try to explain something when I'm trying to understand it myself.
+And now, I'll attempt to explain what blockchain is in brief. Not because you might need to know, but because I usually try to explain something when I'm trying to understand it myself.
 
 Blockchain is a structure and algorithm for storing and accessing data such that data records (transactions or blocks) are hashed and strung together link a [linked list](https://en.wikipedia.org/wiki/Linked_list) data structure. The linking achieved by each block in the chain including as a part of its definition (and thus as a part of its hash) the hash of the previous block in the chain.
 
