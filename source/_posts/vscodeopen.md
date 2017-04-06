@@ -30,7 +30,7 @@ Others, like Code feel more like they belong to the community. That's how I feel
 
 In case you missed it, Microsoft announced at [Connect() 2015](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015) that Code was graduating from preview to beta status and that it would be open sourced.
 
-To see Code's code comfortably settled into its new home, just head over to <span style="font-family: Calibri; font-size: 14.6667px; line-height: 20.8px;">[github.com/microsoft/vscode](http://github.com/microsoft/vscode). From there, you can clone it, fork it, submit an issue, submit a PR... or look at what the team is working on and who else is involved. You know... you can do all of the GitHub stuff with it.</span>
+To see Code's code comfortably settled into its new home, just head over to [github.com/microsoft/vscode](http://github.com/microsoft/vscode). From there, you can clone it, fork it, submit an issue, submit a PR... or look at what the team is working on and who else is involved. You know... you can do all of the GitHub stuff with it.
 
 So there it is. It's not only free as in "free beer" now, but also as in "free speech".
 
