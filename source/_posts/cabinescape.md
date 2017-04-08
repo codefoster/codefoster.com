@@ -63,7 +63,10 @@ Besides Functions, our diagram contains a DocumentDB database for state, a bot u
 
 # Cameras and Cognitive Services
 <!-- Hao and Doris -->
-(Coming soon)
+The camera module is developed with Microsoft Cognitive Services, Azure functions, Node.js, and Typescript.  In the module, it performs face training, face detection, identification, and as well as notification to Azure function service.  The module determines if the right person is seated or not, then the notification will send back to Azure function service and then the controller decides the further action.
+
+The following digrams describes the interaction between the Azure fuctions services, Microsoft cognitive services, Node server prcessiong and client.
+![Architecture and Intereaction Diagram of Camera project](../files/camera_project_architecture.png)
 
 # Cloud Intelligence and Storage
 <!-- Kwadwo -->
@@ -137,6 +140,3 @@ One of the biggest issues with bots is discoverability: how to figure out what t
 
 The bot (named "CAI" for Central Airplane Intelligence) was implemented in C# using [LUIS](http://luis.ai).  The code repository can be found at https://github.com/cabinescape/EscapeTheAirplaneBot.  
 
-# Cameras and Cognitive Services
-<!-- Hao -->
-(Coming soon)
