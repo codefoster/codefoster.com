@@ -5,9 +5,9 @@ tags: [iot,mva,video,learning]
 date: 2017-04-12 16:12:27
 ---
 
-One of my university professors once said that "Technology is the most complex creation of man."
+One of my university professors once said that "Software is the most complex creation of man."
 
-I think I'm drawn to technology precisely _because_ it's complex. It's a field I know I'll never reach the extents of. It will never run up against boundaries with how creative I can be with technology, and I'll never run out of new concepts to learn.
+I think I'm drawn to software development and to technology in general precisely _because_ it's complex. It's a field I know I'll never reach the extents of. It will never run up against boundaries with how creative I can be with technology, and I'll never run out of new concepts to learn.
 
 So that's what I love to do - to be involved with learning and teaching technology. That's why I usually say opportunities to present online learning courses.
 
