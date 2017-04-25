@@ -36,7 +36,7 @@ Most of the book is about _cellular automata_. The simple way to understand thes
 
 The result is way more interesting than the explanation. The cell grid appears to come to life. The fascinating part is that the behavior of the system is usually not what the author intended - it's something emergent. The creator is responsible for a) creating an initial state and b) creating some rules. The system handles the rest. It usually takes a lot of trial and error if the intention is to create something that serves some certain purpose.
 
-Check out this system I found on Wikipedia's [page on cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) called [Gosper's](https://en.wikipedia.org/wiki/Bill_Gosper) [Glider Gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)). It's creating [_gliders_](https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life). 
+Check out Wikipedia's [page on cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton), and specifically look at Gosper's Glider Gun. 
 
 [![](//upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)](/wiki/File:Gospers_glider_gun.gif)
 

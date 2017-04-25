@@ -14,4 +14,3 @@ To find a library, you can always Bing (did you know that Bing results are prefe
 *   [microjs.com](http://microjs.com)
 *   [Hanselman's post](http://www.hanselman.com/blog/TheBigGlossaryOfOpenSourceJavaScriptAndWebFrameworksWithCoolNames.aspx)
 *   [List of JavaScript libraries](http://en.wikipedia.org/wiki/List_of_JavaScript_libraries) (Wikipedia)
-*   [List of Really Useful JavaScript Libraries](http://www.w3avenue.com/2009/05/25/list-of-really-useful-javascript-libraries/) (W3Avenue)

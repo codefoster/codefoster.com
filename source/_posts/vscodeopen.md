@@ -73,10 +73,4 @@ And you can chatter about Code as well on Twitter using [@Code](http://twitter.c
 
 Also check out my mini-series I'm calling [Tidbits of Code and Node](https://channel9.msdn.com/Search?term=tidbits%20of%20code%20and%20node#ch9Search) on the [Raw Tech blog](https://channel9.msdn.com/Blogs/raw-tech) on [Channel 9](http://channel9.msdn.com) where I've been talking a lot about Code (and Node) and plan to do even more now that the dial for its awesome factor was turned up a couple of notches.
 
-In fact, I recorded a Tidbits of Code and Node on this topic precisely where I show you how to find the source code on GitHub, how to clone it, how to fork it, and all that goodness. You can watch it below or find it anytime [on Channel 9](http://channel9.msdn.com/blogs/raw-tech/tidbits07).
-
 Happy coding in Code!
-
-<iframe allowfullscreen="" frameborder="0" height="394" src="https://channel9.msdn.com/Blogs/tidbits/07/player" width="700"></iframe></div>
-</div>
-</div>

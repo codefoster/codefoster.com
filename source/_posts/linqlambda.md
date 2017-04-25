@@ -89,5 +89,3 @@ That probably plenty of depth for a primer, but dig into more depth in the links
 [MSDN: Lambda Expressions (C# Programming Guide)](http://msdn.microsoft.com/en-us/library/bb397687.aspx)
 
 [Wikipedia article on anonymous functions](http://en.wikipedia.org/wiki/Anonymous_function)
-
-[Practical Introduction to Lambda Expressions](http://www.rvenables.com/2009/03/practical-introduction-to-lambda-expressions/)
