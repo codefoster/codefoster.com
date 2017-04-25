@@ -30,7 +30,7 @@ Some possible reasons gateways exist are...
 
 * you have some **cross cutting concerns** such as message logging, authorization, or security that a gateway can facilitate or enforce.
 
-* you need some **additional capabilities**. Devices that are not IP capable and able to encrypt messages are dependent on a field gateway to get any messages to the cloud. Devices that are able to speak securely to the cloud, but are not for some reason capable to using onen of the standard IoT protocols ([HTTP](https://en.wikipedia.org/wiki/HTTP), [AMQP](https://en.wikipedia.org/wiki/AMQP, or [MQTT](https://en.wikipedia.org/wiki/MQTT)) require either a field gateway or a cloud gateway (such as Azure IoT Protocol Gateway).
+* you need some **additional capabilities**. Devices that are not IP capable and able to encrypt messages are dependent on a field gateway to get any messages to the cloud. Devices that are able to speak securely to the cloud but are not for some reason capable to using one of the standard IoT protocols ([HTTP](https://en.wikipedia.org/wiki/HTTP), [AMQP](https://en.wikipedia.org/wiki/AMQP), or [MQTT](https://en.wikipedia.org/wiki/MQTT)) require either a field gateway or a cloud gateway (such as Azure IoT Protocol Gateway).
 
 ## Gateway Hardware
 
