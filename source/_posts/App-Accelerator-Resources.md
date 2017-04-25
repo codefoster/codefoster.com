@@ -24,7 +24,7 @@ Keep me posted on the progress of your apps!
 
 [SyncFusion Metro Studio](http://www.syncfusion.com/downloads/metrostudio) - more
 
-[http://raphaeljs.com/icons/](http://raphaeljs.com/icons/) - more
+http://raphaeljs.com/icons/ (broken)
 
 ## Visual Studio Add-Ins
 

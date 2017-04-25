@@ -32,7 +32,6 @@ IconFinder | [http://www.iconfinder.com](http://www.iconfinder.com) | Free
 Icons 8 | [http://www.icons8.com/](http://www.icons8.com/) | Free 
 The XAML Project | [http://www.thexamlproject.com/](http://www.thexamlproject.com/) | Free 
 SyncFusion Metro Studio | [http://www.syncfusion.com/downloads/metrostudio](http://www.syncfusion.com/downloads/metrostudio) | Free 
-266 Icons | [http://raphaeljs.com/icons/](http://raphaeljs.com/icons/) | 
 We Love Icon Fonts | [http://weloveiconfonts.com](http://weloveiconfonts.com) | 
 Windows 8 App Icons | [/win8icons](/win8icons) | Free 
 Open Game Art | [http://opengameart.org](http://opengameart.org) | Free 

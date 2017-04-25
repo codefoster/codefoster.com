@@ -63,7 +63,7 @@ JW: I wanted to price Rustic Citrus competitively with other games on the Window
 
 **ME: What languages, libraries, or frameworks did you use to create Rustic Citrus?**
 
-JW: My experience on Internet Explorer has shown me just how far native web technologies like HTML5, CSS, and JavaScript have come over the past few years. Thanks to the fact that Internet Explorer is now so standards-compliant, I had access to a huge range of APIs out of the box. Therefore, Rustic Citrus is almost built entirely out of web standards. However, I do make use of three JavaScript libraries: the WinJS library provided by Microsoft, the ever-useful [jQuery](http://jquery.com/) library, and a vector graphics library called [RaphaelJS](http://raphaeljs.com/) to create the game board. I'm hoping in the future that I can even get rid of some of those dependencies.
+JW: My experience on Internet Explorer has shown me just how far native web technologies like HTML5, CSS, and JavaScript have come over the past few years. Thanks to the fact that Internet Explorer is now so standards-compliant, I had access to a huge range of APIs out of the box. Therefore, Rustic Citrus is almost built entirely out of web standards. However, I do make use of three JavaScript libraries: the WinJS library provided by Microsoft, the ever-useful [jQuery](http://jquery.com/) library, and a vector graphics library called RaphaelJS to create the game board. I'm hoping in the future that I can even get rid of some of those dependencies.
 
 **ME: Is game development something you genuinely enjoy?**
 
