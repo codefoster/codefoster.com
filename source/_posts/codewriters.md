@@ -1,11 +1,11 @@
 ---
-title: codewriters
+title: Code Writer's Workshop 2017
 categories: [Events]
 tags: [conference, events, soft-skills, meaning, truth, beauty, community, efficiency, seattle]
 date: 2017-04-28 13:47:32
 ---
 
-> You can view or download the PowerPoint deck for this presentation at [http://codefoster.com/deck/cww2017](codefoster.com/deck/cww2017).
+> You can view or download the PowerPoint deck for this presentation at [codefoster.com/deck/cww2017](http://codefoster.com/deck/cww2017).
 
 I delivered a session today at [Code Writer's Workshop](https://www.codewritersworkshop.com/events/seattle) in Seattle.
 
@@ -58,4 +58,4 @@ Finally, I said that we need to be efficient and productive in the entire course
 
 I mentioned the importance of exercise, the importants of a refined and focused personal mission statement, and I shared how much I've benefit from eliminating decision fatigue by [drinking Soylent](http://codefoster.com/soylent) for certain meals and buying 10 identical copies of some articles of clothing.
 
-You can download the entire deck at [http://codefoster.com/deck/cww2017](codefoster.com/deck/cww2017).
+You can download the entire deck at [codefoster.com/deck/cww2017](http://codefoster.com/deck/cww2017).

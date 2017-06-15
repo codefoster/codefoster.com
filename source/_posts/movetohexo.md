@@ -11,7 +11,7 @@ To date, I've run codefoster.com on [Wordpress](https://wordpress.com/), [BlogEn
 
 Hexo, unlike the others, is a static site generator. That means that the work of building pages out of content is done as a build step before the site gets deployed, and the deployed site is actually just a bunch of HTML files. That makes it fast, secure, and searchable. You may have heard of [Jekyll](http://jekyllrb.com/) - a quite popular site generator that works much the same.
 
-When I first heard about static site generators some time ago, I was actually quite skeptical, but the idea started attracting me more and more. Then when I discovered that Hexo uses Node.js, I decided to jump give it a shot. I love node. 
+When I first heard about static site generators some time ago, I was actually quite skeptical, but the idea started attracting me more and more. Then when I discovered that Hexo uses Node.js, I decided to give it a shot. I love node. 
 
 Hexo was easy to get started with. I went to [hexo.io](http://hexo.io) and started learning about all of its capabilities to make sure it would cover my needs, which are...
 
