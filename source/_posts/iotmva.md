@@ -11,11 +11,9 @@ I think I'm drawn to software development and to technology in general precisely
 
 So that's what I love to do - to be involved with learning and teaching technology. That's why I usually say opportunities to present online learning courses.
 
-In April 2017, presented a course on Microsoft Virtual Academy called _Introduction to Azure IoT_. I'll provide a direct link to the content here as soon as it's available.
+In April 2017, presented a course on Microsoft Virtual Academy called [_Introduction to Azure IoT_](https://mva.microsoft.com/en-us/training-courses/introduction-to-azure-iot-17611?l=uxXUIs4rD_606218965).
 
-The course served to introduce curious viewers to IoT in general as well as to the broad offerings of Azure in the area of IoT, and it also served to introduce viewers to the more in-depth course on the same subject available on the [edX](http://edx.org) platform. I'll provide a link to that content too when it's launched.
-
-For now, I'll make the full slide deck available and give you a bit of an idea of what the content covered.
+The course served to introduce curious viewers to IoT in general as well as to the broad offerings of Azure in the area of IoT, and it also served to introduce viewers to the more in-depth course on the same subject available on the [edX](http://edx.org) platform. Jump over to [Developing IoT Solutions Using Azure IoT (DEV225)](https://www.edx.org/course/developing-iot-solutions-azure-iot-microsoft-dev225x) on edX now. 
 
 You can download [this PowerPoint deck](https://1drv.ms/p/s!AvStLR7eqJbDxbU8p3yuNOjRpThE0g) to get a deeper sense of what was covered as well as to get a reference to the various external links that I used.
 
