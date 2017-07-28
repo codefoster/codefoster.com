@@ -5,7 +5,7 @@ tags: [color,design,illustrations,graphics,ui,ux]
 date: 2017-07-28 12:01:02
 ---
 
-I host a page at [/media](codefoster.com/media) that is a resource of stock assets - images, illustrations, video, fonts, etc.
+I host a page at [/media](/media) that is a resource of stock assets - images, illustrations, video, fonts, etc.
 
 I originally made this resource for myself because I was always forgetting what my favorite stock asset sites were. Over the years, though I've gotten a lot of traffic on this page proving that I'm not the only developer that dabbles in graphics and isn't foolish enough to try to create everything from scratch. I don't have the time, talent, or inspiration to consider that.
 
