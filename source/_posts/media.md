@@ -13,7 +13,7 @@ I decided to put together a reference post for when you're looking for stock pho
 ## Photos
 Getty Images seems to me to be the big player in stock images consuming some of the other providers such as Corbis, iStock, and FreeImages. Even in a few of the free services, you'll see some iStock results that you can pay for if you want to.
 
-Name | URL | Pay Model
+Name | Free/Pay | Notes
 --- | --- | --- 
 [Bing Images](http://images.bing.com) | Free | Be careful for image licenses
 [Google Images](http://images.google.com) | Free | Be careful for image licenses
@@ -27,7 +27,7 @@ Name | URL | Pay Model
 [PhotoSpin](http://www.photospin.com) | Pay 
 
 ## Illustrations
-Name | URL | Pay Model
+Name | Free/Pay | Notes
 --- | --- | --- 
 [OpenClipart](http://openclipart.org) | Free 
 [The Noun Project](http://thenounproject.com) | Free 
@@ -43,7 +43,7 @@ Name | URL | Pay Model
 [vecteezy](http://vecteezy.com/) | Free/Pay 
 
 ## Audio
-Name | URL | Pay Model
+Name | Free/Pay | Notes
 --- | --- | --- 
 [freesound.org](http://www.freesound.org/browse) | Free 
 [Incompetech](http://incompetech.com/music/royalty-free) | Free 
@@ -52,12 +52,12 @@ Name | URL | Pay Model
 [ccMixter](http://ccmixter.org/) | Free 
 
 ## Video
-Name | URL | Pay Model
+Name | Free/Pay | Notes
 --- | --- | --- 
 [iStockVideo](http://www.istockvideo.com/) | Pay 
 
 ## Fonts
-Name | URL | Pay Model
+Name | Free/Pay | Notes
 --- | --- | --- 
 [Font Awesome](http://fontawesome.io/icons) | Free 
 [1001 Free Fonts](http://1001freefonts.com) | Free 
@@ -67,7 +67,7 @@ Name | URL | Pay Model
 [Fonts.com](http://www.fonts.com) | Pay 
 
 ## Other
-Name | URL
+Name | Free/Pay | Notes
 --- | ---
 [dfWiki](http://dfwiki.devfish.net/Default.aspx?Page=Icons&amp;NS=technology) | Free
 [Windows Marketplace Icon Maker](http://github.com/DavidBurela/WindowsMarketplaceIconMaker) | Free
