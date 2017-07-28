@@ -11,63 +11,64 @@ alias:
 I decided to put together a reference post for when you're looking for stock photos, clipart, audio, music, or video. I will update this post as I am made aware of new sources.
 
 ## Photos
+Getty Images seems to me to be the big player in stock images consuming some of the other providers such as Corbis, iStock, and FreeImages. Even in a few of the free services, you'll see some iStock results that you can pay for if you want to.
+
 Name | URL | Pay Model
 --- | --- | --- 
-Bing Images | [http://images.bing.com](http://images.bing.com) | Depends on source 
-morgueFile | [http://www.morguefile.com](http://www.morguefile.com) | Free 
-iStockphoto | [http://www.istockphoto.com](http://www.istockphoto.com) | Pay 
-Corbis | [http://www.corbis.com](http://www.corbis.com) | Pay 
-Free Foto | [http://www.freefoto.com](http://www.freefoto.com) | Free 
-PhotoSpin | [http://www.photospin.com](http://www.photospin.com) | Pay 
-Stock.xchng | [http://www.sxc.hu](http://www.sxc.hu) | Pay/Free 
-Pixabay | [http://pixabay.com](http://pixabay.com) | Pay/Free 
-Pexels | [http://pexels.com](http://pexels.com) | Free 
+[Bing Images](http://images.bing.com) | Free | Be careful for image licenses
+[Google Images](http://images.google.com) | Free | Be careful for image licenses
+[Pexels](http://pexels.com) | Free | My personal favorite
+[morgueFile](http://www.morguefile.com) | Free 
+[Free Foto](http://www.freefoto.com) | Free 
+[Pixabay](http://pixabay.com) | Free 
+[FreeImages](http://www.freeimages.com) | Free | A subsidiary of Getty
+[iStock](http://www.istockphoto.com) | Pay | A subsidiary of Getty
+[Getty Images](http://www.gettyimages.com) | Pay
+[PhotoSpin](http://www.photospin.com) | Pay 
 
 ## Illustrations
 Name | URL | Pay Model
 --- | --- | --- 
-OpenClipart | [http://openclipart.org](http://openclipart.org) | Free 
-The Noun Project | [http://thenounproject.com](http://thenounproject.com) | Free 
-IconFinder | [http://www.iconfinder.com](http://www.iconfinder.com) | Free 
-Icons 8 | [http://www.icons8.com/](http://www.icons8.com/) | Free 
-The XAML Project | [http://www.thexamlproject.com/](http://www.thexamlproject.com/) | Free 
-SyncFusion Metro Studio | [http://www.syncfusion.com/downloads/metrostudio](http://www.syncfusion.com/downloads/metrostudio) | Free 
-We Love Icon Fonts | [http://weloveiconfonts.com](http://weloveiconfonts.com) | 
-Windows 8 App Icons | [/win8icons](/win8icons) | Free 
-Open Game Art | [http://opengameart.org](http://opengameart.org) | Free 
-2D Game Art for Programmers | [http://2dgameartforprogrammers.blogspot.com](http://2dgameartforprogrammers.blogspot.com) | Free 
-Modern UI Icons | [http://modernuiicons.com/](http://modernuiicons.com/) | Free 
-Kenny | [http://www.kenney.nl/assets](http://www.kenney.nl/assets) | Free 
-Freepik | [http://freepik.com/](http://freepik.com/) | Pay/Free 
-flaticon | [http://flaticon.com/](http://flaticon.com/) | Pay/Free 
-vecteezy | [http://vecteezy.com/](http://vecteezy.com/) | Pay/Free 
+[OpenClipart](http://openclipart.org) | Free 
+[The Noun Project](http://thenounproject.com) | Free 
+[IconFinder](http://www.iconfinder.com) | Free/Pay 
+[Icons 8](http://www.icons8.com/) | Free 
+[SyncFusion Metro Studio](http://www.syncfusion.com/downloads/metrostudio) | Free | Requires registration
+[Open Game Art](http://opengameart.org) | Free 
+[2D Game Art for Programmers](http://2dgameartforprogrammers.blogspot.com) | Free 
+[Modern UI Icons](http://modernuiicons.com/) | Free 
+[Kenney](http://www.kenney.nl/assets) | Free | Game art
+[Freepik](http://freepik.com/) | Free/Pay
+[flaticon](http://flaticon.com/) | Free/Pay
+[vecteezy](http://vecteezy.com/) | Free/Pay 
 
 ## Audio
 Name | URL | Pay Model
 --- | --- | --- 
-freesound.org | [http://www.freesound.org/browse](http://www.freesound.org/browse) | Free 
-Incompetech | [http://incompetech.com/music/royalty-free](http://incompetech.com/music/royalty-free) | Free 
-freeSFX | [http://www.freesfx.co.uk](http://www.freesfx.co.uk/) | Free 
-Shockwave Sound | [http://www.shockwave-sound.com/](http://www.shockwave-sound.com/) | Pay 
-ccMixter | [http://ccmixter.org/](http://ccmixter.org/) | Free 
+[freesound.org](http://www.freesound.org/browse) | Free 
+[Incompetech](http://incompetech.com/music/royalty-free) | Free 
+[freeSFX](http://www.freesfx.co.uk/) | Free 
+[Shockwave Sound](http://www.shockwave-sound.com/) | Pay 
+[ccMixter](http://ccmixter.org/) | Free 
 
 ## Video
 Name | URL | Pay Model
 --- | --- | --- 
-The Stock Footage Company | [http://www.thestockfootagecompany.com/](http://www.thestockfootagecompany.com/) | Pay/Free 
-iStockVideo | [http://www.istockvideo.com/](http://www.istockvideo.com/) | Pay 
+[iStockVideo](http://www.istockvideo.com/) | Pay 
 
 ## Fonts
 Name | URL | Pay Model
 --- | --- | --- 
-Google Fonts | [http://www.google.com/fonts/](http://www.google.com/fonts/) | Free 
-1001 Free Fonts | [http://1001freefonts.com](http://1001freefonts.com) | Free 
-BlamBot | [http://www.blambot.com](http://www.blambot.com) | Pay 
-Fonts.com | [http://www.fonts.com](http://www.fonts.com) | Pay 
-Font Awesome | [http://fontawesome.io/icons](http://fontawesome.io/icons) | Free 
+[Font Awesome](http://fontawesome.io/icons) | Free 
+[1001 Free Fonts](http://1001freefonts.com) | Free 
+[Google Fonts](http://www.google.com/fonts/) | Free 
+[We Love Icon Fonts](http://weloveiconfonts.com) | Free
+[BlamBot](http://www.blambot.com) | Pay 
+[Fonts.com](http://www.fonts.com) | Pay 
 
 ## Other
 Name | URL
 --- | ---
-dfWiki | [http://dfwiki.devfish.net/Default.aspx?Page=Icons&amp;NS=technology](http://dfwiki.devfish.net/Default.aspx?Page=Icons&amp;NS=technology)
-Windows Marketplace Icon Maker | [http://github.com/DavidBurela/WindowsMarketplaceIconMaker](http://github.com/DavidBurela/WindowsMarketplaceIconMaker)
+[dfWiki](http://dfwiki.devfish.net/Default.aspx?Page=Icons&amp;NS=technology) | Free
+[Windows Marketplace Icon Maker](http://github.com/DavidBurela/WindowsMarketplaceIconMaker) | Free
+[Canva Colors](http://canva.com/colors) | Free
