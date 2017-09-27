@@ -25,6 +25,12 @@ Name | Free/Pay | Notes
 [iStock](http://www.istockphoto.com) | Pay | A subsidiary of Getty
 [Getty Images](http://www.gettyimages.com) | Pay
 [PhotoSpin](http://www.photospin.com) | Pay 
+[Unsplash](http://unsplash.com) | Free
+[Pexels](https://www.pexels.com/) | Free
+[Negative Space](https://negativespace.co) | Free
+[Gratisography](https://gratisography.com/) | Free
+
+
 
 ## Illustrations
 Name | Free/Pay | Notes
@@ -55,6 +61,7 @@ Name | Free/Pay | Notes
 Name | Free/Pay | Notes
 --- | --- | --- 
 [iStockVideo](http://www.istockvideo.com/) | Pay 
+[Pond 5](http://pond5.com) | Pay
 
 ## Fonts
 Name | Free/Pay | Notes
@@ -66,9 +73,15 @@ Name | Free/Pay | Notes
 [BlamBot](http://www.blambot.com) | Pay 
 [Fonts.com](http://www.fonts.com) | Pay 
 
+## Templates
+Name | Free/Pay | Notes
+--- | --- | ---
+[SlideShare](http://slideshare.net) | Pay
+[Template Monster](http://templatemonster.com) | Pay
+
 ## Other
 Name | Free/Pay | Notes
---- | ---
+--- | --- | ---
 [dfWiki](http://dfwiki.devfish.net/Default.aspx?Page=Icons&amp;NS=technology) | Free
 [Windows Marketplace Icon Maker](http://github.com/DavidBurela/WindowsMarketplaceIconMaker) | Free
 [Canva Colors](http://canva.com/colors) | Free
