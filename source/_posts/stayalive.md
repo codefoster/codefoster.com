@@ -1,5 +1,5 @@
 ---
-title: Stayin’ Alive
+title: Stayin' Alive
 categories: [App Development]
 tags: []
 date: 2012-12-20
