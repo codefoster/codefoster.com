@@ -69,8 +69,6 @@ In its current state, the solution consists of the following components…
 ### The Scanner
 **Principal Developer**: Gandhali Samant
 
-**Repo**: https://iotedgediscovery.visualstudio.com/IoTEdgeDeviceDiscovery/_git/BLEScanner
-
 #### Overview
 The role BLE Scanner module, as mentioned above, is to discover BLE devices in range of the IoT Edge v1 gateway device.  The module was written using Node.js and leverages the noble (https://github.com/sandeepmistry/noble) npm package.  Noble supports both Windows and Linux and is the most popular node.js package for BLE communication.  This module is intended to constantly scan for new BLE devices and their characteristics.  When a new device is discovered the module generates a new message containing the devices MAC address and GATT characteristics and publishes the message to the IoT Edge v1 Message Broker for consumption by other modules.  
 
@@ -92,7 +90,6 @@ The module will currently continue to publish the MAC address of a BLE device ev
 
 ### The Sync Engine
 **Principal Developer**: Kristin Ottofy
-**Repo**: https://iotedgediscovery.visualstudio.com/IoTEdgeDeviceDiscovery/_git/SyncEngine
 
 #### Overview
 
@@ -112,7 +109,6 @@ There are opportunities available within the gateway device that could support t
 
 ### The BLE Communicator Module
 **Principal Developer**: Bret Stateham
-**Repo**: https://iotedgediscovery.visualstudio.com/IoTEdgeDeviceDiscovery/_git/BLECommunicator
 
 #### Overview
 
@@ -144,7 +140,6 @@ The code for this module needs to be refactored to properly leverage the asynchr
 
 ### The API
 **Principal Developer**: Joe Raio
-**Repo**: https://iotedgediscovery.visualstudio.com/IoTEdgeDeviceDiscovery/_git/API
 
 #### Overview
 We exposed four Azure Functions as our API for device management. This would be accessed by the front end to list all devices, get details on a specific device, create a new device, and update the properties of a device. All functions were written in node.js and setup and triggered via HTTP. 
@@ -162,7 +157,6 @@ Challenges
 
 ### The UI
 **Principal Developer**: Jeremy Foster
-**Repo**: https://iotedgediscovery.visualstudio.com/IoTEdgeDeviceDiscovery/_git/UI
 
 #### Overview
 One part of the overall project workflow required a user interface – the authentication of found devices. For this, we turned to Angular and got a bit creative and modern in how we hosted this application – serverlessly!
