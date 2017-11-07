@@ -5,7 +5,7 @@ tags: [code, node, npm, productivity]
 date: 2017-11-02 19:19:08
 ---
 
-My buddy Jason Young ([@ytechie](http://twitter.com/ytechie)) asked a question the other day that reminded me of a Node trick I learned sometime ago and remember getting pretty excited.
+My buddy Jason Young ([@ytechie](http://twitter.com/ytechie)) asked a question the other day that reminded me of a Node trick I learned sometime ago and remember getting pretty excited about.
 
 First, let's define the problem.
 
