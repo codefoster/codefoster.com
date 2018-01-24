@@ -85,7 +85,7 @@ alias:
   rss2: atom.xml
   stories: codechat
   codechat/: http://channel9.msdn.com/shows/codechat
-  avatar/: http://codefoster.blob.core.windows.net/site/image/abcf6a96083749889590d13c8cbbe054/atlanta_1.png
+  avatar/: presentations
   deck/cogging: https://1drv.ms/p/s!AvStLR7eqJbDyKB8ceoXGadFv4I6hA
   deck/scc15/: http://1drv.ms/1WKzRCO
   deck/svcc15/: http://1drv.ms/1PM1tCl
@@ -109,7 +109,6 @@ alias:
   deck/making-stuff: https://1drv.ms/p/s!AvStLR7eqJbDyOscJEgM22k6A9PSQw
   deck/elegant-angular: https://1drv.ms/p/s!AvStLR7eqJbDyOsZVkAjAxLoXzBPpw
   darnmouse/: https://1drv.ms/p/s!AvStLR7eqJbDv4o_FqCRIck2h3xmkg
-  vectortof360/: http://codefoster.blob.core.windows.net/site/file/9684f45088c94e539e2346bf6802cc8b/VectorToF360.mp4?sv=2012-02-12&st=2015-12-23T14%3A36%3A04Z&se=2015-12-23T14%3A47%3A04Z&sr=b&sp=r&sig=8Yl%2FrkkeOsXxtG5VUdTIzliw2z%2FcfpqlqooEbbAYV8o%3D
   goprodrop/: https://onedrive.live.com/redir?resid=C396A8DE1E2DADF4!892089&authkey=!ABBouAkZbLtpedo&ithint=video%2cmp4
   deck/sjs-observables/: https://onedrive.live.com/redir?resid=C396A8DE1E2DADF4!891980&authkey=!AH-BvdKl_YRAEGs&ithint=file%2cpptx
   vorlonjs/: https://channel9.msdn.com/shows/codechat/046
