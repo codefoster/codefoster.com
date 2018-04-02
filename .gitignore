@@ -3,7 +3,7 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-public/
+
 .deploy*/### node ###
 # Logs
 logs
@@ -43,3 +43,7 @@ node_modules
 # hexo themes
 
 .vscode
+
+public/*
+!public/server.js
+!public/package.json
