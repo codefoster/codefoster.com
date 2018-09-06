@@ -10,16 +10,11 @@ If I’m coming to present at your event, and you need an avatar and biography, 
 
 ## **Avatars**
 
-| Size           | Shape   | Color     | Download Link                                                          |
-| -------------- | ------- | --------- | ---------------------------------------------------------------------- |
-| Small (300px)  | Round   | Color     | [download](/files/avatars/round-color-highsat-300.png)                 |
-| Small (300px)  | Round   | Grayscale | [download](/files/avatars/round-grayscale-highsat-300.png)             |
-| Small (300px)  | Square  | Color     | [download](/files/avatars/square-color-highsat-300.png) (recommended)  |
-| Small (300px)  | Square  | Grayscale | [download](/files/avatars/square-grayscale-highsat-300.png)            |
-| Large (1600px) | Round   | Color     | [download](/files/avatars/round-color-highsat-1600.png)                |
-| Large (1600px) | Round   | Grayscale | [download](/files/avatars/round-grayscale-highsat-1600.png)            |
-| Large (1600px) | Square  | Color     | [download](/files/avatars/square-color-highsat-1600.png) (recommended) |
-| Large (1600px) | Square  | Grayscale | [download](/files/avatars/square-grayscale-highsat-1600.png)           |
+
+| Size           | Download Link                                   |
+| -------------- | ----------------------------------------------- |
+| Small (300px)  | [download](/files/avatar/square-color-300.jpg)  |
+| Large (1600px) | [download](/files/avatar/square-color-1600.jpg) |
 
 ## Biography
 
