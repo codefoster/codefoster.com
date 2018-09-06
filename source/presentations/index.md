@@ -24,7 +24,7 @@ If I’m coming to present at your event, and you need an avatar and biography, 
 ### Long
 "My studies in Computer Engineering and Mathematics got me started on a career course in software development. Subsequent job roles - helping build airplanes, teaching high schoolers to code, and more - gained me experience and fueled my passion for not only writing code but also talking about writing code. I joined Microsoft’s evangelism team to inform and inspire other developers - primarily in the areas of web apps and IoT. I have authored one book, countless online videos, and am always trying to keep up with online audiences at codefoster.com and on Twitter at @codefoster. When I’m not working, I’m usually working on maker projects, spending time with my wife and two boys in the Pacific Northwest, hiking and camping, sailing, scuba diving, riding my motorcycle, or working on house projects."
 
-## Topics
+<!-- ## Topics
 Here are some of the presentation topics that I’ve recently delivered and would be ready to come share with your group...
 
 * **Using VS Code Like a Boss!** 
@@ -200,4 +200,4 @@ Fusion 360 by Autodesk is an excellent application for designing your next *thin
 
 * **Developer Life Skills - What You Don’t Learn in a Computer Science Program**
     I know it’s heretical, but there’s more to life than writing code!
-    You live, breath, and think code, so how do you go about applying your propeller brain to the rest of life? Let’s take some time to talk about the relationships, babies, hobbies, vacations, faith, and finances, and how these aspects of life might be unique or different for software developer types. It’s tempting to call such topics an aside, but as a matter of fact, it’s pretty much central. Try as you may, you will not be successful at neglecting the rest of life no matter how much you love typing semicolons. What is it that makes developers different? What life hacks can you apply to improve efficiency in the build process and continuous delivery of life itself?
+    You live, breath, and think code, so how do you go about applying your propeller brain to the rest of life? Let’s take some time to talk about the relationships, babies, hobbies, vacations, faith, and finances, and how these aspects of life might be unique or different for software developer types. It’s tempting to call such topics an aside, but as a matter of fact, it’s pretty much central. Try as you may, you will not be successful at neglecting the rest of life no matter how much you love typing semicolons. What is it that makes developers different? What life hacks can you apply to improve efficiency in the build process and continuous delivery of life itself? -->
