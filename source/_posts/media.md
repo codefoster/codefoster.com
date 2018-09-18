@@ -24,12 +24,12 @@ Name | Free/Pay | Notes
 [FreeImages](http://www.freeimages.com) | Free | A subsidiary of Getty
 [iStock](http://www.istockphoto.com) | Pay | A subsidiary of Getty
 [Getty Images](http://www.gettyimages.com) | Pay
-[PhotoSpin](http://www.photospin.com) | Pay 
 [Unsplash](http://unsplash.com) | Free
 [Pexels](https://www.pexels.com/) | Free
 [Negative Space](https://negativespace.co) | Free
 [Gratisography](https://gratisography.com/) | Free
 [Science Stock Photos](http://sciencestockphotos.com) | Free
+[Stock Photo Secrets](http://stockphotosecrets.com) | Pay
 
 
 ## Illustrations
