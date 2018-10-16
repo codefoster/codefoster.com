@@ -66,38 +66,8 @@ social:
       url: /atom.xml
       image: /images/social-icons/rss.png
 
-# duoshuo shortname
-# refer to http://duoshuo.com
-# If you use disqus then you should set disqus_shortname in your site config and disable duoshuo here.
-# You also need to set 'comments' to true in the front-matter
-#duoshuo: sprabbit
-
-# jiathis share id
-# refer to http://jiathis.com
-#jiathis: 1589291
-
 # open graph
 twitter: codefoster
-google_plus:
-fb_admins:
-fb_app_id:
-
-# analytics ids
-google_analytics: UA-37743342-1
-omniture: jerfost
-baidu_statistics:
-
-# default creative commons
-# There are 6 kinds of combination and place 'none' to disable.
-# - by
-# - by-sa
-# - by-nd
-# - by-nc
-# - by-nc-sa
-# - by-nc-nd
-# - none
-# This setting could be overwritten in the front matter of a post.
-# More details in https://creativecommons.org
 cc: none
 
 # FancyBox / PhotoSwipe
