@@ -9,7 +9,7 @@ I do a lot of work with Windows and Linux, and I have a little trick that I’ve
 
 So often, I’m working with groups of Windows developers trying to access Linux VM’s in Azure or Raspberry Pi’s running Raspbian and I ask them to `ssh` into the server.
 
->Note: ssh is not just a tool, it’s a verb, and I concur with @shanselman who has declared that it’s correct pronunciation is much like the sound made by a downhill skier - a sort of “shoosh”. Now you know, so pass it on.
+>Note: ssh is not just a tool, it’s a verb, and I concur with [@shanselman](http://twitter.com/shanselman) who has declared that its correct pronunciation is much like the sound made by a downhill skier - a sort of “shoosh”. Now you know, so pass it on.
 
 Unfortunately, many of those Windows developers commence to open PuTTY - a graphical tool for doing serial or terminal communication. If you’re opening a graphical tool for doing CLI work, there’s an inbalance in the force. Something is terribly wrong. You should be far more intimate with your system’s terminal or command line tool and that tool should allow you to ssh.
 
