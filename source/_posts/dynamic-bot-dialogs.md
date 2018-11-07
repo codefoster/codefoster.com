@@ -5,6 +5,7 @@ tags: [bot,chatbot,node.js]
 date: 2017-04-11 10:19:58
 ---
 
+> Please note that this article's age is showing as it's talking about Bot Framework v3. The subsequent version of Bot Framework works entirely differently.
 
 I'm having a lot of fun developing against [botbuilder](http://github.com/microsoft/botbuilder) - the Node.js SDK for the bot framework.
 
