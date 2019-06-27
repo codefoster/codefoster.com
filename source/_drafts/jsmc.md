@@ -1,5 +1,0 @@
----
-title: jsmc
-categories: []
-tags: []
----
