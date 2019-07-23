@@ -8,3 +8,7 @@ steps:
 - bash: |
    npm install
   displayName: 'npm install'
+
+- bash: |
+   hexo generate
+  displayName: 'hexo generate'
