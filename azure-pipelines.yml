@@ -10,5 +10,5 @@ steps:
   displayName: 'npm install'
 
 - bash: |
-   hexo generate
+   npx hexo generate
   displayName: 'hexo generate'
