@@ -12,3 +12,9 @@ steps:
 - bash: |
    npx hexo generate
   displayName: 'hexo generate'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/public'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
