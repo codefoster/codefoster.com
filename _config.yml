@@ -75,6 +75,11 @@ deploy:
   repo: https://github.com/codefoster/codefoster.com.git
   branch: azure
 
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+
 # Aliases
 ## https://github.com/hexojs/hexo-generator-alias
 alias:
