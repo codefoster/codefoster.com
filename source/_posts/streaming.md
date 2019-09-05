@@ -12,9 +12,11 @@ I'm going to generalize and call this concept _data streaming_. I'll focus in on
 
 Data streaming is an extremely common solution component, and there are a myriad of software tools that exist to fulfill it. In fact, there are so many tools, that it's often difficult to know where to start.
 
-But fear not. The point of this article is to introduce you to the resources at your disposal to solve such a problem. I'll give affinity to Azure services, since that's the cloud provider I spend most of my time in and the idea of covering all data streaming services on the market is overwhelming.
+But fear not. The whole point of this article is to introduce you to the resources at your disposal to solve such a problem. I'll give affinity to Azure services, since that's the cloud provider I spend most of my time in and the idea of covering all data streaming services on the market is overwhelming.
 
 In this article, I'll refer to both _messages_ and _events_. There are subtle and significant differences between the two, and I'll discuss those a bit later. When I'm speaking of them both in the abstract, I'll use the term _datagrams_.
+
+![](/files/streaming_01.png "datagrams")
 
 ## Streaming (and Related) Services in Azure
 Let's start with a list and brief discussion of each of the Azure resources that  have at least some connection to streaming data.
@@ -23,6 +25,8 @@ Let's start with a list and brief discussion of each of the Azure resources that
 Not to be confused with _Service Bus_ Queues, Azure's Storage Queues are perhaps the most primitive and certainly the oldest queue structure available.
 
 In case you're not familiar with the core concept of a queue, it would be good to explain that. A queue is a data structure that follows a _first-in first-out_ (FIFO) access pattern - meaning that if you put Thing A, Thing B, and then Thing C in in that order, and then you ask the queue for its next item, it will give you Thing A - first in... first out.
+
+![](/files/streaming_02.png "queue")
 
 This primitive data structure is extremely handy in cloud-first applications where you want one working process to set aside tasks for one or more other processes to pick up and do.
 
@@ -33,7 +37,7 @@ Service Bus Queues are newer and far more robust than Storage Queues. There are 
 
 To read up on the differences between Storage Queues and Service Bus Queues, read [Storage queues and Service Bus queues - compared and contrasted](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted).
 
-## Service Bus Topics
+### Service Bus Topics
 Queues are the solution when you want one and only one worker to take a message out of the queue and process it. Think about widgets coming down a conveyor belt with 2 workers tasked with stamping each widget. If one worker stamps a widget then it's done and the other worker should leave it alone.
 
 Topics are quite different. Topics are the solution when you have messages that are occurring and one _or more_ parties are interested. Think about a magazine subscription where it's produced one time, but multiple people want to receive a copy. You often hear this referred to as a "publish/subscribe" pattern or simply "pubsub". In this case, messages are pushed into a _topic_ and zero to many parties are registered as being interested in that topic. Whenever a new messages lands, the interested parties are notified and can do their processing.
@@ -42,7 +46,7 @@ You'll hear the semantics _At Most Once_, _At Least Once_, and _Exactly Once_. T
 
 Service Bus Queues and Topics are intended as _messaging_ solutions. More on that later.
 
-### Event Hub
+### Event Hubs
 Now let's take another view on processing data and look at _events_ instead of _messages_.
 
 Event Hub is Azure's solution for facilitating massive scale event processing. It's ability to get data into Azure is staggering. The [feature page](https://azure.microsoft.com/en-us/services/event-hubs) states "millions of events per second".
@@ -55,7 +59,11 @@ There are a lot of things that Service Bus does for us that Event Hubs does not 
 
 This puts the onus on an Event Hubs consumer to not only read events, but to figure out which ones have been read already.
 
-This lack of management switches us from a pattern called _competing consumer_ to one called _partitioned consumer_. If you can assume that there is no competition in your processing then you don't need all of the cumbersome status checking, dequeue counting, locking, etc. That's why Event Hubs is super fast.
+This lack of management switches us from a pattern called _competing consumer_ to one called _partitioned consumer_. With competing consumers the service has to spend a bit of time making sure the competition is fair and goes well. With partitioned consumers, there's just a clean rule regarding who gets what. So, if you can assume that there is no competition in your processing then you don't need all of the cumbersome status checking, dequeue counting, locking, etc. That's why Event Hubs is super fast.
+
+![](/files/streaming_03.png "competing consumers")
+
+![](/files/streaming_04.png "partitioned consumers")
 
 ### Event Grid
 Event Grid is newer than both Service Bus and Event Hubs, and positioning its value offering may be difficult.
@@ -79,24 +87,36 @@ Think about being tasked with counting the number of red Volkswagon vehicles tha
 
 The better way is let the cars go and just count them up as they move unfettered. This is what Stream Analytics attempts to do.
 
-## Stream Processing
-We looked at various data streaming services, now let's switch to discussing options for processing the data in those streams.
+## On Events vs. Messages
+A quick digression, first, on the conceptual (philosophical perhaps) definition of an _event_ and especially as it compares to a _message_. The official Azure documentation contains an article called [Choose between Azure messaging services - Event Grid, Event Hubs, and Service Bus](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services) that does a great job of differentiating these similar concepts. Read that first, and then here's my take.
 
-What we need, ultimately, is a bit of compute (a function, a service) that gets triggered every time a datagram is created.
+An event is a bit like a system level notification. You and I get notifications on our mobile devices because want to know what's going on, right?
 
-This function has various considerations - its performance, where it's hosted, what kind of code it runs, how good it is at recognizing data as a stream, etc.
+ * The battery level just dropped to 15%. I want to know that so I can plug it in.
 
-I'll skip over Azure Stream Analytics because in my opinion it's more of a stream _modifier_ than it is a stream _processor_. Stream Analytics projects one stream into another that is filtered, averaged, grouped, windowed, or whatever and it outputs the resulting stream to various outputs.
+ * I just got a text message from Terry. I've been waiting to hear from her, so that's significant.
 
-What I'm interested in right now is real points of compute where you can do business integrations, apply business logic, do deep analysis, etc.
+ * Somebody outbid me on that auction item. I need to consider raising my bid.
 
-To accomplish this, here are the options as I see them...
- * stand up a virtual machine with a custom process
- * run a container instance with a custom process
- * Functions
- * Durable Functions
+I might want events to be raised even if I don't plan to respond to them right away too, because I might want to go back and study all of those events over time to make sense of them.
 
-### Appendix A - Other Mentionable Azure Data Services
+My battery level dropping to 15% is a pretty simply event. Sometimes, however, events are more complicated and domain-specific, like "Your battery level is 5% less than your average level this time of day." That kind of event takes some state tracking and data analysis. It's really helpful though.
+
+This is what I call _cascading events_. The first level of events are somewhat raw - mostly just sensor readings or low-level events that have fired. The next level is some fusion or aggregation of those events that's higher level and often times more meaningful to an end user or business user - what we might call _domain events_. And, of course, events can cascade past 2 levels.
+
+At the last level, it's common to raise notifications on a mobile device, raise an alert on a dashboard, or send an email.
+
+Messages are at least subtlely different from events, though.
+
+Messages are more self-contained packages that relay some unit of information or a command complete with the details of that command.
+
+Messages 
+
+("the coupling is very loose, and removing these consumers doesn’t impact the source application’s functional integrity") from [this article](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/).
+
+
+
+## Appendix A - Other Mentionable Azure Data Services
 There are a few other services in Azure that have more distant relationships to the concept data streaming.
 
 Data services and the often nuanced differences between one another get truly dizzying. I have so much respect for a data experts ability to simply choose the right product for a given solution.
@@ -111,32 +131,6 @@ I have to mention **IoT Edge** and **IoT Hub**. In the wise words of [Bret State
 
 When your data has been ingested, stored, analyzed, and trained, you drop it into **SQL Data Warehouse** - a column store database for big data analysis. Not much streaming at play at this stage of the solution, but it's worth a mention.
 
-### Appendix B - On Events vs. Messages
-A quick digression, first, on the conceptual (philosophical perhaps) definition of an _event_ and especially as it compares to a _message_. The official Azure documentation contains an article called [Choose between Azure messaging services - Event Grid, Event Hubs, and Service Bus](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services) that does a great job of differentiating these similar concepts. Read that first, and then here's my take.
-
-An event is a bit like a system level notification. You and I get notifications our mobile devices because want to know what's going on, right?
-
- * The battery level just dropped to 15%. I want to know that so I can plug it in.
-
- * I just got a text message from Bob. I've been waiting to hear from him, so that's a significant event.
-
- * Somebody outbid me on that auction item. I need to consider raising my bid.
-
-I might want events to be raised even if I don't plan to respond to them right away too, because I might want to go back and study all of those events over time to make sense of them.
-
-My battery level dropping to 15% is a pretty simply event. Sometimes, however, events are more complicated and domain-specific. It's one thing to get the event "Your battery level is at 15%", but it's another to get "Your battery level is 5% less than your average level this time of day," because that takes some state tracking and data analysis. It's really helpful though.
-
-This is what I call _cascading events_. The first level of events are somewhat raw - mostly just sensor readings or low-level events that have fired. The next level is some fusion or aggregation of those events that's higher level and often times more meaningful to an end user or business user. And, of course, events can cascade past 2 levels.
-
-At the last level, it's common to raise notifications on a mobile device, raise an alert on a dashboard, or send an email. 
-
-Messages are at least subtlely different from events, though.
-
-Messages are more self-contained packages that relay some unit of information or a command complete with the details of that command.
-
-Messages 
-
-("the coupling is very loose, and removing these consumers doesn’t impact the source application’s functional integrity") from [this article](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/).
 
 ## Ingestion
 (As opposed to indigestion which comes later in the project.)
