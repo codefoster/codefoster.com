@@ -20,25 +20,23 @@ More specifically, however, in many enterprise scenarios that pipeline looks mor
 
 ![](/files/stream-processing_02.png "specific data pipeline")
 
-**Ingestion:** get the data into the system.
+## Ingestion
+Ingestion is simply getting data into the system. This is often times moving bits from the edge (your location) to the cloud.
 
-**Transformation:** modify the data to conform to the needs of the solution.
-
-**Analysis:** study the data in various ways.
-
-**Insights:** figure out what the data means to future business.
-
-**Actions:** steer the business according to the insights to effect positive change.
-
-(ingestion)
 A natural fit for the ingestion step is Event Hubs. It's excellent at that. Depending on the nature of the datagrams, however, you could use a 
 
-(transformation)
+## Transformation
+Transformation is merely changing the data shape to conform to the needs of the solution. It's extremely common since systems that originate data tend to be as verbose as possible to make sure all information is captured. 
+
 One of the first tools a pipeline might employ is Azure Stream Analytics (ASA). ASA is good at transforming data and performing limited analysis. Stream Analytics projects one stream into another that is filtered, averaged, grouped, windowed, or whatever and it outputs the resulting stream to various outputs.
 (or you could use a custom process or function for a transformation)
 
-(analysis, insights, and actions)
-To perform custom analysis, derive insights, or react programmatically in other areas of your business's digital system, you need either some kind of managed integration (like Logic Apps or Flow) or you need a custom point of compute that gets triggered every time a datagram is picked up.
+## Analysis, Insights, and Actions
+Now I'm going to lump the remaining three into one category. They're often (I'm generalizing) solved with processing of some kind.
+
+Analysis is simply Study the data in various ways, insights are figuring out what the data means to future business, and then actions are the concrete steps we take to steer the business (guided by the insights) to effect positive change.
+
+These steps require either some kind of managed integration (like Logic Apps or Flow) or a custom point of compute that gets triggered every time a datagram is picked up.
 
 This custom point of compute could be your own process hosted either on a virtual machine or in a container or it could be an Azure Function.
 
