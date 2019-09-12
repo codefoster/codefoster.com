@@ -59,24 +59,21 @@ In case you're not familiar with the core concept of a queue, it would be good t
 
 If you studied computer science and you weren't sleeping during your _Data Structures_ class, then you already know about queues.
 
-Queues are extremely handy in cloud-first applications where it's common to use one working process to set aside tasks for one or more other working processes to pick up and fulfill.
+Queues are extremely handy in cloud-first applications where it's common to use one working process to set aside tasks for one or more other working processes to pick up and fulfill. This decoupling of task _production_ from task _consumption_ is a pinnacle concept in fulfilling the elasticity that cloud applications promise. Simply scaling your consumers up and down with your load allows you to pay exactly what you should and no more.
 
 Storage Queues are not as robust as some of the other data streaming services in Azure, but sometimes they are simply all you need. Also, they're delightfully inexpensive.
 
 ### Service Bus Queues
-Service Bus Queues are newer and far more robust than Storage Queues. There are some significant advantages including the ability to guarantee message ordering (there are some edge cases where Storage can get messages out of order), role-based access, the use of the AMQP protocol instead of just HTTP, and extensibility.
+Service Bus Queues are newer and far more robust than Storage Queues. There are some significant advantages including the ability to guarantee message ordering (there are some edge cases where Storage Queues can get messages out of order), role-based access, the use of the AMQP protocol instead of just HTTP, and extensibility.
 
 To study the finer differences between Storage Queues and Service Bus Queues, read [Storage queues and Service Bus queues - compared and contrasted](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted).
 
 ### Service Bus Topics
 Queues are the solution when you want one and only one worker to take a message out of the queue and process it. Think about incoming pizza orders where multiple workers are tasked with adding toppings. If one worker puts the anchovies on a pizza then it's done, and the other workers should leave it alone.
 
-Topics are quite different. Topics are the solution when you have messages that are occurring and one _or more_ parties are interested. Think about a magazine subscription where it's produced one time, but multiple people want to receive a copy. You often hear this referred to as a "publish/subscribe" pattern or simply "pubsub". In this case, messages are pushed into a _topic_ and zero to many parties are registered as being interested in that topic. Whenever a new messages lands, the interested parties are notified and can do their processing.
+Topics are quite different. Topics are the solution when you have messages that are occurring and one _or more_ parties are interested. Think about a magazine subscription where it's produced one time, but multiple people want to receive a copy. You often hear this referred to as a "publish/subscribe" pattern or simply "pubsub". In this case, messages are pushed into a _topic_ and zero to many parties are registered as being interested in that topic. The moment a new messages lands, the interested parties are notified and can do their processing.
 
-You'll hear the semantics _At Most Once_, _At Least Once_, and _Exactly Once_. These are nuances in the behavior of data streaming services and how they handle edge cases such as when a service goes down while a message is in processing.
-
-
-(particulars on peeking, locking, deadlettering, etc.)
+When dealing with Service Bus Queues and Topics, you'll hear some unique semantics. The terms _At Most Once_, _At Least Once_, and _Exactly Once_ describe how many times a consumer is guaranteed to see a message and the nuances in how the service handles edge cases such as when it goes down while a message is in processing. _Peeking_ at messages allows you to see what's in the queue without actually _receiving_ it. Whether consumers are peeking or actually receiving messages, _locks_ are put in place to make sure other consumers leave it alone until it's done. Finally, _deadlettering_ is supported by Queues and Topics and allows messages to be set aside when, for whatever reason, consumers have been unable to process them.
 
 ### Event Hubs
 Now let's take another view on processing data and look at _events_ instead of _messages_.
@@ -119,8 +116,20 @@ Think about being tasked with counting the number of red Volkswagon vehicles tha
 
 The better way is let the cars go and just count them up as they move unfettered. This is what Stream Analytics attempts to do.
 
+## Measuring Latency
+delays...
+ * processing something in the producer before a message is sent
+ * composing a message
+ * getting the message to the streaming service
+ * getting the message enqueued and ready for pickup
+ * getting the message to the consumer
+ * processing the message
 
-## Appendix A - Other Mentionable Azure Data Services
+(if your latency is growing, your consumer(s) can't keep up)
+
+(link to the other blog post I found about measuring latency)
+
+## Other Mentionable Azure Data Services
 There are a few other services in Azure that have more distant relationships to the concept of data streaming.
 
 Data services and the often-nuanced differences between one another get truly dizzying. I have so much respect for a data expert's ability to simply choose the right product for a given solution.
@@ -135,6 +144,4 @@ I have to mention **IoT Edge** and **IoT Hub**. In the wise words of [Bret State
 
 When your data has been ingested, stored, analyzed, and trained, you drop it into **SQL Data Warehouse** - a column store database for big data analysis. Not much streaming at play at this stage of the solution, but it's worth a mention.
 
-
-latency
-    link to the other blog post about measuring latency
+(conclusion)
