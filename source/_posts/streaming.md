@@ -13,11 +13,11 @@ I'm going to generalize and call this concept _data streaming_. I'll focus on _s
 Data streaming is an extremely common solution component, and there's a myriad of software services that exist to fulfill it. In fact, there are so many tools, that it's often difficult to know where to start. But fear not. The whole point of this article is to introduce you to Azure's data streaming services.
 
 ## Datagrams
-When you're streaming data, the payload is up to you. It might be very small like a heartbeat or very large like an entire blob. Often, streaming data is made up of _messages_ or _events_. In this article, I'll use the term _datagram_ (lifted from Clemens Vasters [article](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/)) to refer abstractly to messages and events.
+When you're streaming data, the payload is up to you. It might be very small like a heartbeat or very large like an entire blob. Often, streaming data is made up of _messages_ or _events_. In this article, I'll use the term _datagram_ (lifted from Clemens Vasters' [article](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/)) to refer abstractly to any payload whether you would consider it a message or an event.
 
 ![](/files/streaming_01.png "datagrams")
 
-What exactly is the difference between an _event_ and a _message_. The official Azure documentation contains an article called [Choose between Azure messaging services - Event Grid, Event Hubs, and Service Bus](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services) that does a great job with this, so read that first, and then here's my take.
+What exactly is the difference between an _event_ and a _message_. The official Azure documentation contains an article called [Choose between Azure messaging services - Event Grid, Event Hubs, and Service Bus](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services) that does a great job with explaining this, so read that first, and then here's my take.
 
 An event is a bit like a system level notification. You and I get notifications on our mobile devices because we want to know what's going on, right?
 
@@ -41,11 +41,11 @@ Messages are different though.
 
 Messages are more self-contained packages that relay some unit of information or a command complete with the details of that command.
 
-I compared all of last week's *events* to a history book. I suppose all of last week's messages would be more like a play book or a transaction log. Notice that my sample *messages* are more *present tense* and *directive*. That's fairly typical for messages.
+I used the analogy of a history book to describe all of last week's *events*. I suppose all of last week's messages would be more like a playbook or a transaction log. Notice that my sample *messages* are more *present tense* and *directive*. That's fairly typical for messages.
 
 ![](/files/streaming_06.png "messages play book")
 
-One of the defining characteristics of a message is that there a coupling between the message producer and the consumer - that is, the producer has some expectation or reliance on what the consumer will do with it. Clemens rightly [states](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/) that with events "the coupling is very loose, and removing these consumers doesn’t impact the source application’s functional integrity". So, use that as a test. If I stop subscribing to the produced datagrams, will something break? If so, you're dealing with messages. If not, events.
+One of the defining characteristics of a message is that there is a coupling between the message producer and the consumer - that is, the producer has some expectation or even reliance on what the consumer will do with it. Clemens rightly [states](https://azure.microsoft.com/en-us/blog/events-data-points-and-messages-choosing-the-right-azure-messaging-service-for-your-data/) that with events "the coupling is very loose, and removing these consumers doesn’t impact the source application’s functional integrity". So, I can use that as a test. If I stop subscribing to the produced datagrams, will something break? If so, you're dealing with messages as opposed to events.
 
 ## Data Streaming Services in Azure
 Let's start with Azure's data streaming services.
@@ -53,11 +53,11 @@ Let's start with Azure's data streaming services.
 ### Storage Queues
 Not to be confused with _Service Bus_ Queues, Azure's Storage Queues are perhaps the most primitive and certainly the oldest queue structure available.
 
-In case you're not familiar with the core concept of a queue, it would be good to explain that. A queue is a data structure that follows a _first-in first-out_ (FIFO) access pattern - meaning that if you put Thing A, Thing B, and then Thing C in in that order, and then you ask the queue for its next item, it will give you Thing A - first in... first out.
+In case you're not familiar with the core concept of a queue, it would be good to explain that. A queue is a data structure that follows a _first-in first-out_ (FIFO) access pattern - meaning that if you put Thing A, Thing B, and then Thing C in (in that order), and then you ask the queue for its next item, it will give you Thing A - first in... first out.
 
 ![](/files/streaming_02.png "queue")
 
-If you studied computer science and you were sleeping during your _Data Structures_ class, then you already know about queues.
+If you studied computer science and you weren't sleeping during your _Data Structures_ class, then you already know about queues.
 
 Queues are extremely handy in cloud-first applications where it's common to use one working process to set aside tasks for one or more other working processes to pick up and fulfill.
 
