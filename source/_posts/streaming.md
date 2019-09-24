@@ -144,4 +144,5 @@ I have to mention **IoT Edge** and **IoT Hub**. In the wise words of [Bret State
 
 When your data has been ingested, stored, analyzed, and trained, you drop it into **SQL Data Warehouse** - a column store database for big data analysis. Not much streaming at play at this stage of the solution, but it's worth a mention.
 
-(conclusion)
+## Conclusion
+If this is your debut into the concept of data streaming, then welcome to a rather interesting and fun corner of computer science
