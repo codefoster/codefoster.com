@@ -1,0 +1,606 @@
+
+        <item>
+            <title>Windows 8 Shortcut Keys</title>
+            <link>http://codefoster.wordpress.com/?p=42</link>
+            <pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.wordpress.com/?p=42</guid>
+            <description></description>
+            <content:encoded><![CDATA[(speed of using keys with visual cues and context of a UI. Life IIS not a command line after all)]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>42</wp:post_id>
+            <wp:post_date>2012-02-08 10:02:04</wp:post_date>
+            <wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name></wp:post_name>
+            <wp:status>draft</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+        </item>
+        <item>
+            <title>Inline Count in the OData Spec</title>
+            <link>http://codefoster.wordpress.com/2012/02/15/inline-count-in-the-odata-spec/</link>
+            <pubDate>Wed, 15 Feb 2012 17:21:53 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.wordpress.com/?p=58</guid>
+            <description></description>
+            <content:encoded><![CDATA[When it comes time to tackle a new (to you) technology, how do you begin? Do you read others' experiences from blogs? Wait for screencast instructions from a site like Pluralsight?
+
+There are a lot of ways to learn, but I'm reminded of the value of just going back to the spec. Sometimes the author of the blog article you're reading is in your same boat trying to learn, and going directly to the spec, you might get to bypass a lot of wasted trial and error cycles.
+
+I've spent a lot of time in the HTML5 spec the last while, and somewhat recently also the OData spec (which you can find at odata.org). I've read a lot of blogs and seen a lot of videos on the subject of OData, but when I finally found my way to the actual spec, I was pleased to find a very concise and obviously thorough coverage of the topic.
+
+One of the little things I learned which has big implications for me is the ability to specify a query option called <em>$inlinecount. </em>With this query option specified, an OData query will bring back a count of all entities in the queried collection (applied after any filters) even if some limiting options such as paging or <em>$top</em> are included.
+
+Take, for example, the following query: http://services.odata.org/OData/OData.svc/Products?$inlinecount=allpages&amp;$top=10&amp;$filter=Price gt 200
+
+The query should find the first 10 products whose price is greater than 200. If you're retrieving these products to be displayed in a web page, however, and you need to worry about paging and you need to tell the pager how many pages to render, you're going to need to know the <strong>total </strong>number of products that with a price greater than 200 even though this query only asks for the top 10 (don't use <em>$top</em> for your paging, BTW, there's a better way). The inclusion of inlinecount, in this query dictates the inclusion of the following element in the response...
+<pre>&lt;m:count&gt;24&lt;/m:count&gt;</pre>
+With this additional information about the submitted query's results, your pager now knows to render 3 pages (of 10).
+
+Notice that the "Price gt 200" filter did get applied before the result for inlinecount was calculated, so we did not receive back an inline count of all product entities.
+
+This is certainly just a shallow glance at the topic. If you want more in-depth information about OData or about the inlinecount query option, you should go straight to the <a href="http://www.odata.org/developers/protocols/overview">spec </a>:)]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>58</wp:post_id>
+            <wp:post_date>2012-02-15 09:21:53</wp:post_date>
+            <wp:post_date_gmt>2012-02-15 17:21:53</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>inline-count-in-the-odata-spec</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="learning"><![CDATA[learning]]></category>
+            <category domain="post_tag" nicename="odata"><![CDATA[odata]]></category>
+        </item>
+        <item>
+            <title>Model Reality</title>
+            <link>http://codefoster.wordpress.com/?p=77</link>
+            <pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.wordpress.com/?p=77</guid>
+            <description></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>77</wp:post_id>
+            <wp:post_date>2012-02-22 09:04:04</wp:post_date>
+            <wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name></wp:post_name>
+            <wp:status>draft</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+        </item>
+        <item>
+            <title>Sailing Stones of Racetrack Playa</title>
+            <link>http://codefoster.wordpress.com/2012/02/15/sailing-stones-of-racetrack-playa/</link>
+            <pubDate>Wed, 15 Feb 2012 18:43:44 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.wordpress.com/?p=65</guid>
+            <description></description>
+            <content:encoded><![CDATA[This will twist your brain.
+
+My wife and I recently visited Death Valley National Park, but didn't have enough time to take in all the sites. One we apparently missed is the natural phenomena known as the <em>sailing stones</em> of Racetrack Playa.
+
+Take a look at the picture below and ask yourself how these rocks consistently make trails like this. When you've pondered long enough, look it up and leave a comment.
+
+<img class="alignnone" title="Stone1" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Runningrock.jpg/800px-Runningrock.jpg" alt="" width="480" height="209" />
+
+<img class="alignnone" title="Stone 2" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Runningrock2.jpg/796px-Runningrock2.jpg" alt="" width="478" height="359" />]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>65</wp:post_id>
+            <wp:post_date>2012-02-15 10:43:44</wp:post_date>
+            <wp:post_date_gmt>2012-02-15 18:43:44</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>sailing-stones-of-racetrack-playa</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="post_tag" nicename="death-valley-national-park"><![CDATA[death valley national park]]></category>
+            <category domain="post_tag" nicename="natural-phenomena"><![CDATA[natural phenomena]]></category>
+            <category domain="category" nicename="other"><![CDATA[Other]]></category>
+            <category domain="post_tag" nicename="racetrack-playa"><![CDATA[racetrack playa]]></category>
+            <category domain="post_tag" nicename="rocks"><![CDATA[rocks]]></category>
+        </item>
+        <item>
+            <title>Refresh my entire viewmodel, please.</title>
+            <link>http://codefoster.wordpress.com/2012/02/15/interesting-behavior-in-propertychangedeventargs/</link>
+            <pubDate>Thu, 16 Feb 2012 05:27:20 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.wordpress.com/?p=71</guid>
+            <description></description>
+            <content:encoded><![CDATA[In case you didn't know (as I didn't until moments ago), if you throw a PropertyChanged event like this:
+
+PropertyChanged(this, new PropertyChangedEventArgs(""));
+
+...it means <em>all of my properties have changed</em>.
+
+The empty string (or Nothing in VB) is responsible for this effect. I have added a Refresh method to my BaseViewModel that does this. Now a simple call to MyViewModel.Refresh() will tell my WP7 view that all of it's underlying fields have been updated. This is going to come in quite handy for certain cases. I hope this helps you as much as it has me.]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>71</wp:post_id>
+            <wp:post_date>2012-02-15 21:27:20</wp:post_date>
+            <wp:post_date_gmt>2012-02-16 05:27:20</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>interesting-behavior-in-propertychangedeventargs</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+        </item>
+        <item>
+            <title>Windows 8 Metro Design Guidelines</title>
+            <link>http://codefoster.wordpress.com/?p=87</link>
+            <pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.com/?p=87</guid>
+            <description></description>
+            <content:encoded><![CDATA[We developers can't know everything, so we learn the things that bring value of some kind to us. Sometimes it's just developer joy. Sometimes it's cold, hard cash. Whatever our reasons, we all have a repertoire of technologies, languages, or frameworks that fall within what we would call our <em>expertise</em>.
+
+&nbsp;
+
+&nbsp;
+
+(talk about the design principles, units, subunits, font, etc.)
+
+(remember to point back to win 8 official sources)
+
+(reference the design guidelines published at <a href="http://msdn.microsoft.com/en-us/windows/apps/br229516">http://msdn.microsoft.com/en-us/windows/apps/br229516</a>)]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>87</wp:post_id>
+            <wp:post_date>2012-03-02 12:20:59</wp:post_date>
+            <wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name></wp:post_name>
+            <wp:status>draft</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+        </item>
+        <item>
+            <title>Local Context and Web Context in Windows 8</title>
+            <link>http://codefoster.wordpress.com/2012/03/05/local-context-and-web-context-in-windows-8/</link>
+            <pubDate>Mon, 05 Mar 2012 19:16:57 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=100</guid>
+            <description></description>
+            <content:encoded><![CDATA[When you’re developing a JavaScript app for Windows 8, you need to know about the local context and the web context, and this table (from <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh465373.aspx" target="_blank">here</a>) does a great job of summing up the technical differences between the two.
+
+<a href="http://codefoster.files.wordpress.com/2012/03/contexts.png"><img style="background-image:none;padding-top:0;padding-left:0;display:inline;padding-right:0;border:0;" title="contexts" src="http://codefoster.files.wordpress.com/2012/03/contexts_thumb.png" alt="contexts" width="567" height="293" border="0" /></a>
+
+As you can see, some of the things we as web developers have come to accept as restricted (I’m thinking of windows.close and cross-domain XHR requests) are allowed in the local context.
+
+Other things like the ability to reference external script is not allowed from the local context. It’s easy, though, to just import your library of choice into your project and then reference it internally.
+
+Take note of the difference in behavior between how WinJS behaves when it’s local versus when it’s in the web context (see same link as above).
+
+For more information on the differences between the local and web contexts in Windows 8, see this <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh465380.aspx" target="_blank">MSDN article</a>.]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>100</wp:post_id>
+            <wp:post_date>2012-03-05 11:16:57</wp:post_date>
+            <wp:post_date_gmt>2012-03-05 19:16:57</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>local-context-and-web-context-in-windows-8</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="local-context"><![CDATA[local context]]></category>
+            <category domain="post_tag" nicename="web-context"><![CDATA[web context]]></category>
+            <category domain="category" nicename="windows-8"><![CDATA[Windows 8]]></category>
+            <wp:comment>
+                <wp:comment_id>6</wp:comment_id>
+                <wp:comment_author><![CDATA[Joe Hajek]]></wp:comment_author>
+                <wp:comment_author_email>joe.hajek@pemco.com</wp:comment_author_email>
+                <wp:comment_author_url>http://pemco.com</wp:comment_author_url>
+                <wp:comment_author_IP>72.37.244.76</wp:comment_author_IP>
+                <wp:comment_date>2012-03-06 10:57:11</wp:comment_date>
+                <wp:comment_date_gmt>2012-03-06 18:57:11</wp:comment_date_gmt>
+                <wp:comment_content><![CDATA["Your app can be partitioned into two logical contexts. The local context is the default context, and the code that is packaged with your app runs here. The code in this context has access to the file system and devices, and can make cross-domain HTTP requests. The web context is where externally downloaded code runs. You must use an iframe element to run code from the web in a web context." 
+
+..... And the iFrame makes yet another comeback!  :P]]></wp:comment_content>
+                <wp:comment_approved>1</wp:comment_approved>
+                <wp:comment_type></wp:comment_type>
+                <wp:comment_parent>0</wp:comment_parent>
+                <wp:comment_user_id>0</wp:comment_user_id>
+                <wp:commentmeta>
+                    <wp:meta_key>akismet_result</wp:meta_key>
+                    <wp:meta_value>false</wp:meta_value>
+                </wp:commentmeta>
+                <wp:commentmeta>
+                    <wp:meta_key>akismet_history</wp:meta_key>
+                    <wp:meta_value>a:4:{s:4:"time";s:15:"1331060232.3816";s:7:"message";s:28:"Akismet cleared this comment";s:5:"event";s:9:"check-ham";s:4:"user";s:0:"";}</wp:meta_value>
+                </wp:commentmeta>
+                <wp:commentmeta>
+                    <wp:meta_key>jabber_published</wp:meta_key>
+                    <wp:meta_value>1331062749</wp:meta_value>
+                </wp:commentmeta>
+                <wp:commentmeta>
+                    <wp:meta_key>akismet_history</wp:meta_key>
+                    <wp:meta_value>a:4:{s:4:"time";s:15:"1331062749.2745";s:7:"message";s:52:"jeremyrfoster changed the comment status to approved";s:5:"event";s:15:"status-approved";s:4:"user";s:13:"jeremyrfoster";}</wp:meta_value>
+                </wp:commentmeta>
+            </wp:comment>
+        </item>
+        <item>
+            <title>Windows 8 Developer Links</title>
+            <link>http://codefoster.wordpress.com/2012/03/07/windows-8-developer-links/</link>
+            <pubDate>Wed, 07 Mar 2012 18:14:25 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.com/?p=104</guid>
+            <description></description>
+            <content:encoded><![CDATA[Are you a Windows 8 developer or are you aspiring to be? If so, you'll certainly need some resources. You likely know how to find them, but sometimes it's helpful to see a number of resources all in one place. The following are a few educational and reference links that I've found useful in learning to develop applications on Windows 8...
+
+Build Conference Session videos: <a href="http://www.buildwindows.com/Sessions">http://www.buildwindows.com/Sessions</a>
+Windows 8 Developer Forums: <a href="http://social.msdn.microsoft.com/Forums/en-US/category/windowsapps">http://social.msdn.microsoft.com/Forums/en-US/category/windowsapps</a>
+Sample Applications: <a href="http://code.msdn.microsoft.com/windowsapps/">http://code.msdn.microsoft.com/windowsapps/</a>
+Request (or vote) for missing sample applications! <a href="http://bit.ly/xSuNEH">http://bit.ly/xSuNEH</a>
+Downloads (Windows 8 CP, SDK, Tools, etc.): <a href="http://msdn.microsoft.com/en-us/windows/apps/br229516/">http://msdn.microsoft.com/en-us/windows/apps/br229516/</a>
+Windows 8 App Developers Blog: <a href="http://blogs.msdn.com/b/windowsappdev/">http://blogs.msdn.com/b/windowsappdev/</a>
+Building Windows 8 Blog: <a href="http://blogs.msdn.com/b/b8/">http://blogs.msdn.com/b/b8/</a>
+Learning Windows 8 (MSDN): <a href="http://msdn.microsoft.com/library/windows/apps/">http://msdn.microsoft.com/library/windows/apps/</a>
+UX Guidelines: <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx</a>
+Photoshop Design Templates <a href="http://go.microsoft.com/fwlink/?LinkId=241449">http://go.microsoft.com/fwlink/?LinkId=241449</a>
+Windows 8 Shortcut Keys: <a href="http://bit.ly/wICa3b">http://bit.ly/wICa3b</a>]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>104</wp:post_id>
+            <wp:post_date>2012-03-07 10:14:25</wp:post_date>
+            <wp:post_date_gmt>2012-03-07 18:14:25</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>windows-8-developer-links</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="resources"><![CDATA[resources]]></category>
+            <category domain="post_tag" nicename="sdk"><![CDATA[sdk]]></category>
+            <category domain="post_tag" nicename="win"><![CDATA[win]]></category>
+            <category domain="category" nicename="windows-8"><![CDATA[Windows 8]]></category>
+            <category domain="post_tag" nicename="windows8"><![CDATA[windows8]]></category>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_f6bc0f71d4ded83f696ceb4e9212ceda</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_8ca38dc5cac96220a23c16bf060b290e</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_d244bb4181619f65afa1c2d247a86c81</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_418d96d70d6afad5211054bb48d122f5</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_3d921325fac2f49a717740aabcaa79d2</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_5385c2c99afb811de3e733c33fa6fcd0</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_bf7f3b2c648ff65684e4f4801e109eab</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_40b4c09b5b43cae15c1e878b4fc94d8c</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_d8fdbff0f2efc86d9c4903462623d928</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_48edafd4855f6276deff46f57ae51878</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_oembed_f321f3ab81a9eb20a4d7c08f02810044</wp:meta_key>
+                <wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <title>Print the Screen in Windows 8</title>
+            <link>http://codefoster.wordpress.com/2012/03/09/print-the-screen-in-windows-8/</link>
+            <pubDate>Sat, 10 Mar 2012 01:11:13 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=117</guid>
+            <description></description>
+            <content:encoded><![CDATA[<p>Here’s a nifty trick. When you hold the Windows key and hit Print Screen, you get a screen shot, but it’s not just copied to your clipboard as in earlier versions of Windows. Now it is also saved as Screenshot.png in your Pictures folder.</p><p>If you do another one, the former is overwritten on the clipboard, but in the Pictures folder you get serial numbered files: Screenshot.png, Screenshot (2).png, Screenshot (3).png. That’s as far as I went, but I’d bet good money that if I did it again I’d get Screenshot (4).png.</p><p><a href="http://codefoster.files.wordpress.com/2012/03/screenshot-4.png"><img title="Screenshot (4)" style="border-top:0;border-right:0;background-image:none;border-bottom:0;padding-top:0;padding-left:0;border-left:0;display:inline;padding-right:0;" border="0" alt="Screenshot (4)" src="http://codefoster.files.wordpress.com/2012/03/screenshot-4_thumb.png" width="574" height="325"></a></p><p>Look at that clean desktop. Now if only my inbox looked like that.</p>]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>117</wp:post_id>
+            <wp:post_date>2012-03-09 17:11:13</wp:post_date>
+            <wp:post_date_gmt>2012-03-10 01:11:13</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>print-the-screen-in-windows-8</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="print"><![CDATA[print]]></category>
+            <category domain="post_tag" nicename="screen"><![CDATA[screen]]></category>
+            <category domain="category" nicename="windows-8"><![CDATA[Windows 8]]></category>
+            <category domain="post_tag" nicename="windows8"><![CDATA[windows8]]></category>
+        </item>
+        <item>
+            <title>vNext in Fremont</title>
+            <link>http://codefoster.wordpress.com/2012/03/14/vnext-in-fremont/</link>
+            <pubDate>Wed, 14 Mar 2012 16:45:26 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">http://codefoster.com/?p=124</guid>
+            <description></description>
+            <content:encoded><![CDATA[Is there anything better than joining a bunch of other people that like writing software to talk about writing software? Yes. There's beer and sandwiches for one, and for two there's conjoining on the subject of Windows 8 which is an exciting new software development opportunity.
+
+Alex Golesh (@DevCorner) is a Microsoft MVP and did a smash bang job of presenting on even some of the less beginner and more intermediate parts of Windows 8 development (which is new to us all by the way). Alex's experience includes a ton of XAML and C# development and he was able to bring all of that into Windows 8.
+
+Next month at vNext (April 10). My colleague, MJ (@mjconnection), and I are going to continue the discussion with more of a HTML5/CSS3/JavaScript view of Windows 8 development. If you're in the area, you should totally stop by.]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>124</wp:post_id>
+            <wp:post_date>2012-03-14 08:45:26</wp:post_date>
+            <wp:post_date_gmt>2012-03-14 16:45:26</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>vnext-in-fremont</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+        </item>
+        </item>
+        <item>
+            <title>Selecting Elements in a Windows 8 HTML App</title>
+            <link>http://codefoster.wordpress.com/2012/03/15/selecting-elements-in-a-windows-8-html-app/</link>
+            <pubDate>Thu, 15 Mar 2012 17:24:14 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=129</guid>
+            <description></description>
+            <content:encoded><![CDATA[<p><a href="http://codefoster.files.wordpress.com/2012/03/12950-windows-_article.jpg"><img title="12950-windows-_article" style="border-top:0;border-right:0;background-image:none;border-bottom:0;float:right;padding-top:0;padding-left:0;border-left:0;display:inline;padding-right:0;" border="0" alt="12950-windows-_article" align="right" src="http://codefoster.files.wordpress.com/2012/03/12950-windows-_article_thumb.jpg" width="241" height="68"></a>In antiquity, I selected DOM objects on my HTML pages by using the <a href="http://msdn.microsoft.com/en-us/library/ie/ms536437(v=vs.85).aspx" target="_blank">document.getElementById</a> method, and I always hated it. I hated it because it was one of my very few options for find the element I wanted and it was so narrow. So it was a great breakthrough to me to see how it worked in the <a href="http://jquery.com/" target="_blank">jQuery</a> library. CSS selectors are an awesome way to specify exactly which elements I want whether it’s one or many.</p><p>So when I saw my first Windows 8 HTML/JS example and it was using getElementById I panicked some. I didn’t want to go back in time! My first thought was “I don’t want to use this.” My second thought was “Actually I do, but can I use jQuery?” (the answer to which is yes). And finally, after some research, I realized that even without the aid of jQuery we’re in good shape thanks to some functions built into WinJS. There are a few though so I want to just enumerate what we’ve got.</p><h3>The JavaScript Way</h3><p>Of course, you can still use document.getElementById, but that always makes me feel like I’m regressing. :)</p><p>So first, we have the JavaScript functions <strong>querySelector</strong> and <strong>querySelectorAll</strong>. These are part of the W3C recommendations, and show up as part of the JavaScript language. You can read extensively about the W3C recommendation <a href="http://www.w3.org/TR/selectors-api/" target="_blank">here</a>.</p><p>querySelector is the single and querySelectorAll is the plural. If you know that you want a single element (even if there are multiple that match your query) then use the former, and if you know your query will be returning more than one then use the latter.</p><p>One thing to note about these JS functions is that they exist both on the <u>document</u> object as well as on the <u>element</u> object. So, we can query the document to find all matching results in the entire document, or we can just query a single element to find all objects under it. Keep in mind also, that you can enter multiple CSS selectors in the query that you pass in. Just separate them with commas and the query will be performed with a logical “or” operation to give you the union of all of your queries.</p><pre class="code"><span style="background:white;color:black;"></span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myDiv = document.querySelector(</span><span style="background:white;color:maroon;">'#myDiv'</span><span style="background:white;color:black;">);
+    </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">allDivs = document.querySelectorAll(</span><span style="background:white;color:maroon;">'div'</span><span style="background:white;color:black;">);
+</span></pre><pre class="code"><font face="Segoe UI">The result of the singular querySelector function is a DOM element. The result of the plural querySelectorAll function is a <a href="http://msdn.microsoft.com/en-us/library/ie/dd347147(v=vs.85).aspx" target="_blank">staticNodeList</a>.</font></pre>
+<h3>The WinJS Way</h3>
+<p>Next, we have the methods that WinJS provides for selecting elements. They are in the WinJS.Utilities namespace and they are <strong>id()</strong> and <strong>query()</strong>. These WinJS functions actually just wrap the formerly mentioned querySelector and querySelectorAll functions, so keep this in mind. You might ask why we would use them if they are just wrappers for the JS functions. The answer is that their return result is a QueryCollection object that has all sorts of friendly functions hanging off making certain operations on a collection of elements quite easy.</p>
+<p>The id and query functions work mostly as you might expect. id selects an element by its id, but you do <u>not</u> specify a hash symbol on the query. The query function, then, takes a query that you’re expecting to return multiple elements and the query syntax for it is the same syntax that querySelectorAll uses, so anything that works in one works in the other.</p><pre class="code"><span style="background:white;color:black;"></span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">u = WinJS.Utilities;
+    </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myDiv = u.id(</span><span style="background:white;color:maroon;">'myDiv'</span><span style="background:white;color:black;">);
+    </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">allDivs = u.query(</span><span style="background:white;color:maroon;">'div'</span><span style="background:white;color:black;">);
+</span></pre>
+<p><font face="Segoe UI">The result in both cases here is a <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211878.aspx" target="_blank">QueryCollection</a>.</font></p>
+<h3>The jQueryWay</h3>
+<p>Finally, if you want to bring a jQuery library into your project then the terse $(‘&lt;query&gt;’) selector syntax will also do just fine. </p><pre class="code"><span style="background:white;color:black;"></span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myDiv = $(</span><span style="background:white;color:maroon;">'#myDiv'</span><span style="background:white;color:black;">);
+    </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">allDivs = $(</span><span style="background:white;color:maroon;">'div'</span><span style="background:white;color:black;">)
+</span></pre>
+<p><font face="Segoe UI">The result of these jquery function calls is (like practically all jQuery functions) another <a href="http://api.jquery.com/jquery/" target="_blank">jQuery</a> object. If you want the actual DOM element for the singular call, use the <a href="http://api.jquery.com/get/" target="_blank">get</a> function, and if you want an array of all of the DOM elements for the plural call, use the <a href="http://api.jquery.com/toArray/" target="_blank">toArray</a> function.</font></p>
+<h3>Conclusion</h3>
+<p>So you’ve seen that there are, as always, many ways to skin a cat. The deciding factors regarding which to use in my opinion are:</p>
+<ul>
+<li>What result type works best for you? Do you want an actual DOM element (or list of DOM elements) or would a QueryCollection or jQuery object give you more functionality? 
+<li>Is your app exclusively on the Windows 8 client platform? If so then you’re certainly going to want a dependency on the WinJS library and thus the WinJS method might be your best bet. 
+<li>Have you already decided to take a dependency on the jQuery library? Are you already really familiar with using jQuery?</li></ul>
+<p>It’s good to have choices. Happy selecting.</p>
+<div id="scid:0767317B-992E-4b12-91E0-4F059A8CECA8:2f14e36c-b033-4902-b11f-0f0454b16c5e" class="wlWriterEditableSmartContent" style="float:none;display:inline;margin:0;padding:0;">Technorati Tags: <a href="http://technorati.com/tags/windows8" rel="tag">windows8</a>,<a href="http://technorati.com/tags/win8" rel="tag">win8</a>,<a href="http://technorati.com/tags/jquery" rel="tag">jquery</a>,<a href="http://technorati.com/tags/selector" rel="tag">selector</a>,<a href="http://technorati.com/tags/selectors" rel="tag">selectors</a>,<a href="http://technorati.com/tags/html" rel="tag">html</a>,<a href="http://technorati.com/tags/css" rel="tag">css</a></div>]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>129</wp:post_id>
+            <wp:post_date>2012-03-15 09:24:14</wp:post_date>
+            <wp:post_date_gmt>2012-03-15 17:24:14</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>selecting-elements-in-a-windows-8-html-app</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="post_tag" nicename="dom"><![CDATA[dom]]></category>
+            <category domain="post_tag" nicename="elements"><![CDATA[elements]]></category>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="javascript"><![CDATA[javascript]]></category>
+            <category domain="post_tag" nicename="jquery"><![CDATA[jquery]]></category>
+            <category domain="post_tag" nicename="js"><![CDATA[js]]></category>
+            <category domain="post_tag" nicename="selectors"><![CDATA[selectors]]></category>
+            <category domain="post_tag" nicename="win8"><![CDATA[win8]]></category>
+            <category domain="category" nicename="windows-8"><![CDATA[Windows 8]]></category>
+            <category domain="post_tag" nicename="windows8"><![CDATA[windows8]]></category>
+        </item>
+        <item>
+            <title>Dynamic Link to Internet Calendars</title>
+            <link>http://codefoster.wordpress.com/2012/03/15/dynamic-link-to-internet-calendars/</link>
+            <pubDate>Thu, 15 Mar 2012 20:14:40 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=131</guid>
+            <description></description>
+            <content:encoded><![CDATA[<p>I’m really not sure how I missed this little trick all these years. Sometimes I spend significant bits of time doing something the hard way before I just take 20 minutes out of my day to ask or research the easy way.</p><p>I’ve known about .ics internet calendards for a long time. I’ve clicked on many. I have chosen to open them and that’s been fine, but only today I learned that I can add a reference to an .ics file in Outlook and from that point forward have a <strong>dynamic</strong> link to that internet calendar instead of a one-shot static view of those events.</p><p>I used this trick to bring all of my Meetup groups into my Outlook as a calendar that I can overlay with my Exchange and Live calendars. Now I’m sittin’ pretty.</p><p>Here are the steps…</p><ol><li>Get the URL to your online .ics file on your clipboard</li><li>In Outlook right click on Other Calendards and Add Calendar</li><li>Choose From Internet…</li><li>Now just paste in your URL and the rest should be self-explanitory</li></ol><p>Ready, go!</p>]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>131</wp:post_id>
+            <wp:post_date>2012-03-15 12:14:40</wp:post_date>
+            <wp:post_date_gmt>2012-03-15 20:14:40</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>dynamic-link-to-internet-calendars</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="post_tag" nicename="calendar-ics-file-link-dynamic-event-scheduling-joy-yay"><![CDATA[calendar ics file link dynamic event scheduling joy yay]]></category>
+            <category domain="category" nicename="productivity"><![CDATA[Productivity]]></category>
+        </item>
+        <item>
+            <title>Get Your Meetup Calendar on Your Windows Phone</title>
+            <link>http://codefoster.wordpress.com/2012/03/19/get-your-meetup-calendar-on-your-windows-phone/</link>
+            <pubDate>Mon, 19 Mar 2012 20:50:00 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=133</guid>
+            <description></description>
+            <content:encoded><![CDATA[<p>This may be obvious to many, but as we all know what’s obvious to us is not necessarily obvious to a billion others. So we may as well throw it out on a blog for the betterment of mankind. Actually, that may be a lofty expectation for my next tip, but here goes.</p><p>If you use an internet site like Meetup or Facebook to manage calendar appointments and you want to see those events on your Windows Phone, do it like this.</p><ol><li>Go to calendar.live.com and log in with your Live account. If you don’t have a Live account, you can obviously get a free one and hopefully you know that this doesn’t mean you have to get a @live.com or @hotmail.com email address. Even if your email is <a href="mailto:george@joescrabshack.com">george@joescrabshack.com</a>, you can sign up for a email address.</li><li>Now click <em>subscribe </em>on the top</li><li>Keep Subscribe to a public calendar selected</li><li>Now go get the URL to the .ics file published by your site and paste it into the Calendar URL</li><li>Give it a name</li><li>Choose a color and a charm if you’d like</li><li>Click Subscribe to calendar</li></ol><p>Now you can see this calendar on your Windows Phone if you go to the calendar settings.</p><p>This is making my life a lot easier. I hope it enriches yours as well.</p>]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>133</wp:post_id>
+            <wp:post_date>2012-03-19 12:50:00</wp:post_date>
+            <wp:post_date_gmt>2012-03-19 20:50:00</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>get-your-meetup-calendar-on-your-windows-phone</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="post_tag" nicename="calendar-meetup-facebook-ics-internet-public-events-shared"><![CDATA[calendar meetup facebook ics internet public events shared]]></category>
+            <category domain="category" nicename="productivity"><![CDATA[Productivity]]></category>
+        </item>
+        <item>
+            <title>All About Scope</title>
+            <link>http://codefoster.wordpress.com/2012/03/16/all-about-scope/</link>
+            <pubDate>Fri, 16 Mar 2012 19:12:28 +0000</pubDate>
+            <dc:creator>jeremyrfoster</dc:creator>
+            <guid isPermaLink="false">https://codefoster.wordpress.com/?p=135</guid>
+            <description></description>
+            <content:encoded><![CDATA[<strong>Abstract</strong>
+
+It may not be clear immediately how variable scopes work when you’re creating a Windows 8 app using HTML and JavaScript. Even if you’re very proficient at writing JavaScript code, you might not know where you’re supposed to write it! Let me take a stab at clarifying...
+
+When you first look at a JavaScript page in a Windows 8 project you see  something like this…
+<pre class="code"><span style="background:white;color:black;">(</span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">(){
+</span><span style="background:white;color:maroon;"> "use strict"</span><span style="background:white;color:black;">;
+ 
+ </span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">ready(element, options){ }
+ 
+ </span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">updateLayout(element, viewState){ }
+ 
+ </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myLocalFunction = </span><span style="background:white;color:blue;">function</span><span style="background:white;color:black;">(){
+ log(</span><span style="background:white;color:maroon;">'myLocalFunction called'</span><span style="background:white;color:black;">);
+ }
+ 
+ WinJS.UI.Pages.define(</span><span style="background:white;color:maroon;">"/html/page1.html"</span><span style="background:white;color:black;">, {
+ ready: ready,
+ </span><span style="background:white;color:black;">updateLayout: updateLayout
+ });
+})();</span></pre>
+…and what you’re seeing is kind of a cool little trick that’s not new to a seasoned JS scripter. Notice that what you have is a function wrapped in parenthesis and followed by what I like to affectionately call a <em>football – </em>that’s the empty parenthesis [()] that we developers hardly notice anymore. To make it a little bit more clear…
+<pre class="code"><span style="background:white;color:black;">(</span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">() { ... })();</span></pre>
+So it’s a function that is defined AND called. But why? I’ll tell you.
+
+It’s because when you declare things in a function, they are scoped to the function. They are visible and available within the function but not beyond. The code you write in this function is not available globally, and that’s a good thing. Windows 8 apps may get pretty big and namespace conflicts would be likely. If you declare the variable <em>foo </em>in more than one place but each globally, then they will start conflicting and causing some runtime errors that would be very difficult to debug.
+
+So where should we declare our variables so that we have access to data but only in the scope we need? I’m glad you asked. Let’s look at the scopes available to us and what they might be used for.
+
+<strong>Global Scope</strong>
+
+Variables are said to be in global scope when they are defined outside of any function definition. Unlike C++, JavaScript does not support simple block quoting (blocks of code are surrounded by mustaches { }). This code snippet should make this clear…
+<pre class="code"><span style="background:white;color:black;">(</span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">() {
+ </span><span style="background:white;color:maroon;">"use strict"</span><span style="background:white;color:black;">;
+ 
+ </span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">ready(element, options){ }
+ 
+ </span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">updateLayout(element, viewState){ }
+
+ WinJS.UI.Pages.define(</span><span style="background:white;color:maroon;">"/html/junk.html"</span><span style="background:white;color:black;">, {
+ ready: ready,
+ updateLayout: updateLayout
+ });
+ 
+ </span><span style="background:white;color:green;">//this is local scope
+ </span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myLocalVariable = </span><span style="background:white;color:maroon;">"value"</span><span style="background:white;color:black;">;
+})();
+
+</span><span style="background:white;color:green;">//this is global scope
+</span><span style="background:white;color:blue;">var </span><span style="background:white;color:black;">myGlobalVariable = </span><span style="background:white;color:maroon;">"value"</span><span style="background:white;color:black;">; </span></pre>
+Some developers would argue that global scope should never be used, but I think there’s a time and place for almost anything and that goes for global scope. At the end of the day, you as the developer are responsible for making sure that your app works and that defects are not introduced because of globally scoped variables.
+
+<strong>Page Scope</strong>
+
+<span style="color:#000000;">I’m using the term <em>page scope</em> to refer to the variables that are defined in the wrapper function that you’ll find on the Windows 8 code behind JavaScript file – the myPage.js file behind your myPage.html.</span>
+
+<span style="color:#000000;">The interesting thing to note is that these page scope variables are not even available on the HTML page itself. If you define a variable in your JS file and then attempt to access it from a script block on your HTML file, it will be “undefined”. Remember, that what happens in a function… stays in a function.</span>
+
+<span style="color:#000000;">So, the page scope function is essentially all of the code that you want to run when your page is loaded, and it includes some cool tricks to allow you to specify functions that will run when your page is “ready” or when the layout is changed (when Joe User turns his tablet sideways).</span>
+
+<span style="color:#000000;">So what if you want to write a function and then you want to call that function from your page (say when a button is clicked)? That’s where you use <em>namespace scope – </em>another term I’ll take ownership of – patent pending.</span>
+
+<strong>Namespace Scope</strong>
+
+<span style="color:#000000;">If you’ve determined that you want to be a good citizen and avoid global scope, but you want to actually use some of the brilliant code you’ve written in your page’s JS file, then defining your code in a WinJS namespace is a great way to do it.</span>
+
+<span style="color:#000000;">Check out the following definition…</span>
+<pre class="code"><span style="background:white;color:black;">WinJS.Namespace.define(</span><span style="background:white;color:maroon;">"ordersPage"</span><span style="background:white;color:black;">, {
+ calculateTotal: </span><span style="background:white;color:blue;">function </span><span style="background:white;color:black;">() {
+ </span><span style="background:white;color:green;">//implementation
+ </span><span style="background:white;color:black;">}
+});</span></pre>
+<span style="color:#000000;">Let me unpack that for you. Namespaces don’t exist in JavaScript proper, but we’re using WinJS here. Remember, WinJS is just a JavaScript library that Microsoft wrote that plays very well with Windows 8. After you use the above code to define a namespace, your namespace is available for you globally. So whether it be from your HTML page, from your JS file, from another HTML page, or from anywhere in your app really, you’ll be able to call your function like this…</span>
+<pre class="code"><span style="background:white;color:black;">ordersPage.calculateTotal()</span></pre>
+<span style="color:#000000;">Now we’re cooking with Crisco! Now we are good citizens and we have the ability to architect our application in a way that is consistent and sensible and logical.</span>
+
+<strong>Conclusion</strong>
+
+Now you know where your code should go when you’re writing a Windows 8 app to make sure it’s available where you need it and no further.
+
+Make sure you follow me on Twitter (<a href="http://www.twitter.com/codefoster" target="_blank">@codefoster</a>) and <a href="http://www.codefoster.com" target="_blank">www.codefoster.com</a> if you want more tips and tricks with Windows 8 as well as other musings that at least I would consider pertinent and helpful. Happy coding.]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_id>135</wp:post_id>
+            <wp:post_date>2012-03-16 11:12:28</wp:post_date>
+            <wp:post_date_gmt>2012-03-16 19:12:28</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>all-about-scope</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="post_tag" nicename="global"><![CDATA[global]]></category>
+            <category domain="category" nicename="instructional"><![CDATA[Instructional]]></category>
+            <category domain="post_tag" nicename="javascript"><![CDATA[javascript]]></category>
+            <category domain="post_tag" nicename="js"><![CDATA[js]]></category>
+            <category domain="post_tag" nicename="namespace"><![CDATA[namespace]]></category>
+            <category domain="post_tag" nicename="scope"><![CDATA[scope]]></category>
+            <category domain="post_tag" nicename="win8"><![CDATA[win8]]></category>
+            <category domain="category" nicename="windows-8"><![CDATA[Windows 8]]></category>
+            <category domain="post_tag" nicename="windows8"><![CDATA[windows8]]></category>
+            <category domain="post_tag" nicename="winjs"><![CDATA[winjs]]></category>
+        </item>
