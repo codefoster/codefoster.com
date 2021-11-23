@@ -2,7 +2,7 @@
   "name": "codefoster.com",
   "version": "1.0.0",
   "engines": {
-    "node": "16.4.0"
+    "node": "16.8.0"
   },
   "scripts": {
     "build": "hexo generate"
