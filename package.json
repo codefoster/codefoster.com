@@ -4,6 +4,9 @@
   "engines": {
     "node": "10.14.2"
   },
+  "scripts": {
+    "build": "hexo generate"
+  },
   "hexo": {
     "version": "5.4.0"
   },
