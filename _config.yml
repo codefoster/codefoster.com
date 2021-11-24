@@ -89,9 +89,6 @@ alias:
   rss: atom.xml
   feed: atom.xml
   rss2: atom.xml
-  stories: codechat
-  codechat/: http://channel9.msdn.com/shows/codechat
-  avatar/: presentations
   deck/sail: https://1drv.ms/p/s!AvStLR7eqJbDzM4HgGCovpqywz-B1A?e=3mORmv
   deck/scc2019: https://1drv.ms/u/s!AvStLR7eqJbDzKlf3XFlRU6dUIwBYA?e=aSnlL2
   deck/cogging: https://1drv.ms/p/s!AvStLR7eqJbDyKB8ceoXGadFv4I6hA
@@ -120,7 +117,6 @@ alias:
   darnmouse/: https://1drv.ms/p/s!AvStLR7eqJbDv4o_FqCRIck2h3xmkg
   goprodrop/: https://onedrive.live.com/redir?resid=C396A8DE1E2DADF4!892089&authkey=!ABBouAkZbLtpedo&ithint=video%2cmp4
   deck/sjs-observables/: https://onedrive.live.com/redir?resid=C396A8DE1E2DADF4!891980&authkey=!AH-BvdKl_YRAEGs&ithint=file%2cpptx
-  vorlonjs/: https://channel9.msdn.com/shows/codechat/046
   thatdeck/: https://1drv.ms/p/s!AvStLR7eqJbDvZpYugyJScQ6WQto1g
   scc16/: https://1drv.ms/f/s!AvStLR7eqJbDvbMhBbXwquwnEgds9g
   githubmva/: https://mva.microsoft.com/en-US/training-courses/github-for-windows-users-16749?l=KTNeW39wC_6006218965
@@ -134,93 +130,6 @@ alias:
   pdxnode/: https://1drv.ms/p/s!AvStLR7eqJbDw-16gS30qVUPCawV1A
   cdsummit/: https://1drv.ms/p/s!AvStLR7eqJbDxKwsRp-VWzCDDeVnmA
   swad/: https://1drv.ms/p/s!AvStLR7eqJbDxK8Udff_Zekp_yWZIg
-  codechat/feed/: http://s.ch9.ms/Shows/codechat/RSS
-  codechat/feed/audio/: http://s.ch9.ms/Shows/codechat/feed/mp3
-  oscon2014rearview: codechat/oscon
-  codechat/000/: http://channel9.msdn.com/Shows/codechat/000
-  codechat/001/: http://channel9.msdn.com/Shows/codechat/001
-  codechat/002/: http://channel9.msdn.com/Shows/codechat/Episode-002-Jason-Short-The-Cloud-
-  codechat/003/: http://channel9.msdn.com/shows/codechat/003
-  codechat/004/: http://channel9.msdn.com/shows/codechat/004
-  codechat/005/: http://channel9.msdn.com/shows/codechat/005
-  codechat/006/: http://channel9.msdn.com/shows/codechat/006
-  codechat/007/: http://channel9.msdn.com/shows/codechat/007
-  codechat/008/: http://channel9.msdn.com/Shows/codechat/008
-  codechat/009/: http://channel9.msdn.com/shows/codechat/009
-  codechat/010/: http://channel9.msdn.com/shows/codechat/010
-  codechat/011/: http://channel9.msdn.com/shows/codechat/011
-  codechat/012/: http://channel9.msdn.com/shows/codechat/012
-  codechat/013/: http://channel9.msdn.com/shows/codechat/013
-  codechat/014/: http://channel9.msdn.com/shows/codechat/014
-  codechat/015/: http://channel9.msdn.com/shows/codechat/015
-  codechat/016/: http://channel9.msdn.com/shows/codechat/016
-  codechat/017/: http://channel9.msdn.com/shows/codechat/017
-  codechat/018/: http://channel9.msdn.com/shows/codechat/018
-  codechat/019/: http://channel9.msdn.com/shows/codechat/019
-  codechat/020/: http://channel9.msdn.com/shows/codechat/020
-  codechat/021/: http://channel9.msdn.com/shows/codechat/021
-  codechat/022/: http://channel9.msdn.com/shows/codechat/022
-  codechat/023/: http://channel9.msdn.com/shows/codechat/023
-  codechat/024/: http://channel9.msdn.com/Shows/codechat/024
-  codechat/025/: http://channel9.msdn.com/Shows/codechat/CodeChat-025-Andy-Wilson-Rexter
-  codechat/026/: http://channel9.msdn.com/Shows/codechat/026
-  codechat/027/: https://channel9.msdn.com/Shows/codechat/027
-  codechat/028/: http://channel9.msdn.com/shows/codechat/028
-  codechat/029/: http://channel9.msdn.com/shows/codechat/029
-  codechat/030/: http://channel9.msdn.com/shows/codechat/030
-  codechat/031/: http://channel9.msdn.com/shows/codechat/031
-  codechat/032/: http://channel9.msdn.com/shows/codechat/032
-  codechat/033/: http://channel9.msdn.com/shows/codechat/033
-  codechat/034/: http://channel9.msdn.com/shows/codechat/034
-  codechat/035/: http://channel9.msdn.com/shows/codechat/035
-  codechat/036/: http://s.ch9.ms/shows/codechat/036
-  codechat/037/: http://s.ch9.ms/shows/codechat/037
-  codechat/038/: http://channel9.msdn.com/shows/codechat/038
-  codechat/039/: http://channel9.msdn.com/shows/codechat/039
-  codechat/codegalaxies/: https://channel9.msdn.com/shows/codechat/039
-  codechat/040/: http://channel9.msdn.com/shows/codechat/040
-  codechat/041/: http://channel9.msdn.com/shows/codechat/041
-  codechat/042/: http://channel9.msdn.com/shows/codechat/042
-  codechat/043/: http://channel9.msdn.com/shows/codechat/043
-  codechat/044/: http://channel9.msdn.com/shows/codechat/044
-  codechat/045/: http://channel9.msdn.com/shows/codechat/045
-  codechat/046/: http://channel9.msdn.com/shows/codechat/046
-  codechat/047/: http://channel9.msdn.com/shows/codechat/047
-  codechat/048/: http://channel9.msdn.com/shows/codechat/048
-  codechat/049/: http://channel9.msdn.com/shows/codechat/049
-  codechat/050/: http://channel9.msdn.com/shows/codechat/050
-  codechat/rx/: https://channel9.msdn.com/shows/codechat/050
-  codechat/051/: http://channel9.msdn.com/shows/codechat/051
-  codechat/thali/: https://channel9.msdn.com/shows/codechat/051
-  codechat/052/: http://channel9.msdn.com/shows/codechat/052
-  codechat/053/: http://channel9.msdn.com/shows/codechat/053
-  codechat/054/: http://channel9.msdn.com/shows/codechat/054
-  codechat/055/: http://channel9.msdn.com/shows/codechat/055
-  codechat/056/: http://channel9.msdn.com/shows/codechat/056
-  codechat/057/: http://channel9.msdn.com/shows/codechat/057
-  codechat/058/: http://channel9.msdn.com/shows/codechat/058
-  codechat/atlmic/: http://channel9.msdn.com/shows/codechat/058
-  codechat/059/: http://channel9.msdn.com/shows/codechat/059
-  codechat/060/: http://channel9.msdn.com/Shows/codechat/060
-  codechat/061/: http://channel9.msdn.com/Shows/codechat/061
-  codechat/062/: http://channel9.msdn.com/Shows/codechat/062
-  codechat/063/: http://channel9.msdn.com/Shows/codechat/063
-  codechat/064/: http://channel9.msdn.com/Shows/codechat/064
-  codechat/065/: http://channel9.msdn.com/Shows/codechat/065
-  codechat/066/: http://channel9.msdn.com/Shows/codechat/066
-  codechat/067/: http://channel9.msdn.com/Shows/codechat/067
-  codechat/068/: http://channel9.msdn.com/Shows/codechat/068
-  codechat/069/: http://channel9.msdn.com/Shows/codechat/069
-  codechat/070/: http://channel9.msdn.com/Shows/codechat/070
-  codechat/071/: http://channel9.msdn.com/Shows/codechat/071
-  codechat/072/: http://channel9.msdn.com/Shows/codechat/072
-  codechat/073/: http://channel9.msdn.com/Shows/codechat/073
-  codechat/074/: http://channel9.msdn.com/Shows/codechat/074
-  codechat/075/: http://channel9.msdn.com/Shows/codechat/075
-  codechat/076/: http://channel9.msdn.com/Shows/codechat/076
-  codechat/077/: http://channel9.msdn.com/Shows/codechat/077
-  codechat/078/: http://channel9.msdn.com/Shows/codechat/078
-  codechat/079/: http://channel9.msdn.com/Shows/codechat/079
   git-linux-commands: git-linux-command
   post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML.aspx: htmloverxaml
   post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML/: htmloverxaml
