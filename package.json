@@ -5,7 +5,8 @@
     "node": "16.8.0"
   },
   "scripts": {
-    "build": "hexo generate"
+    "build": "hexo generate",
+    "serve": "hexo server"
   },
   "hexo": {
     "version": "5.4.0"
