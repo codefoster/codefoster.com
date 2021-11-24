@@ -27,12 +27,8 @@ nav:
     -
       name: About Me
       url: '/about'
-    -
-      name: Presentations
-      url: '/presentations'
   -
     - categories
-    - tags
     - archives
 
 social:
@@ -49,14 +45,6 @@ social:
       name: LinkedIn
       url: https://linkedin.com/in/codefoster
       image: /images/social-icons/linkedin.png
-    -
-      name: Skype
-      url: skype:jeremyrfoster?chat
-      image: /images/social-icons/skype.png
-    -
-      name: Channel9
-      url: https://channel9.msdn.com/niners/codefoster
-      image: /images/social-icons/ch9.png
     -
       name: Email
       url: mailto:jeremy.foster@microsoft.com
