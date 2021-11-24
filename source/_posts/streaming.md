@@ -117,17 +117,13 @@ Think about being tasked with counting the number of red Volkswagon vehicles tha
 The better way is let the cars go and just count them up as they move unfettered. This is what Stream Analytics attempts to do.
 
 ## Measuring Latency
-delays...
+There are many points in the streaming process where delays may be introduced such as while...
  * processing something in the producer before a message is sent
  * composing a message
  * getting the message to the streaming service
  * getting the message enqueued and ready for pickup
  * getting the message to the consumer
  * processing the message
-
-(if your latency is growing, your consumer(s) can't keep up)
-
-(link to the other blog post I found about measuring latency)
 
 ## Other Mentionable Azure Data Services
 There are a few other services in Azure that have more distant relationships to the concept of data streaming.
@@ -145,4 +141,7 @@ I have to mention **IoT Edge** and **IoT Hub**. In the wise words of [Bret State
 When your data has been ingested, stored, analyzed, and trained, you drop it into **SQL Data Warehouse** - a column store database for big data analysis. Not much streaming at play at this stage of the solution, but it's worth a mention.
 
 ## Conclusion
-If this is your debut into the concept of data streaming, then welcome to a rather interesting and fun corner of computer science
+
+I did not bring the conclusion and closure to this research into streaming that I would have liked, but I wanted to get all of this work published in case it's helpful.
+
+If this is your debut into the concept of data streaming, then welcome to a rather interesting and fun corner of computer science.
