@@ -1,6 +1,6 @@
 ---
 title: Dynamic Link to Internet Calendars
-categories: [productivity]
+categories: [Productivity]
 tags: []
 date: 2012-03-15
 ---
