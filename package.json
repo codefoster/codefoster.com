@@ -12,7 +12,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hexo": "^5.4.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^3.0.0",
