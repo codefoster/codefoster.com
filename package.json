@@ -6,11 +6,11 @@
     "serve": "hexo server"
   },
   "hexo": {
-    "version": "5.4.2"
+    "version": "8.1.1"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "hexo": "^5.4.0",
+    "hexo": "^8.1.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-filter-github-emojis": "^3.0.4",
@@ -21,12 +21,12 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^4.1.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0"
   },
   "devDependencies": {
-    "hexo-cli": "^2.0.0"
+    "hexo-cli": "^4.3.2"
   }
 }
