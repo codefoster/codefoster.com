@@ -6,7 +6,7 @@
     "serve": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "express": "^4.17.1",
