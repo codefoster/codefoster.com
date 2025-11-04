@@ -13,7 +13,7 @@ In order to submit your application today, you need a token which is something I
 What do you need to do to get a token? Here are the key steps:
 
 1.  Create a great application or game and get it ready.
-2.  Let me know about it by contacting me via [jeremy.foster@microsoft.com](mailto:jeremy.foster@microsoft.com)
+2.  Let me know about it by contacting me via ~~jeremy.foster@microsoft.com~~
 3.  I'll help you register so you can get your application through our Application Accelerator Labs where the app will get reviewed to confirm it is done and conforms to the [Metro guidelines](http://msdn.microsoft.com/en-us/library/windows/apps/hh465424) and [certification requirements](http://msdn.microsoft.com/en-us/library/windows/apps/hh694083.aspx).
 
 This is a great opportunity to not only be first to market with your app, but also to get feedback from a Microsoft Services Engineer to make your app great. If you are serious about creating an application this is a chance that you probably don't want to pass up.
