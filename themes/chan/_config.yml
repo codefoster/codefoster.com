@@ -34,9 +34,9 @@ nav:
 social:
   -
     -
-      name: Twitter
-      url: http://twitter.com/codefoster
-      image: /images/social-icons/twitter.png
+      name: X
+      url: http://x.com/codefoster
+      image: /images/social-icons/x.png
     -
       name: GitHub
       url: https://github.com/codefoster
