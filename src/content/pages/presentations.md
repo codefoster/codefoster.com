@@ -4,7 +4,7 @@ date: 2016-11-17 10:17:49
 alias: presents
 ---
 
-I’m a Senior Software Engineer at Microsoft in what we call the Commercial Software Engineering group, and I do a lot of presentations. I always say, the only thing I like more than writing code is _talking_ about writing code. You’ve likely heard it said that the best way to learn is to teach, and that couldn’t be more true than with technical topics.
+I’m a Developer Advocate at Vonage, and I do a lot of presentations. I always say, the only thing I like more than writing code is _talking_ about writing code. You’ve likely heard it said that the best way to learn is to teach, and that couldn’t be more true than with technical topics.
 
 If I’m coming to present at your event, and you need an avatar and biography, you can get those here: 
 
@@ -22,7 +22,7 @@ If I’m coming to present at your event, and you need an avatar and biography, 
 "Jeremy loves his family, the outdoors in the Pacific Northwest, writing code, and even more talking about writing code."
 
 ### Long
-"My studies in Computer Engineering and Mathematics got me started on a career course in software development. Subsequent job roles - helping build airplanes, teaching high schoolers to code, and more - gained me experience and fueled my passion for not only writing code but also talking about writing code. I joined Microsoft’s evangelism team to inform and inspire other developers - primarily in the areas of web apps and IoT. I have authored one book, countless online videos, and am always trying to keep up with online audiences at codefoster.com and on Twitter at @codefoster. When I’m not working, I’m usually working on maker projects, spending time with my wife and two boys in the Pacific Northwest, hiking and camping, sailing, scuba diving, riding my motorcycle, or working on house projects."
+"My studies in Computer Engineering and Mathematics got me started on a career course in software development. Subsequent job roles - helping build airplanes, teaching high schoolers to code, and more - gained me experience and fueled my passion for not only writing code but also talking about writing code. I joined Microsoft’s evangelism team to inform and inspire other developers - primarily in the areas of web apps and IoT - and today I’m a Developer Advocate at Vonage, helping developers build communications into their applications. I have authored one book, countless online videos, and am always trying to keep up with online audiences at codefoster.com and on X at @codefoster. When I’m not working, I’m usually working on maker projects, spending time with my wife and two boys in the Pacific Northwest, hiking and camping, sailing, scuba diving, riding my motorcycle, or working on house projects."
 
 <!-- ## Topics
 Here are some of the presentation topics that I’ve recently delivered and would be ready to come share with your group...
