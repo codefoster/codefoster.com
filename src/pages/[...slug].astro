@@ -1,28 +1,37 @@
 ---
 import { render } from 'astro:content';
-import { sortedPosts, slug } from '../lib/posts';
+import Base from '../layouts/Base.astro';
+import PostMeta from '../components/PostMeta.astro';
+import Disqus from '../components/Disqus.astro';
+import { sortedPosts, slug as postSlug } from '../lib/posts';
 
 export async function getStaticPaths() {
   const posts = await sortedPosts();
   return posts.map((post) => ({
-    params: { slug: slug(post) },
+    params: { slug: postSlug(post) },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const slug = postSlug(post);
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{post.data.title}</title>
-  </head>
-  <body>
-    <article>
+<Base title={post.data.title} publishedDate={post.data.date}>
+  <article>
+    <header class="post-header">
       <h1>{post.data.title}</h1>
+      <PostMeta post={post} />
+    </header>
+    <div class="prose">
       <Content />
-    </article>
-  </body>
-</html>
+    </div>
+  </article>
+  <Disqus slug={slug} title={post.data.title} />
+</Base>
+
+<script>
+  import mediumZoom from 'medium-zoom';
+  mediumZoom('.prose img', { background: 'rgba(6, 9, 8, 0.94)' });
+</script>

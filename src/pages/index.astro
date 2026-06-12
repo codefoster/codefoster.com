@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { sortedPosts } from '../lib/posts';
+
+const posts = await sortedPosts();
+const recent = posts.slice(0, 10);
+---
+
+<Base description="Jeremy Foster writes code and writes about writing code — software, hardware, and everything between.">
+  <section class="motd">
+    <img class="avatar" src="/files/avatar/round-color-300.png" alt="Jeremy Foster" width="96" height="96" />
+    <div>
+      <p class="login">Last login: {posts[0].data.date.toISOString().slice(0, 10)} on ttys000</p>
+      <h1>Hi, I'm <span class="accent">Jeremy Foster</span>.</h1>
+      <p>
+        I write code, and I love to <em>talk</em> about writing code. Developer Advocate at
+        Vonage, formerly Microsoft and Boeing, one-time high school teacher, and perpetual maker.
+        This is where I document what I learn — software, hardware, and everything between.
+      </p>
+      <p><a href="/about/">more --verbose →</a></p>
+    </div>
+  </section>
+
+  <h2 class="section-label">recent posts</h2>
+  <PostList posts={recent} />
+  <p style="font-family: var(--mono); font-size: 0.9375rem; margin-top: 1.25rem;">
+    <a href="/archives/">ls all {posts.length} posts →</a>
+  </p>
+</Base>

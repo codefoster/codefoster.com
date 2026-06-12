@@ -1,0 +1,29 @@
+---
+const path = Astro.url.pathname;
+const nav = [
+  { label: '~/posts', href: '/archives/' },
+  { label: '~/categories', href: '/categories/' },
+  { label: '~/about', href: '/about/' },
+  { label: '~/presentations', href: '/presentations/' },
+];
+const current = (href: string) => (path === href ? 'page' : undefined);
+---
+
+<header class="site-header">
+  <div class="container">
+    <a class="prompt" href="/" aria-label="codefoster home">
+      <span class="user">jeremy</span>@<span>codefoster</span>:<span class="path">~</span>$<span
+        class="cursor"
+        aria-hidden="true"></span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      {
+        nav.map(({ label, href }) => (
+          <a href={href} aria-current={current(href)}>
+            {label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>
