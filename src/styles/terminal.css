@@ -274,17 +274,20 @@ main {
   color: var(--green);
   letter-spacing: 0;
   margin: 2.5rem 0 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
 }
 
 .section-label::before {
-  content: '── ';
+  content: '──';
   color: var(--dim);
 }
 
 .section-label::after {
-  content: ' ──────────────────────────────────────';
-  color: var(--dim);
-  overflow: hidden;
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--rule);
 }
 
 /* ── article/prose ── */
