@@ -23,11 +23,11 @@ Now, my biggest aggravation with the Magnifier was how the UI rendered every tim
 
 1. Now right click on the Magnifier icon, right click on the Magnifier entry in the context menu, and hit Properties.
 
-    ![](../files/zoom_01.png)
+    ![](/files/zoom_01.png)
 
 1. Now set Run to Minimized
 
-    ![](..\files\zoom_02.png)
+    ![](/files/zoom_02.png)
 
 That's it. Now when you hit `WIN + =` to zoom in, the screen zooms in to the mouse cursor and doesn't render any obtrusive UI.
 

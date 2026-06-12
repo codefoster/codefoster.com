@@ -1,0 +1,28 @@
+---
+import { render } from 'astro:content';
+import { sortedPosts, slug } from '../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await sortedPosts();
+  return posts.map((post) => ({
+    params: { slug: slug(post) },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{post.data.title}</title>
+  </head>
+  <body>
+    <article>
+      <h1>{post.data.title}</h1>
+      <Content />
+    </article>
+  </body>
+</html>

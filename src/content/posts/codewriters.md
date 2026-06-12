@@ -17,21 +17,21 @@ The goal was to look both at how a software engineer can apply his particular sk
 
 I ventured out a bit and organized my content into 5 chapters - meaning, beauty, truth, community, and efficiency.
 
-![](../files/codewriters_01.png)
+![](/files/codewriters_01.png)
 
 ## Meaning
 My first goal was to dash hopes and dreams by reminding the audience that technology is intrinsically meaningless. It's true. We spend so much time on technology itself, when the really interesting things happen in the _application_ of technology and especially in applications that enrich lives and enable people.
 
 I showed [a video](http://www.youtube.com/watch?v=R2mC-NUAmMk) that I love about Saqib - a software developer at Microsoft who's blind and who created an application that allows him to have whatever he's looking at explained to him. It's a great example of technology that enriches life.
 
-![](../files/codewriters_02.png)
+![](/files/codewriters_02.png)
 
 ## Beauty 
 You might wonder how _beauty_ applies to software development. I did too until I thought about it and did some research.
 
 Among other points, I shared how my definition of beauty has less to do with attractiveness and more to do with severity. I shared one example from my life where I experienced the most raw, real beauty - on a big ocean sail trip down the west coast where I watched a sunrise all alone for more than 2 hours, feared for my life in large seas, and was inspected closely by a curious fin whale for a full 45 minutes.
 
-![](../files/codewriters_03.png)
+![](/files/codewriters_03.png)
 
 Those of us involved in the creation of software have the relatively rare opportunity to explicitly work on something that's both creative and very technical, and that's a lot of fun.
 
@@ -40,7 +40,7 @@ Next up was _truth_.
 
 I've long thought that most any venture and certainly a technical venture is made up of...
 
-![](../files/codewriters_04.png)
+![](/files/codewriters_04.png)
 
 You might have all of the resources and tools you need for the job, but without the passion and vision and inspiration, you'll have a tremendous headwind.
 
