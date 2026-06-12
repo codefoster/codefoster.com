@@ -1,0 +1,31 @@
+---
+import type { Post } from '../lib/posts';
+import { categoryUrl, tagUrl } from '../lib/posts';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const { date, categories: category, tags } = post.data;
+const iso = date.toISOString().slice(0, 10);
+---
+
+<div class="post-meta">
+  <time datetime={iso}>{iso}</time>
+  <span>
+    dir: <a href={categoryUrl(category)}>{category}</a>
+  </span>
+  {
+    tags.length > 0 && (
+      <span>
+        tags: {tags.map((t, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={tagUrl(t)}>{t}</a>
+          </>
+        ))}
+      </span>
+    )
+  }
+</div>

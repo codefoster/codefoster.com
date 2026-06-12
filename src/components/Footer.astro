@@ -1,0 +1,25 @@
+---
+const year = new Date().getFullYear();
+const social = [
+  { name: 'x', url: 'http://x.com/codefoster' },
+  { name: 'github', url: 'https://github.com/codefoster' },
+  { name: 'linkedin', url: 'https://linkedin.com/in/codefoster' },
+  { name: 'email', url: 'mailto:jeremy.foster@vonage.com' },
+  { name: 'rss', url: '/atom.xml' },
+];
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2012–{year} Jeremy Foster · no ads, no tracking · <span aria-hidden="true">exit 0</span></span>
+    <ul class="social">
+      {
+        social.map(({ name, url }) => (
+          <li>
+            <a href={url}>[{name}]</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</footer>

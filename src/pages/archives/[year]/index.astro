@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PostList from '../../../components/PostList.astro';
+import { sortedPosts, type Post } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await sortedPosts();
+  const byYear = new Map<string, Post[]>();
+  for (const post of posts) {
+    const year = String(post.data.date.getUTCFullYear());
+    byYear.set(year, [...(byYear.get(year) ?? []), post]);
+  }
+  return [...byYear.entries()].map(([year, yearPosts]) => ({
+    params: { year },
+    props: { year, posts: yearPosts },
+  }));
+}
+
+const { year, posts } = Astro.props;
+---
+
+<Base title={`Archives: ${year}`} description={`Posts from ${year} on codefoster.com.`}>
+  <header class="post-header">
+    <h1>{year}/</h1>
+    <div class="post-meta">
+      {posts.length} posts · <a href="/archives/">all years</a>
+    </div>
+  </header>
+  <PostList posts={posts} />
+</Base>

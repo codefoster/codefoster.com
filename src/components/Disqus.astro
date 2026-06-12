@@ -1,0 +1,46 @@
+---
+/**
+ * Disqus thread identifiers must match the old Hexo site exactly or
+ * historical comments detach. The chan theme derived the identifier from
+ * the permalink: the bare slug — last URL segment, no slashes
+ * (themes/chan/layout/_partials/post/disqus.ejs).
+ */
+interface Props {
+  slug: string;
+  title: string;
+}
+
+const { slug, title } = Astro.props;
+const url = `https://codefoster.com/${slug}/`;
+---
+
+<div id="disqus_thread" data-slug={slug} data-title={title} data-url={url}></div>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+<script>
+  const el = document.getElementById('disqus_thread');
+  if (el) {
+    const load = () => {
+      (window as any).disqus_config = function (this: any) {
+        this.page.identifier = el.dataset.slug;
+        this.page.url = el.dataset.url;
+        this.page.title = el.dataset.title;
+      };
+      const s = document.createElement('script');
+      s.src = 'https://codefoster.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', String(+new Date()));
+      document.head.appendChild(s);
+    };
+    // lazy-load when the thread scrolls near the viewport
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          observer.disconnect();
+          load();
+        }
+      },
+      { rootMargin: '300px' }
+    );
+    observer.observe(el);
+  }
+</script>

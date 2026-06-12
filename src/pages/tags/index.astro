@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import { sortedPosts, tagUrl } from '../../lib/posts';
+
+const posts = await sortedPosts();
+const counts = new Map<string, number>();
+for (const post of posts) {
+  for (const tag of post.data.tags) {
+    counts.set(tag, (counts.get(tag) ?? 0) + 1);
+  }
+}
+const tags = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+---
+
+<Base title="Tags" description="Post tags on codefoster.com.">
+  <header class="post-header">
+    <h1>Tags</h1>
+    <div class="post-meta">{tags.length} tags</div>
+  </header>
+  <ul class="term-list">
+    {
+      tags.map(([name, count]) => (
+        <li>
+          <a href={tagUrl(name)}>#{name}</a> <span class="count">{count}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

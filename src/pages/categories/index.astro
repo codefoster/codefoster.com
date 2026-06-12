@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { sortedPosts, categoryUrl } from '../../lib/posts';
+
+const posts = await sortedPosts();
+const counts = new Map<string, number>();
+for (const post of posts) {
+  const c = post.data.categories;
+  counts.set(c, (counts.get(c) ?? 0) + 1);
+}
+const categories = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<Base title="Categories" description="Post categories on codefoster.com.">
+  <header class="post-header">
+    <h1>Categories</h1>
+    <div class="post-meta">{categories.length} directories</div>
+  </header>
+  <ul class="term-list">
+    {
+      categories.map(([name, count]) => (
+        <li>
+          <a href={categoryUrl(name)}>{name}/</a> <span class="count">{count}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

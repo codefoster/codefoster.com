@@ -1,0 +1,31 @@
+---
+import type { Post } from '../lib/posts';
+import { postUrl, categoryUrl } from '../lib/posts';
+
+interface Props {
+  posts: Post[];
+  /** show the category column (hidden on archives where grouping covers it) */
+  showCategory?: boolean;
+}
+
+const { posts, showCategory = true } = Astro.props;
+const iso = (d: Date) => d.toISOString().slice(0, 10);
+---
+
+<ul class="post-list">
+  {
+    posts.map((post) => (
+      <li>
+        <time datetime={iso(post.data.date)}>{iso(post.data.date)}</time>
+        <a class="title" href={postUrl(post)}>
+          {post.data.title}
+        </a>
+        {showCategory && (
+          <a class="cat" href={categoryUrl(post.data.categories)}>
+            {post.data.categories}
+          </a>
+        )}
+      </li>
+    ))
+  }
+</ul>

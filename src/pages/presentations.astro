@@ -1,0 +1,19 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const page = await getEntry('pages', 'presentations');
+if (!page) throw new Error('presentations page missing from pages collection');
+const { Content } = await render(page);
+---
+
+<Base title={page.data.title} description="Speaker avatars and biography for Jeremy Foster.">
+  <article>
+    <header class="post-header">
+      <h1>{page.data.title}</h1>
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>

@@ -14,7 +14,7 @@ The team was myself ([@codefoster](http://twitter.com/codefoster)), Jennifer Mar
 
 Here's our team...
 
-![team](../files/cabinescape_team.jpg)
+![team](/files/cabinescape_team.jpg)
 
 The hackathon was themed on some relatively new products - namely Cognitive Services and the Bot Framework. Additionally, some members of the team were looking for some opportunity to fine tune their Azure Functions skills, so we went looking for an idea that included them all.
 
@@ -35,7 +35,7 @@ A couple of queries to CAI about her capabilites reveal that the setting is in t
 What the players don't know is that the ultimate goal is to discover that the door will not open until the passenger manifest is "validated," and CAI will not validate the manifest until all passengers are in their assigned seats. The only problem is that passengers don't know what their assigned seats are.
 
 The task then becomes a matter of finding all of the hidden boarding passes that associate passengers with their seats. Once the last boarding pass is located and the last passenger takes his seat, cameras installed in the seat backs finish reporting to the system that the passenger manifest is validated and the exit door opens. 
-![cabin](../files/cabinescape_01.png)
+![cabin](/files/cabinescape_01.png)
 
 # Architecture
 <!-- Jeremy -->
@@ -45,7 +45,7 @@ The architecture for cabin escape uses a smattering of platform offerings. What 
 
 Let's take a look at an overall architecture diagram.
 
-![architecture](../files/cabinescape_architecture.png)
+![architecture](/files/cabinescape_architecture.png)
 
 In Azure, we're using stateless and serverless Azure Functions for business logic. This is quite a paradigm shift from classic web services are often implemented as an API.
 
@@ -66,7 +66,7 @@ Besides Functions, our diagram contains a DocumentDB database for state, a bot u
 The camera module is developed with Microsoft Cognitive Services, Azure functions, Node.js, and Typescript.  In the module, it performs face training, face detection, identification, and as well as notification to Azure function service.  The module determines if the right person is seated or not, then the notification will send back to Azure function service and then the controller decides the further action.
 
 The following digrams describes the interaction between the Azure fuctions services, Microsoft cognitive services, Node server prcessiong and client.
-![Architecture and Intereaction Diagram of Camera project](../files/camera_project_architecture.png)
+![Architecture and Intereaction Diagram of Camera project](/files/camera_project_architecture.png)
 
 # Cloud Intelligence and Storage
 <!-- Kwadwo -->
@@ -125,7 +125,7 @@ To scope this project to a 3-day hackathon, the various outputs are going to be 
 <!-- Jennifer -->
 This is a unique "Escape the Room" concept in that it requires a mixture of physical clues in the real world and virtual interaction with a bot.  For example, when the team first enters the room, the plane has just "crashed" so there is an alarm beeping.  This is pretty annoying, so people are highly motivated to figure out how to turn it off quickly.  A lone console is at the front of the airplane, and the players can interact with it.  
 
-![CAI Welcome Screen](../files/cabinescape_CaiWelcome.jpg)
+![CAI Welcome Screen](/files/cabinescape_CaiWelcome.jpg)
 
 One of the biggest issues with bots is discoverability: how to figure out what the bot can do.  Therefore, good bot design is to greet the user with some examples of what the bot can accomplish.  In our case, the bot is able to respond to many different types of questions, which are mapped to our LUIS intents:
 * What is the plane's current status overall?

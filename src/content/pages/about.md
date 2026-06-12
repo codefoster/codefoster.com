@@ -13,4 +13,4 @@ I'm a Developer Advocate at Vonage these days trying to teach developers how to 
 
 You'll notice there are no ads, no comments, and no offers of any kind on codefoster.com. That's because I don't have any motivation to host this site other than to document my thoughts, my career, and my life to some degree.
 
-I use a static site generator called Hexo to make this site, so it costs me about $2/mo to host on Azure. Not bad.
+I use a static site generator called Astro to make this site, so it costs me about $2/mo to host on Azure. Not bad.

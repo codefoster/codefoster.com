@@ -42,7 +42,7 @@ In the past, you may have visited [MSDN](http://msdn.microsoft.com) or [TechNet]
 
 You should take note too that many of the documentation pages have a header like the following with a date, an indication of average time to read (super helpful), and a list of contributors...
 
-![contributors](../files/docs_02.png)
+![contributors](/files/docs_02.png)
 
 So Microsoft's documentation, like code itself, is a collaborative effort - an open source project - and in many cases you're encouraged to contribute! Just look for an _Edit_ link like this one, and you'll be whisked away to the GitHub repo where you can fork and PR.
 
