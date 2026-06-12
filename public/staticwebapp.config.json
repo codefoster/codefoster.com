@@ -1,0 +1,28 @@
+{
+  "trailingSlash": "always",
+  "routes": [
+    { "route": "/blog", "redirect": "/", "statusCode": 301 },
+    { "route": "/blog/", "redirect": "/", "statusCode": 301 },
+    { "route": "/content", "redirect": "/", "statusCode": 301 },
+    { "route": "/content/", "redirect": "/", "statusCode": 301 },
+    { "route": "/rss", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/rss/", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/rss2", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/rss2/", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/feed", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/feed/", "redirect": "/atom.xml", "statusCode": 301 },
+    { "route": "/sitemap.xml", "redirect": "/sitemap-index.xml", "statusCode": 301 },
+    { "route": "/contact.aspx", "redirect": "/about/", "statusCode": 301 },
+    { "route": "/git-linux-commands", "redirect": "/git-linux-command/", "statusCode": 301 },
+    { "route": "/git-linux-commands/", "redirect": "/git-linux-command/", "statusCode": 301 },
+    { "route": "/post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML.aspx", "redirect": "/htmloverxaml/", "statusCode": 301 },
+    { "route": "/post/2012/05/23/Windows-8-Top-10-Reasons-why-I-choose-HTML5-over-XAML/", "redirect": "/htmloverxaml/", "statusCode": 301 },
+    { "route": "/post/2012/08/23/nth-child", "redirect": "/nthchild/", "statusCode": 301 },
+    { "route": "/post/2012/08/23/nth-child/", "redirect": "/nthchild/", "statusCode": 301 }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  }
+}

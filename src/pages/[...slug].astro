@@ -3,33 +3,66 @@ import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PostMeta from '../components/PostMeta.astro';
 import Disqus from '../components/Disqus.astro';
-import { sortedPosts, slug as postSlug } from '../lib/posts';
+import { sortedPosts, slug as postSlug, type Post } from '../lib/posts';
+import { aliasRoutes } from '../lib/aliases';
 
+// Posts and their legacy aliases both live at root-level paths, so one
+// catch-all serves both: posts render the article, aliases render the
+// same meta-refresh redirect page hexo-generator-alias produced.
 export async function getStaticPaths() {
   const posts = await sortedPosts();
-  return posts.map((post) => ({
-    params: { slug: postSlug(post) },
-    props: { post },
-  }));
+  const aliases = await aliasRoutes();
+  return [
+    ...posts.map((post) => ({
+      params: { slug: postSlug(post) },
+      props: { post },
+    })),
+    ...aliases.map(({ path, target }) => ({
+      params: { slug: path },
+      props: { redirectTo: target },
+    })),
+  ];
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
-const slug = postSlug(post);
+interface Props {
+  post?: Post;
+  redirectTo?: string;
+}
+
+const { post, redirectTo } = Astro.props;
+const Content = post ? (await render(post)).Content : null;
+const target = redirectTo && new URL(redirectTo, Astro.site).href;
 ---
 
-<Base title={post.data.title} publishedDate={post.data.date}>
-  <article>
-    <header class="post-header">
-      <h1>{post.data.title}</h1>
-      <PostMeta post={post} />
-    </header>
-    <div class="prose">
-      <Content />
-    </div>
-  </article>
-  <Disqus slug={slug} title={post.data.title} />
-</Base>
+{
+  post && Content ? (
+    <Base title={post.data.title} publishedDate={post.data.date}>
+      <article>
+        <header class="post-header">
+          <h1>{post.data.title}</h1>
+          <PostMeta post={post} />
+        </header>
+        <div class="prose">
+          <Content />
+        </div>
+      </article>
+      <Disqus slug={postSlug(post)} title={post.data.title} />
+    </Base>
+  ) : (
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <title>Redirecting...</title>
+        <link rel="canonical" href={target} />
+        <meta http-equiv="refresh" content={`0; url=${target}`} />
+        <meta name="robots" content="noindex" />
+      </head>
+      <body>
+        <a href={target}>Click here if you are not redirected.</a>
+      </body>
+    </html>
+  )
+}
 
 <script>
   import mediumZoom from 'medium-zoom';

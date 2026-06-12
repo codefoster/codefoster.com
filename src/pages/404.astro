@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="404">
+  <div style="font-family: var(--mono); padding-block: 3rem;">
+    <p><span style="color: var(--green);">jeremy@codefoster</span>:<span style="color: var(--cyan);">~</span>$ cat {'<requested-page>'}</p>
+    <p style="color: var(--fg-bright); font-size: 1.25rem;">cat: no such file or directory <span style="color: var(--dim);">(404)</span></p>
+    <p>
+      Try <a href="/archives/">~/posts</a>, <a href="/categories/">~/categories</a>, or head
+      <a href="/">home</a>.
+    </p>
+  </div>
+</Base>
