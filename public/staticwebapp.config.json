@@ -1,5 +1,5 @@
 {
-  "trailingSlash": "always",
+  "trailingSlash": "auto",
   "routes": [
     { "route": "/blog", "redirect": "/", "statusCode": 301 },
     { "route": "/content", "redirect": "/", "statusCode": 301 },
