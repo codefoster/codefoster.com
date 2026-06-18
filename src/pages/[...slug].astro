@@ -2,7 +2,6 @@
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PostMeta from '../components/PostMeta.astro';
-import Disqus from '../components/Disqus.astro';
 import { sortedPosts, slug as postSlug, type Post } from '../lib/posts';
 import { aliasRoutes } from '../lib/aliases';
 
@@ -46,7 +45,6 @@ const target = redirectTo && new URL(redirectTo, Astro.site).href;
           <Content />
         </div>
       </article>
-      <Disqus slug={postSlug(post)} title={post.data.title} />
     </Base>
   ) : (
     <html lang="en">
