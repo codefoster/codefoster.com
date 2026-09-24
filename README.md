@@ -26,6 +26,10 @@ tags: [astro, blogging]
 
 Optional fields: `permalink` (override the slug) and `alias` (extra URLs that redirect to this post).
 
+## Unlisted portfolio
+
+`src/pages/portfolio.astro` renders `/portfolio/`. The page is absent from site navigation and the sitemap and has a `noindex` tag. It remains a public URL that anyone with the link can visit, so only include work that is safe to share publicly.
+
 ## Notes
 
 - Legacy URL redirects: per-post `alias` frontmatter renders meta-refresh pages; fixed redirects (feeds, old `.aspx` paths) are 301s in `public/staticwebapp.config.json`.

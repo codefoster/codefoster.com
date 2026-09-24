@@ -6,7 +6,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 export default defineConfig({
   site: 'https://codefoster.com',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap({ filter: (page) => new URL(page).pathname !== '/portfolio/' })],
   markdown: {
     // Hexo's external_link: true opened external links in a new tab
     rehypePlugins: [

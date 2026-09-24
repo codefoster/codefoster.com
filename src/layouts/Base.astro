@@ -12,9 +12,11 @@ interface Props {
   description?: string;
   /** set for post pages to emit article OG metadata */
   publishedDate?: Date;
+  /** Keep a public, unlisted page out of search results. */
+  noindex?: boolean;
 }
 
-const { title, description, publishedDate } = Astro.props;
+const { title, description, publishedDate, noindex = false } = Astro.props;
 const pageTitle = title ? `${title} | codefoster` : 'codefoster';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -26,6 +28,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
+    {noindex && <meta name="robots" content="noindex, noarchive" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="alternate" type="application/atom+xml" title="codefoster" href="/atom.xml" />
